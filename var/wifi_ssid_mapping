@@ -1,0 +1,73 @@
+
+config key 'SSID_1'
+	option value '1_1'
+	option encryflag '0'
+
+config key 'BAND_1_SSID_CNT'
+	option encryflag '0'
+	option value '8'
+
+config key 'SSID_2'
+	option value '1_2'
+	option encryflag '0'
+
+config key 'SSID_3'
+	option value '1_3'
+	option encryflag '0'
+
+config key 'SSID_4'
+	option value '1_4'
+	option encryflag '0'
+
+config key 'SSID_5'
+	option value '0_1'
+	option encryflag '0'
+
+config key 'BAND_0_SSID_CNT'
+	option encryflag '0'
+	option value '8'
+
+config key 'SSID_6'
+	option value '0_2'
+	option encryflag '0'
+
+config key 'SSID_7'
+	option value '0_3'
+	option encryflag '0'
+
+config key 'SSID_8'
+	option value '0_4'
+	option encryflag '0'
+
+config key 'SSID_9'
+	option value '1_5'
+	option encryflag '0'
+
+config key 'SSID_10'
+	option value '1_6'
+	option encryflag '0'
+
+config key 'SSID_11'
+	option value '1_7'
+	option encryflag '0'
+
+config key 'SSID_12'
+	option value '1_8'
+	option encryflag '0'
+
+config key 'SSID_13'
+	option value '0_5'
+	option encryflag '0'
+
+config key 'SSID_14'
+	option value '0_6'
+	option encryflag '0'
+
+config key 'SSID_15'
+	option value '0_7'
+	option encryflag '0'
+
+config key 'SSID_16'
+	option value '0_8'
+	option encryflag '0'
+

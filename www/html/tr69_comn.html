@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script language="javascript" src="../js/tr69_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="tr69setting"></p>
+			<p class="main_header_hint" i18n="tr69_hint"></p>
+		</div>
+		<form id="tr69_form">
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name" i18n="enableinform"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="Tr69Inform_checkbox" name="Tr69Inform_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="informinterval"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="Informinter_text" name="Informinter_text"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="acsurl"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="Acsurl_text" name="Acsurl_text"/>
+					</div>
+				</div>
+				<div style="position:absolute; left:0px; top:0px; z-index:-1; width:0px; height:0px; border:0 none; opacity:0;">
+					<input name="AcsUserName_text" type="text" style="position:absolute; left:0px; top:0px; padding:0px; z-index:-10; width:0px; height:0px; border:0 none;"/>
+					<input name="AcsPassWord_password" type="password" style="position:absolute; left:0px; top:0px; padding:0px; z-index:-10; width:0px; height:0px; border:0 none;"/>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="acsusername"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="AcsUserName_text" name="AcsUserName_text"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="acspwd"></div>
+					<div class="main_item_content">
+						<input type="password" class="input_text" autocomplete="off" id="AcsPassWord_password" name="AcsPassWord_password"/>
+					</div>
+				</div>
+				<div style="position:absolute; left:0px; top:0px; z-index:-1; width:0px; height:0px; border:0 none; opacity:0;">
+					<input name="ConnReqName_text" type="text" style="position:absolute; left:0px; top:0px; padding:0px; z-index:-10; width:0px; height:0px; border:0 none;"/>
+					<input name="ConnReqPassWord_password" type="password" style="position:absolute; left:0px; top:0px; padding:0px; z-index:-10; width:0px; height:0px; border:0 none;"/>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="connrequestusername"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="ConnReqName_text" name="ConnReqName_text"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="connrequestpwd"></div>
+					<div class="main_item_content">
+						<input type="password" class="input_text" autocomplete="off" id="ConnReqPassWord_password" name="ConnReqPassWord_password"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="connrequestport"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="ConnReqPort_port" name="ConnReqPort_port"/>
+					</div>
+				</div>
+				<div id="Middleware_div" style="display:none">
+				<div class="main_item" >
+					<div class="main_item_name" i18n="middlewarestate"></div>
+					<div class="main_item_content">
+						<select id="Middleware_select">
+							<option value="1" i18n="disablemiddleware"></option>
+							<option value="0" i18n="enablemiddlewaretr69"></option>
+							<option value="2" i18n="enablemiddlewarenotr69"></option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item middleware_item">
+					<div class="main_item_name" i18n="middlewareurl"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="MldAddr_text" name="MldAddr_text"/>
+					</div>
+				</div>
+				<div class="main_item middleware_item">
+					<div class="main_item_name" i18n="middlewareport"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="MldPort_text" name="MldPort_text"/>
+					</div>
+				</div>
+				</div>
+			<div class="main_save">
+				<input type="button" class="input_button" onclick="saveApply()" i18n="save" i18n-set="value"/>
+			</div>
+		</form>
+	</body>
+</html>

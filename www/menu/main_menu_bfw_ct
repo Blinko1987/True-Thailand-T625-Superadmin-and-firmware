@@ -1,0 +1,5 @@
+{
+	"factory" : {"mainDivId":"factory_main_div", "hasChildMenu":true, "title":"menu.factory", "selectClass": "first_menu_primary_select"},
+	"service" : {"mainDivId":"service_main_div", "hasChildMenu":true, "title":"menu.service", "selectClass": "first_menu_primary_select"},
+	"maintain" : {"mainDivId":"maintain_main_div", "hasChildMenu":true, "title":"menu.maintain", "selectClass": "first_menu_primary_select"}
+}

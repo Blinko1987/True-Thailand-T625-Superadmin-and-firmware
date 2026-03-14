@@ -1,0 +1,25 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"url_filter":	{
+		"maxnum":	"8",
+		"URLFEnable":	"1",
+		"URLFMode":	"white",
+		"white1":	"www.test.123",
+		"white2":	"www.test.454",
+		"white3":	"",
+		"white4":	"www.999.123",
+		"white5":	"www.test.454",
+		"white6":	"www.test.454",
+		"white7":	"www.test.454",
+		"white8":	"www.test.454",
+		"black1":	"black.test.123",
+		"black2":	"black.test.454",
+		"black3":	"",
+		"black4":	"black.999.123",
+		"black5":	"",
+		"black6":	"",
+		"black7":	"",
+		"black8":	""
+	}
+}

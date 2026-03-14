@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+        <script language="javascript" src="../js/full_routing_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.fullroute"></p>
+			<p class="main_header_hint" i18n="fullroute_hint"></p>
+		</div>
+		<div class="main_content">
+			<div class="main_item">
+				<div class="main_item_name" i18n="enablefullroute"></div>
+				<div class="main_item_content">
+					<input type="checkbox" id="IPForwardModeEnabled"/>&nbsp;
+				</div>
+			</div>
+		</div>
+		<div class="main_save" style="margin-top:0px">
+			<input type="button" class="input_button" onclick="saveApply('enable')" i18n="save" i18n-set="value"/>
+		</div>
+		<br>
+		<hr class="split-hr"/>
+		<div class="main_content">
+			<div class="main_item">
+				<div class="main_item_name" i18n="networkconn"></div>
+				<div class="main_item_content">
+					<select id="wan_select">
+					</select>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name" i18n="networksegment"></div>
+				<div class="main_item_content">
+					<input type="text" class="input_text" id="IPForwardList" name="IPForwardList" autocomplete="off"/>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name" i18n="multicastwan"></div>
+				<div class="main_item_content">
+					<input type="checkbox" id="UpstreamWAN"/>&nbsp;
+				</div>
+			</div>
+		</div>
+		<div class="main_save">
+			<input type="button" class="input_button" id="wansave" onclick="saveApply('wan')" i18n="save" i18n-set="value"/>
+		</div>
+	</body>
+</html>

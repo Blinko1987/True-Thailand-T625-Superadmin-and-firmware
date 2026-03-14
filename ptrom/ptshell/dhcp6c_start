@@ -1,0 +1,33 @@
+#!/bin/sh
+DHCP6C_FILE_TMP=/var/temp_pppoe
+#pon0.47 -c /var/dhcp6c_pon0.47.conf -d
+echo $1    $2    $3  $4           $5        $6   $7 >/var/cc
+#  pon0.47 ppp0  -c /var/dhcp6c_pon0.47.conf -d  1 aftrmode_seq
+if [ -z $6 ]
+then
+	
+	dhcp6c $2 $3 ${4}Df $1 >/dev/null 2>/dev/null 
+else
+	
+	while [ 1 ]
+	do
+	
+		cat $4 | grep -v  "request aftr" > $DHCP6C_FILE_TMP
+		mv $DHCP6C_FILE_TMP $4
+		if [ $6 = "1" ]
+		then
+		echo dslite_enable=$6 >>/var/cc
+			mode_aftr=`inter_web get $7`
+			echo dhcp6c_start $mode_aftr >>/var/cc
+			if [ $mode_aftr = "0&" ]
+			then
+				sed "s/name-servers;/name-servers;\n       request aftr;\n/g" $4 > $DHCP6C_FILE_TMP
+				mv $DHCP6C_FILE_TMP $4
+			fi
+	fi
+		#echo " Configuring via udhcp6c"
+		UDHCPCSTATUS=""
+		dhcp6c $3 $4 ${5}Df ${2}__${1} >/dev/null 2>/dev/null || UDHCPCSTATUS="failed"
+		ip -6 addr flush scope global dev $1
+	done
+fi

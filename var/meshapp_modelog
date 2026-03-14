@@ -1,0 +1,10 @@
+[Thu Jan  1 00:01:25 1970][meshapp][DEBUG]meshif_get_controller_info fail, but still init controller info!
+[Thu Jan  1 00:01:25 1970][meshapp][DEBUG]mesh_net_start_server,port:13531,protocol:0 bcflag=1
+[Thu Jan  1 00:01:25 1970][meshapp][DEBUG]the free id is 0!
+[Thu Jan  1 00:01:25 1970][meshapp][DEBUG]mesh_net_start_server end,ret=0!
+[Thu Jan  1 00:01:25 1970][meshapp][DEBUG]StartUDPLisenThread start! pid:3376
+[Thu Jan  1 00:01:25 1970][meshapp][DEBUG]domain Server is waiting for client connect...
+[Thu Jan  1 00:01:25 1970][meshapp][DEBUG]set FD_CLOEXEC succ!
+[Thu Jan  1 00:01:25 1970][meshapp][DEBUG]the listen add to index 0!
+[Thu Jan  1 00:01:25 1970][meshapp][DEBUG]set address broadcast succ!
+[Thu Jan  1 00:01:25 1970][meshapp][DEBUG]set address reuse succ!

@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/easymesh_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.easymesh"></p>
+			<p class="main_header_hint" i18n="easymesh_hint"></p>
+		</div>
+			<div class="main_item">
+				<div class="main_item_name2" i18n="devicename"></div>
+				<div class="main_item_content">
+					<input type="text" id="Devicename_text" class="input_text input_text_wifi"/>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name2" i18n="menu.easymesh"></div>
+				<div class="main_item_content">
+					<input type="radio" name="easymesh_enable" value="0"/><span i18n="disabled"></span>&nbsp;&nbsp;
+					<input type="radio" name="easymesh_enable" value="1"/><span i18n="enabled2"></span>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name2" i18n="backhaul"></div>
+				<div class="main_item_content">
+					<select id="backhaul_sel">
+						<option value="5G">5G</option>
+						<!--<option value="5GL">5GL</option>-->
+						<option value="5GH">5GH</option>
+					</select>
+				</div>
+				<div id="backhaulhint" style="width:300px; height:100%; line-height:15px; color: red;" i18n="backhaulhint"></div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name2" i18n="currentdevicerole"></div>
+				<div class="main_item_content">
+					<span id="curr_devrole"></span>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name2" i18n="reseteasymeshsettingstodefault"></div>
+				<div class="main_item_content">
+					<input type="button" class="input_button" id="reseteasymeshdefault" onclick="reseteasymeshtodefault()" i18n="loaddefaultsettings" i18n-set="value">&nbsp;
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name2" i18n="easymeshonbording"></div>
+				<div class="main_item_content">
+					<input type="button" class="input_button" id="triggerwifionbording" onclick="triggerwifionbording()" i18n="triggerwifionbording" i18n-set="value">&nbsp;
+				</div>
+			</div>
+			
+			<div class="main_save">
+				<input type="button" class="input_button" id="apply" onclick="saveApply()" i18n="save" i18n-set="value">
+			</div>
+	</body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/factory_h248_preconfig_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<form id="voice_form">
+			<div class="main_content">
+				<div class="main_item"><b>H248注册名(电信)</b></div>
+				<div class="main_item">
+					<div class="main_item_name">终端标识(设备域名)</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="DeviceID" name="DeviceID"/>默认:bfwsolutions1
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">终端标识类型</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="DeviceIDType" name="DeviceIDType"/>0:ip地址;1:域名;2:设备名 (默认1)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">终端注册方式</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="" name=""value="根注册" disabled />默认：根注册
+					</div>
+				</div>
+				<div class="main_item"><b>H248线路名</b></div>
+				<div class="main_item line1" style="display:none">
+					<div class="main_item_name">线路1线路名</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="PhysicalTermID1" name="PhysicalTermID1"/>默认:aaln/0
+					</div>
+				</div>
+				<div class="main_item line2" style="display:none">
+					<div class="main_item_name">线路2线路名</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="PhysicalTermID2" name="PhysicalTermID2"/>默认:aaln/1
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">线路名前缀</div>
+					<div class="main_item_content" style="max-width:600px;">
+						<input type="text" class="input_text" autocomplete="off" id="PhysicalTermIDPrefix" name="PhysicalTermIDPrefix"/>一般为线路名去掉最后一个字符,默认为aaln/
+					</div>
+				</div>
+				<div class="main_item"><b>H248定时器</b></div>
+				<div class="main_item">
+					<div class="main_item_name">起始定时器</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="StartDigitTimer" name="StartDigitTimer"/>单位秒,默认16
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">位间隔（短定时器）</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="InterDigitTimerShort" name="InterDigitTimerShort"/>单位秒,默认5
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">位间隔（长定时器）</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="InterDigitTimerLong" name="InterDigitTimerLong"/>单位秒,默认20
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">数图最长定时器</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="DigitTimerLong" name="DigitTimerLong" disabled/>单位秒,默认20
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">回铃音超时时间</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="NoAnswerTimer" name="NoAnswerTimer"/>单位秒,默认60
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">忙音超时时间</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="BusyToneTimer" name="BusyToneTimer"/>单位秒,默认40
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">催挂音超时时间</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="HangingReminderToneTimer" name="HangingReminderToneTimer"/>单位秒,默认60
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">嚎鸣音超时时间</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="Howller_TimeOut" name="Howller_TimeOut" disabled />单位秒,默认60
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">拨号音超时时间</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="DailToneTimer" name="DailToneTimer"/>单位秒,默认60
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">等待音超时时间</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="WaitToneTimer" name="WaitToneTimer"/>单位秒,默认60
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">振铃音超时时间</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="RingToneTimer" name="RingToneTimer"/>单位秒,默认60
+					</div>
+				</div>
+				<div class="main_item"><b>H248心跳</b></div>
+				<div class="main_item">
+					<div class="main_item_name">主动心跳开关</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="HeartbeatMode" name="HeartbeatMode"/>0关闭;1开启 (默认0)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">主动心跳周期</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="HeartbeatCycle" name="HeartbeatCycle"/>单位为秒,默认60
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">主动心跳超时次数</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="HeartbeatCount" name="HeartbeatCount"/>默认3
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">链路保护开关</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="AuditValueEnable" name="AuditValueEnable"/>0关闭;1开启 (默认1)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">链路保护周期</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="auditvalueSilenceInterval" name="auditvalueSilenceInterval"/>单位为秒,默认600
+					</div>
+				</div>
+				<div class="main_item"><b>RTP资源</b></div>
+				<div class="main_item">
+					<div class="main_item_name">RTP资源前缀</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="RTPPrefix" name="RTPPrefix"/>默认RTP/
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">RTP起始值</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="EphemeralTermIDStart" name="EphemeralTermIDStart"/>默认0
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">RTP结束值</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="XFIBEphemeralTermIDEnd" name="XFIBEphemeralTermIDEnd"/>默认1
+					</div>
+				</div>
+				<div class="main_item"><b>H248数图</b></div>
+				<div class="main_item">
+					<div class="main_item_name">数图匹配模式</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="SendDigitImmediately" name="SendDigitImmediately"/>0:最大匹配;1:最小匹配;2:自适应
+					</div>
+				</div>
+				<div class="main_item"><b>H248内部控制</b></div>
+				<div class="main_item">
+					<div class="main_item_name">传真控制</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="faxControl" name="faxControl"/>0:mgc控制;1:本地配置 (默认1)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">编码协商控制</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="CodecControl" name="CodecControl"/>0:本地优先;1:远端优先 (默认1)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">国家码</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="CountryRegion" name="CountryRegion"/>3:FSK(中国);5:DTMF (默认3)
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" value="保存" onclick="saveApply()"/>
+			</div>
+		</form>
+	</body>
+</html>

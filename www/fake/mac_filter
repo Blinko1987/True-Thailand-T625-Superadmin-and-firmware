@@ -1,0 +1,25 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"mac_filter":	{
+		"maxnum":	"8",
+		"MACFEnable":	"1",
+		"MACFMode":	"white",
+		"white1":	"11:22:33:44:55:66",
+		"white2":	"11:22:33:44:55:66",
+		"white3":	"",
+		"white4":	"11:22:33:44:55:66",
+		"white5":	"11:22:33:44:55:66",
+		"white6":	"11:22:33:44:55:66",
+		"white7":	"",
+		"white8":	"",
+		"black1":	"11:22:33:44:55:69",
+		"black2":	"11:22:33:44:55:69",
+		"black3":	"",
+		"black4":	"11:22:33:44:55:69",
+		"black5":	"",
+		"black6":	"",
+		"black7":	"",
+		"black8":	""
+	}
+}

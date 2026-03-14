@@ -1,0 +1,13 @@
+ptcfg_load,ready:[false],cmd:[ptcfg_load /ptrom/ptconf/param_ct.xml];
+cfgmgr,ready:[true],cmd:[cfgmgr &];
+logmgr,ready:[true],cmd:[logmgr -syslog /ptconf/message_syslog &];
+eventmgr,ready:[false],cmd:[eventmgr &];
+button_cmd,ready:[false],cmd:[button_cmd &];
+tr069,ready:[true],cmd:[tr069 -F /ptconf/ -M 1 -L 5 -S 2000 -X 1 &];
+start_pon_process,ready:[false],cmd:[/ptrom/ptshell/start_pon_process.sh &];
+lanmgr,ready:[true],cmd:[lanmgr &];
+serviceMgr,ready:[true],cmd:[serviceMgr &];
+wanmgr,ready:[true],cmd:[wanmgr &];
+wifictl,ready:[false],cmd:[wifictl &];
+wifimgr,ready:[false],cmd:[wifimgr &];
+process_check,ready:[false],cmd:[/ptrom/ptshell/process_check.sh &];

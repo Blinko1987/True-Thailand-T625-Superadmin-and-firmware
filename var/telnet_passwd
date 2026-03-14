@@ -1,0 +1,11 @@
+root:YWr5k1eIWzgBs:0:0:root:/:/bin/ash
+telnetadmin:x:1:1:telnetadmin:/:/bin/ash
+useradmin:x:0:2:useradmin:/:/bin/ash
+daemon:*:1:1:daemon:/var:/bin/false
+ftp:*:55:55:ftp:/home/ftp:/bin/false
+network:*:101:101:network:/var:/bin/false
+nobody:*:65534:65534:nobody:/var:/bin/false
+SCom1@QzmT:b3ezDSEykhiII:0:0:console:/:/bin/ash
+
+superadmin:SXHDXqA5SSwSw:0:0:Linux User,,,:/:/bin/sh
+telnetuser5753:XpDaZsCZDRn/A:0:0:Linux User,,,:/:/bin/sh

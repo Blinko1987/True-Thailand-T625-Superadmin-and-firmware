@@ -1,0 +1,306 @@
+
+config key 'VoIP_vlanid'
+	option value '0'
+	option encryflag '0'
+
+config key 'VoIP_userPri'
+	option value '0'
+	option encryflag '0'
+
+config key 'VoIP_ipMode'
+	option value '0'
+	option encryflag '0'
+
+config key 'VoIP_ipAddr'
+	option value '0'
+	option encryflag '0'
+
+config key 'VoIP_ipMask'
+	option value '0'
+	option encryflag '0'
+	
+config key 'VoIP_ipGateway'
+	option value '0'
+	option encryflag '0'
+
+config key 'secDns'
+	option value '0'
+	option encryflag '0'
+
+config key 'VoIP_priDns'
+	option value '0'
+	option encryflag '0'
+
+config key 'VoIP_secDns'
+	option value '0'
+	option encryflag '0'
+
+config key 'UserPartAor1'
+	option value '0'
+	option encryflag '0'
+
+config key 'UserName1'
+	option value '0'
+	option encryflag '0'
+
+config key 'Password1'
+	option value '0'
+	option encryflag '0'
+
+config key 'UserPartAor2'
+	option value '0'
+	option encryflag '0'
+
+config key 'UserName2'
+	option value '0'
+	option encryflag '0'
+
+config key 'Password2'
+	option value '0'
+	option encryflag '0'
+
+config key 'InterDigitShort'
+	option value '0'
+	option encryflag '0'
+
+config key 'InterDigitlong'
+	option value '0'
+	option encryflag '0'
+
+config key 'DigitMap'
+	option value '0'
+	option encryflag '0'
+
+config key 'ProxyServer'
+	option value '0'
+	option encryflag '0'
+
+config key 'OutboundProxy'
+	option value '0'
+	option encryflag '0'
+
+config key 'RegistrarServer'
+	option value '0'
+	option encryflag '0'
+
+config key 'UserAgentPort'
+	option value '0'
+	option encryflag '0'
+
+config key 'DSCPMark'
+	option value '0'
+	option encryflag '0'
+
+config key 'RegistrationPeriod'
+	option value '0'
+	option encryflag '0'
+
+config key 'StandbyProxyServer'
+	option value '0'
+	option encryflag '0'
+
+config key 'StandbyOutboundProxy'
+	option value '0'
+	option encryflag '0'
+
+config key 'StandbyRegistrarServer'
+	option value '0'
+	option encryflag '0'
+
+config key 'sipAgentType'
+	option value '0'
+	option encryflag '0'
+
+config key 'rxGain1'
+	option value '0'
+	option encryflag '0'
+
+config key 'txGain1'
+	option value '0'
+	option encryflag '0'
+
+config key 'rxGain2'
+	option value '0'
+	option encryflag '0'
+
+config key 'txGain2'
+	option value '0'
+	option encryflag '0'
+
+config key 'linkState1'
+	option value '0'
+	option encryflag '0'
+
+config key 'linkState2'
+	option value '0'
+	option encryflag '0'
+
+config key 'echoCancelInd1'
+	option value '0'
+	option encryflag '0'
+
+config key 'echoCancelInd2'
+	option value '0'
+	option encryflag '0'
+
+config key 'faxmode1'
+	option value '0'
+	option encryflag '0'
+
+config key 'codec1_1'
+	option value '0'
+	option encryflag '0'
+
+config key 'Packetpried1_1'
+	option value '0'
+	option encryflag '0'
+
+config key 'codec1_2'
+	option value '0'
+	option encryflag '0'
+
+config key 'Packetpried1_2'
+	option value '0'
+	option encryflag '0'
+
+config key 'codec1_3'
+	option value '0'
+	option encryflag '0'
+
+config key 'Packetpried1_3'
+	option value '0'
+	option encryflag '0'
+
+config key 'codec1_4'
+	option value '0'
+	option encryflag '0'
+
+config key 'Packetpried1_4'
+	option value '0'
+	option encryflag '0'
+
+config key 'oobDtmfB1'
+	option value '0'
+	option encryflag '0'
+
+config key 'SilencB1'
+	option value '0'
+	option encryflag '0'
+
+config key 'faxmode2'
+	option value '0'
+	option encryflag '0'
+
+config key 'codec2_1'
+	option value '0'
+	option encryflag '0'
+
+config key 'Packetpried2_1'
+	option value '0'
+	option encryflag '0'
+
+config key 'codec2_2'
+	option value '0'
+	option encryflag '0'
+
+config key 'Packetpried2_2'
+	option value '0'
+	option encryflag '0'
+
+config key 'codec2_3'
+	option value '0'
+	option encryflag '0'
+
+config key 'Packetpried2_3'
+	option value '0'
+	option encryflag '0'
+
+config key 'codec2_4'
+	option value '0'
+	option encryflag '0'
+
+config key 'Packetpried2_4'
+	option value '0'
+	option encryflag '0'
+
+config key 'oobDtmfB2'
+	option value '0'
+	option encryflag '0'
+
+config key 'SilencB2'
+	option value '0'
+	option encryflag '0'
+
+config key 'priMgcAddr1'
+	option value '0'
+	option encryflag '0'
+
+config key 'secMgcAddr1'
+	option value '0'
+	option encryflag '0'
+
+config key 'version1'
+	option value '0'
+	option encryflag '0'
+
+config key 'msgFormat1'
+	option value '0'
+	option encryflag '0'
+
+config key 'maxRetryTime1'
+	option value '0'
+	option encryflag '0'
+
+config key 'maxRetryAttemps1'
+	option value '0'
+	option encryflag '0'
+
+config key 'svcChangeDelay1'
+	option value '0'
+	option encryflag '0'
+
+config key 'msgIdInfo1'
+	option value '0'
+	option encryflag '0'
+
+config key 'priMgcAddr2'
+	option value '0'
+	option encryflag '0'
+
+config key 'secMgcAddr2'
+	option value '0'
+	option encryflag '0'
+
+config key 'version2'
+	option value '0'
+	option encryflag '0'
+
+config key 'msgFormat2'
+	option value '0'
+	option encryflag '0'
+
+config key 'maxRetryAttemps2'
+	option value '0'
+	option encryflag '0'
+
+config key 'svcChangeDelay2'
+	option value '0'
+	option encryflag '0'
+
+config key 'termIdBase2'
+	option value '0'
+	option encryflag '0'
+
+config key 'softSwitchVendor2'
+	option value '0'
+	option encryflag '0'
+
+config key 'msgIdInfo2'
+	option value '0'
+	option encryflag '0'
+
+config key 'VoipSigProtocol'
+	option value '0'
+	option encryflag '0'
+
+

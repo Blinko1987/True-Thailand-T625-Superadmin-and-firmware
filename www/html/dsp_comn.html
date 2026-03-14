@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script language="javascript" src="../js/dsp_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="dsp.title"></p>
+			<p class="main_header_hint" i18n="dsp.hint"></p>
+		</div>
+		<form id="dsp_form">
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name" i18n="dsp.voiceport"></div>
+					<div class="main_item_content">
+						<select id="voiceport" class="main_select">
+							<option value="0">0</option>
+							<option value="1">1</option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="dsp.gatewayip"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" id="gatewayip" name="gatewayip"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="dsp.gatewayport"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" id="gatewayport" name="gatewayport"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="dsp.pcip"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" id="pcip" name="pcip"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="dsp.pcport"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" id="pcport" name="pcport"/>
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" id="trunon" style="width:120px;" i18n="turnon" i18n-set="value" onclick="saveApply(true)"/>&nbsp;&nbsp;
+				<input type="button" class="input_button" id="trunoff" style="width:120px;" i18n="turnoff" i18n-set="value" onclick="saveApply(false)"/>
+			</div>
+		</form>
+	</body>
+</html>

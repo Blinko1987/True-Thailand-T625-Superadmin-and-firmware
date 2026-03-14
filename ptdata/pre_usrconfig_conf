@@ -1,0 +1,93 @@
+
+config interface 'bfwsolutions'
+	option deviceinfo 'atos'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__1__'
+	option BeaconType '11i'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__2__'
+	option BeaconType '11i'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__3__'
+	option BeaconType '11i'
+	
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__4__'
+	option BeaconType '11i'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__5__'
+	option BeaconType '11i'
+	
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__6__'
+	option BeaconType '11i'
+	
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__7__'
+    option SSID '   .@ TrueHiSpeed'
+    option BeaconType 'None'
+    option Enable '0'
+	
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__8__'
+	option BeaconType '11i'
+
+config interface 'InternetGatewayDevice__WANDevice__1__WANConnectionDevice__1__'
+	option method 'add'
+
+config interface 'InternetGatewayDevice__WANDevice__1__WANConnectionDevice__1__WANPPPConnection__1__'
+	option method 'add'
+	option Name '1_TR069_INTERNET_R_VID_100'
+	option X_TRUE_VlanID '100'
+	option X_TRUE_VlanPriority '0'
+	option X_TRUE_ServiceList 'TR069_INTERNET'
+	option AddressingType 'PPPoE'
+	option ConnectionType 'IP_Routed'
+	option TransportType 'PPPoE'
+	option X_TRUE_IPMode '3'
+	option CurrentMRUSize '1492'
+	option X_CT111COM_LanInterface 'UCI_NULL'
+	option Username 'TWFjIGFkZHJlc3NAdHJ1ZWhpc3A='
+	option Password 'cGFzc3dvcmQ='
+	option ConnectionTrigger 'AlwaysOn'
+	option X_CT111COM_IPv6PrefixDelegationEnabled '1'
+	option X_CT111COM_IPv6PrefixOrigin 'PrefixDelegation'
+	option X_CT111COM_IPv6IPAddressOrigin 'AutoConfigured'
+	option X_CT111COM_Dslite_Enable '0'
+	option NATEnabled '1'
+	option Enable '1'
+
+config interface 'InternetGatewayDevice__WANDevice__1__WANConnectionDevice__3__'
+	option method 'add'
+
+config interface 'InternetGatewayDevice__WANDevice__1__WANConnectionDevice__3__WANIPConnection__1__'
+	option method 'add'
+	option Name 'THSi'
+	option X_TRUE_VlanID '293'
+	option X_TRUE_VlanPriority '0'
+	option X_TRUE_ServiceList 'INTERNET'
+	option AddressingType 'DHCP'
+	option ConnectionType 'IP_Bridged'
+	option TransportType 'UCI_NULL'
+	option X_TRUE_IPMode '1'
+	option CurrentMRUSize '1500'
+	option ConnectionTrigger 'UCI_NULL'
+	option X_CT111COM_Dslite_Enable '0'
+	option NATEnabled '0'
+	option DNSEnabled '0'	
+	option DHCPEnable '0'
+	option X_TRUE_PortBinding 'dev.wla.7'
+	option Enable '1'	
+	
+	
+config interface 'InternetGatewayDevice__LANDevice__1__X_CT111COM_IPv6Config__'
+	option IPv6DNSConfigType 'WANConnection'
+
+config interface 'InternetGatewayDevice__X_CT111COM_UserInfo__'
+	option Result '1'
+
+config interface 'InternetGatewayDevice__X_TRUE_EasyMesh__'
+        option Enable '1'
+        option Role '1'
+        option DeviceName 'T625Pro'
+        option BackHaul '5G'
+        option Onboarding '0'
+
+config interface 'InternetGatewayDevice__X_TRUE_EasyMesh__NetworkTopology__Controller__'
+        option ModelName 'T625Pro'

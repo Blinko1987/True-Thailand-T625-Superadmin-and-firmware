@@ -1,0 +1,28 @@
+{
+	"success": "true",
+	"session_valid":"1",
+	"data":{
+		"SSID1":	{
+			"Enable":"0",
+			"SSID":	"ChinaNet-hisi-2G-1",
+			"BeaconType":	"mixed",
+			"WPAEncryptionModes":	"AESEncryption",
+			"PreSharedKey":	"11111111"
+		},
+		"SSID2":	{
+			"Enable":"1",
+			"SSID":	"ChinaNet-hisi-2G-2",
+			"BeaconType":	"mixed",
+			"WPAEncryptionModes":	"AESEncryption",
+			"PreSharedKey":	"22222222"
+		},
+		"SSID3":	{
+			"Enable":"1",
+			"SSID":	"ChinaNet-hisi-2G-3",
+			"BeaconType":	"mixed",
+			"WPAEncryptionModes":	"AESEncryption",
+			"PreSharedKey":	"33333333"
+		}
+	}
+	
+}

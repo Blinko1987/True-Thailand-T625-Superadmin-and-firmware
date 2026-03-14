@@ -1,0 +1,11 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"log":	{
+		"voicesip":	"1",
+		"voiceh248":	"1",
+		"voicedriver":	"1",
+		"fhcfg":	"1",
+		"fhapi":	"1"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"lan_ipv6":     {
+		"IPv6DNSConfigType":    "HGWProxy",
+		"IPv6DNSServers":       "",
+		"DHCPv6ServerEnable":   "1",
+		"DHCPv6ServerMinAddress":       "0000:0000:0000:0002",
+		"DHCPv6ServerMaxAddress":       "0000:0000:0000:0064",
+		"PIMODE":       "WANDelegated",
+		"PIDelegatedWanConnection":     "",
+		"PIPrefix":     "",
+		"RAMaxRtrAdvInterval":  "600",
+		"RAMinRtrAdvInterval":  "200",
+		"RAAdvManagedFlag":     "0",
+		"RAAdvOtherConfigFlag": "1"
+	}
+}

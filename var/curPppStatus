@@ -1,0 +1,9 @@
+
+config key 'pon_100'
+	option encryflag '0'
+	option value 'ERROR_ISP_TIME_OUT'
+
+config key 'pon_100_authfail_count'
+	option value '0'
+	option encryflag '0'
+

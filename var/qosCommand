@@ -1,0 +1,28 @@
+ebtables -t nat -D POSTROUTING -j TC_PRIO
+ebtables -t nat -F TC_PRIO 
+ebtables -t nat -N TC_PRIO 
+ebtables -t nat -I POSTROUTING 1 -j TC_PRIO
+iptables -t mangle -D POSTROUTING -j TC_PRIO
+iptables -F TC_PRIO -t mangle 
+iptables -N TC_PRIO -t mangle
+iptables -t mangle -I POSTROUTING 1 -j TC_PRIO
+ip6tables -t mangle -D POSTROUTING -j TC_PRIO
+ip6tables -F TC_PRIO -t mangle 
+ip6tables -N TC_PRIO -t mangle
+ip6tables -t mangle -I POSTROUTING 1 -j TC_PRIO
+iptables -t mangle -D POSTROUTING -j TC_QOS
+iptables -F TC_QOS -t mangle 
+iptables -N TC_QOS -t mangle
+iptables -t mangle -I POSTROUTING 1 -j TC_QOS
+ip6tables -t mangle -D POSTROUTING -j TC_QOS
+ip6tables -F TC_QOS -t mangle 
+ip6tables -N TC_QOS -t mangle
+ip6tables -t mangle -I POSTROUTING 1 -j TC_QOS
+ebtables  -t broute -D BROUTING -j TC_QOS 
+ebtables  -t broute  -F  TC_QOS 
+ebtables  -t broute -N TC_QOS 
+ebtables  -t broute -P TC_QOS RETURN 
+ebtables  -t broute  -I BROUTING 1 -j  TC_QOS 
+ebtables  -N QOS_RULES 
+ebtables  -A FORWARD -j  QOS_RULES 
+ebtables  -F QOS_RULES 

@@ -1,0 +1,14 @@
+{
+	"home" : {"mainDivId":"home_main_div", "hasChildMenu":false, "src": "dashboard.html", "title":"menu.home", "selectClass": "first_menu_primary_select"},
+	"status" : {"mainDivId":"status_main_div", "hasChildMenu":true, "title":"menu.status", "selectClass": "first_menu_primary_select"},
+	"lan" : {"mainDivId":"lan_main_div", "hasChildMenu":true, "title":"menu.lan", "selectClass": "first_menu_primary_select"},
+	"wlan" : {"mainDivId":"wlan_main_div", "hasChildMenu":true, "title":"menu.wlan", "selectClass": "first_menu_primary_select"},
+	"wan" : {"mainDivId":"wan_main_div", "hasChildMenu":true, "title":"menu.wan", "selectClass": "first_menu_primary_select"},
+	"service" : {"mainDivId":"service_main_div", "hasChildMenu":true, "title":"menu.service", "selectClass": "first_menu_primary_select"},
+	"voip" : {"mainDivId":"voip_main_div", "hasChildMenu":true, "title":"menu.voip", "selectClass": "first_menu_primary_select"},
+	"firewall" : {"mainDivId":"firewall_main_div", "hasChildMenu":true, "title":"menu.firewall", "selectClass": "first_menu_primary_select"},
+	"advance" : {"mainDivId":"advance_main_div", "hasChildMenu":true, "title":"menu.advance", "selectClass": "first_menu_primary_select"},
+	"diag" : {"mainDivId":"diag_main_div", "hasChildMenu":true, "title":"menu.diag", "selectClass": "first_menu_primary_select"},
+	"admin" : {"mainDivId":"admin_main_div", "hasChildMenu":true, "title":"menu.admin", "selectClass": "first_menu_primary_select"},
+	"statistics" : {"mainDivId":"statistics_main_div", "hasChildMenu":true, "title":"menu.statistics", "selectClass": "first_menu_primary_select"}
+}

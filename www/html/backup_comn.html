@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/jquery.form.js"></script>
+		<script type="text/javascript" src="../js/backup_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.backuprestore"></p>
+			<p class="main_header_hint" i18n="backuphint">
+			</p>
+		</div>
+		<div class="main_content">
+			<div class="main_item">
+				<div class="main_item_name" i18n="savesettingtolocal"></div>
+				<div class="main_item_content">
+					<input type="button" class="input_button" id="download_button" onclick="downloadsettings()" i18n="backup" i18n-set="value">&nbsp;
+				</div>
+			</div>
+		</div>
+		
+		<!--form id="upgrade_form" method="post" enctype="multipart/form-data" onsubmit="return validCheck()" action="../cgi-bin/ajax?method=upload&action=upgradeimage"-->
+		<form enctype="multipart/form-data" method="post" action="../cgi-bin/ajax?method=upload&action=cfgupload" id="upgrade_form">
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name" i18n="loadsettingfromlocal"></div>
+					<div class="main_item_content">
+						<input type="file" id="upgradefile" name="upgradefile"/>&nbsp;<input type="submit" class="input_button" id="upgrade_button" i18n="update" i18n-set="value">
+					</div>
+				</div>
+			</div>
+			<!--<div class="main_save">
+				<input type="submit" class="input_button" id="upgrade_button" i18n="menu.upgrade" i18n-set="value">
+			</div>-->
+		</form>
+		
+		<br/><br/>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.restore_reset"></p>
+			<p class="main_header_hint" i18n="restorereset_hint">
+			</p>
+		</div>
+		
+		<form>
+			<div class="main_save">
+				<input type="button" class="input_button" onclick="restore_factory()" i18n="menu.restore_reset" i18n-set="value">
+			</div>
+		</form>
+		
+		<div id="progress_div" style="display:none">
+			<div class="progress_container"> 
+				<div id="progress_bar" style="width:0%;"></div>  
+			</div>
+			<br/>
+			<div id="progress_hint" i18n="restorefactoryinghint"></div>
+		</div>
+	</body>
+</html>

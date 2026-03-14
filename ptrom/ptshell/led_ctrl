@@ -1,0 +1,33 @@
+#!/bin/sh
+
+case "$1" in
+	on)
+		echo "led_ctrl all_led on"
+		dev_mgm_debug all_led 1
+	;;
+	
+	off)
+		echo "led_ctrl all_led off"
+		dev_mgm_debug all_led 0
+	;;
+	blink)
+		echo "led_ctrl all_led blink 5 min"
+		i=0
+		while [ $i -le 150 ]
+		do
+			dev_mgm_debug all_led 1
+			sleep 1
+			dev_mgm_debug all_led 0
+			sleep 1
+			let i=$i+1
+		done		
+		dev_mgm_debug all_led 1
+	;;
+	
+	*)
+		echo "usage:led_ctrl on|off|blink"
+	;;
+	
+esac
+
+

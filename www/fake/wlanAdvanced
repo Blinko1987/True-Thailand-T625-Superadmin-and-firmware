@@ -1,0 +1,12 @@
+{
+	"success": "true",
+	"session_valid":"1",
+	"data":	{
+		"ssidHide":	"1", 
+		"wlanMode":	"n,g",
+		"wlanChannel":"0",
+		"wlanWidth":"20/40",
+		"wlanSgi":"1",
+		"wlanPowerLevel":"1"
+	}
+}

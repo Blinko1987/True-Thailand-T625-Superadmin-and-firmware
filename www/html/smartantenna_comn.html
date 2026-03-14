@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/smartantenna_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.smartant"></p>
+			<p class="main_header_hint" i18n="smartant_hint"></p>
+		</div>
+		<div class="main_content">
+			<div id="antenna_logo_1" style="text-align: left; margin-bottom:10px; display:none;">
+				<img src="../image/device_antenna_1.png" style="width:300px">
+			</div>
+			<div id="antenna_logo_2" style="text-align: left; margin-bottom:10px; display:none;">
+				<img src="../image/device_antenna_2.png" style="width:300px">
+			</div>
+			<div class="main_item">
+				<div class="main_item_name" i18n="currantmode"></div>
+				<div class="main_item_content">
+					<span id="currentant" style="width:200px; display:inline-block;"></span>
+					<input type="button" class="input_button" i18n="refresh" i18n-set="value" onclick="refreshApply()">
+				</div>
+			</div>
+		
+			<div class="main_item">
+				<div class="main_item_name" i18n="mode"></div>
+				<div class="main_item_content">
+					<input type="radio" name="mode_radio" value="1" onclick="changeselectmode()"><span i18n="automatic"></span>&nbsp;&nbsp;&nbsp;
+					<input type="radio" name="mode_radio" value="0" onclick="changeselectmode()"><span i18n="manual2"></span>
+				</div>
+			</div>
+		
+			<div class="main_item" id="autosel_div" style="display:none;">
+				<div class="main_item_name" i18n="detectionperiod"></div>
+				<div class="main_item_content">
+					<input type="text" class="input_text" autocomplete="off" id="detectperiod">&nbsp;s
+				</div>
+			</div>
+			
+			<div class="main_item" id="manualsel_div" style="display:none;">
+				<div class="main_item_name" i18n="antmode"></div>
+				<div class="main_item_content">
+					<select id="antmode_select" onchange="switchantennalogo();">
+						<option value="2" i18n="antmode2"></option>
+						<option value="1" i18n="antmode1"></option>
+					</select>
+				</div>
+			</div>
+			
+			<div class="main_save">
+				<input type="button" class="input_button" onclick="saveApply()" i18n="save" i18n-set="value"/>
+			</div>
+		</div>
+		
+		<div id="sta_tab" style="display:none;">
+			<br/>
+			<table class="tablelarge" cellspacing="0" cellpadding="3px" border="1px">
+				<tbody>
+					<tr class="table-header">
+						<th colspan="10" i18n="menu.wifi_associated"></th>
+					</tr>
+					<tr class="another-table-header">
+						<th width="12%" i18n="hostname"></th>
+						<th width="12%" i18n="ipaddr"></th>
+						<th width="12%" i18n="macaddress"></th>
+						<th width="10%" i18n="mode"></th>
+						<th width="10%" i18n="txrate"></th>
+						<th width="10%" i18n="rxrate"></th>
+						<th width="8%" i18n="rssi"></th>
+						<th width="8%" i18n="snr"></th>
+						<th width="8%" i18n="qualityindex"></th>
+						<th width="10%" i18n="onlinetime"></th>
+					</tr>
+				</tbody>
+				<tbody id="associateddeviceinfo">
+				</tbody>
+			</table>
+		</div>
+		
+	</body>
+</html>
+
+
+

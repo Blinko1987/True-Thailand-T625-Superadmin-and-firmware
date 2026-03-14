@@ -1,0 +1,44 @@
+#!/bin/sh
+echo "ipv6-up-script start" > /dev/ttyAMA1
+
+interface_name="$1"
+tty_device="$2"
+speed="$3"
+local_IP_address="$4"
+remote_IP_address="$5"
+ipparam="$6"
+
+echo "interface_name=${interface_name}" > /dev/ttyAMA1
+echo "tty_device=${tty_device}" > /dev/ttyAMA1
+echo "speed=${speed}" > /dev/ttyAMA1
+echo "local_IP_address=${local_IP_address}" > /dev/ttyAMA1
+echo "remote_IP_address=${remote_IP_address}"> /dev/ttyAMA1
+echo "ipparam=${ipparam}" > /dev/ttyAMA1
+
+export PATH=/home/bin:/home/scripts:/opt/bin:/bin:/sbin:/usr/bin:/usr/local/jamvm/bin:/opt/scripts:/usr/sbin:/opt/bin:/opt/sbin:/opt/usr/bin:/opt/usr/sbin:/ptrom/bin:/userfs/bin
+export LD_LIBRARY_PATH=/lib:/lib/gpl:/lib64/gpl:/lib64:/ptrom/lib
+
+ptcfg_ctrl setuci /var/curPppStatus $tty_device ERROR_NONE
+
+
+ubus call pppoe notify_v6 "{\"interface\":\"$interface_name\",\"tty_device\":\"$tty_device\",\"state\":\"init\"}"
+
+echo 0 > /proc/sys/net/ipv6/conf/$1/forwarding
+echo 1 > /proc/sys/net/ipv6/conf/$1/autoconf
+echo 1 > /proc/sys/net/ipv6/conf/$1/accept_ra
+echo 30 > /proc/sys/net/ipv6/conf/$1/router_solicitation_delay
+echo 30 > /proc/sys/net/ipv6/conf/$1/router_solicitation_interval
+echo 10000 > /proc/sys/net/ipv6/conf/$1/router_solicitations
+
+#/ptrom/ptshell/keep_sending_rs.sh $interface_name
+
+#sleep 3
+
+#ip -6 addr add $4 dev $1
+
+ip6tables -t mangle -I POSTROUTING -o ${interface_name} -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu 
+
+ubus call pppoe notify_v6 "{\"interface\":\"$interface_name\",\"tty_device\":\"$tty_device\",\"state\":\"up\"}"
+
+echo "ipv6-up-script end" > /dev/ttyAMA1
+exit 0

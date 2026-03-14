@@ -1,0 +1,8 @@
+# /etc/profile: system-wide .profile file for the Bourne shells
+
+export PATH='/userfs/bin:/usr/sbin:/bin:/usr/bin:/sbin:/ptrom/bin:/ptrom/ptshell'
+export LD_LIBRARY_PATH='/usr/lib/glib-2.0/:/usr/lib:/ptrom/lib'
+
+
+
+

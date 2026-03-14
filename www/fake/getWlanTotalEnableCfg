@@ -1,0 +1,8 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"data":	{
+		"totalEnable2g":	1,
+		"totalEnable5g":	1
+	}
+}

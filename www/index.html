@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+	<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	<meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+	<meta HTTP-EQUIV="Expires" CONTENT="0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <!-- style -->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+	<link rel="icon" href="/image/logo_t3.png">
+    <!-- <link rel="stylesheet" href="/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- style -->
+
+    <!-- script -->
+    <script src="/js/jquery.js"></script>
+	<script src="/js/xhr_comn.js"></script>
+	<script src="/js/util_functions_comn.js"></script>
+	<script src="/js/util_global_vars_comn.js"></script>
+	<script src="/js/i18n_comn.js"></script>
+	<script src="/js/login_ct.js"></script>
+	<script src="/js/jquery.validate.js"></script>
+	<script src="/js/base64.js"></script>
+    <!-- script -->
+</head>
+
+<body>
+    <div class="col-12">
+        <div id="container-login">
+            <div class="card-login">
+                <div class="row d-flex align-items-center justify-content-center">
+                    <div class="col-md-6 col-xs-12 image-login">
+                        <!-- <img src="./image/TrueOnline-x-Gigatex2 1.png"> -->
+                        <img src="./image/True_Gigatex_1.png">
+                    </div>
+                    <div class="col-md-6 col-xs-12 pt-2">
+                        <img src="./image/True_Gigatex_1.png" class="logo-login" alt="">
+                        <div class="text-logo-login">Login</div>
+                        <div class="input-container pl-5 pr-5 mb-3">
+                            <div id="text-title-login">Username</div>
+                            <input type="text" value="admin" id="user_name" class="input-login">
+                            <img src="./image/user.png" width="30">
+                            <div id="text-title-login">Password</div>
+                            <input type="password" id="password" class="input-login">
+                            <img src="./image/key.png" width="30" onclick="passwordToggle()">
+                        </div>
+                        <!-- <div class="row d-flex justify-content-center ">
+                            <a href="#">Default Password</a>
+                        </div> -->
+						
+						<div id="captchadiv" class="row d-flex justify-content-center ">
+                            <div id="captcha" style="display:none;"><canvas marginleft="5" width="200" height="25" id="captchaspan" style="border:1px solid #000;"></canvas></div>
+                            <button type="button" id="refreshbtn" style="display:none;" onclick="refreshCaptcha()" class="btn m-2 rounded-circle">
+                                <img src="./image/baseline_autorenew_black_18dp.png" alt="">
+                            </button>
+                        </div>
+                        <button type="button" id="login_btn" onclick="onlogin()" style="margin-bottom: 20px;"
+                            class="button-login">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="./js/script.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+#!/bin/sh
+# Sample udhcpc renew script
+[ -z "$interface" ] && interface="0"
+[ -z "$ip" ] && ip="0"
+IPOE_EMULATOR_INFO=/var/ipoeemuinfo
+if [ -f $IPOE_EMULATOR_INFO ]
+then
+	ifconfig $interface $ip $BROADCAST $NETMASK
+	cfg_cmd setuci ${IPOE_EMULATOR_INFO} DefaultGateway ${router} 0
+	cfg_cmd setuci ${IPOE_EMULATOR_INFO} LocalAddress ${ip} 0
+	cfg_cmd setuci ${IPOE_EMULATOR_INFO} Result Success 0
+	exit
+fi
+[ -z "$broadcast" ] && broadcast="0"
+[ -z "$subnet" ] && subnet="0"
+[ -z "$router" ] && router="0"
+[ -z "$dns" ] && dns="0"
+[ -z "$domain" ] && domain="0"
+
+ubus call fh_svcmgr_dhcpc fh_svcmgr_dhcpc_notify "{\"interface\":\"$interface\",\"ip\":\"$ip\",\"broadcast\":\"$broadcast\",\"subnet\":\"$subnet\",\"route\":\"$router\",\"dns\":\"$dns\",\"domain\":\"$domain\"}"
+
+exit 0

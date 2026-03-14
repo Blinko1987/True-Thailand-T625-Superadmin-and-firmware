@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+        <script language="javascript" src="../js/upnp_comn.js"></script>
+		</script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="upnpset"></p>
+			<p class="main_header_hint" i18n="upnp_hint"></p>
+		</div>
+		<form>
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name" i18n="enableupnp"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="Enable_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="interfaceselection"></div>
+					<div class="main_item_content">
+						<select id="Interface_select">
+							
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" onclick="saveApply()" i18n="save" i18n-set="value"/>
+			</div>
+		</form>
+		<div id="upnpportmapinginfodiv" style="display:none;">
+				<!-- <label><b i18n="upnportmapinginfo"></b></label> -->
+			<br><br>
+			<table id="upnpportmapinginfotable" class="tablemedium" cellspacing="0" cellpadding="3px" border="1px">
+					<tbody>
+						<tr class="table-header">
+						<th colspan="6" i18n="upnportmapinginfo"></th>
+					</tr>
+					<tr class="another-table-header">
+						<th width="10%" i18n="no"></th>
+						<th width="15%" i18n="externalport"></th>
+						<th width="15%" i18n="protocol"></th>
+						<th width="25%" i18n="internalip"></th>
+						<th width="15%" i18n="internalport"></th>
+						<th width="20%" i18n="description"></th>
+					</tr>
+				</tbody>
+				<tbody id="upnpportmapinginfo">
+				
+				</tbody>
+			</table>
+		</div>
+	</body>
+</html>

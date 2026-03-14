@@ -1,0 +1,75 @@
+config key 'onu_type'
+	option value '1'
+	option encryflag '0'
+
+config key 'port_num'
+	option value '4'
+	option encryflag '0'
+
+config key 'pots_num'
+	option value '0'
+	option encryflag '0'
+
+config key 'usb_num'
+	option value '1'
+	option encryflag '0'
+
+config key 'devicetype'
+	option value 'T625LM'
+	option encryflag '0'
+
+config key 'pon_mode'
+	option value '1'
+	option encryflag '0'
+
+config key 'wifi'
+	option value '1'
+	option encryflag '0'
+
+config key 'wifi5'
+	option value '1'
+	option encryflag '0'
+
+config key 'ssid_num'
+	option value '8'
+	option encryflag '0'
+
+config key 'usb_1_0_num'
+	option value '0'
+	option encryflag '0'
+
+config key 'usb_2_0_num'
+	option value '0'
+	option encryflag '0'
+
+config key 'usb_3_0_num'
+	option value '0'
+	option encryflag '0'
+
+config key 'lan_fe_num'
+	option value '0'
+	option encryflag '0'
+
+config key 'lan_ge_num'
+	option value '4'
+	option encryflag '0'
+
+config key 'lan_xe_num'
+	option value '0'
+	option encryflag '0'
+
+config key 'pon_num'
+	option value '1'
+	option encryflag '0'
+
+config key 'sdcard'
+	option value '0'
+	option encryflag '0'
+
+config key 'zigbee'
+	option value '0'
+	option encryflag '0'
+	
+config key 'cpu_type'
+	option value 'BCM6856'
+	option encryflag '0'

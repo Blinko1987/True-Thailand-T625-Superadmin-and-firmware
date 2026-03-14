@@ -1,0 +1,2 @@
+config interface 'bfwsolutions'
+        option deviceinfo 'atos'

@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script language="javascript" src="../js/usbbackup_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title">USB备份配置</p>
+			<p class="main_header_hint">将USB设备连接到网关，选择合适的USB分区，点击“备份配置”按钮，将当前网关的配置备份到所选USB设置中。</p>
+		</div>
+		<form>
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name">USB备份目录</div>
+					<div class="main_item_content">
+						<select id="usb_device" class="main_select">
+						</select>
+						/HG_Config_Backup
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" value="备份配置" onclick="saveApply()"/>
+			</div>
+		</form>
+	</body>
+</html>

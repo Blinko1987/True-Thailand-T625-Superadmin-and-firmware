@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+        <script language="javascript" src="../js/firewall_comn.js"></script>
+		</script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.firewall"></p>
+			<p class="main_header_hint" i18n="firewall_hint"></p>
+		</div>
+		<form id="firewall_form">
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name" i18n="enablefirewall"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="FirewallEnable_checkbox" onclick="controlenordisable()"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="firewalllevel"></div>
+					<div class="main_item_content">
+						<select id='Firewall_Level'>
+							<option value='2' i18n="high"></option>
+							<option value='1' i18n="medium"></option>
+							<option value='0' i18n="low"></option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="dosprotect"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="DosEnable_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="overloadprotect"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="OverloadEnable_checkbox"/>&nbsp;
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" onclick="saveApply()" i18n="save" i18n-set="value"/>
+			</div>
+		</form>
+	</body>
+</html>

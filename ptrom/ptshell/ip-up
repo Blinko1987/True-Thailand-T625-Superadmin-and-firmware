@@ -1,0 +1,33 @@
+#!/bin/sh
+echo "ip-up-script:" > /dev/ttyAMA1
+
+interface_name="$1"
+tty_device="$2"
+speed="$3"
+local_IP_address="$4"
+remote_IP_address="$5"
+ipparam="$6"
+
+echo "interface_name=${interface_name}" > /dev/ttyAMA1
+echo "tty_device=${tty_device}" > /dev/ttyAMA1
+echo "speed=${speed}" > /dev/ttyAMA1
+echo "local_IP_address=${local_IP_address}" > /dev/ttyAMA1
+echo "remote_IP_address=${remote_IP_address}"> /dev/ttyAMA1
+echo "ipparam=${ipparam}" > /dev/ttyAMA1
+export PATH=/home/bin:/home/scripts:/opt/bin:/bin:/sbin:/usr/bin:/usr/local/jamvm/bin:/opt/scripts:/usr/sbin:/opt/bin:/opt/sbin:/opt/usr/bin:/opt/usr/sbin:/ptrom/bin:/userfs/bin
+export LD_LIBRARY_PATH=/lib:/lib/gpl:/lib64/gpl:/lib64:/ptrom/lib
+
+ppp_fail_count="${tty_device}_authfail_count"
+ptcfg_ctrl setuci /var/curPppStatus $ppp_fail_count "0" 0
+ptcfg_ctrl setuci /var/curPppStatus $tty_device "ERROR_NONE" 0
+uptime=`cat /proc/uptime | awk -F. '{print$(1)}'`
+touch /var/pppoe_duration_time
+ptcfg_ctrl setuci /var/pppoe_duration_time TIME $uptime 0
+
+iptables -I FORWARD  -i  ${interface_name}  -p tcp --tcp-flags SYN,RST  SYN  -j TCPMSS --clamp-mss-to-pmtu
+iptables -I  FORWARD -o ${interface_name} -p tcp --tcp-flags SYN,RST  SYN  -j TCPMSS --clamp-mss-to-pmtu
+iptables -I  OUTPUT -o ${interface_name} -p tcp --tcp-flags SYN,RST  SYN  -j TCPMSS --clamp-mss-to-pmtu
+
+ubus call pppoe notify "{\"interface\":\"$interface_name\",\"tty_device\":\"$tty_device\",\"ip\":\"$local_IP_address\",\"route\":\"$remote_IP_address\",\"dns1\":\"$DNS1\",\"dns2\":\"$DNS2\"}"
+
+exit 0

@@ -1,0 +1,35 @@
+config key 'UnifiedSoftwareVersion'
+        option value 'V6F.R2.P0000'
+		option encryflag '0'
+		
+config key 'SoftwareVersion'
+        option value 'V1.0.07'
+		option encryflag '0'
+		
+config key 'HardwareVersion'
+        option value 'V1.0'
+		option encryflag '0'
+		
+config key 'AdditionalSoftwareVersion'
+        option value '00001'
+		option encryflag '0'
+		
+config key 'area_code'
+        option value 'Trunk'
+		option encryflag '0'
+		
+config key 'operators_code'
+        option value 'CT'
+		option encryflag '0'
+		
+config key 'SoftwareVersion_A'
+        option value ''
+		option encryflag '0'
+		
+config key 'SoftwareVersion_B'
+        option value ''
+		option encryflag '0'
+
+
+
+

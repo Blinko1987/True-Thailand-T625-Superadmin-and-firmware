@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	<script language="javascript" src="../js/util_comn.js"></script>
+	<script type="text/javascript" src="../js/remotemanage.js"></script>
+	<script language='javascript'>
+		$(document).ready(function(){
+			//优化滚动条，无需改动
+			customScrollBar("html");
+		});
+	</script>
+</head>
+<body class='main_config_body'>
+	<div class="main_header">
+		<p class="main_header_title" i18n="menu.remotemanage"></p>
+		<p class="main_header_hint" ></p>
+	</div>
+	<div class="main_content">
+		<div class="main_item">
+			<div class="main_item_name" i18n="httpenable"></div>
+			<div class="main_item_content">
+				<input type="checkbox" id="httpenable_checkbox"/>&nbsp;
+			</div>
+		</div>
+		<div class="main_item">
+			<div class="main_item_name" i18n="httpwanport"></div>
+			<div class="main_item_content">
+				<input type="text" id="httpwanport_text" class="input_text"/>&nbsp;
+			</div>
+		</div>
+		<div class="main_item">
+			<div class="main_item_name" i18n="sessiontimeout"></div>
+			<div class="main_item_content">
+				<input type="text" id="sessiontimeout_text" class="input_text"/>&nbsp;&nbsp; 1~1440 Minutes
+			</div>
+		</div>
+	</div>
+
+	<div class="main_save">
+		<input type="button" class="input_button" id="apply" onclick="saveApply()" i18n="save" i18n-set="value">
+	</div>
+</body>
+</html>

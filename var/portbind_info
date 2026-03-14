@@ -1,0 +1,85 @@
+
+config key 'port1_wandevname'
+	option value 'null'
+	option encryflag '0'
+
+config key 'port2_wandevname'
+	option value 'null'
+	option encryflag '0'
+
+config key 'port3_wandevname'
+	option value 'null'
+	option encryflag '0'
+
+config key 'port4_wandevname'
+	option value 'null'
+	option encryflag '0'
+
+config key 'port5_wandevname'
+	option value 'null'
+	option encryflag '0'
+
+config key 'port9_wandevname'
+	option value 'null'
+	option encryflag '0'
+
+config key 'port10_wandevname'
+	option value 'null'
+	option encryflag '0'
+
+config key 'port11_wandevname'
+	option value 'null'
+	option encryflag '0'
+
+config key 'port12_wandevname'
+	option value 'null'
+	option encryflag '0'
+
+config key 'port13_wandevname'
+	option value 'null'
+	option encryflag '0'
+
+config key 'port14_wandevname'
+	option value 'null'
+	option encryflag '0'
+
+config key 'port15_wandevname'
+	option encryflag '0'
+	option value 'pon.293'
+
+config key 'port16_wandevname'
+	option value 'null'
+	option encryflag '0'
+
+config key 'port17_wandevname'
+	option value 'null'
+	option encryflag '0'
+
+config key 'port18_wandevname'
+	option value 'null'
+	option encryflag '0'
+
+config key 'port19_wandevname'
+	option value 'null'
+	option encryflag '0'
+
+config key 'port20_wandevname'
+	option value 'null'
+	option encryflag '0'
+
+config key 'port21_wandevname'
+	option value 'null'
+	option encryflag '0'
+
+config key 'port22_wandevname'
+	option value 'null'
+	option encryflag '0'
+
+config key 'port23_wandevname'
+	option value 'null'
+	option encryflag '0'
+
+config key 'port24_wandevname'
+	option value 'null'
+	option encryflag '0'
+

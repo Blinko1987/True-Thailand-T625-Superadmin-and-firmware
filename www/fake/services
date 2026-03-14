@@ -1,0 +1,12 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"services":	{
+		"ftp":	"1",
+		"telnet":	"0",
+		"dnsrelay":	"1",
+		"portal":	"1",
+		"access":	"1",
+		"terminal_number":	"4"
+	}
+}

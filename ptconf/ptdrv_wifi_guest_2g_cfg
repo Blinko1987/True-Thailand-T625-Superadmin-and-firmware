@@ -1,0 +1,44 @@
+#2.4G guest wifi config file 
+
+#guest_wifi_enable MUST be one of [0|1]
+config key 'guest_wifi_enable'
+	option value '0'
+		option encryflag '0'
+#2.4G ssid_index must be 1-4
+config key 'ssid_index'
+	option value '3'
+		option encryflag '0'
+config key 'ssid_name'
+	option value 'guest-wifi-2g'
+		option encryflag '0'
+#Enable APIsolation indicate client can not access each other, MUST Be one of [0|1]
+config key 'APIsolation'
+	option value '1'
+		option encryflag '0'
+#auth_mode must be on of  [None|WEP|WPA|WPA2|Mixed]
+config key 'auth_mode'
+	option value 'WPA2'
+		option encryflag '0'
+#if guest wifi use WEP authentication, wep_key_index is valid between 1-4
+config key 'wep_key_index'
+	option value '1'
+		option encryflag '0'
+config key 'auth_key'
+	option value '12345678'
+		option encryflag '0'
+#open_data MUST be one of [Mon|Tue|Wedn|Thu|Fri|Sat|Sun]
+config key 'open_date'
+	option value 'Tue'
+		option encryflag '0'
+#open_time MUST be 00:00:00  -  23:59:60, Cannot Be NULL
+config key 'open_time'
+	option value '02:50:00'
+		option encryflag '0'
+#close_data MUST be one of [Mon|Tue|Wedn|Thu|Fri|Sat|Sun]
+config key 'close_date'
+	option value 'Tue'
+		option encryflag '0'
+#close_time Can be NULL, if equal NULL that means will not close
+config key 'close_time'
+	option value '02:50:00'
+		option encryflag '0'

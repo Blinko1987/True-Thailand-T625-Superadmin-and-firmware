@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/userManagement_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.pwd"></p>
+			<p class="main_header_hint" i18n="modifypwd_hint1"></p>
+		</div>
+		<form id="userManagementForm">
+			<div style="position:absolute; left:0px; top:0px; z-index:-1; width:0px; height:0px; border:0 none; opacity:0;">
+				<input name="000" type="text" style="position:absolute; left:0px; top:0px; padding:0px; z-index:-10; width:0px; height:0px; border:0 none;"/>
+				<input name="password" type="password" style="position:absolute; left:0px; top:0px; padding:0px; z-index:-10; width:0px; height:0px; border:0 none;"/>
+			</div>
+			<div class="main_item account" style="display:none">
+				<div class="main_item_name" i18n="account"></div>
+				<div class="main_item_content">
+					<select id="username">
+						<option value="user" i18n="admin"></option>
+						<option value="admin" i18n="superadmin"></option>
+					</select>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name" i18n="oldpwd"></div>
+				<div class="main_item_content">
+					<div class="password_content">
+						<input type="password" placeholder="old password" autocomplete="off"  name="password" id="PwdCfm_password">
+						<div class="password_switch password_switch_unfocus"></div>
+					</div>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name" i18n="newpwd"></div>
+				<div class="main_item_content">
+					<div class="password_content">
+						<input type="password" placeholder="new password" autocomplete="off"  name="newPassword" id="PwdNew_password">
+						<div class="password_switch password_switch_unfocus"></div>
+					</div>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name" i18n="confirmpwd"></div>
+				<div class="main_item_content">
+					<div class="password_content">
+						<input type="password" placeholder="confirm password" autocomplete="off"  name="confirmPassword" id="confirm_password">
+						<div class="password_switch password_switch_unfocus"></div>
+					</div>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name"></div>
+				<div id="password_tips">
+						<span></span><span></span><span></span><span></span>
+					</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" id="apply" name="apply" onclick="saveApply()" i18n="modifypwd" i18n-set="value">
+			</div>
+		</form>
+	</body>
+</html>

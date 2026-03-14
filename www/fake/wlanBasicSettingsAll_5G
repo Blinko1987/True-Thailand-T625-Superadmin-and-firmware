@@ -1,0 +1,21 @@
+{
+	"session_valid":	1,
+	"ssid1":	{
+		"SSID":	"ChinaNet-10gpon5g1",
+		"wlanMode":	"a,n,ac",
+		"channel":	"0",
+		"rate":	"0",
+		"powerLevel":	"1",
+		"wmmEnable":	"1",
+		"wmmAPSD":	"1",
+		"channelWidth":	"40",
+		"rate802":	"77",
+		"sgiEnable":	"1",
+		"ssidHide":	"0",
+		"BSSID":	"00:0a:c2:01:02:03",
+		"secondaryChannel":	"lower",
+		"Enable":	"1"
+	},
+	"country":	"CN",
+	"success":	"true"
+}

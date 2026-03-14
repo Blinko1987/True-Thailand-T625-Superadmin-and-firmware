@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/voice_base_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.voice_base"></p>
+			<p class="main_header_hint" i18n="voicebase_hint"></p>
+		</div>
+		<form id="voice_base_form">
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name" i18n="protocol"></div>
+					<div class="main_item_content">
+						<select id="ServerType_select" class="main_select">
+							<option value="0">IMS</option>
+							<option value="1" i18n="sip"></option>
+							<option value="2">H.248</option>
+						</select>
+					</div>
+				</div>
+				<div id="sip_div" style="display:none">
+					<div class="main_item">
+						<div class="main_item_name" i18n="proxyserver"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="ProxyServer_text" name="ProxyServer_text"/>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="proxyserverport"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="ProxyServerPort_text" name="ProxyServerPort_text"/>(1025-65535)
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="regserver"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="RegistrarServer_text" name="RegistrarServer_text"/>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="regserverport"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="RegistrarServerPort_text" name="RegistrarServerPort_text"/>(1025-65535)
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="externalproxy"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="OutboundProxy_text" name="OutboundProxy_text"/>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="externalproxyport"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="OutboundProxyPort_text" name="OutboundProxyPort_text"/>(1025-65535)
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="secproxyserver"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="StandbyProxyServer_text" name="StandbyProxyServer_text"/>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="secproxyserverport"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="StandbyProxyServerPort_text" name="StandbyProxyServerPort_text"/>(1025-65535)
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="secregserver"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="StandbyRegistrarServer_text" name="StandbyRegistrarServer_text"/>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="secregserverport"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="StandbyRegistrarServerPort_text" name="StandbyRegistrarServerPort_text"/>(1025-65535)
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="secexternalproxyserver"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="StandbyOutboundProxy_text" name="StandbyOutboundProxy_text"/>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="secexternalproxyserverport"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="StandbyOutboundProxyPort_text" name="StandbyOutboundProxyPort_text"/>(1025-65535)
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="sipuseragentdomain"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="SipUserAgentDomain_text" name="SipUserAgentDomain_text"/>
+						</div>
+					</div>
+					<div id="line_div_1" style="display:none">
+						<div style="position:absolute; left:0px; top:0px; z-index:-1; width:0px; height:0px; border:0 none; opacity:0;">
+							<input name="AuthUserName_text_1" type="text" style="position:absolute; left:0px; top:0px; padding:0px; z-index:-10; width:0px; height:0px; border:0 none;"/>
+							<input name="AuthPassword_password_1" type="password" style="position:absolute; left:0px; top:0px; padding:0px; z-index:-10; width:0px; height:0px; border:0 none;"/>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name" i18n="line1enable"></div>
+							<div class="main_item_content">
+								<input type="checkbox" id="line_enable_1"/>&nbsp;
+							</div>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name" i18n="line1number"></div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="DirectoryNumber_text_1" name="DirectoryNumber_text_1"/>
+							</div>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name" i18n="line1username"></div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="AuthUserName_text_1" name="AuthUserName_text_1"/>
+							</div>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name" i18n="line1pwd"></div>
+							<div class="main_item_content">
+								<input type="password" class="input_text" autocomplete="off" id="AuthPassword_password_1" name="AuthPassword_password_1"/>
+							</div>
+						</div>
+					</div>
+					<div id="line_div_2" style="display:none">
+						<div style="position:absolute; left:0px; top:0px; z-index:-1; width:0px; height:0px; border:0 none; opacity:0;">
+							<input name="AuthUserName_text_2" type="text" style="position:absolute; left:0px; top:0px; padding:0px; z-index:-10; width:0px; height:0px; border:0 none;"/>
+							<input name="AuthPassword_password_2" type="password" style="position:absolute; left:0px; top:0px; padding:0px; z-index:-10; width:0px; height:0px; border:0 none;"/>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name" i18n="line2enable"></div>
+							<div class="main_item_content">
+								<input type="checkbox" id="line_enable_2"/>&nbsp;
+							</div>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name" i18n="line2number"></div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="DirectoryNumber_text_2" name="DirectoryNumber_text_2"/>
+							</div>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name" i18n="line2username"></div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="AuthUserName_text_2" name="AuthUserName_text_2"/>
+							</div>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name" i18n="line2pwd"></div>
+							<div class="main_item_content">
+								<input type="password" class="input_text" autocomplete="off" id="AuthPassword_password_2" name="AuthPassword_password_2"/>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="h248_div" style="display:none">
+					<div class="main_item">
+						<div class="main_item_name" i18n="localport"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="MediaGatewayPort_text" name="MediaGatewayPort_text"/>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="mgc1addr"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="MediaGatewayControler_text" name="MediaGatewayControler_text"/>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="mgc1port"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="MediaGatewayControlerPort_text" name="MediaGatewayControlerPort_text"/>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="mgc2addr"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="StandbyMediaGatewayControler_text" name="StandbyMediaGatewayControler_text"/>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="mgc2port"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="StandbyMediaGatewayControlerPort_text" name="StandbyMediaGatewayControlerPort_text"/>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="terminalidtype"></div>
+						<div class="main_item_content">
+							<select id="DeviceIDType_text" class="main_select">
+								<option value='0' i18n="ipaddr"></option>
+								<option value='1' i18n="domainname"></option>
+								<option value='2' i18n="devicename"></option>
+							</select>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="terminalid"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="DeviceID_text" name="DeviceID_text"/>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="h248encodingtype"></div>
+						<div class="main_item_content">
+							<select id="MessageEncodingType_text" class="main_select">
+								<option value='ABNF'>ABNF</option>
+								<option value='ASN.1'>ASN.1</option>
+							</select>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="phyendpointconfigmethod"></div>
+						<div class="main_item_content">
+							<select id="servicevoip_H248ConfigMethod" class="main_select">
+								<option value='0' i18n="wildcard"></option>
+								<option value='1' i18n="onebyoneconfig"></option>
+							</select>
+						</div>
+					</div>
+					<div id="physicalterm_div" style="display:none">
+						<div class="main_item">
+							<div class="main_item_name" i18n="terminalphyendpointidprefix"></div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="PhysicalTermIDPrefix_text" name="PhysicalTermIDPrefix_text"/>
+							</div>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name" i18n="terminalphyendpointstartval"></div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="PhysicalTermIDStart_text" name="PhysicalTermIDStart_text"/>
+							</div>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name" i18n="phyendpointprefixadddigits"></div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="PhysicalTermIDAddLen_text" name="PhysicalTermIDAddLen_text"/>
+							</div>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="rtpidprefix"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="RTPPrefix_text" name="RTPPrefix_text"/>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="rtpidnamestartval"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="EphemeralTermIDStart_text" name="EphemeralTermIDStart_text"/>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="rtpidprefixadddigits"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="EphemeralTermIDAddLen_text" name="EphemeralTermIDAddLen_text"/>
+						</div>
+					</div>
+					<div id="h248_line_1" style="display:none">
+						<div class="main_item">
+							<div class="main_item_name" i18n="line1enable"></div>
+							<div class="main_item_content">
+								<input type="checkbox" id="FXSPortEnable_checkbox_1"/>&nbsp;
+							</div>
+						</div>
+						<div class="main_item portid_div" style="display:none">
+							<div class="main_item_name" i18n="line1linename"></div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="PS_PortID_1" name="PS_PortID_1"/>
+							</div>
+						</div>
+					</div>
+					<div id="h248_line_2" style="display:none">
+						<div class="main_item">
+							<div class="main_item_name" i18n="line2enable"></div>
+							<div class="main_item_content">
+								<input type="checkbox" id="FXSPortEnable_checkbox_2"/>&nbsp;
+							</div>
+						</div>
+						<div class="main_item portid_div" style="display:none">
+							<div class="main_item_name" i18n="line2linename"></div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="PS_PortID_2" name="PS_PortID_2"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" onclick="saveApply()" i18n="save" i18n-set="value"/>
+			</div>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,17 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"wifi_status":	{
+		"max_wifi_num":	4,
+		"channel":	"",
+		"enable":	"1",
+		"SSID1":	"ChinaNet-hisi0",
+		"BeaconType1":	"11i",
+		"BasicAuthenticationMode1":	"SharedKey",
+		"WPAEncryptionModes1":	"AESEncryption",
+		"TotalBytesSent1":	"0",
+		"TotalBytesReceived1":	"1024",
+		"TotalPacketsReceived1":	"0",
+		"TotalPacketsSent1":	"0"
+	}
+}

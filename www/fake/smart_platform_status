@@ -1,0 +1,13 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"MgtURL":	"www.test.com",
+	"DistStatus":	1,
+	"DistErrorMsg":	"unkown",
+	"OperAddr":	"www.test1.com",
+	"OperStatus":	2,
+	"OperErrorMsg":	"unkown",
+	"PluginAddr":	"www.test2.com",
+	"PluginStatus":	6,
+	"PluginErrorMsg":	"unkown"
+}

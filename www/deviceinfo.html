@@ -1,0 +1,208 @@
+<html>
+<head>
+<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+<meta http-equiv='Content-Type' content='text/html' charset='utf-8'>
+<script src="./js/jquery.js"></script>
+<script src="./js/xhr_comn.js"></script>
+<script src="./js/util_functions_comn.js"></script>
+<script src="./js/util_global_vars_comn.js"></script>
+<style type="text/css">
+.fontstyle {
+	font-size: 13px;
+	text-align: center;
+}
+table tr {height:46px; line-height:44px;}
+table td { border:1px #427594 solid; }
+</style>
+<script language="javascript">
+var tokenstr = "";
+
+$(document).ready(function(){
+	XHR.get("get_web_config", null, function(data){
+		if ( data != null && data != undefined && data.operator != null && data.operator != undefined )
+		{
+			if (data.operator == "61")
+			{
+				document.getElementById('firstform').style.display = '';
+			}
+		}
+	});
+	XHR.get("get_factorytest_info", null, initPage);
+});
+
+function initPage(data)
+{
+	var manufactureroui = "";
+	if ( data.token != undefined )
+	{
+		tokenstr = data.token;
+	}
+	
+	with ( document.forms[0] ) {
+		if ( data.wifi5g == "1" )
+		{
+			setDisplay("wifisec","");
+			setDisplay("wifiseckey","");
+		}
+		else
+		{
+			setDisplay("wifisec","none");
+			setDisplay("wifiseckey","none");	
+		}
+		
+		device_type.value = data.device_type;
+		internetmac.value = data.internetmac;
+		userAccount.value = data.userAccount;
+		userPassword.value = data.userPassword;
+		ssid.value = data.ssid;
+		wpaKey.value = data.wpaKey;
+		ssid5g.value = data.ssid5g;
+		wpaKey5g.value = data.wpaKey5g;
+		if (data.deviceoui != "" && data.deviceoui != undefined )
+		{
+			manufactureroui = data.deviceoui;
+		}
+		if (data.serialnumber != "" && data.serialnumber != undefined )
+		{
+			manufactureroui += "-";
+			manufactureroui += data.serialnumber;
+		}
+		manufacturerOui.value = manufactureroui;
+		telnet_common_account.value = data.telnet_common_account;
+		telnet_common_password.value = data.telnet_common_password;
+		//telnet_super_account.value = data.telnet_super_account;
+		telnet_super_password.value = data.telnet_super_password;
+		document.forms[0].save_button.disabled = 0;
+	}
+}			
+			
+function saveApply()
+{
+	var postdata = new Object();
+	with ( document.forms[0] ) 
+   {
+		postdata.device_type = device_type.value;
+		if ( isValidMacAddress(internetmac.value) == false )
+		{
+			alert('Mac地址不合法，请重新输入！');
+			return;
+		}
+		else
+		{		
+			postdata.internetmac = internetmac.value;			
+		}
+		postdata.userAccount = userAccount.value;
+		postdata.userPassword = userPassword.value;
+		postdata.ssid = ssid.value;
+		postdata.wpaKey = wpaKey.value;
+		postdata.ssid5g = ssid5g.value;
+		postdata.wpaKey5g = wpaKey5g.value;
+		if (manufacturerOui.value)
+		{
+			postdata.deviceoui = manufacturerOui.value.split('-')[0];
+			postdata.serialnumber = manufacturerOui.value.split('-')[1];
+		}
+		else
+		{
+			postdata.deviceoui = "";
+			postdata.serialnumber = "";
+		}
+		postdata.telnet_common_account = telnet_common_account.value;
+		postdata.telnet_common_password = telnet_common_password.value;
+		//postdata.telnet_super_account = telnet_super_account.value;
+		postdata.telnet_super_password = telnet_super_password.value;
+		XHR.get("get_operator", null, function(data){
+			if ( data )
+			{
+				tokenstr = data.token;
+			}
+		});
+		postdata.token = tokenstr;
+		XHR.post("set_factorytest_info", postdata, function(data){
+			if ( data.success == "true" )
+			{
+				window.location.href = "deviceinfo.html";
+			}
+		});
+		document.forms[0].save_button.disabled = 1;
+	}
+}
+
+function setDisplay(elementId, status){
+    document.getElementById(elementId).style.display = status;
+}
+
+function isValidMacAddress(macAddress)
+{
+    var pattMac = /^([0-9a-fA-F]{2})(([/\s:-][0-9a-fA-F]{2}){5})$/;
+    return pattMac.test(macAddress);
+}
+
+</script>
+</head>
+   <body class="fontstyle">
+   	<blockquote>
+   		<br>
+         <form id="firstform" style="display:none;">
+            <table width ='330' border="1" cellpadding="0" cellspacing="0" class="fontstyle">
+			   <tr>
+				<td colspan="2" style="background-color:#427594;">*** 设 备 相 关 信 息 ***</td>
+			   </tr>
+               <tr>
+                  <td width="150">设备型号:</td>
+                  <td height='30'><input type='text' name='device_type' id='device_type'></td>
+               </tr>
+			   <tr>
+                  <td width="150">设备标识:</td>
+                  <td height='30'><input type='text' name='manufacturerOui' id='manufacturerOui'></td>
+               </tr>
+			   <tr>
+                  <td width="50">设备MAC(1跳16): </td>
+                  <td height='30'><input name='internetmac' type='text' id='internetmac' size="20"></td>
+               </tr>
+			   <tr>
+                  <td width="150">默认终端配置帐号:</td>
+                  <td height='30'><input type='text' name='userAccount' id='userAccount'></td>
+               </tr>
+               <tr>
+                  <td width="150">默认终端配置密码:</td>
+                  <td height='30'><input type='text' name='userPassword' id='userPassword'></td>
+               </tr>
+               <tr>
+                  <td width="150">默认2.4G无线网络名称:</td>
+                  <td height='30'><input type='text' name='ssid' id='ssid'></td>
+               </tr>
+               <tr>
+                  <td width="150">默认2.4G无线网络密码:</td>
+                  <td height='30'><input type='text' name='wpaKey' id='wpaKey'></td>
+               </tr>
+               <tr id='wifisec' style="display:none">
+                  <td width="150">默认5g无线网络名称:</td>
+                  <td height='30'><input type='text' name='ssid5g' id='ssid5g'></td>
+               </tr>
+               <tr id='wifiseckey' style="display:none">
+                  <td width="150">默认5g无线网络密码:</td>
+                  <td height='30'><input type='text' name='wpaKey5g' id='wpaKey5g'></td>
+               </tr>	   
+               <tr>
+                  <td width="150">Telnet普通帐号:</td>
+                  <td height='30'><input type='text' name='telnet_common_account' id='telnet_common_account'></td>
+               </tr>
+               <tr>
+                  <td width="150">Telnet普通帐号密码:</td>
+                  <td height='30'><input type='text' name='telnet_common_password' id='telnet_common_password'></td>
+               </tr>			   
+               <tr>
+                  <td width="150">Telnet超级帐号密码:</td>
+                  <td height='30'><input type='text' name='telnet_super_password' id='telnet_super_password'></td>
+               </tr>	
+			   <tr>
+                  <td colspan="2"><input type='button' name='save_button' id='save_button' onClick='saveApply()' value='保存'></td>
+               </tr>
+			</table>
+ 
+         </form>
+   	 </blockquote>
+   </body>
+</html>
+

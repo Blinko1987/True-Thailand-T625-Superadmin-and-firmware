@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/jquery.formFill.js"></script>
+		<script type="text/javascript" src="../js/logs.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.syslog"></p>
+			<!-- <p class="main_header_hint" i18n="logset_hint"></p> -->
+		</div>
+		<form id="log_settings_form" novalidate="novalidate">
+			<div class="main_item"><br>
+				<div class="main_item_name" style="width:5%" ></div>
+				<div class="main_item_name" i18n="levellog"></div>
+				<div class="main_item_content">
+					<select name="data.loglevel" id="LevelLog_select">
+						<option value="1">Emergency</option>
+						<option value="2">Alert</option>
+						<!-- <option value="2">Critical</option> -->
+						<option value="3">Error</option>
+						<option value="4">Warning</option>
+						<option value="5">Notice</option>
+						<option value="6">Informational</option>
+						<option value="7">Debugging</option>
+					</select>
+				</div>
+				<input type="button" style="margin-top:8px;" class="input_button" onclick="showLog()" id="showlog" i18n="showlog" i18n-set="value">
+			</div><br><br>
+			<div class="main_item" style="text-align:center;">
+				<div class="main_item_name" style="width:820px;">
+					<textarea id="logview" style="width:90%;height:300px;text-align:left;font-size:14px"; disabled></textarea>
+				</div>
+			</div>
+			<br><br>
+			<div class="main_save" style="text-align:center;margin-top:270px;">
+				<input type="button" class="input_button" onclick="clearlog()" id="Download_button" i18n="clearlog" i18n-set="value">
+				<input type="button" onclick="downloadLog()" style="width:150px;" id="downlog" i18n="downlog" i18n-set="value" class="input_button">
+				<input type="button" class="input_button" onclick="refresh()" id="Restart_button" i18n="refresh" i18n-set="value">
+			</div>
+		</form>
+		
+	</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/services_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<form id="services_form">
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name">FTP</div>
+					<div class="main_item_content">
+						<input type="radio" name="ftp" id="ftp_enable" value="1"/>启用&nbsp;&nbsp;
+						<input type="radio" name="ftp" id="ftp_disable" value="0"/>禁用
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">Telnet</div>
+					<div class="main_item_content">
+						<input type="radio" name="telnet" id="telnet_enable" value="1"/>启用&nbsp;&nbsp;
+						<input type="radio" name="telnet" id="telnet_disable" value="0"/>禁用
+					</div>
+				</div>
+				<div class="main_item" style="display:none">
+					<div class="main_item_name">DNS Relay</div>
+					<div class="main_item_content">
+						<input type="radio" name="dnsrelay" id="dnsrelay_enable" value="1"/>启用&nbsp;&nbsp;
+						<input type="radio" name="dnsrelay" id="dnsrelay_disable" value="0"/>禁用
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">强制门户</div>
+					<div class="main_item_content">
+						<input type="radio" name="portal" id="portal_enable" value="1"/>启用&nbsp;&nbsp;
+						<input type="radio" name="portal" id="portal_disable" value="0"/>禁用
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">静态检测</div>
+					<div class="main_item_content">
+						<input type="radio" name="static" id="static_enable" value="1"/>启用&nbsp;&nbsp;
+						<input type="radio" name="static" id="static_disable" value="0"/>禁用
+						&nbsp;&nbsp;本版本不支持
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">在线检测</div>
+					<div class="main_item_content">
+						<input type="radio" name="online" id="online_enable" value="1"/>启用&nbsp;&nbsp;
+						<input type="radio" name="online" id="online_disable" value="0"/>禁用
+						&nbsp;&nbsp;本版本不支持
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">接入限制</div>
+					<div class="main_item_content">
+						<input type="radio" name="access" id="access_enable" value="1"/>启用&nbsp;&nbsp;
+						<input type="radio" name="access" id="access_disable" value="0"/>禁用
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">多终端上网数量</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="terminal_number" name="terminal_number"/>
+						<input type="button" class="input_button input_button_height30" value="保存" onclick="saveApply(true, this)"/>
+					</div>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>

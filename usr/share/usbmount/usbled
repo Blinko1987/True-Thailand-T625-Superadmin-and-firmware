@@ -1,0 +1,58 @@
+#!/bin/sh
+
+# add by gfzhou5766, 
+# in ATOS send ubus message to light the led
+# set the usb led
+# 1 or 2 
+# on or off.
+set_usb_led()
+{
+	if test "$1" = "1";then
+		if test "$2" = "on"; then
+			ubus call "dev_mgm_led" 'write_led_config' '{"pid":1,"cmd_type":0,"led_poll_control":1,"led_index":10,"led_status":0}' 
+			ptrom/bin/led_cmd set power_usb_led on
+			ptrom/bin/led_cmd auto power_usb_led
+			ptcfg_ctrl set InternetGatewayDevice.LANDevice.1.LANUSBInterfaceConfig.1.Status active
+			
+		elif test "$2" = "off"; then
+			ubus call "dev_mgm_led" 'write_led_config' '{"pid":1,"cmd_type":0,"led_poll_control":1,"led_index":10,"led_status":1}' 
+			# /ptrom/bin/kdrv_debug gpio write 107 1
+			ptrom/bin/led_cmd set power_usb_led off
+			cfg_cmd set InternetGatewayDevice.LANDevice.1.LANUSBInterfaceConfig.1.Status inactive
+		else
+			echo "set usb led failed, use on or off"
+		fi	
+	elif test "$1" = "2"; then
+		if test "$2" = "on"; then
+			ubus call "dev_mgm_led" 'write_led_config' '{"pid":1,"cmd_type":0,"led_poll_control":1,"led_index":14,"led_status":0}' 
+			# /ptrom/bin/kdrv_debug gpio write 107 0
+			ptrom/bin/led_cmd set power_usb_led on
+			ptrom/bin/led_cmd auto power_usb_led
+			cfg_cmd set InternetGatewayDevice.LANDevice.1.LANUSBInterfaceConfig.2.Status active
+		elif test "$2" = "off"; then
+			ubus call "dev_mgm_led" 'write_led_config' '{"pid":1,"cmd_type":0,"led_poll_control":1,"led_index":14,"led_status":1}' 
+			# /ptrom/bin/kdrv_debug gpio write 107 1
+			ptrom/bin/led_cmd set power_usb_led off
+			cfg_cmd set InternetGatewayDevice.LANDevice.1.LANUSBInterfaceConfig.2.Status inactive
+		else
+			echo "set usb led failed, use on or off"
+		fi
+	else
+		echo "set usb led failed, use led should be 1 or 2"
+	fi
+}
+
+set_usb_dongle_led()
+{
+	if test "$1" = "1";then
+		if test "$2" = "on"; then
+			/ptrom/bin/kdrv_debug gpio write 107 0
+		elif test "$2" = "off"; then
+			/ptrom/bin/kdrv_debug gpio write 107 1
+		else
+			echo "set usb led failed, use on or off"
+		fi
+	else
+		echo "set usb led failed, use led should be 1 or 2"
+	fi
+}

@@ -1,0 +1,16 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"voice":	{
+		"ServerType":	"1",
+		"ThreePartyInIMS":	"1",
+		"EnableModem":	"1",
+		"transferSharp":	"1",
+		"EnableSubsAfterReg":	"1",
+		"EnableAKAV1MD5":	"1",
+		"EnableAttendedTransfer":	"1",
+		"gainControl":	"1",
+		"SendDigitImmediately":	"1",
+		"PhysicalTermIDConfigMethod":	"1"
+	}
+}

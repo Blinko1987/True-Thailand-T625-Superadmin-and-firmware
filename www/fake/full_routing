@@ -1,0 +1,25 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"routing":	{
+		"IPForwardModeEnabled":	"1",
+		"wan":[
+			{
+				"wan_index":    1,
+				"wan_session_index":    1,
+				"iporppp":      1,
+				"Name": "1_INTERNET_R_50",
+				"IPForwardList": "111,222",
+				"UpstreamWAN": "1"
+			},
+			{
+				"wan_index":    2,
+				"wan_session_index":    1,
+				"iporppp":      2,
+				"Name": "2_OTHER_B_50",
+				"IPForwardList": "333,444",
+				"UpstreamWAN": "0"
+			}
+		]
+	}
+}

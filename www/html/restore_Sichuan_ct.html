@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>中国电信智能网关</title>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<link href='../css/main_style_ct.css' rel='stylesheet' type='text/css'/>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script src="../js/jquery.js"></script>
+		<script language="javascript">
+			var tokenstr = "";
+			function identityRegist() 
+			{
+				if(respass.value == "SCDX189")
+				{
+					//window.location="register_Sichuanrestore.html";
+					var postdata = new Object();
+					XHR.get("get_operator", null, function(data){
+						if ( data )
+						{
+							tokenstr = data.token;
+						}
+					});
+					postdata.token = tokenstr;
+					XHR.post("reg_restore", postdata, null);
+					setTimeout("window.location.href='./register_Sichuanrestore.html';",2000);
+				}
+				else
+				{
+					alert("二次密码输入错误");	
+				}
+			}
+			function return_tologintd() {
+				window.location.href = ('https:' == document.location.protocol ? 'https://' : 'http://') + document.location.host;
+			}
+			function frmLoad() 
+			{			
+				XHR.get("get_login_user", null, function(getdata){
+					if ( getdata.token != undefined )
+					{
+						tokenstr = getdata.token;
+					}
+				});
+			}			
+		</script>		
+	</head>
+	<body onLoad='frmLoad();'>
+			<div id="register_div">
+				
+				<TABLE cellSpacing=0 cellPadding=0 width=808 align=center border=0 valign="middle">
+					<TR>
+						<TD><img height="137" src="../image/register_header.gif" width="808"/></TD>
+					</TR>
+					<TR>
+						<TD>
+							<TABLE cellSpacing=0 cellPadding=0 width=808 align=center border=0 valign="middle">
+								<TR>
+									<TD width=77 background="../image/bg.gif" rowSpan=3></TD>
+									<TD align=center width=653 height=323 background="../image/register_new_bg_ct.png">
+										<TABLE cellSpacing=0 cellPadding=0 width=96% height=15% border=0>
+											<TR><TD onclick="return_tologintd()" align=right><FONT size=2 color=#000000>返回登录页面</FONT></TD></TR>
+										</TABLE>
+										<TABLE cellSpacing=0 cellPadding=0 width=450 border=0 height=80%>
+												<TR>
+													<TD colSpan=2 height=13></TD>
+												</TR>
+												<TR>
+													<TD align=center colSpan=2 width=100% >
+														<div class="register_item">
+															<div class="register_item_title2">请输入二次密码</div>
+															<div class="register_item_config">
+																<input type="text" id="respass" name="respass" class="input_text input_short" maxlength="24" autocomplete="off"/>
+															</div>
+															<div class="register_item_hint" id="loid_hint"></div>
+														</div>
+														<div class="register_item">
+															<div class="register_item_title">&nbsp;</div>
+															<div class="register_item_config3">
+																<input type="button" class="input_button" onclick="identityRegist()" id="confirmrestore_button" value="确定" style="width:100px"/>
+															</div>
+														</div>
+													</TD>
+												</TR>
+												<TR>
+													<TD align=left colSpan=2 height=50></TD>
+												</TR>
+										</TABLE>
+									</TD>
+									<TD width=78 background="../image/bg.gif" rowSpan=3></TD>
+								</TR>
+							</TABLE>
+						</TD>
+					</TR>
+				</TABLE>
+
+			</div>
+	</body>
+</html>

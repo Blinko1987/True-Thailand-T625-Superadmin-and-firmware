@@ -1,0 +1,14 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"DIAGPING":	{
+		"voice_Conresult":	"2",
+		"voice_result":	"0",
+		"ABACVoltage":	"6",
+		"ABInsulationResistance":	"6",
+		"voice_RegStatus":	"offline",
+		"Status":	"Testend",
+		"Conclusion":	"Fail",
+		"Callerfailreason":	"OffhookRelease"
+	}
+}

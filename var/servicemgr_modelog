@@ -1,0 +1,1130 @@
+[Thu Jan  1 00:00:28 1970][serviceMgr][DEBUG][fh_svcmgr_operator_type_init][68] => Get Operator Type:CHINA TELECOM!
+[Thu Jan  1 00:00:28 1970][serviceMgr][DEBUG][fh_svcmgr_reg_factoryrestore_method][610] => enter fh_svcmgr_reg_factoryrestore_method
+[Thu Jan  1 00:00:28 1970][serviceMgr][DEBUG][start_udhcpd_first][520] => start start_udhcpd_first 
+[Thu Jan  1 00:00:28 1970][serviceMgr][DEBUG][restart_eth][1071] => restart_eth starts. port_eth_workmode_set 
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][restart_eth][1103] => restart_eth ends
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][get_udhcpd_config][451] => start get_udhcpd_config 
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][load_multi_config_from_xml][161] => start load_multi_config_from_xml InternetGatewayDevice.LANDevice.1.LANHostConfigManagement. 
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][load_multi_config_from_xml][166] => end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][get_udhcpd_config][472] => end get_udhcpd_config 
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_load_udhcpd_staticaddr][1827] => fhapi_obj_checkexist url = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPStaticAddress.1
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_load_udhcpd_staticaddr][1841] => end system_load_udhcpd_static_address
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_load_udhcpd_staticaddr][1827] => fhapi_obj_checkexist url = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPStaticAddress.2
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_load_udhcpd_staticaddr][1841] => end system_load_udhcpd_static_address
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_load_udhcpd_staticaddr][1827] => fhapi_obj_checkexist url = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPStaticAddress.3
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_load_udhcpd_staticaddr][1841] => end system_load_udhcpd_static_address
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_load_udhcpd_staticaddr][1827] => fhapi_obj_checkexist url = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPStaticAddress.4
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_load_udhcpd_staticaddr][1841] => end system_load_udhcpd_static_address
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_load_udhcpd_staticaddr][1827] => fhapi_obj_checkexist url = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPStaticAddress.5
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_load_udhcpd_staticaddr][1841] => end system_load_udhcpd_static_address
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_load_udhcpd_staticaddr][1827] => fhapi_obj_checkexist url = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPStaticAddress.6
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_load_udhcpd_staticaddr][1841] => end system_load_udhcpd_static_address
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_load_udhcpd_staticaddr][1827] => fhapi_obj_checkexist url = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPStaticAddress.7
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_load_udhcpd_staticaddr][1841] => end system_load_udhcpd_static_address
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_load_udhcpd_staticaddr][1827] => fhapi_obj_checkexist url = InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPStaticAddress.8
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_load_udhcpd_staticaddr][1841] => end system_load_udhcpd_static_address
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][get_lanip_config][489] => start get_lanip_config 
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][load_multi_config_from_xml][161] => start load_multi_config_from_xml InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1. 
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][load_multi_config_from_xml][166] => end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][get_lanip_config][494] => end get_lanip_config 
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][create_dhcpd_cfg][785] => start create_dhcpd_cfg 
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][create_dhcpd_cfg][935] => end create_dhcpd_cfg 
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_start_udhcpd_program][206] => start system_start_udhcpd_program
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_start_udhcpd_program][212] => end system_start_udhcpd_program,cmd=/ptrom/bin/udhcpd &
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_start_dns_process][71] => cmd:killall -9 dnsmasq
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_start_dns_process][76] => cmd:/ptrom/bin/dnsmasq -k -u root &
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][start_udhcpd_first][587] => end start_udhcpd_first 
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name udhcpd!
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name udhcpc!
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_pppoe_init][1864] => get WANDevice.X_PT_OnDemandIntervalDataThreshold=8!
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_pppoe_init][1873] => ondemand: insmod fhdrv_ppp_on_demand.ko!
+[Thu Jan  1 00:00:29 1970][serviceMgr][ERR][init_on_demand_ubus][202] => init_on_demand_ubus.
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name pppoe!
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][ntp_process_init][656] => enter ntp_process_init().
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][read_ntp_config_in_xml][476] => enter read_ntp_config_in_xml().
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][read_ntp_config_in_xml][530] => start read_ntp_config_in_xml 
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][load_multi_config_from_xml][161] => start load_multi_config_from_xml InternetGatewayDevice.Time. 
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][load_multi_config_from_xml][166] => end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][read_ntp_config_in_xml][550] => read_ntp_config_in_xml:enable:1
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][read_ntp_config_in_xml][551] => read_ntp_config_in_xml:ntp_waninterface:0
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][read_ntp_config_in_xml][552] => read_ntp_config_in_xml:timezone:+07:00
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][read_ntp_config_in_xml][553] => read_ntp_config_in_xml:compatible:0
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][read_ntp_config_in_xml][554] => read_ntp_config_in_xml:ntp_interval:86400
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][read_ntp_config_in_xml][555] => read_ntp_config_in_xml:ntpserver1:time.windows.com
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][read_ntp_config_in_xml][556] => read_ntp_config_in_xml:ntpserver2:time.nist.gov
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][read_ntp_config_in_xml][557] => read_ntp_config_in_xml:ntpserver3:NULL
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][read_ntp_config_in_xml][558] => read_ntp_config_in_xml:ntpserver4:NULL
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][read_ntp_config_in_xml][559] => read_ntp_config_in_xml:ntpserver5:NULL
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][read_ntp_config_in_xml][561] => end read_ntp_config_in_xml 
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][ntp_process_init][664] => Before pthread_create thread_handle_ntp_process s_tid_ntp:0
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][ntp_process_init][673] => After pthread_create thread_handle_ntp_process s_tid_ntp:-1243487136
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][ntp_moduleinit][167] => ntp_moduleinit done. ret=0
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name ntp!
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][thread_handle_ntp_process][579] => enter thread_handle_ntp_process().
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][thread_handle_ntp_process][587] => Enter thread_handle_ntp_process:ntp switch 1!
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][thread_handle_ntp_process][590] => thread_handle_ntp_process:ntp switch on!
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name dns!
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name pingdiag!
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name ct_com_ping!
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_start_ntp_process][53] => enter system_start_ntp_process().
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][system_start_ntp_process][100] => ###system_start_ntp_process---cmd:/ptrom/bin/ntpdate -0 -z +07:00 -p 1 time.windows.com time.nist.gov    &
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][load_multi_config_from_xml][161] => start load_multi_config_from_xml InternetGatewayDevice.X_TRUE-COM_ALG. 
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][load_multi_config_from_xml][166] => end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][load_alg_config_from_xml][633] => [alg]load_alg_config_from_xml H323Enable=1
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][load_alg_config_from_xml][634] => [alg]load_alg_config_from_xml SIPEnable=1
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][load_alg_config_from_xml][635] => [alg]load_alg_config_from_xml RTSPEnable=1
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][load_alg_config_from_xml][636] => [alg]load_alg_config_from_xml L2TPEnable=1
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][load_alg_config_from_xml][637] => [alg]load_alg_config_from_xml IPSECEnable=1
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][load_alg_config_from_xml][638] => [alg]load_alg_config_from_xml FTPEnable=0
+[Thu Jan  1 00:00:29 1970][serviceMgr][DEBUG][load_alg_config_from_xml][644] => FTPEnable is 0,IPSECEnable is 1,L2TPEnable is 1,PPTPEnable is 1.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][effective_alg_config][674] => effective_alg_config H323Enable=1
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][effective_alg_config][675] => effective_alg_config SIPEnable=1
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][effective_alg_config][676] => effective_alg_config RTSPEnable=1
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][effective_alg_config][677] => effective_alg_config L2TPEnable=1
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][effective_alg_config][678] => effective_alg_config IPSECEnable=1
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][effective_alg_config][679] => effective_alg_config FTPEnable=0
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][effective_alg_config][694] => effective_alg_config finished!
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name alg!
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][ddns_moduleinit][216] => ddns_moduleinit done. ret=0
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name ddns!
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][dhcp6c_moduleinit][943] => dhcp6c_moduleinit done. ret=0
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name dhcp6c!
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG]firewall_moduleinit
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_init_chains] [7753] start to initial firewall chain.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D INPUT -j INPUT_LANHOST_ACC 2>/dev/null] fail.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D INPUT -j FIREWALL_CHAIN_SERVICE 2>/dev/null] fail.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:iptables -A INPUT -j FIREWALL_CHAIN_SERVICE
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -A INPUT -j FIREWALL_CHAIN_SERVICE] succes.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D INPUT -j FIREWALL_CHAIN_SERVICE 2>/dev/null] fail.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -A INPUT -j FIREWALL_CHAIN_SERVICE
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -A INPUT -j FIREWALL_CHAIN_SERVICE] succes.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D INPUT -j CHAIN_SERVICE 2>/dev/null] fail.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:iptables -A INPUT -j CHAIN_SERVICE
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -A INPUT -j CHAIN_SERVICE] succes.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ip6tables -w -D INPUT -j CHAIN_SERVICE 2>/dev/null] fail.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ip6tables -A INPUT -j CHAIN_SERVICE
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ip6tables -w -A INPUT -j CHAIN_SERVICE] succes.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D INPUT -j PLUGIN_PORT 2>/dev/null] fail.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D INPUT -j INPUT_SAF_ACC 2>/dev/null] fail.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D FORWARD -j FORWARD_SAF_ACC 2>/dev/null] fail.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -t nat -D PREROUTING -j PORT_MAPP 2>/dev/null] fail.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -t nat -D PREROUTING -j PREROUTING_MAC_REDIRECT 2>/dev/null] fail.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -t nat -D PREROUTING -j DMZ 2>/dev/null] fail.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D FORWARD ! -i br0 -j DMZ 2>/dev/null] fail.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -t nat -D POSTROUTING -j PORT_MAPP_LAN 2>/dev/null] fail.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D FORWARD ! -i br0 -j PORT_MAPP 2>/dev/null] fail.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -t nat -D POSTROUTING -j DMZ_LAN 2>/dev/null] fail.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D FORWARD -j MAC_FILTER 2>/dev/null] fail.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ip6tables -w -D FORWARD -j MAC_FILTER 2>/dev/null] fail.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FORWARD -j MAC_FILTER 2>/dev/null] fail.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D INPUT  -j TCP_BLOCK 2>/dev/null] fail.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D FORWARD -j IP_FILTER 2>/dev/null] fail.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ip6tables -w -D FORWARD -j IP_FILTER 2>/dev/null] fail.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FORWARD -j FORWAD_PARENT_CTRL 2>/dev/null] fail.
+[Thu Jan  1 00:00:30 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D FORWARD -j FORWAD_PARENT_CTRL 2>/dev/null] fail.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D INPUT -j INPUT_PORTSCAN 2>/dev/null] fail.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D FORWARD -j URL_FILTER 2>/dev/null] fail.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D INPUT -j DNS_FILTER 2>/dev/null] fail.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D FORWARD -j DNS_FILTER 2>/dev/null] fail.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D INPUT -j INPUT_DOS 2>/dev/null] fail.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D INPUT -j INPUT_NETBIOS 2>/dev/null] fail.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D INPUT -j INPUT_BADPACKETS 2>/dev/null] fail.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D FORWARD -j FORWARD_LANHOST_ACC 2>/dev/null] fail.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D INPUT -j INPUT_FIREWALL 2>/dev/null] fail.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ip6tables -w -D INPUT -j INPUT_FIREWALL 2>/dev/null] fail.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D FORWARD -j FORWARD_FIREWALL 2>/dev/null] fail.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ip6tables -w -D FORWARD -j FORWARD_FIREWALL 2>/dev/null] fail.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_init_chains] [8130] finish firewall chain initial.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_load_config_from_xml] [466] end firewall_load_config_from_xml ret = 0
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG]FHAPI_MultiNode_SeeionProcess fail ret=9
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_load_cmcc_configfromxml] [518] get InternetGatewayDevice.X_CMCC_Security fail 
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_disenable_antidos] [770] disenable the feature of antidos !
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_disenable_badpackets_filter] [662] run firewall_enable_badpackets_filter
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG]get InternetGatewayDevice.X_PT_FireWall.URLFEnable=0, success!
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG]get InternetGatewayDevice.X_PT_FireWall.URLFEnable=0!
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_init_urlfilter] [2466] the urlfilter is disenable, return!
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG]get InternetGatewayDevice.X_PT_FireWall.MACFEnable=0, success!
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG]get InternetGatewayDevice.X_PT_FireWall.MACFEnable=0!
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_init_macfilter] [2194] the macfilter is disenable, return!
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewalllevel_low_action] [1402] run firewalllevel_low_action !
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:iptables -F INPUT_FIREWALL
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -F INPUT_FIREWALL] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:iptables -I INPUT_FIREWALL -p tcp ! -i br+ -m multiport --dports 9200,9090,64444 -j ACCEPT
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -I INPUT_FIREWALL -p tcp ! -i br+ -m multiport --dports 9200,9090,64444 -j ACCEPT] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:iptables -I INPUT_FIREWALL -p tcp -i br0 -m multiport --dports 53,80,445,3517,8080,17998,32768 -j ACCEPT
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -I INPUT_FIREWALL -p tcp -i br0 -m multiport --dports 53,80,445,3517,8080,17998,32768 -j ACCEPT] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:iptables -I INPUT_FIREWALL -p udp -i br0 -m multiport --dports 53,67,3517 -j ACCEPT
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -I INPUT_FIREWALL -p udp -i br0 -m multiport --dports 53,67,3517 -j ACCEPT] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:iptables -I INPUT_FIREWALL -p tcp -i br0 -m multiport --dports 21,23,30005 -j REJECT --reject-with tcp-reset
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -I INPUT_FIREWALL -p tcp -i br0 -m multiport --dports 21,23,30005 -j REJECT --reject-with tcp-reset] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:iptables -I INPUT_FIREWALL -p tcp ! -i br+ -m multiport --dports 21,23,80,8080,445,3517,32768,30005 -j REJECT --reject-with tcp-reset
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -I INPUT_FIREWALL -p tcp ! -i br+ -m multiport --dports 21,23,80,8080,445,3517,32768,30005 -j REJECT --reject-with tcp-reset] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:iptables -I INPUT_FIREWALL -p udp ! -i br+ -m multiport --dports 53,67,30005 -j REJECT  --reject-with icmp-port-unreachable
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -I INPUT_FIREWALL -p udp ! -i br+ -m multiport --dports 53,67,30005 -j REJECT  --reject-with icmp-port-unreachable] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ip6tables -I INPUT_FIREWALL -p tcp -i br0 -m multiport --dports 21,23 -j REJECT --reject-with tcp-reset
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ip6tables -w -I INPUT_FIREWALL -p tcp -i br0 -m multiport --dports 21,23 -j REJECT --reject-with tcp-reset] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ip6tables -I INPUT_FIREWALL -p tcp ! -i br+ -m multiport --dports 21,23,53,80,445,8080 -j REJECT --reject-with tcp-reset
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ip6tables -w -I INPUT_FIREWALL -p tcp ! -i br+ -m multiport --dports 21,23,53,80,445,8080 -j REJECT --reject-with tcp-reset] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:iptables -P FORWARD ACCEPT
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -P FORWARD ACCEPT] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:iptables -A INPUT_FIREWALL -j ACCEPT
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -A INPUT_FIREWALL -j ACCEPT] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ip6tables -P FORWARD ACCEPT
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ip6tables -w -P FORWARD ACCEPT] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ip6tables -F FORWARD_FIREWALL
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ip6tables -w -F FORWARD_FIREWALL] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewalllevel_init] [1487] init firewall level, the level is [low]!
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_set_dmz_control] [1993] >>set dmz control, dmz_ip=NULL dmz_enable=0
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:iptables -t nat -F DMZ 2>/dev/null
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -t nat -F DMZ 2>/dev/null] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:iptables -F DMZ 2>/dev/null
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -F DMZ 2>/dev/null] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:iptables -t nat -F DMZ_LAN 2>/dev/null
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -t nat -F DMZ_LAN 2>/dev/null] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_init_parent_control] [6442] initialize the parent control feature! 
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_get_parentcontrol_params_from_xml] [6465] start firewall_get_parentcontrol_params_from_xml 
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_get_parentcontrol_params_from_xml] [6497] get parent control params, enalbe=0,start_time=NULL,end_time=NULL,macadress=NULL,weekday=NULL
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FORWARD -j FORWAD_PARENT_CTRL 2>/dev/null
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FORWARD -j FORWAD_PARENT_CTRL 2>/dev/null] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -F FORWAD_PARENT_CTRL 2>/dev/null
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -F FORWAD_PARENT_CTRL 2>/dev/null] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_init_ipfilter] [3480] initialize ipfilter,enable=0
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_init_service_ctrl] [5173] initialize service ctrl
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_load_service_ctrl_from_xml] [4408] start firewall_load_service_ctrl_from_xml 
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_load_service_ctrl_from_xml] [4462] end firewall_load_service_ctrl_from_xml
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_handle_wanacl_change_in_disable_mode] [4776] enter firewall_handle_wanacl_change_in_disable_mode
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D FIREWALL_CHAIN_SERVICE ! -i br0 -p icmp -j REJECT --reject-with icmp-port-unreachable] fail.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:iptables -I FIREWALL_CHAIN_SERVICE ! -i br0 -p icmp -j ACCEPT
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -I FIREWALL_CHAIN_SERVICE ! -i br0 -p icmp -j ACCEPT] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D FIREWALL_CHAIN_SERVICE ! -i br0 -p tcp --dport 443 -j ACCEPT] fail.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:iptables -I FIREWALL_CHAIN_SERVICE ! -i br0 -p tcp --dport 443 -j REJECT --reject-with tcp-reset
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -I FIREWALL_CHAIN_SERVICE ! -i br0 -p tcp --dport 443 -j REJECT --reject-with tcp-reset] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D FIREWALL_CHAIN_SERVICE ! -i br0 -p tcp --dport 80 -j ACCEPT] fail.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:iptables -I FIREWALL_CHAIN_SERVICE ! -i br0 -p tcp --dport 80 -j REJECT --reject-with tcp-reset
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -I FIREWALL_CHAIN_SERVICE ! -i br0 -p tcp --dport 80 -j REJECT --reject-with tcp-reset] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_config_remote_http] [5074] http_enable 0, http_port 80
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_config_remote_http] [5125] oldport = 80
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_config_remote_http] [5129] cmd = ps | grep thttpd | grep -v 'grep' | grep -v  -w '80' | awk '{print $1}'
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_config_remote_http] [5132] pidstr = 
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_config_remote_http] [5136] killcmd = kill -9 
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_config_remote_http] [5140] firewall_config_remote_http cmd kill -9 
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D FIREWALL_CHAIN_SERVICE ! -i br0 -p udp --dport 69 -j ACCEPT] fail.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:iptables -I FIREWALL_CHAIN_SERVICE ! -i br0 -p udp --dport 69 -j REJECT
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -I FIREWALL_CHAIN_SERVICE ! -i br0 -p udp --dport 69 -j REJECT] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D FIREWALL_CHAIN_SERVICE ! -i br0 -p tcp --dport 21 -j ACCEPT] fail.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:iptables -I FIREWALL_CHAIN_SERVICE ! -i br0 -p tcp --dport 21 -j REJECT --reject-with tcp-reset
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -I FIREWALL_CHAIN_SERVICE ! -i br0 -p tcp --dport 21 -j REJECT --reject-with tcp-reset] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -D FIREWALL_CHAIN_SERVICE ! -i br0 -p tcp --dport 23 -j ACCEPT] fail.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:iptables -I FIREWALL_CHAIN_SERVICE ! -i br0 -p tcp --dport 23 -j REJECT --reject-with tcp-reset
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [iptables -w -I FIREWALL_CHAIN_SERVICE ! -i br0 -p tcp --dport 23 -j REJECT --reject-with tcp-reset] succes.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5788] Enter firewall_init_sub_service_ctrl
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5923] eth0.1: lan acl http is enable
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5933] eth0.1: lan acl https is enable
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5943] eth0.1: lan acl ping is enable
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_handle_sub_service_ctrl] [5565] interface is eth0.1, br0 ip is 192.168.1.1
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP] fail.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP] fail.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP] fail.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] fail.
+[Thu Jan  1 00:00:31 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5923] eth0.2: lan acl http is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5933] eth0.2: lan acl https is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5943] eth0.2: lan acl ping is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_handle_sub_service_ctrl] [5565] interface is eth0.2, br0 ip is 192.168.1.1
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5923] eth0.3: lan acl http is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5933] eth0.3: lan acl https is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5943] eth0.3: lan acl ping is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_handle_sub_service_ctrl] [5565] interface is eth0.3, br0 ip is 192.168.1.1
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5923] eth0.4: lan acl http is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5933] eth0.4: lan acl https is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5943] eth0.4: lan acl ping is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_handle_sub_service_ctrl] [5565] interface is eth0.4, br0 ip is 192.168.1.1
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5923] eth0.5: lan acl http is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5933] eth0.5: lan acl https is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5943] eth0.5: lan acl ping is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_handle_sub_service_ctrl] [5565] interface is eth0.5, br0 ip is 192.168.1.1
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i eth0.5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i eth0.5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5923] ra0: lan acl http is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5933] ra0: lan acl https is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5943] ra0: lan acl ping is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_handle_sub_service_ctrl] [5565] interface is ra0, br0 ip is 192.168.1.1
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5923] ra1: lan acl http is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5933] ra1: lan acl https is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5943] ra1: lan acl ping is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_handle_sub_service_ctrl] [5565] interface is ra1, br0 ip is 192.168.1.1
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5923] ra2: lan acl http is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5933] ra2: lan acl https is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5943] ra2: lan acl ping is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_handle_sub_service_ctrl] [5565] interface is ra2, br0 ip is 192.168.1.1
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5923] ra3: lan acl http is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5933] ra3: lan acl https is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5943] ra3: lan acl ping is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_handle_sub_service_ctrl] [5565] interface is ra3, br0 ip is 192.168.1.1
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5923] rai0: lan acl http is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5933] rai0: lan acl https is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5943] rai0: lan acl ping is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_handle_sub_service_ctrl] [5565] interface is rai0, br0 ip is 192.168.1.1
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai0 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5923] rai1: lan acl http is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5933] rai1: lan acl https is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5943] rai1: lan acl ping is enable
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_handle_sub_service_ctrl] [5565] interface is rai1, br0 ip is 192.168.1.1
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] fail.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] succes.
+[Thu Jan  1 00:00:32 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai1 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_handle_sub_service_ctrl] [5565] interface is rai2, br0 ip is 192.168.1.1
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai2 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5923] rai3: lan acl http is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5933] rai3: lan acl https is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5943] rai3: lan acl ping is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_handle_sub_service_ctrl] [5565] interface is rai3, br0 ip is 192.168.1.1
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai3 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5923] ra4: lan acl http is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5933] ra4: lan acl https is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5943] ra4: lan acl ping is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_handle_sub_service_ctrl] [5565] interface is ra4, br0 ip is 192.168.1.1
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5923] ra5: lan acl http is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5933] ra5: lan acl https is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5943] ra5: lan acl ping is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_handle_sub_service_ctrl] [5565] interface is ra5, br0 ip is 192.168.1.1
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5923] ra6: lan acl http is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5933] ra6: lan acl https is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5943] ra6: lan acl ping is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_handle_sub_service_ctrl] [5565] interface is ra6, br0 ip is 192.168.1.1
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5923] ra7: lan acl http is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5933] ra7: lan acl https is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5943] ra7: lan acl ping is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_handle_sub_service_ctrl] [5565] interface is ra7, br0 ip is 192.168.1.1
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i ra7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i ra7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i ra7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i ra7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5923] rai4: lan acl http is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5933] rai4: lan acl https is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5943] rai4: lan acl ping is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_handle_sub_service_ctrl] [5565] interface is rai4, br0 ip is 192.168.1.1
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai4 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5923] rai5: lan acl http is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5933] rai5: lan acl https is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5943] rai5: lan acl ping is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_handle_sub_service_ctrl] [5565] interface is rai5, br0 ip is 192.168.1.1
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai5 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5923] rai6: lan acl http is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5933] rai6: lan acl https is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5943] rai6: lan acl ping is enable
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_handle_sub_service_ctrl] [5565] interface is rai6, br0 ip is 192.168.1.1
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] succes.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] fail.
+[Thu Jan  1 00:00:33 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai6 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] succes.
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5923] rai7: lan acl http is enable
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5933] rai7: lan acl https is enable
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_init_sub_service_ctrl] [5943] rai7: lan acl ping is enable
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_handle_sub_service_ctrl] [5565] interface is rai7, br0 ip is 192.168.1.1
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 1 -j DROP] fail.
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 443 -j DROP] fail.
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 80 -j DROP] fail.
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] fail.
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 17 --ip-dport 69 -j DROP] succes.
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] fail.
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 21 -j DROP] succes.
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -D FIREWALL_CHAIN_SERVICE -i rai7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -D FIREWALL_CHAIN_SERVICE -i rai7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] fail.
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_system] [225] excute commond:ebtables -I FIREWALL_CHAIN_SERVICE -i rai7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_system] [283] Execute command [ebtables -I FIREWALL_CHAIN_SERVICE -i rai7 --ip-dst 192.168.1.1 -p ipv4 --ip-proto 6 --ip-dport 23 -j DROP] succes.
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_get_scheduled_reboot_params_from_xml] [6712] start firewall_get_scheduled_reboot_params_from_xml 
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_get_scheduled_reboot_params_from_xml] [6737] get scheduled reboot params, enalbe=0,weekDays=NULL,hour=NULL,minute=NULL
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_set_scheduled_reboot_action] [6626] start firewall_set_scheduled_reboot_action 
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_set_scheduled_reboot_action] [6632] pre_enable:0, cur_enable:0, buf_new: NULL NULL * * NULL reboot
+ 
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_set_scheduled_reboot_action] [6648] enable is 0 
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_init_restart_time] [6901] init restart time
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_set_restart_time_action] [6875] g_restartTimeTimestamp[0] timestamp[0]
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][firewall_set_restart_time_action] [6895] RestartTimeAction is not enabled
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name firewall!
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][load_multi_config_from_xml][161] => start load_multi_config_from_xml InternetGatewayDevice.DeviceInfo.X_CT-COM_ServiceManage. 
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][load_multi_config_from_xml][166] => end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG]: enable=0, anonymous=0 username=useradmin, password=LV6NPR9X, port=21.
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG]name = nobody pwd = x 
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG]name = useradmin pwd = LV6NPR9X 
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][ftpd_moduleinit][443] => ftpd_ModuleInit done. ret=0
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name ftpd!
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][system_br0_ipv6_localaddress_init][1885] => br0_addr_v6 is fe80::1/64 .
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][system_br0_ipv6_localaddress_init][1890] => cmd=ip -6 addr add fe80::1/64 dev br0
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][ipv6lan_moduleinit][292] => ipv6lan_moduleinit done. ret=0
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name ipv6lan!
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][load_multi_config_from_xml][161] => start load_multi_config_from_xml InternetGatewayDevice.X_CT-COM_UplinkQoS. 
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][load_multi_config_from_xml][166] => end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name qos!
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][redirect_moduleinit][221] => redirect_moduleinit init bus done. ret=0
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][redirect_moduleinit][239] => nameurl = InternetGatewayDevice.X_CT-COM_UserInfo.Result
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][redirect_moduleinit][241] => result_value = 99
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][load_multi_config_from_xml][161] => start load_multi_config_from_xml InternetGatewayDevice.DeviceInfo.X_CT-COM_PortalManagement. 
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][load_multi_config_from_xml][166] => end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][system_get_redirect_conf][106] => xmlurl:InternetGatewayDevice.DeviceInfo.X_CT-COM_PortalManagement. , enable:0 , url_pc:http://www.chinatelecom.com.cn , url_stb:http://www.chinatelecom.com.cn , url_phone:http://www.chinatelecom.com.cn 
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][system_set_result][265] => system_set_result() enter
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][get_register_push_flag][199] => nameurl = InternetGatewayDevice.X_PT_HttpdConf.PushRegister
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][get_register_push_flag][201] => result_value = 0
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][get_register_smartswitch_flag][236] => smart_switch = 0
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][system_get_ntp_result][147] => enter system_get_ntp_result().
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][thread_handle_ntp_process][602] => thread_handle_ntp_process:tid:3051480160,status:0 
+[Thu Jan  1 00:00:34 1970][serviceMgr][DEBUG][thread_handle_ntp_process][620] => thread_handle_ntp_process:status:Unsynchronized sleep6
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][system_set_result][288] => flag=0, smart_flag=0, result=99.
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][system_set_result][313] => s_redirect_info.enable=0.
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][system_set_result][325] => system_set_result() done.
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][redirect_moduleinit][259] => redirect_module_init() done.
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name redirect!
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name simulate!
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name state_machine!
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][load_multi_config_from_xml][161] => start load_multi_config_from_xml InternetGatewayDevice.DeviceInfo.X_CT-COM_ServiceManage. 
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][load_multi_config_from_xml][166] => end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG]gOperatorCode: CT  , lan_port:23 , wan_port:23 , superuser_telnetenable 1 
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG]telnetd_read_config_in_xml: enable=1, 		username=superadmin, password=t4246#5753, port=23.
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG]telnetd_account_set telType is BOTH.
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG]name = superadmin pwd = t4246#5753 type = LAN
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG]telnetd_account_info_set_ais add user cmd echo -e "t4246#5753
+t4246#5753
+" |adduser -H -h /  superadmin
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][141] => telnetd_account_info_set_ais add sscanf ret 2
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][150] => telnetd_account_info_set_ais write new gid and uid to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][179] => telnetd_account_info_set_ais read from pwd_plus_path
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][184] => telnetd_account_info_set_ais found user root in pwd_plus_path
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][199] => telnetd_account_info_set_ais copy pwd_plus_path to pwd_path
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG]name = superadmin pwd = t4246#5753 type = WAN
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG]telnetd_account_info_set_ais add user cmd echo -e "t4246#5753
+t4246#5753
+" |adduser -H -h /  superadmin
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][141] => telnetd_account_info_set_ais add sscanf ret 2
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][150] => telnetd_account_info_set_ais write new gid and uid to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][179] => telnetd_account_info_set_ais read from pwd_plus_path
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][184] => telnetd_account_info_set_ais found user root in pwd_plus_path
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][199] => telnetd_account_info_set_ais copy pwd_plus_path to pwd_path
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG]name = telnetuser5753 pwd = t4246#5753S@dM1n type = LAN
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG]telnetd_account_info_set_ais add user cmd echo -e "t4246#5753S@dM1n
+t4246#5753S@dM1n
+" |adduser -H -h /  telnetuser5753
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][157] => telnetd_account_info_set_ais write to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][141] => telnetd_account_info_set_ais add sscanf ret 2
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][150] => telnetd_account_info_set_ais write new gid and uid to fpwd_plus
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][179] => telnetd_account_info_set_ais read from pwd_plus_path
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][184] => telnetd_account_info_set_ais found user root in pwd_plus_path
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][telnetd_account_info_set][199] => telnetd_account_info_set_ais copy pwd_plus_path to pwd_path
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG]enable is 1 
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG]cmd[1] is iptables -D CHAIN_SERVICE -i br0 -p tcp --dport 23 -j ACCEPT 
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG]telnetd_start_process: cmd:/ptrom/bin/telnetd -p 23.
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG]telnetd_ModuleInit done. ret=0
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name telnetd!
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG]traceroute_moduleinit done. ret=0
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name traceroute!
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][load_multi_config_from_xml][161] => start load_multi_config_from_xml InternetGatewayDevice.DeviceInfo.X_CT-COM_UPNP. 
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][load_multi_config_from_xml][166] => end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][system_set_upnp_ip][296] => modify gatedesc ip :192.168.1.1 
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][upnp_moduleinit][156] => upnp_moduleinit done. ret=0
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name upnp!
+[Thu Jan  1 00:00:36 1970][servicemgr][DEBUG]voice_moduleinit
+[Thu Jan  1 00:00:36 1970][servicemgr][DEBUG]voice_read_config_in_xml: stype=1.
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name voice!
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][load_multi_config_from_xml][161] => start load_multi_config_from_xml InternetGatewayDevice.X_PT_SambaServiceManage. 
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG][load_multi_config_from_xml][166] => end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG]samba_read_config_in_xml: enable=1, anonymous=0, username=useradmin, password=LV6NPR9X, 	   service=1,acount_num=0.
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG]Can not open /var/samba/smb.conf
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG]Del samba user
+[Thu Jan  1 00:00:36 1970][serviceMgr][DEBUG]Can not open /var/samba/smb.conf
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG]samba_account_add username = useradmin, Password = LV6NPR9X
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG]Can not open /var/samba/smb.conf
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG]server is 1 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG]samba_start_process: cmd:/ptrom/bin/smbd -s /var/samba/smb.conf.
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG]samba_process_init success
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][samba_moduleinit][398] => samba_ModuleInit done. ret=0
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name samba!
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][userslimit_moduleinit][32] => userslimit_moduleinit done. 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][load_multi_config_from_xml][161] => start load_multi_config_from_xml InternetGatewayDevice.Services.X_CT-COM_MWBAND. 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][load_multi_config_from_xml][166] => end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][userslimit_read_config_in_xml][82] => : modeStr=0, modeVal=0, totalTerminalNumStr=4, totalTerminalNumVal=4.
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name userslimit!
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][start_httpget_first][255] => start start_httpget_first 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][get_httpget_config][174] => start get_httpget_config 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][load_multi_config_from_xml][161] => start load_multi_config_from_xml InternetGatewayDevice.DownloadDiagnostics. 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][load_multi_config_from_xml][166] => end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][get_httpget_config][235] => Interface=,DownloadURL=,DSCP=0,EthernetPriority=0.
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][get_httpget_config][237] => end get_httpget_config 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][create_httpget_cfg][366] => start create_httpget_cfg 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][create_httpget_cfg][411] => end create_httpget_cfg 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][start_httpget_first][275] => end start_httpget_first 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][start_httpconf_first][282] => start start_httpconf_first 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][load_multi_config_from_xml][161] => start load_multi_config_from_xml InternetGatewayDevice.X_PT_HttpdConf. 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][load_multi_config_from_xml][166] => end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name httpget!
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][itv_moduleinit][153] => itv_moduleinit
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name itv!
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][fh_ubus_dlna_usb_change_subscriber][392] => start fh_ubus_dlna_usb_change_subscriber
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][load_multi_config_from_xml][161] => start load_multi_config_from_xml InternetGatewayDevice.DeviceInfo.X_CT-COM_DLNA. 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][load_multi_config_from_xml][166] => end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][dlna_read_config_in_xml][209] => dlna_read_config_in_xml: enable=1
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][dlna_read_config_in_xml][212] => dlna_read_config_in_xml: *enable_flag=1.
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][system_dlna_process_init][243] => dlna_read_config_in_xml dlna_enable = 1
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][system_dlna_process_init][253] => dlna add iptables OK!
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][dlna_start_process][90] => start dlna1.
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][dlna_start_process][96] => Dlna clear: cmd:killall ushare.
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][dlna_start_process][109] => Dlna for internet1: cmd:/ptrom/bin/ushare -f /etc/ushare.conf &.
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][dlna_moduleinit][432] => dlna_moduleinit done. ret=0
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name dlna!
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][read_igmp_config_in_xml][285] => start read_igmp_config_in_xml 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][load_multi_config_from_xml][161] => start load_multi_config_from_xml InternetGatewayDevice.Services.X_CT-COM_IPTV. 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][load_multi_config_from_xml][166] => end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][read_igmp_config_in_xml][313] => read finish:ProxyEnable:1,mldproxy_enable:1 SnoopingEnable:1,IGMPSnooping:1:Version:2 mldsnooping=1
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][read_igmp_config_in_xml][316] => end read_igmp_config_in_xml 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][igmpproxy_process_init][603] => :fh_net_set_igmpsnooping_en 1
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][igmpproxy_process_init][617] => :fh_net_set_mldsnooping_en 1
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][igmp_moduleinit][328] => igmp_ModuleInit done. ret=1
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name igmp!
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][load_multi_config_from_xml][161] => start load_multi_config_from_xml InternetGatewayDevice.DeviceInfo.X_CT-COM_ServiceManage. 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][load_multi_config_from_xml][166] => end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG]tftp_server_start_process: cmd:/usr/bin/udpsvd -E 0.0.0.0 69 tftpd -r /mnt &.
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG]tftp_server_moduleinit done. ret=0
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name tftp_server!
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][system_catv_system_init][63] => system_catv_system_init 63 vendor_name:CTST            
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][system_catv_system_init][71] => ------------system_catv_system_init 71.
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][load_multi_config_from_xml][161] => start load_multi_config_from_xml InternetGatewayDevice.X_PT_CatvInterfaceConfig. 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][load_multi_config_from_xml][166] => end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][system_catv_system_init][76] => system_catv_system_init 76 catv enable:1.
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][system_catv_system_init][86] => system_catv_system_init 86 catv agc offset:0.000000 ,web agc offset:0.000000.
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][system_catv_system_init][100] => system_catv_system_init 100 end
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name catv!
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name easydiag!
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][syslog_moduleinit][794] => syslog_moduleinit:794 syslog_moduleinit start
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][load_multi_config_from_xml][161] => start load_multi_config_from_xml InternetGatewayDevice.X_TRUE_Logging. 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][load_multi_config_from_xml][166] => end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][stop_syslog_process][257] => not save log file now.
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][create_syslogd_cfg][90] => start create_syslogd_cfg 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][create_syslogd_cfg][148] => end create_syslogd_cfg 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][start_syslog_process][214] => start_syslog_process: cmd:syslogd -s 400 -f /var/syslog.conf &
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][syslog_moduleinit][804] => syslog_moduleinit:804 syslog_moduleinit end
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name syslog!
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG]antman_moduleinit done. ret=0
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name antman!
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name userinfo!
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][uptime_moduleinit][189] => uptime_moduleinit.
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][system_uptime_init][187] => system_uptime_init.
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name uptime!
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][load_multi_config_from_xml][161] => start load_multi_config_from_xml InternetGatewayDevice.X_TRUE_Alf_Iot. 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][load_multi_config_from_xml][166] => end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][alf_iot_moduleinit][153] => init done. ret=1
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][servicemgr_app_component_init][758] => Module name alf_iot!
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][servicemgr_app_component_init][768] => Module init complete total mods:35!
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][get_system_uptime][121] => up time read from xml: uptime_tmp=35696, uptime=35696
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][send_ready_msg_2_sysmgr][843] => send_ready_msg_2_sysmgr ret = 0 .
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][get_system_uptime][129] => up time (sysinfo.uptime): 38; last up time (sysinfo.uptime): 0
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][get_system_uptime][133] => Cumulative up time: 35734
+[Thu Jan  1 00:00:37 1970][serviceMgr][DEBUG][get_system_uptime][148] => Check the system startup time every minute: 35734
+[Thu Jan  1 00:00:40 1970][serviceMgr][DEBUG][system_start_ntp_process][53] => enter system_start_ntp_process().
+[Thu Jan  1 00:00:40 1970][serviceMgr][DEBUG][system_start_ntp_process][100] => ###system_start_ntp_process---cmd:/ptrom/bin/ntpdate -0 -z +07:00 -p 1 time.windows.com time.nist.gov    &
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_method][475] => fh_svcmgr_cfg_methcod start
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_method][502] => fh_svcmgr_cfg_methcod num is : 0 
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][471] => ___fh_svcmgr_cfg_msg_print___ start
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][473] => devname=pon.100
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][474] => xmlurl=InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][476] => start_flag=7
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][477] => internetflag=1
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][478] => tr069flag=1
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][479] => voipflag=0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][481] => otherflag=0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][482] => special1flag=0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][483] => special2flag=0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][484] => special3flag=0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][485] => special4flag=0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][487] => ipvx=3
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][488] => nat=1
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 0 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 1 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 2 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 3 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 4 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 5 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 6 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 7 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 8 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 9 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 10 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 11 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 12 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 13 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 14 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 15 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 16 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 17 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 18 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 19 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 20 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 21 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 22 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][492] => lanport 23 =0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][496] => addrtype=0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][499] => ExternalIPAddress=
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][502] => dns 0 =
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][502] => dns 1 =
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][502] => dns 2 =
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][502] => dns 3 =
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][502] => dns 4 =
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][502] => dns 5 =
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][502] => dns 6 =
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][502] => dns 7 =
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][502] => dns 8 =
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][502] => dns 9 =
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][505] => SubnetMask=
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][506] => DefaultGateway=
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][507] => broadcast=
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][508] => domain=
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][512] => addr6type=0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][519] => iDsliteEnable=0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][520] => iDsliteAftrMode=0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][521] => sDsliteAftr=NULL
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][523] => MSS_Enable=1
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][524] => MSS_Value=1400
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][525] => iMFlag=0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][528] => ipv6PdEnabled=1
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][529] => ipv6PrefixOrg=PrefixDelegation
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][530] => ipv6Prefix=
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][531] => ipv6Addr=
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][532] => DefaultIPv6Gateway=
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][536] => IPv6DNS 0 =
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][536] => IPv6DNS 1 =
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][539] => IPv6DomainName=
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][542] => pio_plt=0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][543] => pio_vlt=0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][544] => ipv6AddrOrg=AutoConfigured
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][546] => usrname=6420e17b0402@truehisp
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][547] => pwd=password
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][548] => ppptype=0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][549] => pppfreetime=1800
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][550] => MTU=1492
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_cfg_msg_print][552] => ___fh_svcmgr_cfg_msg_print___ end!
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][fh_svcmgr_pppoe_start_process][260] => fh_svcmgr_pppoe_start_process
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][system_start_pppoe_process][707] => system_start_pppoe_process:start!
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][set_wanccpppoeinfo2wanifinfo_by_index][453] => :xmlurl:InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][set_wanccpppoeinfo2wanifinfo_by_index][454] => :devname:pon.100
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][set_wanccpppoeinfo2wanifinfo_by_index][470] => :internetflag:1
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][set_wanccpppoeinfo2wanifinfo_by_index][471] => :tr069flag:1
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][set_wanccpppoeinfo2wanifinfo_by_index][472] => :voipflag:0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][set_wanccpppoeinfo2wanifinfo_by_index][493] => wan_param.MSS_Enable:1
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][set_wanccpppoeinfo2wanifinfo_by_index][494] => wan_param.MSS_Value:1400
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][set_wanccpppoeinfo2wanifinfo_by_index][496] => :ipv6_PDEnabled:1
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][set_wanccpppoeinfo2wanifinfo_by_index][497] => :ipv6AddrOrg:AutoConfigured
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][set_wanccpppoeinfo2wanifinfo_by_index][498] => :ipv6PrefixOrg:PrefixDelegation
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][set_wanccpppoeinfo2wanifinfo_by_index][499] => :iDsliteEnable:0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][set_wanccpppoeinfo2wanifinfo_by_index][500] => :iDsliteAftrMode:0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][set_wanccpppoeinfo2wanifinfo_by_index][501] => :iMFlag:0
+[Thu Jan  1 00:00:45 1970][serviceMgr][DEBUG][set_wanccpppoeinfo2wanifinfo_by_index][502] => :sDsliteAftr:NULL
+[Thu Jan  1 00:00:46 1970][serviceMgr][DEBUG][system_get_ntp_result][147] => enter system_get_ntp_result().
+[Thu Jan  1 00:00:46 1970][serviceMgr][DEBUG][system_start_pppoe_process][713] => system_start_pppoe_process:system_set_interface_ip_pppoe!
+[Thu Jan  1 00:00:46 1970][serviceMgr][DEBUG][system_start_pppoe_process][729] => system_start_pppoe_process:system_start_pppoe_program!
+[Thu Jan  1 00:00:46 1970][serviceMgr][DEBUG][get_pppoe_param][421] =>  internetflag:1
+[Thu Jan  1 00:00:46 1970][serviceMgr][DEBUG][set_ppp_info][1883] => !!!!!!!!!!start ppp_info
+[Thu Jan  1 00:00:46 1970][serviceMgr][DEBUG][thread_handle_ntp_process][602] => thread_handle_ntp_process:tid:3051480160,status:0 
+[Thu Jan  1 00:00:46 1970][serviceMgr][DEBUG][thread_handle_ntp_process][620] => thread_handle_ntp_process:status:Unsynchronized sleep6
+[Thu Jan  1 00:00:46 1970][serviceMgr][DEBUG][set_ppp_info][1889] => cmd = touch /var/ppp_info!
+[Thu Jan  1 00:00:46 1970][serviceMgr][DEBUG][set_ppp_info][1883] => !!!!!!!!!!start ppp_info
+[Thu Jan  1 00:00:46 1970][serviceMgr][DEBUG][system_start_pppoe_program][520] => system_start_pppoe_program:ifname=pon.100,linkName=tr069_internet,userName=6420e17b0402@truehisp,passWord=password, mtu=1492,pppoeroutflags=defaultroute,ipvx is 3.
+[Thu Jan  1 00:00:46 1970][serviceMgr][DEBUG][system_start_pppoe_program][566] => cmd is /ptrom/bin/pppd plugin rp-pppoe.so  nic-pon.100 linkname tr069_internet defaultroute noipdefault noauth default-asyncmap hide-password nodetach usepeerdns  noaccomp nodeflate nopcomp novj novjccomp user 6420e17b0402@truehisp password password lcp-echo-interval 20  lcp-echo-failure 10 nopersist mtu 1492 mru 1492 +ipv6 &.
+[Thu Jan  1 00:00:46 1970][serviceMgr][DEBUG][system_start_pppoe_program][569] => system_start_pppoe_program:end
+[Thu Jan  1 00:00:46 1970][serviceMgr][DEBUG][svcmgr_ubus_set_igmp_service][62] => set_igmp_service_config enter
+[Thu Jan  1 00:00:46 1970][serviceMgr][DEBUG][system_igmpproxy_handle_wancc_notify][717] => enter!
+[Thu Jan  1 00:00:46 1970][serviceMgr][DEBUG][system_igmpproxy_handle_wancc_notify][775] => igmp_changed=1 old_multivlan=0 new_multivlan=0!
+[Thu Jan  1 00:00:46 1970][serviceMgr][DEBUG][system_igmpproxy_handle_wancc_notify][796] => fh_net_set_multivlan multivlan=0,vid=100,brflag=0,igmp_enable=1,mld_enable=1
+[Thu Jan  1 00:00:46 1970][serviceMgr][DEBUG][svcmgr_ubus_set_igmp_service][85] => system_igmpproxy_handle_wancc_notify done, ret = 1.
+[Thu Jan  1 00:00:52 1970][serviceMgr][DEBUG][system_start_ntp_process][53] => enter system_start_ntp_process().
+[Thu Jan  1 00:00:52 1970][serviceMgr][DEBUG][system_start_ntp_process][100] => ###system_start_ntp_process---cmd:/ptrom/bin/ntpdate -0 -z +07:00 -p 1 time.windows.com time.nist.gov    &
+[Thu Jan  1 00:00:52 1970][serviceMgr][DEBUG][svcmgr_ubus_set_igmp_service][62] => set_igmp_service_config enter
+[Thu Jan  1 00:00:52 1970][serviceMgr][DEBUG][system_igmpproxy_handle_wancc_notify][717] => enter!
+[Thu Jan  1 00:00:52 1970][serviceMgr][DEBUG][system_igmpproxy_handle_wancc_notify][775] => igmp_changed=1 old_multivlan=0 new_multivlan=0!
+[Thu Jan  1 00:00:52 1970][serviceMgr][DEBUG][system_igmpproxy_handle_wancc_notify][796] => fh_net_set_multivlan multivlan=0,vid=293,brflag=1,igmp_enable=1,mld_enable=1
+[Thu Jan  1 00:00:52 1970][serviceMgr][DEBUG][svcmgr_ubus_set_igmp_service][85] => system_igmpproxy_handle_wancc_notify done, ret = 1.
+[Thu Jan  1 00:00:52 1970][serviceMgr][DEBUG][svcmgr_ubus_set_igmpproxyDevname_service][116] => set_igmpproxyDevname_service enter
+[Thu Jan  1 00:00:52 1970][serviceMgr][DEBUG][system_igmpproxy_set_wan_interface_process][811] => old igmp_ifname=null  mld_ifname=null 
+[Thu Jan  1 00:00:52 1970][serviceMgr][DEBUG][get_waninfo_index_by_ifname][290] => :pon.100 index is 0
+[Thu Jan  1 00:00:52 1970][serviceMgr][DEBUG][get_waninfo_index_by_ifname][290] => :pon.100 index is 0
+[Thu Jan  1 00:00:52 1970][serviceMgr][DEBUG][system_igmpproxy_set_wan_interface_process][880] => new igmp_ifname=pon.100 mld_ifname=pon.100 
+[Thu Jan  1 00:00:52 1970][serviceMgr][DEBUG][svcmgr_ubus_set_igmpproxyDevname_service][136] => system_igmpproxy_set_wan_interface_process done, ret = 1.
+[Thu Jan  1 00:00:57 1970][serviceMgr][DEBUG][system_get_ntp_result][147] => enter system_get_ntp_result().
+[Thu Jan  1 00:00:57 1970][serviceMgr][DEBUG][thread_handle_ntp_process][602] => thread_handle_ntp_process:tid:3051480160,status:0 
+[Thu Jan  1 00:00:57 1970][serviceMgr][DEBUG][thread_handle_ntp_process][620] => thread_handle_ntp_process:status:Unsynchronized sleep6
+[Thu Jan  1 00:01:03 1970][serviceMgr][DEBUG][system_start_ntp_process][53] => enter system_start_ntp_process().
+[Thu Jan  1 00:01:03 1970][serviceMgr][DEBUG][system_start_ntp_process][100] => ###system_start_ntp_process---cmd:/ptrom/bin/ntpdate -0 -z +07:00 -p 1 time.windows.com time.nist.gov    &
+[Thu Jan  1 00:01:08 1970][serviceMgr][DEBUG][system_get_ntp_result][147] => enter system_get_ntp_result().
+[Thu Jan  1 00:01:08 1970][serviceMgr][DEBUG][thread_handle_ntp_process][602] => thread_handle_ntp_process:tid:3051480160,status:0 
+[Thu Jan  1 00:01:08 1970][serviceMgr][DEBUG][thread_handle_ntp_process][627] => thread_handle_ntp_process:status:Unsynchronized sleep180
+[Thu Jan  1 00:01:37 1970][serviceMgr][DEBUG][get_system_uptime][121] => up time read from xml: uptime_tmp=35734, uptime=35734
+[Thu Jan  1 00:01:37 1970][serviceMgr][DEBUG][get_system_uptime][129] => up time (sysinfo.uptime): 98; last up time (sysinfo.uptime): 38
+[Thu Jan  1 00:01:37 1970][serviceMgr][DEBUG][get_system_uptime][133] => Cumulative up time: 35794
+[Thu Jan  1 00:01:37 1970][serviceMgr][DEBUG][get_system_uptime][148] => Check the system startup time every minute: 35794
+[Thu Jan  1 00:02:37 1970][serviceMgr][DEBUG][get_system_uptime][121] => up time read from xml: uptime_tmp=35794, uptime=35794
+[Thu Jan  1 00:02:37 1970][serviceMgr][DEBUG][get_system_uptime][129] => up time (sysinfo.uptime): 158; last up time (sysinfo.uptime): 98
+[Thu Jan  1 00:02:37 1970][serviceMgr][DEBUG][get_system_uptime][133] => Cumulative up time: 35854
+[Thu Jan  1 00:02:37 1970][serviceMgr][DEBUG][get_system_uptime][148] => Check the system startup time every minute: 35854
+[Thu Jan  1 00:03:37 1970][serviceMgr][DEBUG][get_system_uptime][121] => up time read from xml: uptime_tmp=35854, uptime=35854
+[Thu Jan  1 00:03:37 1970][serviceMgr][DEBUG][get_system_uptime][129] => up time (sysinfo.uptime): 218; last up time (sysinfo.uptime): 158
+[Thu Jan  1 00:03:37 1970][serviceMgr][DEBUG][get_system_uptime][133] => Cumulative up time: 35914
+[Thu Jan  1 00:03:37 1970][serviceMgr][DEBUG][get_system_uptime][148] => Check the system startup time every minute: 35914
+[Thu Jan  1 00:04:08 1970][serviceMgr][DEBUG][system_start_ntp_process][53] => enter system_start_ntp_process().
+[Thu Jan  1 00:04:08 1970][serviceMgr][DEBUG][system_start_ntp_process][100] => ###system_start_ntp_process---cmd:/ptrom/bin/ntpdate -0 -z +07:00 -p 1 time.windows.com time.nist.gov    &
+[Thu Jan  1 00:04:13 1970][serviceMgr][DEBUG][system_get_ntp_result][147] => enter system_get_ntp_result().
+[Thu Jan  1 00:04:13 1970][serviceMgr][DEBUG][thread_handle_ntp_process][602] => thread_handle_ntp_process:tid:3051480160,status:0 
+[Thu Jan  1 00:04:13 1970][serviceMgr][DEBUG][thread_handle_ntp_process][627] => thread_handle_ntp_process:status:Unsynchronized sleep180
+[Thu Jan  1 00:04:37 1970][serviceMgr][DEBUG][get_system_uptime][121] => up time read from xml: uptime_tmp=35914, uptime=35914
+[Thu Jan  1 00:04:37 1970][serviceMgr][DEBUG][get_system_uptime][129] => up time (sysinfo.uptime): 278; last up time (sysinfo.uptime): 218
+[Thu Jan  1 00:04:37 1970][serviceMgr][DEBUG][get_system_uptime][133] => Cumulative up time: 35974
+[Thu Jan  1 00:04:37 1970][serviceMgr][DEBUG][get_system_uptime][148] => Check the system startup time every minute: 35974
+[Thu Jan  1 00:05:37 1970][serviceMgr][DEBUG][get_system_uptime][121] => up time read from xml: uptime_tmp=35974, uptime=35974
+[Thu Jan  1 00:05:37 1970][serviceMgr][DEBUG][get_system_uptime][129] => up time (sysinfo.uptime): 338; last up time (sysinfo.uptime): 278
+[Thu Jan  1 00:05:37 1970][serviceMgr][DEBUG][get_system_uptime][133] => Cumulative up time: 36034
+[Thu Jan  1 00:05:37 1970][serviceMgr][DEBUG][get_system_uptime][148] => Check the system startup time every minute: 36034
+[Thu Jan  1 00:06:37 1970][serviceMgr][DEBUG][get_system_uptime][121] => up time read from xml: uptime_tmp=36034, uptime=36034
+[Thu Jan  1 00:06:37 1970][serviceMgr][DEBUG][get_system_uptime][129] => up time (sysinfo.uptime): 398; last up time (sysinfo.uptime): 338
+[Thu Jan  1 00:06:37 1970][serviceMgr][DEBUG][get_system_uptime][133] => Cumulative up time: 36094
+[Thu Jan  1 00:06:37 1970][serviceMgr][DEBUG][get_system_uptime][148] => Check the system startup time every minute: 36094
+[Thu Jan  1 00:07:13 1970][serviceMgr][DEBUG][system_start_ntp_process][53] => enter system_start_ntp_process().
+[Thu Jan  1 00:07:13 1970][serviceMgr][DEBUG][system_start_ntp_process][100] => ###system_start_ntp_process---cmd:/ptrom/bin/ntpdate -0 -z +07:00 -p 1 time.windows.com time.nist.gov    &
+[Thu Jan  1 00:07:18 1970][serviceMgr][DEBUG][system_get_ntp_result][147] => enter system_get_ntp_result().
+[Thu Jan  1 00:07:18 1970][serviceMgr][DEBUG][thread_handle_ntp_process][602] => thread_handle_ntp_process:tid:3051480160,status:0 
+[Thu Jan  1 00:07:18 1970][serviceMgr][DEBUG][thread_handle_ntp_process][627] => thread_handle_ntp_process:status:Unsynchronized sleep180
+[Thu Jan  1 00:07:37 1970][serviceMgr][DEBUG][get_system_uptime][121] => up time read from xml: uptime_tmp=36094, uptime=36094
+[Thu Jan  1 00:07:37 1970][serviceMgr][DEBUG][get_system_uptime][129] => up time (sysinfo.uptime): 458; last up time (sysinfo.uptime): 398
+[Thu Jan  1 00:07:37 1970][serviceMgr][DEBUG][get_system_uptime][133] => Cumulative up time: 36154
+[Thu Jan  1 00:07:37 1970][serviceMgr][DEBUG][get_system_uptime][148] => Check the system startup time every minute: 36154
+[Thu Jan  1 00:08:37 1970][serviceMgr][DEBUG][get_system_uptime][121] => up time read from xml: uptime_tmp=36154, uptime=36154
+[Thu Jan  1 00:08:37 1970][serviceMgr][DEBUG][get_system_uptime][129] => up time (sysinfo.uptime): 518; last up time (sysinfo.uptime): 458
+[Thu Jan  1 00:08:37 1970][serviceMgr][DEBUG][get_system_uptime][133] => Cumulative up time: 36214
+[Thu Jan  1 00:08:37 1970][serviceMgr][DEBUG][get_system_uptime][148] => Check the system startup time every minute: 36214
+[Thu Jan  1 00:09:37 1970][serviceMgr][DEBUG][get_system_uptime][121] => up time read from xml: uptime_tmp=36214, uptime=36214
+[Thu Jan  1 00:09:37 1970][serviceMgr][DEBUG][get_system_uptime][129] => up time (sysinfo.uptime): 578; last up time (sysinfo.uptime): 518
+[Thu Jan  1 00:09:37 1970][serviceMgr][DEBUG][get_system_uptime][133] => Cumulative up time: 36274
+[Thu Jan  1 00:09:37 1970][serviceMgr][DEBUG][get_system_uptime][148] => Check the system startup time every minute: 36274
+[Thu Jan  1 00:10:18 1970][serviceMgr][DEBUG][system_start_ntp_process][53] => enter system_start_ntp_process().
+[Thu Jan  1 00:10:18 1970][serviceMgr][DEBUG][system_start_ntp_process][100] => ###system_start_ntp_process---cmd:/ptrom/bin/ntpdate -0 -z +07:00 -p 1 time.windows.com time.nist.gov    &
+[Thu Jan  1 00:10:23 1970][serviceMgr][DEBUG][system_get_ntp_result][147] => enter system_get_ntp_result().
+[Thu Jan  1 00:10:23 1970][serviceMgr][DEBUG][thread_handle_ntp_process][602] => thread_handle_ntp_process:tid:3051480160,status:0 
+[Thu Jan  1 00:10:23 1970][serviceMgr][DEBUG][thread_handle_ntp_process][627] => thread_handle_ntp_process:status:Unsynchronized sleep180
+[Thu Jan  1 00:10:37 1970][serviceMgr][DEBUG][get_system_uptime][121] => up time read from xml: uptime_tmp=36274, uptime=36274
+[Thu Jan  1 00:10:37 1970][serviceMgr][DEBUG][get_system_uptime][129] => up time (sysinfo.uptime): 638; last up time (sysinfo.uptime): 578
+[Thu Jan  1 00:10:37 1970][serviceMgr][DEBUG][get_system_uptime][133] => Cumulative up time: 36334
+[Thu Jan  1 00:10:37 1970][serviceMgr][DEBUG][get_system_uptime][148] => Check the system startup time every minute: 36334
+[Thu Jan  1 00:11:37 1970][serviceMgr][DEBUG][get_system_uptime][121] => up time read from xml: uptime_tmp=36334, uptime=36334
+[Thu Jan  1 00:11:37 1970][serviceMgr][DEBUG][get_system_uptime][129] => up time (sysinfo.uptime): 698; last up time (sysinfo.uptime): 638
+[Thu Jan  1 00:11:37 1970][serviceMgr][DEBUG][get_system_uptime][133] => Cumulative up time: 36394
+[Thu Jan  1 00:11:37 1970][serviceMgr][DEBUG][get_system_uptime][148] => Check the system startup time every minute: 36394
+[Thu Jan  1 00:12:37 1970][serviceMgr][DEBUG][get_system_uptime][121] => up time read from xml: uptime_tmp=36394, uptime=36394
+[Thu Jan  1 00:12:37 1970][serviceMgr][DEBUG][get_system_uptime][129] => up time (sysinfo.uptime): 758; last up time (sysinfo.uptime): 698
+[Thu Jan  1 00:12:37 1970][serviceMgr][DEBUG][get_system_uptime][133] => Cumulative up time: 36454
+[Thu Jan  1 00:12:37 1970][serviceMgr][DEBUG][get_system_uptime][148] => Check the system startup time every minute: 36454
+[Thu Jan  1 00:13:23 1970][serviceMgr][DEBUG][system_start_ntp_process][53] => enter system_start_ntp_process().
+[Thu Jan  1 00:13:23 1970][serviceMgr][DEBUG][system_start_ntp_process][100] => ###system_start_ntp_process---cmd:/ptrom/bin/ntpdate -0 -z +07:00 -p 1 time.windows.com time.nist.gov    &
+[Thu Jan  1 00:13:28 1970][serviceMgr][DEBUG][system_get_ntp_result][147] => enter system_get_ntp_result().
+[Thu Jan  1 00:13:28 1970][serviceMgr][DEBUG][thread_handle_ntp_process][602] => thread_handle_ntp_process:tid:3051480160,status:0 
+[Thu Jan  1 00:13:28 1970][serviceMgr][DEBUG][thread_handle_ntp_process][627] => thread_handle_ntp_process:status:Unsynchronized sleep180
+[Thu Jan  1 00:13:37 1970][serviceMgr][DEBUG][get_system_uptime][121] => up time read from xml: uptime_tmp=36454, uptime=36454
+[Thu Jan  1 00:13:37 1970][serviceMgr][DEBUG][get_system_uptime][129] => up time (sysinfo.uptime): 818; last up time (sysinfo.uptime): 758
+[Thu Jan  1 00:13:37 1970][serviceMgr][DEBUG][get_system_uptime][133] => Cumulative up time: 36514
+[Thu Jan  1 00:13:37 1970][serviceMgr][DEBUG][get_system_uptime][148] => Check the system startup time every minute: 36514
+[Thu Jan  1 00:14:37 1970][serviceMgr][DEBUG][get_system_uptime][121] => up time read from xml: uptime_tmp=36514, uptime=36514
+[Thu Jan  1 00:14:37 1970][serviceMgr][DEBUG][get_system_uptime][129] => up time (sysinfo.uptime): 878; last up time (sysinfo.uptime): 818
+[Thu Jan  1 00:14:37 1970][serviceMgr][DEBUG][get_system_uptime][133] => Cumulative up time: 36574
+[Thu Jan  1 00:14:37 1970][serviceMgr][DEBUG][get_system_uptime][148] => Check the system startup time every minute: 36574
+[Thu Jan  1 00:15:37 1970][serviceMgr][DEBUG][get_system_uptime][121] => up time read from xml: uptime_tmp=36574, uptime=36574
+[Thu Jan  1 00:15:37 1970][serviceMgr][DEBUG][get_system_uptime][129] => up time (sysinfo.uptime): 938; last up time (sysinfo.uptime): 878
+[Thu Jan  1 00:15:37 1970][serviceMgr][DEBUG][get_system_uptime][133] => Cumulative up time: 36634
+[Thu Jan  1 00:15:37 1970][serviceMgr][DEBUG][get_system_uptime][148] => Check the system startup time every minute: 36634
+[Thu Jan  1 00:16:28 1970][serviceMgr][DEBUG][system_start_ntp_process][53] => enter system_start_ntp_process().
+[Thu Jan  1 00:16:28 1970][serviceMgr][DEBUG][system_start_ntp_process][100] => ###system_start_ntp_process---cmd:/ptrom/bin/ntpdate -0 -z +07:00 -p 1 time.windows.com time.nist.gov    &
+[Thu Jan  1 00:16:33 1970][serviceMgr][DEBUG][system_get_ntp_result][147] => enter system_get_ntp_result().
+[Thu Jan  1 00:16:33 1970][serviceMgr][DEBUG][thread_handle_ntp_process][602] => thread_handle_ntp_process:tid:3051480160,status:0 
+[Thu Jan  1 00:16:33 1970][serviceMgr][DEBUG][thread_handle_ntp_process][627] => thread_handle_ntp_process:status:Unsynchronized sleep180
+[Thu Jan  1 00:16:37 1970][serviceMgr][DEBUG][get_system_uptime][121] => up time read from xml: uptime_tmp=36634, uptime=36634
+[Thu Jan  1 00:16:37 1970][serviceMgr][DEBUG][get_system_uptime][129] => up time (sysinfo.uptime): 998; last up time (sysinfo.uptime): 938
+[Thu Jan  1 00:16:37 1970][serviceMgr][DEBUG][get_system_uptime][133] => Cumulative up time: 36694
+[Thu Jan  1 00:16:37 1970][serviceMgr][DEBUG][get_system_uptime][148] => Check the system startup time every minute: 36694
+[Thu Jan  1 00:17:37 1970][serviceMgr][DEBUG][get_system_uptime][121] => up time read from xml: uptime_tmp=36694, uptime=36694
+[Thu Jan  1 00:17:37 1970][serviceMgr][DEBUG][get_system_uptime][129] => up time (sysinfo.uptime): 1058; last up time (sysinfo.uptime): 998
+[Thu Jan  1 00:17:37 1970][serviceMgr][DEBUG][get_system_uptime][133] => Cumulative up time: 36754
+[Thu Jan  1 00:17:37 1970][serviceMgr][DEBUG][get_system_uptime][148] => Check the system startup time every minute: 36754
+[Thu Jan  1 00:18:37 1970][serviceMgr][DEBUG][get_system_uptime][121] => up time read from xml: uptime_tmp=36754, uptime=36754
+[Thu Jan  1 00:18:37 1970][serviceMgr][DEBUG][get_system_uptime][129] => up time (sysinfo.uptime): 1118; last up time (sysinfo.uptime): 1058
+[Thu Jan  1 00:18:37 1970][serviceMgr][DEBUG][get_system_uptime][133] => Cumulative up time: 36814
+[Thu Jan  1 00:18:37 1970][serviceMgr][DEBUG][get_system_uptime][148] => Check the system startup time every minute: 36814

@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+    <title>Dashboard</title>
+    <!-- style -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="../css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- style -->
+	
+    <script src="../js/jquery.js"></script>
+	<script src="../js/xhr_comn.js"></script>
+	<script src="../js/util_functions_comn.js"></script>
+	<script src="../js/util_global_vars_comn.js"></script>
+    <!--<script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script> -->
+	
+	<script language="javascript">
+	var tokenstr = "";
+	var hostsnum_lan = 0;
+	var hostsnum_5g = 0;
+	var hostsnum_2g = 0;
+	
+	$(document).ready(function(){
+		// check browser. Circumvent iframe sameorigin problem in Google Chrome version 94 or later
+		// var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor) && (typeof(window.chrome) !== "undefined");
+        // if (isChrome) {
+        //     $('iframe').attr('allow', 'cross-origin-opener-policy: same-origin; cross-origin-embedder-policy: require-corp');
+        // }
+	
+		XHR.get("get_login_user", null, function(data){
+			if ( data )
+			{
+				tokenstr = data.token;
+				if ( data.login_user == 1 ) 
+				{
+					document.getElementById("upgrade_btn").style.display = "";
+				}
+				else 
+				{
+					document.getElementById("upgrade_btn").style.display = "";
+				}
+			}
+		
+		
+		});
+				
+		XHR.get("get_basebase_info", null, function(data){
+			if ( data )
+			{
+				tokenstr = data.token;
+				$("#modelname").html(data.ModelName);
+				$("#macaddr").html(string2MACFormat(data.base_mac).toUpperCase());
+				$("#hardwarever").html(data.HardwareVersion);
+				$("#softwarever").html(data.SoftwareVersion);
+				
+				XHR.get("get_factory_mode", null, function(getdata){
+					if ( getdata )
+					{
+						if ( getdata.token != undefined )
+						{
+							tokenstr = getdata.token;
+						}
+						
+						if (getdata != null)
+						{
+							/*if(getdata.truegponsn != undefined || getdata.truegponsn != "")
+							{
+								var gponsnstr = getdata.truegponsn;
+								var gponsnstr11 ="0x" + gponsnstr.substring(0, 2);
+								var gponsnstr12 ="0x" +  gponsnstr.substring(2, 4);
+								var gponsnstr13 ="0x" +  gponsnstr.substring(4, 6);
+								var gponsnstr14 ="0x" +  gponsnstr.substring(6, 8);
+								var gponsnstr2 = gponsnstr.substring(8);
+								var gponsnstr1 = String.fromCharCode(gponsnstr11.toString(10),gponsnstr12.toString(10),gponsnstr13.toString(10),gponsnstr14.toString(10)); 
+							
+								gponsnstr1 += gponsnstr2;
+							}*/
+						
+							$("#gponsn").html(getdata.truegponsn);
+							$("#dsn").html(getdata.dsn);
+							$("#truesn").html(getdata.truesn);
+						}
+					}
+				});
+			}
+		});
+		
+		XHR.get("get_lan_status_fornum", null,
+			function(data){
+				showOrHideLoadingWindowFromIframe("hide");
+				if ( data && data.lan_status )
+				{
+					var landata = data.lan_status;
+					for (var i=1; i<=landata.max_lan_host_num; i++)
+					{
+						if ( eval('landata.Active' + i) == 1 && eval('landata.MACAddress' + i) && eval('landata.IPAddress' + i))
+						{
+							if ( eval('landata.Type' + i) == 0 )
+							{
+								hostsnum_lan = hostsnum_lan + 1;
+							}
+						}
+					}
+					
+					$("#lanhostnum").text(hostsnum_lan);
+				}
+			});	
+
+			XHR.get("get_associated_devfornum_5g", null, 
+				function(data){
+					if ( data && data.associated_deviceinfo )
+					{
+						var associated_device_data = data.associated_deviceinfo;
+						
+						for ( var i=1; i<=associated_device_data.maxnum; i++ )
+						{
+							if ( eval("associated_device_data.MACAddress" + i) && eval("associated_device_data.Olinetime" + i) != 0)
+							{
+								hostsnum_5g = hostsnum_5g + 1;
+							}
+						}
+						$("#5ghostnum").text(hostsnum_5g);
+					}
+			});
+			
+			XHR.get("get_associated_devfornum", null, 
+				function(data){
+					if ( data && data.associated_deviceinfo )
+					{
+						var associated_device_data = data.associated_deviceinfo;
+						
+						for ( var i=1; i<=associated_device_data.maxnum; i++ )
+						{
+							if ( eval("associated_device_data.MACAddress" + i) && eval("associated_device_data.Olinetime" + i) != 0)
+							{
+								hostsnum_2g = hostsnum_2g + 1;
+							}
+						}
+						$("#2ghostnum").text(hostsnum_2g);
+					}
+			});
+		
+		XHR.get("get_allwan_info", null, 
+				function(data){
+					if ( data )
+					{
+						var all_wan_info = data;
+						var wan_num = 0;
+						
+						if ( all_wan_info != '' && all_wan_info.wan )
+						{
+							wan_num = all_wan_info.wan.length;
+						}
+						if ( wan_num > 0 )
+						{
+							for (var i=0; i< wan_num; i++ )
+							{
+								var single_wan = all_wan_info.wan[i];
+								
+								if(single_wan.wan_index == 3 && single_wan.wan_session_index == 1 && single_wan.Name == "THSi")//true custom wan, cannot show
+								{
+									continue;
+								}
+								
+								if ( single_wan.Name.indexOf('INTERNET') >= 0 && single_wan.Name.indexOf('_R_') >= 0 )
+								{
+									gwan_index = single_wan.wan_index;
+									gwan_sessionindex = single_wan.wan_session_index;
+									gwan_iporppp = single_wan.iporppp;
+								
+									if (( single_wan.IPMode == "1" && single_wan.Enable == 1 && single_wan.ConnectionStatus == 'Connected') ||
+										( single_wan.IPMode == "2" && single_wan.Enable == 1 && single_wan.IPv6ConnStatus == 'Connected') ||
+										( single_wan.IPMode == "3" && single_wan.Enable == 1 && (single_wan.IPv6ConnStatus == 'Connected' || single_wan.ConnectionStatus == 'Connected')))
+									{
+										document.getElementById("offline").style.display = "none";
+										document.getElementById("online").style.display = "block";
+										$("#ipaddr").text();
+										$("#dnsaddr").text();
+										
+										if (single_wan.IPv6ConnStatus == 'Connected')
+										{
+											$("#ipaddr").text(single_wan.IPv6IPAddress);
+											
+											var dns = single_wan.IPv6DNSServers + ',';
+											if(dns.split(',')[1])
+											{
+												var dnsserverstr = dns.split(',')[0] + "," + dns.split(',')[1];
+											}
+											else
+											{
+												var dnsserverstr = dns.split(',')[0];
+											}
+											
+											$("#dnsaddr").text(dnsserverstr);
+										}
+										
+										if (single_wan.ConnectionStatus == 'Connected')//ipv4andipv6 display ipv4
+										{
+											$("#ipaddr").text(single_wan.ExternalIPAddress);
+											
+											var dns = single_wan.DNSServers + ',';
+											if(dns.split(',')[1])
+											{
+												var dnsserverstr = dns.split(',')[0] + "," + dns.split(',')[1];
+											}
+											else
+											{
+												var dnsserverstr = dns.split(',')[0];
+											}
+											
+											$("#dnsaddr").text(dnsserverstr);
+										}
+										
+										break;
+									}
+									
+								}
+							}
+						}
+						
+						if (data.wifi_obj_enable)
+						{
+							if (data.wifi_obj_enable.enable1 == "1")
+							{
+								$("#status_2g").text("ON")
+							}
+							else
+							{
+								$("#status_2g").text("OFF")
+							}
+							$("#ssid_2g").html(data.wifi_obj_enable.ssid1.replace(/\s/g,'&nbsp'));
+							
+							if (data.wifi_obj_enable.enable5 == "1")
+							{
+								$("#status_5g").text("ON")
+							}
+							else
+							{
+								$("#status_5g").text("OFF")
+							}
+							$("#ssid_5g").html(data.wifi_obj_enable.ssid5.replace(/\s/g,'&nbsp'));
+						}
+					}
+			});
+			doeasydiag();
+	})
+	
+	function wan_reconnect()
+	{
+		document.getElementById("offline").style.display = "block";
+		document.getElementById("online").style.display = "none";
+		$("#ipaddr").text("");
+		$("#dnsaddr").text("");
+	
+		if ( parent && parent.gLastOperateTime != undefined )
+		{
+			parent.gLastOperateTime = new Date().getTime();
+		}
+		showOrHideLoadingWindowFromIframe("show");
+		
+		XHR.get("get_allwan_info", null, 
+			function(data){
+				if ( data )
+				{
+					showOrHideLoadingWindowFromIframe("hide");
+					
+					var all_wan_info = data;
+					var wan_num = 0;
+					
+					if ( all_wan_info != '' && all_wan_info.wan )
+					{
+						wan_num = all_wan_info.wan.length;
+					}
+					if ( wan_num > 0 )
+					{
+						for (var i=0; i< wan_num; i++ )
+						{
+							var single_wan = all_wan_info.wan[i];
+							
+							if(single_wan.wan_index == 3 && single_wan.wan_session_index == 1 && single_wan.Name == "THSi")//true custom wan, cannot show
+							{
+								continue;
+							}
+							
+							if ( single_wan.Name.indexOf('INTERNET') >= 0 && single_wan.Name.indexOf('_R_') >= 0 )
+							{
+								gwan_index = single_wan.wan_index;
+								gwan_sessionindex = single_wan.wan_session_index;
+								gwan_iporppp = single_wan.iporppp;
+							
+								if (( single_wan.IPMode == "1" && single_wan.Enable == 1 && single_wan.ConnectionStatus == 'Connected') ||
+									( single_wan.IPMode == "2" && single_wan.Enable == 1 && single_wan.IPv6ConnStatus == 'Connected') ||
+									( single_wan.IPMode == "3" && single_wan.Enable == 1 && (single_wan.IPv6ConnStatus == 'Connected' || single_wan.ConnectionStatus == 'Connected')))
+								{
+									document.getElementById("offline").style.display = "none";
+									document.getElementById("online").style.display = "block";
+									$("#ipaddr").text();
+									$("#dnsaddr").text();
+									
+									if (single_wan.IPv6ConnStatus == 'Connected')
+									{
+										$("#ipaddr").text(single_wan.IPv6IPAddress);
+										
+										var dns = single_wan.IPv6DNSServers + ',';
+										if(dns.split(',')[1])
+										{
+											var dnsserverstr = dns.split(',')[0] + "," + dns.split(',')[1];
+										}
+										else
+										{
+											var dnsserverstr = dns.split(',')[0];
+										}
+										
+										$("#dnsaddr").text(dnsserverstr);
+									}
+									
+									if (single_wan.ConnectionStatus == 'Connected')//ipv4andipv6 display ipv4
+									{
+										$("#ipaddr").text(single_wan.ExternalIPAddress);
+										
+										var dns = single_wan.DNSServers + ',';
+										if(dns.split(',')[1])
+										{
+											var dnsserverstr = dns.split(',')[0] + "," + dns.split(',')[1];
+										}
+										else
+										{
+											var dnsserverstr = dns.split(',')[0];
+										}
+										
+										$("#dnsaddr").text(dnsserverstr);
+									}
+									
+									break;
+								}
+							}
+						}
+						
+					}
+				}
+		});
+	}
+	
+	function doRefresh()
+	{
+		showOrHideLoadingWindowFromIframe("show");
+		
+		if ( parent && parent.gLastOperateTime != undefined )
+		{
+			parent.gLastOperateTime = new Date().getTime();
+		}
+		
+		hostsnum_lan = 0;
+		hostsnum_5g = 0;
+		hostsnum_2g = 0;
+		
+		XHR.get("get_lan_status_fornum", null,
+			function(data){
+				if ( data && data.lan_status )
+				{
+					var landata = data.lan_status;
+					for (var i=1; i<=landata.max_lan_host_num; i++)
+					{
+						if ( eval('landata.Active' + i) == 1 && eval('landata.MACAddress' + i) && eval('landata.IPAddress' + i))
+						{
+							if ( eval('landata.Type' + i) == 0 )
+							{
+								hostsnum_lan = hostsnum_lan + 1;
+							}
+						}
+					}
+					$("#lanhostnum").text(hostsnum_lan);
+				}
+			});
+			
+			XHR.get("get_associated_devfornum_5g", null, 
+				function(data){
+					if ( data && data.associated_deviceinfo )
+					{
+						var associated_device_data = data.associated_deviceinfo;
+						
+						for ( var i=1; i<=associated_device_data.maxnum; i++ )
+						{
+							if ( eval("associated_device_data.MACAddress" + i) && eval("associated_device_data.Olinetime" + i) != 0)
+							{
+								hostsnum_5g = hostsnum_5g + 1;
+							}
+						}
+						$("#5ghostnum").text(hostsnum_5g);
+					}
+			});
+			
+			XHR.get("get_associated_devfornum", null, 
+				function(data){
+					if ( data && data.associated_deviceinfo )
+					{
+						var associated_device_data = data.associated_deviceinfo;
+						
+						for ( var i=1; i<=associated_device_data.maxnum; i++ )
+						{
+							if ( eval("associated_device_data.MACAddress" + i) && eval("associated_device_data.Olinetime" + i) != 0)
+							{
+								hostsnum_2g = hostsnum_2g + 1;
+							}
+						}
+						$("#2ghostnum").text(hostsnum_2g);
+					}
+			});
+			
+			showOrHideLoadingWindowFromIframe("hide");
+
+	}
+	
+	function jumpToPage(first, second, third, params)
+	{
+		if ( first != '' && first != undefined )
+		{
+			window.parent.changeMainMenu(window.parent.document.getElementById("first_menu_" + first));
+			if ( second != '' && second != undefined )
+			{
+				window.parent.changeSubSecondMenu(first, second, params);
+				if ( third != '' && third != undefined )
+				{
+					window.parent.changeSubThirdMenu(first, second, third, params);
+				}
+			}
+		}
+	}
+
+	function jumpToWifi2g()
+	{
+		jumpToPage('wlan', 'wlan_2g', 'wlan_2g_base', '');
+	}
+	
+	function jumpToWifi5g()
+	{
+		jumpToPage('wlan', 'wlan_5g', 'wlan_5g_base', '');
+	}
+	
+	function jumpToUpgrade()
+	{
+		jumpToPage('admin', 'admin_upgrade', '', '');
+	}
+	
+	function jumpToHost()
+	{
+		jumpToPage('status', 'status_lan', '', '');
+	}
+	
+	function jumpTowifi5gHost()
+	{
+		jumpToPage('wlan', 'wlan_5g', 'wlan_5g_associated', '');
+	}
+	
+	function jumpTowifi2gHost()
+	{
+		jumpToPage('wlan', 'wlan_2g', 'wlan_2g_associated', '');
+	}
+	
+	function doeasydiag()
+	{
+		
+		$("#wlanchk_bar").css("background-color", "red");
+		$("#wlanchk_bar").css("width", "0%");
+		$("#wlanchk_img").attr("src", "../image/cancel.svg");
+		$("#wlanchk_ipaddr").text("WLAN IP Address : ");
+	
+		$("#dnschk_bar").css("background-color", "red");
+		$("#dnschk_bar").css("width", "0%");
+		$("#dnschk_img").attr("src", "../image/cancel.svg");
+		$("#dnschk_ipaddr").text("DNS IP Address : ");
+	
+		$("#internetchk_bar").css("background-color", "red");
+		$("#internetchk_bar").css("width", "0%");
+		$("#internetchk_img").attr("src", "../image/cancel.svg");
+		$("#internetchk_ipaddr").text("WAN IP Address : ");
+	
+		$("#natchk_bar").css("background-color", "red");
+		$("#natchk_bar").css("width", "0%");
+		$("#natchk_img").attr("src", "../image/cancel.svg");
+		$("#natchk_ipaddr").text("NAT Address : ");
+	
+		$("#lanchk_bar").css("background-color", "red");
+		$("#lanchk_bar").css("width", "0%");
+		$("#lanchk_img").attr("src", "../image/cancel.svg");
+		$("#lanchk_ipaddr").text("LAN Address : ");
+	
+		$("#dhcpchk_bar").css("background-color", "red");
+		$("#dhcpchk_bar").css("width", "0%");
+		$("#dhcpchk_img").attr("src", "../image/cancel.svg");
+		$("#dhcpchk_ipaddr").text("DHCP Address : ");
+	
+		$("#wanchk_bar").css("background-color", "red");
+		$("#wanchk_bar").css("width", "0%");
+		$("#wanchk_img").attr("src", "../image/cancel.svg");
+		$("#wanchk_status").text("Status : ");
+	
+		if ( parent && parent.gLastOperateTime != undefined )
+		{
+			parent.gLastOperateTime = new Date().getTime();
+		}
+		
+		showOrHideLoadingWindowFromIframe("show");
+
+		var postdata = new Object();
+		XHR.get("get_operator", null, function(data){
+			if ( data )
+			{
+				tokenstr = data.token;
+			}
+		});
+		postdata.token = tokenstr;
+		XHR.post("do_easydiag", postdata, parseEasyDiagResult);
+	}
+	
+	function parseEasyDiagResult(data)
+	{
+		if (data)
+		{
+			showOrHideLoadingWindowFromIframe("hide");
+			
+			if (data.wlanenable == "1")
+			{
+				$("#wlanchk_bar").css("background-color", "green");
+				$("#wlanchk_bar").css("width", "100%");
+				$("#wlanchk_img").attr("src", "../image/check_circle.svg");
+				$("#wlanchk_ipaddr").text("WLAN IP Address : " + data.lanip);
+			}
+			else
+			{
+				$("#wlanchk_bar").css("background-color", "red");
+				$("#wlanchk_bar").css("width", "100%");
+				$("#wlanchk_img").attr("src", "../image/cancel.svg");
+				$("#wlanchk_ipaddr").text("WLAN IP Address : ");
+			}
+			
+			if (data.dnsstatus == "1")
+			{
+				$("#dnschk_bar").css("background-color", "green");
+				$("#dnschk_bar").css("width", "100%");
+				$("#dnschk_img").attr("src", "../image/check_circle.svg");
+				
+				var dns = data.dnsserver + ',';
+				if(dns.split(',')[1])
+				{
+					var dnsserverstr = dns.split(',')[0] + "," + dns.split(',')[1];
+				}
+				else
+				{
+					var dnsserverstr = dns.split(',')[0];
+				}
+				$("#dnschk_ipaddr").text("DNS IP Address : " + dnsserverstr);
+			}
+			else
+			{
+				$("#dnschk_bar").css("background-color", "red");
+				$("#dnschk_bar").css("width", "100%");
+				$("#dnschk_img").attr("src", "../image/cancel.svg");
+				$("#dnschk_ipaddr").text("DNS IP Address : ");
+			}
+			
+			if (data.internetstatus == "1")
+			{
+				$("#internetchk_bar").css("background-color", "green");
+				$("#internetchk_bar").css("width", "100%");
+				$("#internetchk_img").attr("src", "../image/check_circle.svg");
+				$("#internetchk_ipaddr").text("WAN IP Address : " + data.internetwanip);
+			}
+			else
+			{
+				$("#internetchk_bar").css("background-color", "red");
+				$("#internetchk_bar").css("width", "100%");
+				$("#internetchk_img").attr("src", "../image/cancel.svg");
+				$("#internetchk_ipaddr").text("WAN IP Address : ");
+			}
+			
+			if (data.natstatus == "1")
+			{
+				$("#natchk_bar").css("background-color", "green");
+				$("#natchk_bar").css("width", "100%");
+				$("#natchk_img").attr("src", "../image/check_circle.svg");
+				$("#natchk_ipaddr").text("NAT Address : " + data.lanip);
+			}
+			else
+			{
+				$("#natchk_bar").css("background-color", "red");
+				$("#natchk_bar").css("width", "100%");
+				$("#natchk_img").attr("src", "../image/cancel.svg");
+				$("#natchk_ipaddr").text("NAT Address : ");
+			}
+			
+			if (data.lanstatus == "1")
+			{
+				$("#lanchk_bar").css("background-color", "green");
+				$("#lanchk_bar").css("width", "100%");
+				$("#lanchk_img").attr("src", "../image/check_circle.svg");
+				$("#lanchk_ipaddr").text("LAN Address : " + data.lanip);
+			}
+			else
+			{
+				$("#lanchk_bar").css("background-color", "red");
+				$("#lanchk_bar").css("width", "100%");
+				$("#lanchk_img").attr("src", "../image/cancel.svg");
+				$("#lanchk_ipaddr").text("LAN Address : ");
+			}
+			
+			if (data.dhcpstatus == "1")
+			{
+				$("#dhcpchk_bar").css("background-color", "green");
+				$("#dhcpchk_bar").css("width", "100%");
+				$("#dhcpchk_img").attr("src", "../image/check_circle.svg");
+				$("#dhcpchk_ipaddr").text("DHCP Address : " + data.lanip);
+			}
+			else
+			{
+				$("#dhcpchk_bar").css("background-color", "red");
+				$("#dhcpchk_bar").css("width", "100%");
+				$("#dhcpchk_img").attr("src", "../image/cancel.svg");
+				$("#dhcpchk_ipaddr").text("DHCP Address : ");
+			}
+			
+			if (data.wanstatus == "1")
+			{
+				$("#wanchk_bar").css("background-color", "green");
+				$("#wanchk_bar").css("width", "100%");
+				$("#wanchk_img").attr("src", "../image/check_circle.svg");
+				$("#wanchk_status").text("Status : Sync");
+			}
+			else
+			{
+				$("#wanchk_bar").css("background-color", "red");
+				$("#wanchk_bar").css("width", "100%");
+				$("#wanchk_img").attr("src", "../image/cancel.svg");
+				$("#wanchk_status").text("Status : Not Sync");
+			}
+		}
+		else
+		{
+			showOrHideLoadingWindowFromIframe("hide");
+		}
+	}
+	
+	
+	</script>
+    <!-- script -->
+</head>
+
+<body>
+    <!-- header -->
+    
+    <!-- header -->
+
+    <!-- content -->
+    <div class="container mt-3 mb-4">
+        <div class="row">
+            <!-- <div class="col-md-3 col-sm-12">
+                <div class="list-group slide-menu-list text-truncate">
+                    <a href="#" class="list-group-item list-group-item-action slide-menu-item slide-menu-active">
+                        Dashboard
+                    </a>
+                    <a href="./status/status-device.html" class="list-group-item list-group-item-action slide-menu-item">Status</a>
+                    <a href="./lan/lan-interface.html" class="list-group-item list-group-item-action slide-menu-item">LAN</a>
+                    <a href="./wlan/wlan-0-basic.html" class="list-group-item list-group-item-action slide-menu-item">WLAN</a>
+                    <a href="./service/service-dhcp.html" class="list-group-item list-group-item-action slide-menu-item">Service</a>
+                    <a href="./firewall/ALG-Type.html" class="list-group-item list-group-item-action slide-menu-item">Firewall</a>
+                    <a href="./advance/advance-arp-table.html#collapseAdvance" class="list-group-item list-group-item-action slide-menu-item">Advance</a>
+                    <a href="./admin/admin-gpon.html" class="list-group-item list-group-item-action slide-menu-item">Admin</a>
+                    <a href="./static/statistics-interface.html" class="list-group-item list-group-item-action slide-menu-item">Statistics</a>
+                </div>
+            </div> -->
+            <div class="col-md-12 col-sm-12">
+                <!-- row-1 -->
+                <div class="row mb-2">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="container-dashboard-content">
+                            <div class="title-dashboard">Device Infomation</div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="sub-title-dashboard-left">Model Name:</div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="sub-title-dashboard-right" id="modelname"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="sub-title-dashboard-left">Mac-Address:</div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="sub-title-dashboard-right" id="macaddr"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="sub-title-dashboard-left">Hardware Version:</div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="sub-title-dashboard-right" id="hardwarever"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="sub-title-dashboard-left">Firmware Version:</div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="sub-title-dashboard-right" id="softwarever"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="sub-title-dashboard-left">GPON Serial Number:</div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="sub-title-dashboard-right" id="gponsn"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="sub-title-dashboard-left">TRUE Serial Number:</div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="sub-title-dashboard-right" id="truesn"></div>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-6">
+                                    <div class="sub-title-dashboard-left">Device Serial Number:</div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="sub-title-dashboard-right" id="dsn"></div>
+                                </div>
+                            </div>
+                            <div class="row card-action">
+                                <a href="#" onclick="jumpToUpgrade()" id="upgrade_btn" style="display:none;" class="btn-dashboard">
+                                    Upgrade
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="container-dashboard-content">
+                            <div class="title-dashboard mb-3">Internet Status</div>
+                            <div class="row d-flex align-items-center justify-content-center mb-3">
+                                <img src="../image/labtop.svg" class="">
+                                <img src="../image/Line-middle.svg" class="m-2">
+                                <img src="../image/router-parent.svg" class="">
+                                <img id="online" style="display: none;" src="../image/online.svg" class="m-2">
+                                <img id="offline" style="display: block;" src="../image/offline.svg" class="m-2">
+                                <img src="../image/network.svg" class="">
+                            </div>
+                            <div class="row mb-1">
+                                <h6 class="m-auto">IP Address : <span style="font-size:13px;" class="text-primary" id="ipaddr"></span> </h6>
+                            </div>
+                            <div class="row mb-3">
+                                <h6 class="m-auto">DNS IP Address : <span style="font-size:13px;" class="text-primary" id="dnsaddr"></span> </h6>
+                            </div>
+                            <div class="row card-action">
+                                <button class="btn-dashboard" onclick="wan_reconnect()">Re-Connect</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="container-dashboard-content">
+                            <div class="title-dashboard mb-3">Attached Devices</div>
+                            <div class="row d-flex align-items-center justify-content-center mb-3">
+                                <div class="col-4">
+                                    <div class="row d-flex align-items-center justify-content-center">
+                                        <img src="../image/router_attach.png" width="100%" alt="">
+                                    </div>
+                                    <div class="row d-flex align-items-center justify-content-center">
+                                        <!-- <img src="../image/router.png" width="100%" alt=""> -->
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="row d-flex align-items-center justify-content-center">
+                                        <img src="../image/line_1.png" class="mb-2" width="80%" alt="">
+                                        <img src="../image/line_2.png" class="mb-2" width="80%" alt="">
+                                        <img src="../image/line_3.png" class="mb-2" width="80%" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="row d-flex align-items-center justify-content-center">
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <img src="../image/chanel_lan.png" class="mb-2" width="60%" alt="">
+                                            <a href="#" onclick="jumpToHost()"><span
+                                                    class="badge badge-pill badge-secondary mb-2 ml-1" id="lanhostnum">0</span></a>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <img src="../image/chanel_5.png" class="mb-2" width="60%" alt="">
+                                            <a href="#" onclick="jumpTowifi5gHost()"><span
+                                                    class="badge badge-pill badge-secondary mb-2 ml-1" id="5ghostnum">0</span></a>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <img src="../image/chanel_24.png" class="mb-2" width="60%" alt="">
+                                            <a href="#" onclick="jumpTowifi2gHost()"><span
+                                                    class="badge badge-pill badge-secondary mb-2 ml-1" id="2ghostnum">0</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row card-action">
+                                <button class="btn-dashboard" onclick="doRefresh()">Refresh</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- row-1 -->
+
+                <!-- row-2 -->
+                <div class="row mb-2">
+                    <div class="col-md-8 col-sm-12">
+                        <div class="row mb-2 justify-content-center">
+                            <div class="m-auto p-auto container-dashboard-content"
+                                style="min-width: 100%; min-height: 400px;">
+                                 <iframe src="https://speedtest.trueinternet.co.th" width="100%" height="550"></iframe> 
+                            </div>
+                        </div>
+                        <!-- sub-row-2 -->
+                        <div class="row">
+                            <div class="col-12">
+
+                                <div class="container-dashboard-wifi">
+                                    <div class="title-dashboard border-bottom">Wifi</div>
+                                    <div class="row pl-4 pr-5 border-bottom">
+                                        <div class="col-2 mt-1">
+                                            <img src="../image/wifi.png" width="40px" height="40px">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="row">
+                                                <div class="title-dashboard-wifi">5 GHz</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="title-dashboard-wifi" id="ssid_5g"></div>
+                                            </div>
+                                            <div class="row">
+                                                <a href="#">
+                                                    <div class="sub-title-dashboard-wifi" onclick="jumpToWifi5g()">CHANGE</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-1 mt-3">
+                                            <label class='tgl-btn' for='cb2' id="status_5g"></label>
+                                        </div>
+                                    </div>
+                                    <div class="row pl-4 pr-5 border-bottom">
+                                        <div class="col-2 mt-1">
+                                            <img src="../image/wifi.png" width="40px" height="40px">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="row">
+                                                <div class="title-dashboard-wifi">2.4 GHz</div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="title-dashboard-wifi" id="ssid_2g"></div>
+                                            </div>
+                                            <div class="row">
+                                                <a href="#">
+                                                    <div class="sub-title-dashboard-wifi" onclick="jumpToWifi2g()">CHANGE</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-1 mt-3">
+                                            <label class='tgl-btn' for='cb2' id="status_2g"></label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- sub-row-2 -->
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="container-dashboard-content col-auto">
+                            <div class="title-dashboard">Easy Diagnostic (IPv4)</div>
+                            <div class="sub-title-dashboard-left">WLAN Check</div>
+                            <div class="row">
+                                <div class="card-progress-bar">
+                                    <div class="progress-bar-home">
+                                        <div id="wlanchk_bar" class="progress-bar-value"></div>
+                                    </div>
+                                </div>
+                                <img id="wlanchk_img" src="../image/cancel.svg" width="15" height="15" class="icon-svg">
+                            </div>
+                            <div id="wlanchk_ipaddr" class="sub-title-bottom-dashboard-left">WLAN IP Address : </div>
+                            <div class="sub-title-dashboard-left">DNS Check</div>
+                            <div class="row">
+                                <div class="card-progress-bar">
+                                    <div class="progress-bar-home">
+                                        <div id="dnschk_bar" class="progress-bar-value"></div>
+                                    </div>
+                                </div>
+                                <img id="dnschk_img" src="../image/cancel.svg" width="15" height="15" class="icon-svg">
+                            </div>
+                            <div id="dnschk_ipaddr" class="sub-title-bottom-dashboard-left">DNS IP Address : </div>
+                            <div class="sub-title-dashboard-left">Internet Check</div>
+                            <div class="row">
+                                <div class="card-progress-bar">
+                                    <div class="progress-bar-home">
+                                        <div id="internetchk_bar" class="progress-bar-value"></div>
+                                    </div>
+                                </div>
+                                <img id="internetchk_img" src="../image/cancel.svg" width="15" height="15" class="icon-svg">
+                            </div>
+                            <div id="internetchk_ipaddr" class="sub-title-bottom-dashboard-left">WAN IP Address : </div>
+                            <div class="sub-title-dashboard-left">NAT Check</div>
+                            <div class="row">
+                                <div class="card-progress-bar">
+                                    <div class="progress-bar-home">
+                                        <div id="natchk_bar" class="progress-bar-value"></div>
+                                    </div>
+                                </div>
+                                <img id="natchk_img" src="../image/cancel.svg" width="15" height="15" class="icon-svg">
+                            </div>
+                            <div id="natchk_ipaddr" class="sub-title-bottom-dashboard-left mb-2">NAT Address : </div>
+                            <div class="sub-title-dashboard-left">LAN Check</div>
+                            <div class="row">
+                                <div class="card-progress-bar">
+                                    <div class="progress-bar-home">
+                                        <div id="lanchk_bar" class="progress-bar-value"></div>
+                                    </div>
+                                </div>
+                                <img id="lanchk_img" src="../image/cancel.svg" width="15" height="15" class="icon-svg">
+                            </div>
+                            <div id="lanchk_ipaddr" class="sub-title-bottom-dashboard-left mb-2">LAN Address : </div>
+                            <div class="sub-title-dashboard-left">DHCP Check</div>
+                            <div class="row">
+                                <div class="card-progress-bar">
+                                    <div class="progress-bar-home">
+                                        <div id="dhcpchk_bar" class="progress-bar-value"></div>
+                                    </div>
+                                </div>
+                                <img id="dhcpchk_img" src="../image/cancel.svg" width="15" height="15" class="icon-svg">
+                            </div>
+                            <div id="dhcpchk_ipaddr" class="sub-title-bottom-dashboard-left mb-2">DHCP Address : </div>
+							<div class="sub-title-dashboard-left">WAN Check</div>
+                            <div class="row">
+                                <div class="card-progress-bar">
+                                    <div class="progress-bar-home">
+                                        <div id="wanchk_bar" class="progress-bar-value"></div>
+                                    </div>
+                                </div>
+                                <img id="wanchk_img" src="../image/cancel.svg" width="15" height="15" class="icon-svg">
+                            </div>
+                            <div id="wanchk_status" class="sub-title-bottom-dashboard-left mb-2">Status : </div>
+                            <div class="row">
+                                <button class="btn-dashboard m-auto" onclick="doeasydiag()">Re-Connect</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row-2 -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- content -->
+    <!-- footer -->
+    <div class="footer-home font-weight-bold">
+        <a href="tel:1242">
+            <div class="mtp-lines-box txt-grey">
+                <span class="txt-size-m">True Call Center</span>
+            </div>
+            <span class="txt-size-xxl txt-red">
+                1242
+                <span class="phone-cir-red-icon sprite-icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none" /></svg>
+                </span>
+            </span>
+        </a>
+    </div>
+    <!-- footer -->
+    <!-- <script>
+        function checkStatus() {
+            var statusConnect = false;
+
+            $.ajax({
+                url: 'https://maps.googleapis.com/maps/api/geocode/json',
+                data: {
+                    sensor: false,
+                    address: {
+                        lat: -34.397,
+                        lng: 150.644
+                    }
+                },
+                success: (res) => {
+                    console.log('res', res.status);
+                    statusConnect = true;
+                    console.log('statusConnect', statusConnect);
+                },
+                error: (e) => {
+                    console.log('status', e.status);
+                    if (e.status == 0) {
+                        statusConnect = false;
+                        console.log('statusConnect', statusConnect);
+                        document.getElementById("offline").style.display = "block";
+                        document.getElementById("online").style.display = "none";
+                    } else {
+                        statusConnect = true;
+                        console.log('statusConnect', statusConnect);
+                        document.getElementById("offline").style.display = "none";
+                        document.getElementById("online").style.display = "block";
+                    }
+                }
+            });
+        }
+
+        $(document).ready(function () {
+            // Handler for .ready() called.
+            checkStatus();
+            // navigator.onLine
+        });
+    </script> -->
+
+    <!-- <script src="../js/script.js"></script> -->
+</body>
+
+</html>

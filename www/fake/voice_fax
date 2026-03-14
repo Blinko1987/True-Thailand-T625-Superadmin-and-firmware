@@ -1,0 +1,9 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"voice_fax":	{
+		"FaxT38Enable":	"0",
+		"FaxPassThroughEnable":	"1",
+		"ControlType":	"other"
+	}
+}

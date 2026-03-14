@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	<script language="javascript" src="../js/util_comn.js"></script>
+	<script type="text/javascript" src="../js/lanhosts_info.js"></script>
+	<script language='javascript'>
+		$(document).ready(function(){
+			//优化滚动条，无需改动
+			customScrollBar("html");
+		});
+	</script>
+</head>
+<body class='main_config_body'>
+	<form>
+	    <!--<label id="labelhint" style="display:none;"><b i18n="lanhosthint"></b></label>--> 
+		<br><br>
+		<!--<label><b i18n="lanhostinfo"></b></label>-->
+		
+		<table id="lanhost_tab" style="display:none;" class="tablelarge" cellspacing="0" cellpadding="3px" border="1px">
+            <tbody>
+				<tr class="table-header">
+					<th colspan="8" i18n="lanhostinfo"></th>
+				</tr>
+				<tr class="another-table-header">
+					<th width="15%" i18n="hostname"></th>
+					<th width="15%" i18n="ipaddr"></th>
+					<th width="15%" i18n="macaddress"></th>
+					<th width="12%" i18n="port"></th>
+					<th width="12%" i18n="type"></th>
+					<th width="11%" i18n="band"></th>
+					<th width="15%" i18n="onlinetime2"></th>
+					<!--<th width="15%" i18n="pullblack"></th>-->
+				</tr>
+	        </tbody>
+	        <tbody id='lan_host'>
+	        </tbody>
+        </table>
+		<br/>
+		<div class="main_save">
+			<input type="button" class="input_button" i18n="refresh" i18n-set="value" onclick="refreshApply()">
+		</div>
+    </form>
+		
+</body>
+</html>

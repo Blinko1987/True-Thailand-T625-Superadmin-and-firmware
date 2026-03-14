@@ -1,0 +1,313 @@
+#!/bin/sh
+# This script mounts USB mass storage devices when they are plugged in
+# and unmounts them when they are removed.
+# Copyright (C) 2004, 2005 Martin Dickopp
+#
+# This file is free software; the copyright holder gives unlimited
+# permission to copy and/or distribute it, with or without
+# modifications, as long as this notice is preserved.
+#
+# This file is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+# even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+#
+#set -e
+
+####################################################################
+#Helper functions
+####################################################################
+
+# Log a string via the syslog facility.
+# 调用系统日志接口记录日志，好像不能用
+log()
+{
+	if test "$1" != ""; then
+	echo "$1---$2" >> /var/usbdonglemounttest
+	fi
+    if test $1 != debug || expr "$VERBOSE" : "[yY]" > /dev/null; then
+	logger -p user.$1 -t "usbmount[$$]" -- "$2"	
+    fi
+}
+
+# get the usb index from DEVPATH
+get_usb_index()
+{
+	usb_index_tmp=${DEVPATH:32:1}
+	if test "${usb_index_tmp}" = 1;then 
+	usb_index=1
+	elif test "${usb_index_tmp}" = 0;then
+	usb_index=2
+	else
+	# 6848 device 
+	usb_index=1
+	fi
+	echo usb_index=${usb_index} >> /var/usbdonglemounttest
+}
+
+#exec > /dev/null 2>&1
+if [ ! -f /var/usbdonglemounttest ]
+then
+	touch /var/usbdonglemounttest
+fi
+
+if test -e "/var/usbdonglemounttest"; then
+	 filesize=`ls -l /var/usbdonglemounttest |  awk -F " " '{print $5}'`		
+	if [ $filesize -gt 256000 ]
+	then 
+		rm -rf  /var/usbdonglemounttest 
+	fi						
+fi
+
+opt=$1
+VendorId=$2
+ProductId=$3
+SerialNumber=$4
+bcdDevice=$5
+Manufacturer=$6
+Product=$7
+
+echo "***********************" >> /var/usbdonglemounttest
+echo "opt=$1" >> /var/usbdonglemounttest
+echo "DEVNAME=$DEVNAME" >> /var/usbdonglemounttest
+echo "DEVPATH=$DEVPATH" >> /var/usbdonglemounttest
+echo " " >> /var/usbdonglemounttest
+echo "start==" >> /var/usbdonglemounttest
+echo start date=`date` >> /var/usbdonglemounttest
+echo start opt=$1 >> /var/usbdonglemounttest
+echo start VendorId=$2 >> /var/usbdonglemounttest
+echo start ProductId=$3 >> /var/usbdonglemounttest
+echo start SerialNumber=$4 >> /var/usbdonglemounttest
+echo start bcdDevice=$5 >> /var/usbdonglemounttest
+echo start Manufacturer=$6 >> /var/usbdonglemounttest
+echo start Product=$7 >> /var/usbdonglemounttest
+
+#use the function get_usb_index to get usb index 
+get_usb_index
+
+. /etc/profile
+
+. /usr/share/usbmount/usbled
+# Log a string via the syslog facility.
+# log()
+# {
+    # if test $1 != debug || expr "$VERBOSE" : "[yY]" > /dev/null; then
+	# logger -p user.$1 -t "usbmount[$$]" -- "$2"
+    # fi
+# }
+
+if [  "$DEVNAME" == "" ]
+then
+	exit 1
+fi
+
+# Default values for configuration variables.
+
+umask 000
+
+#add by sdzhang for usb info 
+if [ ! -d /tmp/usbdongleconf ]
+then
+	mkdir -p /tmp/usbdongleconf
+fi
+#add end by sdzhang for usb info
+
+if test "$1" = add; then
+
+	set_usb_dongle_led ${usb_index} on
+
+	tmp_mainNum=1
+	echo "tmp_mainNum=$tmp_mainNum" >> /var/usbdonglemounttest 
+	tmp_followNum=`echo ${DEVNAME:11}`
+	echo "tmp_followNum=$tmp_followNum" >> /var/usbdonglemounttest
+	mountpoint=$DEVNAME
+
+	OPERATOR="`uci get -c /ptconf/ sysinfo_conf.operators_code.value`"
+	if [[ `echo $DEVNAME | grep ttyUSB` != "" ]]
+	then
+		if [ "$OPERATOR" == "CT" ]; then
+			DEVICETYPE=CT_USB_DEV_SERIAL
+		elif [ "$OPERATOR" == "CM" ]; then
+			DEVICETYPE=USB_SERIAL
+		else
+			echo "DEVICETYPE use default"
+			DEVICETYPE=USB_SERIAL
+		fi
+		DEVICEID=10${tmp_mainNum}${tmp_followNum}
+		INST_NUM=1${tmp_mainNum}${tmp_followNum}
+		TMPRESULTFILE=/tmp/usbdongleconf/usbdongleinfo1${tmp_mainNum}${tmp_followNum}
+	elif [[ `echo $DEVNAME | grep ttyACM` != "" ]]
+	then
+		if [ "$OPERATOR" == "CT" ]; then
+			DEVICETYPE=CT_USB_DEV_CDC_ACM
+		elif [ "$OPERATOR" == "CM" ]; then
+			DEVICETYPE=USB_CDC_ACM
+		else
+			echo "DEVICETYPE use default"
+			DEVICETYPE=USB_CDC_ACM
+		fi
+		DEVICEID=20${tmp_mainNum}${tmp_followNum}
+		INST_NUM=2${tmp_mainNum}${tmp_followNum}
+		TMPRESULTFILE=/tmp/usbdongleconf/usbdongleinfo2${tmp_mainNum}${tmp_followNum}
+	elif [[ `echo $DEVNAME | grep hidraw` != "" ]]
+	then
+		if [ "$OPERATOR" == "CT" ]; then
+			DEVICETYPE=CT_USB_DEV_HID
+		elif [ "$OPERATOR" == "CM" ]; then
+			DEVICETYPE=USB_HID
+		else
+			echo "DEVICETYPE use default"
+			DEVICETYPE=USB_HID
+		fi
+		DEVICEID=40${tmp_mainNum}${tmp_followNum}
+		INST_NUM=4${tmp_mainNum}${tmp_followNum}
+		TMPRESULTFILE=/tmp/usbdongleconf/usbdongleinfo4${tmp_mainNum}${tmp_followNum}
+	fi
+	echo "DEVICETYPE=$DEVICETYPE" >> /var/usbdonglemounttest
+
+	if [ ! -f $TMPRESULTFILE ]
+	then
+		touch $TMPRESULTFILE
+	fi
+
+	WRITEPROTECTION=0
+	
+	# cfg_cmd setuci $TMPRESULTFILE Devpath "$DEVPATH" 0
+	cfg_cmd setuci $TMPRESULTFILE DeviceType "$DEVICETYPE" 0
+	cfg_cmd setuci $TMPRESULTFILE DeviceId "$DEVICEID" 0
+	cfg_cmd setuci $TMPRESULTFILE DeviceName "$DEVNAME" 0
+	cfg_cmd setuci $TMPRESULTFILE Vendor "$6" 0
+	cfg_cmd setuci $TMPRESULTFILE Model "$7" 0
+	cfg_cmd setuci $TMPRESULTFILE WriteProtection "$WRITEPROTECTION" 0
+	
+	OPERATOR="`uci get -c /ptconf/ sysinfo_conf.operators_code.value`"
+	if [ "$OPERATOR" == "CT" ]; then	
+	#电信版本的,发送ubus消息
+	ubus send UsbDevAction '{"actiontype":1, "instnum":1'$tmp_mainNum''$tmp_followNum'}'
+	elif [ "$OPERATOR" == "CM" ]; then
+	#移动版本的消息。ubus消息对脚本消息发送，需要转义，尝试多次，如下面写才能发送成功。
+	#Manufacturer和Product因为中间有空格，所有多包一层""
+	RESULT="{\"Event\":\"USB_DEV_ACTION\",\"ActionType\":\"USB_DEV_INSERT\",\"DevType\":\"$DEVICETYPE\",\"DevId\":\"$DEVICEID\",\"DevName\":\"$DEVNAME\",\"MountPath\":\"$mountpoint\",\"VendorId\":\"$VendorId\",\"ProductId\":\"$ProductId\",\"bcdDevice\":\"$bcdDevice\",\"Manufacturer\":\"$Manufacturer\",\"Product\":\"$Product\",\"SerialNumber\":\"$SerialNumber\"}"
+	len=`echo $RESULT |wc -L`
+	ubus send "osgi_plug_notify_event" '{"length":'$len',"body":"{\"Event\":\"USB_DEV_ACTION\",\"ActionType\":\"USB_DEV_INSERT\",\"DevType\":\"'$DEVICETYPE'\",\"DevId\":\"'$DEVICEID'\",\"DevName\":\"'$DEVNAME'\",\"MountPath\":\"'$mountpoint'\",\"VendorId\":\"'$VendorId'\",\"ProductId\":\"'$ProductId'\",\"bcdDevice\":\"'$bcdDevice'\",\"Manufacturer\":\"'"$Manufacturer"'\",\"Product\":\"'"$Product"'\",\"SerialNumber\":\"'$SerialNumber'\"}"}'				
+	elif [ "$OPERATOR" == "CU" ]; then
+	RESULT="{\"Event\":\"USB_DEV_ACTION\",\"ActionType\":\"USB_DEV_INSERT\",\"DevType\":\"$DEVICETYPE\",\"DevName\":\"$DEVNAME\",\"Label\":\"$LABEL\",\"DevId\":\"$DEVICEID\",\"Inst_num\":\"8$tmp_mainNum$tmp_followNum\"}"
+	len=`echo $RESULT |wc -L`
+	ubus send "osgi_plug_notify_event" '{"length":'$len',"body":"{\"Event\":\"USB_DEV_ACTION\",\"ActionType\":\"USB_DEV_INSERT\",\"DevType\":\"'$DEVICETYPE'\",\"DevName\":\"'$DEVNAME'\",\"Label\":\"'$LABEL'\",\"DevId\":\"'$DEVICEID'\",\"Inst_num\":\"'8$tmp_mainNum$tmp_followNum'\"}"}'				
+	else
+	echo "OPERATOR is $OPERATOR"
+	fi
+	log info "RESULT=$RESULT"				
+	echo "***********************" >> /var/usbdonglemounttest
+	
+	# setcfgx $TMPRESULTFILE RESULT "$RESULT"
+	
+	# if [ ! -f /var/powerctlsystemstandby ]
+	# then
+		# notify "$RESULT" 18302 &
+	# fi
+	
+elif test "$1" = remove; then
+
+	set_usb_dongle_led ${usb_index} off
+	
+	tmp_mainNum=1
+	echo "tmp_mainNum=$tmp_mainNum" >> /var/usbdonglemounttest 
+	tmp_followNum=`echo ${DEVNAME:11}`				
+	mountpoint=$DEVNAME
+	echo "mountpoint=$mountpoint" >> /var/usbdonglemounttest
+	
+	OPERATOR="`uci get -c /ptconf/ sysinfo_conf.operators_code.value`"
+	if [[ `echo $DEVNAME | grep ttyUSB` != "" ]]
+	then
+		if [ "$OPERATOR" == "CT" ]; then
+			DEVICETYPE=CT_USB_DEV_SERIAL
+		elif [ "$OPERATOR" == "CM" ]; then
+			DEVICETYPE=USB_SERIAL
+		else
+			echo "DEVICETYPE use default"
+			DEVICETYPE=USB_SERIAL
+		fi
+		INST_NUM=1${tmp_mainNum}${tmp_followNum}
+		#TMPRESULTFILE=/tmp/usbdongleconf/usbdongleinfo1${tmp_mainNum}${tmp_followNum}
+	elif [[ `echo $DEVNAME | grep ttyACM` != "" ]]
+	then
+		if [ "$OPERATOR" == "CT" ]; then
+			DEVICETYPE=CT_USB_DEV_CDC_ACM
+		elif [ "$OPERATOR" == "CM" ]; then
+			DEVICETYPE=USB_CDC_ACM
+		else
+			echo "DEVICETYPE use default"
+			DEVICETYPE=USB_CDC_ACM
+		fi
+		INST_NUM=2${tmp_mainNum}${tmp_followNum}
+		#TMPRESULTFILE=/tmp/usbdongleconf/usbdongleinfo2${tmp_mainNum}${tmp_followNum}
+	elif [[ `echo $DEVNAME | grep hidraw` != "" ]]
+	then
+		if [ "$OPERATOR" == "CT" ]; then
+			DEVICETYPE=CT_USB_DEV_HID
+		elif [ "$OPERATOR" == "CM" ]; then
+			DEVICETYPE=USB_HID
+		else
+			echo "DEVICETYPE use default"
+			DEVICETYPE=USB_HID
+		fi
+		INST_NUM=4${tmp_mainNum}${tmp_followNum}
+		#TMPRESULTFILE=/tmp/usbdongleconf/usbdongleinfo4${tmp_mainNum}${tmp_followNum}
+	fi
+	
+	if [ "$OPERATOR" == "CT" ]; then	
+	#电信版本的消息，还未调试过
+	RESULT="{\"Event\":\"USB_DEV_ACTION\",\"ActionType\":\"USB_DEV_PULL\",\"DevType\":\"$DEVICETYPE\",\"DevName\":\"$DEVNAME\",\"Label\":\"$LABEL\",\"DevId\":\"$DEVICEID\",\"Inst_num\":\"8$tmp_mainNum$tmp_followNum\"}"
+	len=`echo $RESULT |wc -L`
+	ubus send "osgi_plug_notify_event" '{"length":'$len',"body":"{\"Event\":\"USB_DEV_ACTION\",\"ActionType\":\"USB_DEV_PULL\",\"DevType\":\"'$DEVICETYPE'\",\"DevName\":\"'$DEVNAME'\",\"Label\":\"'$LABEL'\",\"DevId\":\"'$DEVICEID'\",\"Inst_num\":\"'8$tmp_mainNum$tmp_followNum'\"}"}'				
+	elif [ "$OPERATOR" == "CM" ]; then
+	#移动版本的消息。ubus消息对脚本消息发送，需要转义，尝试多次，如下面写才能发送成功。
+	#Manufacturer和Product因为中间有空格，所有多包一层""
+	RESULT="{\"Event\":\"USB_DEV_ACTION\",\"ActionType\":\"USB_DEV_PULL\",\"DevType\":\"$DEVICETYPE\",\"DevId\":\"$DEVICEID\",\"DevName\":\"$DEVNAME\",\"MountPath\":\"$mountpoint\",\"VendorId\":\"$VendorId\",\"ProductId\":\"$ProductId\",\"bcdDevice\":\"$bcdDevice\",\"Manufacturer\":\"$Manufacturer\",\"Product\":\"$Product\",\"SerialNumber\":\"$SerialNumber\"}"
+	len=`echo $RESULT |wc -L`
+	ubus send "osgi_plug_notify_event" '{"length":'$len',"body":"{\"Event\":\"USB_DEV_ACTION\",\"ActionType\":\"USB_DEV_PULL\",\"DevType\":\"'$DEVICETYPE'\",\"DevId\":\"'$DEVICEID'\",\"DevName\":\"'$DEVNAME'\",\"MountPath\":\"'$mountpoint'\",\"VendorId\":\"'$VendorId'\",\"ProductId\":\"'$ProductId'\",\"bcdDevice\":\"'$bcdDevice'\",\"Manufacturer\":\"'"$Manufacturer"'\",\"Product\":\"'"$Product"'\",\"SerialNumber\":\"'$SerialNumber'\"}"}'				
+	elif [ "$OPERATOR" == "CU" ]; then
+	RESULT="{\"Event\":\"USB_DEV_ACTION\",\"ActionType\":\"USB_DEV_PULL\",\"DevType\":\"$DEVICETYPE\",\"DevName\":\"$DEVNAME\",\"Label\":\"$LABEL\",\"DevId\":\"$DEVICEID\",\"Inst_num\":\"8$tmp_mainNum$tmp_followNum\"}"
+	len=`echo $RESULT |wc -L`
+	ubus send "osgi_plug_notify_event" '{"length":'$len',"body":"{\"Event\":\"USB_DEV_ACTION\",\"ActionType\":\"USB_DEV_PULL\",\"DevType\":\"'$DEVICETYPE'\",\"DevName\":\"'$DEVNAME'\",\"Label\":\"'$LABEL'\",\"DevId\":\"'$DEVICEID'\",\"Inst_num\":\"'8$tmp_mainNum$tmp_followNum'\"}"}'				
+	else
+	echo "OPERATOR is $OPERATOR"
+	fi
+	log info "RESULT=$RESULT"				
+	echo "***********************" >> /var/usbdonglemounttest
+	
+	#echo "TMPRESULTFILE=$TMPRESULTFILE" >> /var/usbdonglemounttest	
+	# OPERATOR="`uci get -c /ptconf/ sysinfo_conf.operators_code.value`"
+	# if [ "$OPERATOR" == "CT" ]; then				
+	# RESULT="{\"Event\":\"USB_DEV_ACTION\",\"ActionType\":\"USB_DEV_PULL\",\"DevType\":\"$DEVICETYPE_REMOVE\",\"DevName\":\"$DEVNAME_REMOVE\",\"Label\":\" \",\"DevId\":\"$DEVICEID_REMOVE\",\"Inst_num\":\"$INST_NUM\"}"
+	# elif [ "$OPERATOR" == "CM" ]; then
+	# RESULT="\"Event\":\"USB_DEV_ACTION\",\"ActionType\":\"USB_DEV_PULL\",\"DevType\":\"USB_STORAGE\",\"DevId\":\"$DEVICEID\",\"DevName\":\"$DEVNAME\",\"MountPath\":\"$mountpoint\",\"VendorId\":\"$VendorId\",\"ProductId\":\"$ProductId\",\"bcdDevice\":\"$bcdDevice\",\"Manufacturer\":\"$Manufacturer\",\"Product\":\"$Product\",\"SerialNumber\":\"$SerialNumber\""
+	# elif [ "$OPERATOR" == "CU" ]; then
+	# RESULT="\"Event\":\"USB_DEV_ACTION\",\"ActionType\":\"USB_DEV_PULL\",\"DevType\":\"USB_STORAGE\",\"DevName\":\"$DEVNAME\",\"Label\":\"$LABEL\",\"DevId\":\"$DEVICEID\",\"Inst_num\":\"8$tmp_mainNum$tmp_followNum\""
+	# else
+	# echo "OPERATOR is $OPERATOR"
+	# fi
+	# log info "RESULT=$RESULT"
+	# ubus send "108" "{$RESULT}"
+	
+	# if [ ! -f /var/powerctlsystemstandby ]
+	# then
+		# DEVICETYPE_REMOVE=`getcfgx $TMPRESULTFILE DeviceType`
+		# DEVICEID_REMOVE=`getcfgx $TMPRESULTFILE DeviceId`
+		# DEVNAME_REMOVE=`getcfgx $TMPRESULTFILE DeviceName`
+		
+		# RESULT="{\"Event\":\"USB_DEV_ACTION\",\"ActionType\":\"USB_DEV_PULL\",\"DevType\":\"$DEVICETYPE_REMOVE\",\"DevName\":\"$DEVNAME_REMOVE\",\"Label\":\" \",\"DevId\":\"$DEVICEID_REMOVE\",\"Inst_num\":\"$INST_NUM\"}"
+		# notify "$RESULT" 18302 &
+	# fi
+
+	rm -rf $TMPRESULTFILE
+	if [ -f $TMPRESULTFILE ]
+	then
+		rm -rf $TMPRESULTFILE
+	fi
+fi
+
+echo end date=`date` >> /var/usbdonglemounttest
+	    
+exit 0

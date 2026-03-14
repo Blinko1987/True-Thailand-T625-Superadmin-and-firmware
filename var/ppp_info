@@ -1,0 +1,9 @@
+
+config key 'ppp_username'
+	option value '6420e17b0402@truehisp'
+	option encryflag '0'
+
+config key 'ppp_password'
+	option value 'password'
+	option encryflag '0'
+

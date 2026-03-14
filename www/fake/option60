@@ -1,0 +1,12 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"option":	{
+		"option60_encry_enable":	"no",
+		"option_125_enable":	"yes",
+		"option_125_len":	"21",
+		"Enterprise_number1":	"1234",
+		"option_125_string":	"TELCOMITMSDHCPAA",
+		"SerialNumber":	"FCD6048555FFFE92A"
+	}
+}

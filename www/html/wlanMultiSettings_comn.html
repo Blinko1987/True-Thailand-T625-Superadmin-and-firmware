@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/jquery.formFill.js"></script>
+		<script type="text/javascript" src="../js/wlanMultiSettings_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title">2.4G 无线基本配置</p>
+			<p class="main_header_hint">说明：可设置无线的基本功能，包括启用/禁用无线连接、设置无线网络SSID以及无线安全配置指定加入无线网络是否需要网络密钥及密钥强度等基本功能</p>
+		</div>
+		<form id="wlan_basic_settings">
+			<div class="main_item">
+				<div class="main_item_name">启用2.4G无线网络</div>
+				<div class="main_item_content">
+					<div id="WlanEnable_checkbox" class="switch_content switch_content_on">
+						<input type="hidden" value="1" id="WlanEnable_checkbox_value" name="data.Enable">
+					</div>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name">SSID</div>
+				<div class="main_item_content">
+					<input type="text" maxlength="32" placeholder="SSID" name="data.SSID" id="WlanSsid_text" class="input_text input_text_wifi">
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name">认证模式</div>
+				<div class="main_item_content">
+					<select id="WlanAuthMode_select" name="data.BeaconType">
+					</select>
+				</div>
+			</div>
+			<div id="wep_settings">
+				<div class="main_item">
+					<div class="main_item_name">WEP加密</div>
+					<div class="main_item_content">
+						<select id="WlanWepPwd_select" name="data.BasicAuthenticationMode">
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">加密长度</div>
+					<div class="main_item_content">
+						<select id="WlanKeyBit_select" name="data.WEPEncryptionLevel">
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name">加密模式</div>
+				<div class="main_item_content">
+					<select id="WlanPwdMode_select" name="data.WPAEncryptionModes">
+					</select>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name">无线网络密钥</div>
+				<div class="main_item_content">
+					<div class="password_content password_content_wifi">
+						<input type="password" maxlength="32" placeholder="PASSWORD" autocomplete="off"  name="data.PreSharedKey" id="WlanPassword_password">
+						<div class="password_switch password_switch_unfocus"></div>
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" value="保存设置" id="apply" name="apply" onclick="saveApply()">
+			</div>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/jquery.formFill.js"></script>
+		<script type="text/javascript" src="../js/wlanSecuritySettings_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="wlansecuritysetting"></p>
+			<p class="main_header_hint" i18n="wlansecuritysetting_hint"></p>
+		</div>
+		<form id="wlanAdv_settings_form">
+			<div style="position:absolute; left:0px; top:0px; z-index:-1; width:0px; height:0px; border:0 none; opacity:0;">
+				<input name="000" type="text" style="position:absolute; left:0px; top:0px; padding:0px; z-index:-10; width:0px; height:0px; border:0 none;"/>
+				<input name="data.PreSharedKey" type="password" style="position:absolute; left:0px; top:0px; padding:0px; z-index:-10; width:0px; height:0px; border:0 none;"/>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name" i18n="ssidtype"></div>
+				<div class="main_item_content">
+					<select id="wlsecurity_SSID">
+					</select>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name" i18n="authenticationmode"></div>
+				<div class="main_item_content">
+					<select id="wlsecurity_NetworkWay" name="data.BeaconType">
+						<option value='WPA2PSKWPA3SAE'>WPA2/WPA3 Mixed</option>
+						<option value="WPAand11i">WPA/WPA2 Mixed</option>
+						<option value="WPA">WPA</option>
+						<option value="11i">WPA2</option>
+						<option value="SharedKey">SHARED</option>
+						<option value="Both">BOTH</option>
+						<option value="None">None</option>
+					</select>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name" i18n="encryptionmode"></div>
+				<div class="main_item_content">
+					<select id="wlsecurity_WPAEncryption" name="data.WPAEncryptionModes" class="WlanPwdMode-select">
+						<option value="TKIPandAESEncryption">TKIP+AES</option>
+						<option value="TKIPEncryption">TKIP</option>
+						<option value="AESEncryption">AES</option>
+						<option value="WEP">WEP</option>
+					</select>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name" i18n="wifipwd"></div>
+				<div class="main_item_content">
+					<div class="password_content password_content_wifi">
+						<input type="password" maxlength="64" autocomplete="off"  name="data.PreSharedKey" id="wlsecurity_WPAkeys">
+						<div class="password_switch password_switch_unfocus"></div>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="main_item">
+				<div class="main_item_name">WEP 加密</div>
+				<div class="main_item_content">
+					<select id="wlsecurity_WEPEncryption" name="data.WEPEncryption">
+						<option value="0">禁用</option>
+						<option value="share">启用</option>
+					</select>
+				</div>
+			</div> -->
+			<div id="wlsecurity_WEP">
+				<div class="main_item">
+					<div class="main_item_name" i18n="wepkeylen"></div>
+					<div class="main_item_content">
+						<select id="wlsecurity_Keylength" name="data.WEPEncryptionLevel">
+							<option value="104-bit">128-bit</option>
+							<option value="40-bit">64-bit</option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="currnetwkindex"></div>
+					<div class="main_item_content">
+						<select id="wlsecurity_KeyIndex" name="data.WEPKeyIndex">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="wepkey1"></div>
+					<div class="main_item_content">
+						<input type="text" name="data.WEPKey1" id="wlanWepKey1" class="input_text input_text_wifi">
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="wepkey2"></div>
+					<div class="main_item_content">
+						<input type="text" name="data.WEPKey2" id="wlanWepKey2" class="input_text input_text_wifi">
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="wepkey3"></div>
+					<div class="main_item_content">
+						<input type="text" name="data.WEPKey3" id="wlanWepKey3" class="input_text input_text_wifi">
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="wepkey4"></div>
+					<div class="main_item_content">
+						<input type="text" name="data.WEPKey4" id="wlanWepKey4" class="input_text input_text_wifi">
+					</div>
+				</div>
+				<span class="main_header_hint" i18n="wepkey_hint">
+					
+				</span>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name" i18n="wpareauth"></div>
+				<div class="main_item_content">
+					<input type="text" maxlength="31" name="data.WPAReauthTime" id="WPAReauthTime_text" class="input_text input_text_wifi">(60s-86400s)
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" onclick="saveApply()" class="input_button" i18n="save" i18n-set="value">
+			</div>
+		</form>
+		
+	</body>
+</html>

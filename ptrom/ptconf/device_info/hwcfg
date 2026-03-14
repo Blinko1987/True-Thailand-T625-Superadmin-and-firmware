@@ -1,0 +1,16 @@
+config key '1'
+	option value 'WAG-M42_1G'
+	option encryflag '0'
+
+config key '2'
+	option value 'WAG-M40_10G'
+	option encryflag '0'
+	
+config key '3'
+	option value 'WAG-M40_10GS'
+	option encryflag '0'
+	
+config key '0'
+	option value 'WAG-M42_1G'
+	option encryflag '0'
+	

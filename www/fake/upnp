@@ -1,0 +1,7 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"upnp":	{
+		"Enable":	"1"
+	}
+}

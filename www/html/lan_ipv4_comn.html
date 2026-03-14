@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script language="javascript" src="../js/lan_ipv4_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.lan_ipv4_set"></p>
+			<p class="main_header_hint" i18n="lanipv4_hint"></p>
+		</div>
+		<form id="lan_ipv4_form">
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name" i18n="ipaddr"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="LanIP_Address_text" name="LanIP_Address_text"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="subnetmask"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="LanSubmask_text" name="LanSubmask_text"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="enabledhcpserver"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="Lan_DHCP_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<!-- <div class="main_item">
+					<div class="main_item_name" i18n="enableddnsproxy"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="Lan_DNSProxy_checkbox"/>&nbsp;
+					</div>
+				</div> -->
+				
+				<div class="main_item">
+					<div class="main_item_name" i18n="dnsoption"></div>
+					<div class="main_item_content">
+						<select id="LanDNS_select">
+							<option value="Proxy" i18n="dnsproxy"></option>
+							<option value="WANDNS" i18n="usewandns"></option>
+							<option value="Static" i18n="setdnsmanually"></option>
+						</select>
+					</div>
+				</div>
+				<div id="staticdns" style="display:none;">
+					<div class="main_item v4dns">
+						<div class="main_item_name" i18n="primarydns"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="LanPri_DNS_text" name="LanPri_DNS_text"/>
+						</div>
+					</div>
+					<div class="main_item v4dns">
+						<div class="main_item_name" i18n="secondarydns"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="LanSec_DNS_text" name="LanSec_DNS_text"/>
+						</div>
+					</div>
+				</div>
+				
+				<div class="main_item">
+					<div class="main_item_name" i18n="startipaddr"></div>
+					<div class="main_item_content">
+						<div class="network_segment"></div><input type="text" class="input_text dhcp_set" style="width:200px;" autocomplete="off" id="LanStartAddress_text" name="LanStartAddress_text"/>
+					</div>
+					<div id="LanStartAddress-error" class="main_item_error_hint_extra"></div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="endipaddr"></div>
+					<div class="main_item_content">
+						<div class="network_segment"></div><input type="text" class="input_text dhcp_set" style="width:200px;" autocomplete="off" id="LanEndAddress_text" name="LanEndAddress_text"/>
+					</div>
+					<div id="LanEndAddress-error" class="main_item_error_hint_extra"></div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="subnetmask"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text dhcp_set" autocomplete="off" id="LanDHCP_Submask_text" name="LanDHCP_Submask_text"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="releasetime"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text dhcp_set" autocomplete="off" id="LanLeaseTime_select" name="LanLeaseTime_select"/>&nbsp;s
+						<!--<select id="LanLeaseTime_select" class="dhcp_set">
+							<option value="60" i18n="oneminute"></option>
+							<option value="3600" i18n="onehour"></option>
+							<option  value="86400" i18n="oneday"></option>
+							<option value="604800" i18n="oneweek"></option>
+						</select>-->
+					</div>
+					<div id="LanLeaseTime-error" class="main_item_error_hint_extra"></div>
+				</div>
+				<!--<div class="main_item">
+					<div class="main_item_name"><b>设备地址区间设置</b></div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">
+						设备类型
+					</div>
+					<div class="main_item_content">
+						<div style="width:200px">起始地址</div>
+						<div style="width:200px">结束地址</div>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">
+						Computer
+					</div>
+					<div class="main_item_content">
+						<div style="width:200px;">
+							<div class="network_segment"></div>
+							<input type="text" class="input_text dhcp_set" autocomplete="off" id="LanPC_StartAddress_text" name="LanPC_StartAddress_text" style="width:50px"/>
+						</div>
+						<div style="width:200px;">
+							<div class="network_segment"></div>
+							<input type="text" class="input_text dhcp_set" autocomplete="off" id="LanPC_EndAddress_text" name="LanPC_EndAddress_text" style="width:50px"/>
+						</div>
+					</div>
+					<div id="LanPC-error" class="main_item_error_hint_extra"></div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">
+						STB
+					</div>
+					<div class="main_item_content">
+						<div style="width:200px;">
+							<div class="network_segment"></div>
+							<input type="text" class="input_text dhcp_set" autocomplete="off" id="LanSTB_StartAddress_text" name="LanSTB_StartAddress_text" style="width:50px"/>
+						</div>
+						<div style="width:200px;">
+							<div class="network_segment"></div>
+							<input type="text" class="input_text dhcp_set" autocomplete="off" id="LanSTB_EndAddress_text" name="LanSTB_EndAddress_text" style="width:50px"/>
+						</div>
+					</div>
+					<div id="LanSTB-error" class="main_item_error_hint_extra"></div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">
+						Phone
+					</div>
+					<div class="main_item_content">
+						<div style="width:200px;">
+							<div class="network_segment"></div>
+							<input type="text" class="input_text dhcp_set" autocomplete="off" id="LanPhone_StartAddress_text" name="LanPhone_StartAddress_text" style="width:50px"/>
+						</div>
+						<div style="width:200px;">
+							<div class="network_segment"></div>
+							<input type="text" class="input_text dhcp_set" autocomplete="off" id="LanPhone_EndAddress_text" name="LanPhone_EndAddress_text" style="width:50px"/>
+						</div>
+					</div>
+					<div id="LanPhone-error" class="main_item_error_hint_extra"></div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">
+						Camera
+					</div>
+					<div class="main_item_content">
+						<div style="width:200px;">
+							<div class="network_segment"></div>
+							<input type="text" class="input_text dhcp_set" autocomplete="off" id="LanCamera_StartAddress_text" name="LanCamera_StartAddress_text" style="width:50px"/>
+						</div>
+						<div style="width:200px;">
+							<div class="network_segment"></div>
+							<input type="text" class="input_text dhcp_set" autocomplete="off" id="LanCamera_EndAddress_text" name="LanCamera_EndAddress_text" style="width:50px"/>
+						</div>
+					</div>
+					<div id="LanCamera-error" class="main_item_error_hint_extra"></div>
+				</div>-->
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" onclick="saveApply()" i18n="save" i18n-set="value"/>
+			</div>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,286 @@
+
+config key 'UserAccount'
+	option value 'admin'
+	option encryflag '0'
+
+config key 'UserPasswd'
+	option encryflag '0'
+	option value 'LV6NPR9X'
+
+config key 'ManufacturerOUI'
+	option encryflag '0'
+	option value '6420E1'
+
+config key 'SerialNumber'
+	option encryflag '0'
+	option value 'T3TH177B0402'
+
+config key 'SSID1'
+	option encryflag '0'
+	option value 'TrueGigatexFiber_2.4G_402'
+
+config key 'PreSharedKey1'
+	option encryflag '0'
+	option value 'TH3VQQMA'
+
+config key 'BeaconType1'
+	option value '11i'
+	option encryflag '0'
+
+config key 'SSID2'
+	option encryflag '0'
+	option value 'TrueGigatexFiber_2.4G_402_2'
+
+config key 'PreSharedKey2'
+	option encryflag '0'
+	option value 'TH3VQQMA'
+
+config key 'BeaconType2'
+	option value '11i'
+	option encryflag '0'
+
+config key 'SSID3'
+	option encryflag '0'
+	option value 'TrueGigatexFiber_2.4G_402_3'
+
+config key 'PreSharedKey3'
+	option encryflag '0'
+	option value 'TH3VQQMA'
+
+config key 'BeaconType3'
+	option value '11i'
+	option encryflag '0'
+
+config key 'SSID4'
+	option encryflag '0'
+	option value 'TrueGigatexFiber_2.4G_402_4'
+
+config key 'PreSharedKey4'
+	option encryflag '0'
+	option value 'TH3VQQMA'
+
+config key 'BeaconType4'
+	option value '11i'
+	option encryflag '0'
+
+config key 'SSID5'
+	option encryflag '0'
+
+config key 'PreSharedKey5'
+	option encryflag '0'
+	option value 'TH3VQQMA'
+
+config key 'BeaconType5'
+	option value '11i'
+	option encryflag '0'
+
+config key 'SSID6'
+	option encryflag '0'
+
+config key 'PreSharedKey6'
+	option encryflag '0'
+	option value 'TH3VQQMA'
+
+config key 'BeaconType6'
+	option value '11i'
+	option encryflag '0'
+
+config key 'SSID7'
+	option encryflag '0'
+
+config key 'PreSharedKey7'
+	option encryflag '0'
+	option value 'TH3VQQMA'
+
+config key 'BeaconType7'
+	option value '11i'
+	option encryflag '0'
+
+config key 'SSID5_1'
+	option encryflag '0'
+	option value 'TrueGigatexFiber_5G_402'
+
+config key 'PreSharedKey5_1'
+	option encryflag '0'
+	option value 'TH3VQQMA'
+
+config key 'BeaconType5_1'
+	option value '11i'
+	option encryflag '0'
+
+config key 'SSID5_2'
+	option encryflag '0'
+	option value 'TrueGigatexFiber_5G_402_2'
+
+config key 'PreSharedKey5_2'
+	option encryflag '0'
+	option value 'TH3VQQMA'
+
+config key 'BeaconType5_2'
+	option value '11i'
+	option encryflag '0'
+
+config key 'SSID5_3'
+	option encryflag '0'
+
+config key 'PreSharedKey5_3'
+	option encryflag '0'
+
+config key 'BeaconType5_3'
+	option value '11i'
+	option encryflag '0'
+
+config key 'SSID5_4'
+	option encryflag '0'
+	option value 'TrueGigatexFiber_5G_402_3'
+
+config key 'PreSharedKey5_4'
+	option encryflag '0'
+	option value 'TH3VQQMA'
+
+config key 'BeaconType5_4'
+	option value '11i'
+	option encryflag '0'
+
+config key 'SSID5_5'
+	option encryflag '0'
+	option value 'TrueGigatexFiber_5G_402_4'
+
+config key 'PreSharedKey5_5'
+	option encryflag '0'
+	option value 'TH3VQQMA'
+
+config key 'BeaconType5_5'
+	option value '11i'
+	option encryflag '0'
+
+config key 'SSID5_6'
+	option encryflag '0'
+
+config key 'PreSharedKey5_6'
+	option encryflag '0'
+	option value 'TH3VQQMA'
+
+config key 'BeaconType5_6'
+	option value '11i'
+	option encryflag '0'
+
+config key 'SSID5_7'
+	option encryflag '0'
+
+config key 'PreSharedKey5_7'
+	option encryflag '0'
+	option value 'TH3VQQMA'
+
+config key 'BeaconType5_7'
+	option value '11i'
+	option encryflag '0'
+
+config key 'APMAC_1'
+	option encryflag '0'
+	option value '64:20:E1:7B:04:0D'
+
+config key 'APMAC_2'
+	option encryflag '0'
+	option value '64:20:E1:7B:04:0E'
+
+config key 'internetmac'
+	option encryflag '0'
+	option value '64:20:E1:7B:04:03'
+
+config key 'tr069mac'
+	option encryflag '0'
+	option value '64:20:E1:7B:04:04'
+
+config key 'voipmac'
+	option encryflag '0'
+	option value '64:20:E1:7B:04:05'
+
+config key 'priprotocolmac'
+	option encryflag '0'
+	option value '64:20:E1:7B:04:06'
+
+config key 'othermac'
+	option encryflag '0'
+	option value '64:20:E1:7B:04:07'
+
+config key 'special1mac'
+	option encryflag '0'
+	option value '64:20:E1:7B:04:08'
+
+config key 'special2mac'
+	option encryflag '0'
+	option value '64:20:E1:7B:04:09'
+
+config key 'special3mac'
+	option encryflag '0'
+	option value '64:20:E1:7B:04:0A'
+
+config key 'special4mac'
+	option encryflag '0'
+	option value '64:20:E1:7B:04:0B'
+
+config key 'brmac'
+	option encryflag '0'
+	option value '64:20:E1:7B:04:02'
+
+config key 'GponSN'
+	option encryflag '0'
+	option value 'T3TH177B0402'
+
+config key 'TrueSN'
+	option encryflag '0'
+	option value '141836202300068190'
+
+config key 'GPONPassWord'
+	option value 'T3TH012345'
+	option encryflag '0'
+
+config key 'PONMac'
+	option encryflag '0'
+	option value '64:20:E1:7B:04:0C'
+
+config key 'pon_mode'
+	option value 'asym'
+	option encryflag '0'
+
+config key 'VendorCode'
+	option value 'T3 Technology'
+	option encryflag '0'
+
+config key 'Reservedata'
+	option value 'MQ=='
+	option encryflag '1'
+
+config key 'WebCode'
+	option value '61'
+	option encryflag '0'
+
+config key 'TelnetAccount'
+	option value 'superadmin'
+	option encryflag '0'
+
+config key 'TelnetPassword'
+	option value 't4246#5753'
+	option encryflag '0'
+
+config key 'TelnetSuperPassword'
+	option value 'telnetadmin'
+	option encryflag '0'
+
+config key 'SSID8'
+	option value 'Easymesh_Backhaul_402'
+	option encryflag '0'
+
+config key 'PreSharedKey8'
+	option value 'TH3VQQMA'
+	option encryflag '0'
+
+config key 'SSID5_8'
+	option value 'Easymesh_Backhaul_402'
+	option encryflag '0'
+
+config key 'PreSharedKey5_8'
+	option value 'TH3VQQMA'
+	option encryflag '0'
+

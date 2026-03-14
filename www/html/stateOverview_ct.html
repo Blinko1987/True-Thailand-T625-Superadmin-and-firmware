@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	<script language="javascript" src="../js/util_comn.js"></script>
+	<script type="text/javascript" src="../js/stateOverview_ct.js"></script>
+</head>
+<body class='main_config_body'>
+		<form id="broadband_form">
+			<br><br> 
+			<table class="tablesmall" cellspacing="0" cellpadding="3" border="1px">	
+	            <tbody>
+					<tr class="table-header">
+						<th colspan="2" i18n="devicebasicinfo"></th>
+					</tr>
+		            <tr class="oddtr">
+			            <td class="table_title" width="50%" i18n="devicetype"></td>
+			            <td width="50%" id='pontype'></td>
+		            </tr>
+		            <tr>
+			            <td class="table_title" i18n="manufacturer"></td>
+			            <td id="Manufacturer"></td>
+		            </tr>
+		            <tr class="oddtr">
+			            <td class="table_title" i18n="modelname"></td>
+			            <td id="ModelName"></td>
+		            </tr>
+		            <tr>
+			            <td class="table_title" i18n="serialnumber"></td>
+			            <td id="SerialNumber"></td>
+		            </tr>
+		            <tr class="oddtr">
+			            <td class="table_title" i18n="hardwarever"></td>
+			            <td id="HardwareVersion"></td>
+		            </tr>
+		            <tr>
+			            <td class="table_title" i18n="softwarever"></td>
+			            <td id="SoftwareVersion"></td>
+		            </tr>
+					<tr class="oddtr">
+			            <td class="table_title" i18n="microagent"></td>
+			            <td id="MicroAgent"></td>
+		            </tr>
+					<tr>
+			            <td class="table_title" i18n="cputemp"></td>
+			            <td id="CPUTemp"></td>
+		            </tr>
+					<tr class="oddtr">
+			            <td class="table_title" i18n="cpurate"></td>
+			            <td id="CPURate"></td>
+		            </tr>
+					<tr>
+			            <td class="table_title" i18n="memrate"></td>
+			            <td id="MemRate"></td>
+		            </tr>
+		            <tr class="oddtr">
+			            <td class="table_title" i18n="uptime"></td>
+			            <td id="uptime"></td>
+		            </tr>
+					<tr id="cumulativeuptimetr" style="display:none;">
+			            <td class="table_title" i18n="cumulativeuptime"></td>
+			            <td id="cumulativeuptime"></td>
+		            </tr>
+                </tbody>
+            </table>
+			<br><br>
+			<!-- <label><b i18n="poninfo"></b></label> 
+			<br><br>-->
+			<table class="tablesmall" cellspacing="0" cellpadding="3px" border="1px">	
+	            <tbody>
+					<tr class="table-header">
+						<th colspan="2" i18n="poninfo"></th>
+					</tr>
+		            <tr class="oddtr">
+			            <td class="table_title" width="50%" i18n="ponprotocol"></td>
+			            <td width="50%" id='pon_protocol'></td>
+		            </tr>
+		            <tr>
+			            <td class="table_title" i18n="linkstate"></td>
+			            <td id="pon_link_state"></td>
+		            </tr>
+		            <tr class="oddtr">
+			            <td class="table_title" i18n="linktime"></td>
+			            <td id="pon_linktime"></td>
+		            </tr>
+		            <tr>
+			            <td class="table_title" i18n="powersend"></td>
+			            <td id="power_send"></td>
+		            </tr>
+		            <tr class="oddtr">
+			            <td class="table_title" i18n="powerreceive"></td>
+			            <td id="power_receive"></td>
+		            </tr>
+                </tbody>
+            </table>
+			<br><br>
+			<!-- <label><b i18n="gwreginfo"></b></label> 
+			<br><br>-->
+			<table class="tablesmall" cellspacing="0" cellpadding="3px" border="1px">	
+	            <tbody>
+					<tr class="table-header">
+						<th colspan="2" i18n="gwreginfo"></th>
+					</tr>
+		            <tr class="oddtr">
+			            <td class="table_title" width="50%" i18n="loid"></td>
+			            <td width="50%" id="loid"></td>
+		            </tr>
+		            <tr>
+			            <td class="table_title" i18n="oltstatus"></td>
+			            <td id="olt_status"></td>
+		            </tr>
+		            <tr class="oddtr">
+			            <td class="table_title" i18n="itmsstatus"></td>
+			            <td id="itms_status"></td>
+		            </tr>
+                </tbody>
+            </table>
+			<br><br>
+			<!-- <label><b i18n="serviceinfo"></b></label> 
+			<br><br>-->
+			<table class="tablemedium" cellspacing="0" cellpadding="3px" border="1px">
+	            <tbody>
+					<tr class="table-header">
+						<th colspan="6" i18n="serviceinfo"></th>
+					</tr>
+		            <tr class="another-table-header">
+			            <td i18n="servicetype"></td>
+			            <td i18n="status"></td>
+			            <td i18n="ipprotocol"></td>
+			            <td i18n="conn_mode"></td>
+			            <td i18n="available_port"></td>
+			            <td i18n="conn_name"></td>					
+		            </tr>
+	                <tr class="oddtr">
+			            <td rowspan="2" i18n="internet"></td>				
+	                    <td id="Table_wan1_2_table"></td>
+					    <td id="Table_wan1_3_table"></td>
+						<td id="Table_wan1_4_table"></td>
+						<td id="Table_wan1_5_table"></td>
+						<td id="Table_wan1_6_table"></td>
+				    </tr>
+	                <tr>
+				        <td id="Table_wan2_2_table"></td>
+						<td id="Table_wan2_3_table"></td>
+						<td id="Table_wan2_4_table"></td>
+						<td id="Table_wan2_5_table"></td>
+						<td id="Table_wan2_6_table"></td>
+				    </tr>
+	                <tr class="oddtr">
+			            <td rowspan="2" class="eventr" i18n="itv"></td>
+	                    <td id="Table_wan3_2_table"></td>
+					    <td id="Table_wan3_3_table"></td>
+						<td id="Table_wan3_4_table"></td>
+						<td id="Table_wan3_5_table"></td>
+						<td id="Table_wan3_6_table"></td>
+				    </tr>
+	                <tr>
+				        <td id="Table_wan4_2_table"></td>
+						<td id="Table_wan4_3_table"></td>
+						<td id="Table_wan4_4_table"></td>
+						<td id="Table_wan4_5_table"></td>
+						<td id="Table_wan4_6_table"></td>
+				    </tr>
+	                <tr style="display:none;">
+			            <td i18n="voice"></td>
+	                    <td id="Table_wan5_2_table"></td>
+					    <td id="Table_wan5_3_table"></td>
+						<td id="Table_wan5_4_table"></td>
+						<td id="Table_wan5_5_table"></td>
+						<td id="Table_wan5_6_table"></td>
+				    </tr>				
+	                <tr class="oddtr">
+					    <td i18n="manage"></td>
+				        <td id="Table_wan6_2_table"></td>
+						<td id="Table_wan6_3_table"></td>
+						<td id="Table_wan6_4_table"></td>
+						<td id="Table_wan6_5_table"></td>
+						<td id="Table_wan6_6_table"></td>
+				    </tr>
+                </tbody>
+            </table>
+			<br><br>
+			<!-- <label><b i18n="wlaninfo"></b></label> 
+			<br><br>-->
+			<table class="tablesmall" cellspacing="0" cellpadding="3px" border="1px">	
+	            <tbody>
+					<tr class="table-header">
+						<th colspan="2" i18n="wlaninfo"></th>
+					</tr>
+		           <tr class="oddtr">
+			            <td class="table_title" width='50%' i18n="wifiname"></td>
+			            <td width='50%' id="wifiname"></td>
+		            </tr>
+		            <tr style="display:none;">
+			            <td class="table_title" i18n="wifipwd"></td>
+			            <td id="wifipwd"></td>
+		            </tr>
+		            <tr class="oddtr">
+			            <td class="table_title" i18n="wifistatus"></td>
+			            <td id="wifistatus"></td>
+		            </tr>
+		            <tr>
+			            <td class="table_title" i18n="securitymode"></td>
+			            <td id="wifisecurity"></td>
+		            </tr>
+	                <tr class="oddtr">
+			            <td colspan='2'>
+							<a href="./wlanBasicSettings_comn.html" i18n="wifi_config_wizard"></a>
+						</td>
+					</tr>
+                </tbody>
+            </table>
+			<br><br>
+			<!-- <label><b i18n="user_ethport_info"></b></label> 
+			<br><br>-->
+			<table class="tablesmall" cellspacing="0" cellpadding="3px" border="1px" id="lanport_info">
+				<!--tbody>
+					<tr>
+					   <td width='38%'>网口1</td>
+					   <td width='31%' id='lan_status_1'>未连接设备</td>
+					   <td width='31%' id='lan_mac_1'></td>
+				    </tr>
+					<tr>
+					   <td>网口2</td>
+					   <td id='lan_status_2'>未连接设备</td>
+					   <td id='lan_mac_2'></td>
+				    </tr>
+					<tr>
+					   <td>网口3</td>
+					   <td id='lan_status_3'>未连接设备</td>
+					   <td id='lan_mac_3'></td>
+				    </tr>
+					<tr>
+					   <td>网口4</td>
+					   <td id='lan_status_4'>未连接设备</td>
+					   <td id='lan_mac_4'></td>
+				    </tr>
+			    </tbody-->
+            </table>
+		</form>
+	</body>
+</html>

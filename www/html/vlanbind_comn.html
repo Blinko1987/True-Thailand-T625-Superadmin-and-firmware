@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/jquery.formFill.js"></script>
+		<script type="text/javascript" src="../js/vlanbind_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.vlanbind"></p>
+			<p class="main_header_hint" i18n="vlanbind_hint">
+			</p>
+		</div>
+		<br>
+		<table width="100%" class="no-border-radius" cellspacing="0" cellpadding="3px">
+			<tr class="another-table-header">
+				<td width="20%" i18n="lanport"></td>
+				<td width="20%" i18n="lanvlan"></td>
+				<td width="40%" i18n="bindwanname"></td>
+				<td width="20%" i18n="delete"></td>
+			</tr>
+		</table>
+			
+		<form id="vlan_bind_form">
+			<div class="main_item">
+				<div class="main_item_name" i18n="lanport"></div>
+				<div class="main_item_content" id="lan_div"></div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name"></div>
+				<div class="main_item_content" style="max-width:600px" id="wifi_div"></div>
+			</div>
+			<div class="main_item" id="wifi_div2">
+			</div>
+			<!--<div class="main_item">
+				<div class="main_item_name"></div>
+				<div class="main_item_content" id="5g_wifi_div"></div>
+			</div>
+			<div class="main_item">
+			</div>-->
+			
+			<div class="main_item">
+				<div class="main_item_name" i18n="lanvlan"></div>
+				<div class="main_item_content">
+					<input type="text" class="input_text input_text_wifi" name="data.userVlan" id="Vlan_text">
+				</div>
+			</div>
+			
+			<div class="main_item">
+				<div class="main_item_name" i18n="bindwanname"></div>
+				<div class="main_item_content">
+					<select id="Vlan_WanConnect_select" name="data.wanConnName">
+					</select>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" id="apply" onclick="saveApply()" i18n="save" i18n-set="value">
+			</div>
+		</form>
+	</body>
+</html>

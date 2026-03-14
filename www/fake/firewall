@@ -1,0 +1,8 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"firewall":	{
+		"LEVEL":	"high",
+		"DOSFEnable":	"1"
+	}
+}

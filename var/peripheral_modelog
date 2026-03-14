@@ -1,0 +1,6 @@
+[Thu Jan  1 00:00:34 1970][peripheral][DEBUG]------------system_qos_system_init 2579.
+[Thu Jan  1 00:00:34 1970][peripheral][DEBUG]plan=0
+[Thu Jan  1 00:00:34 1970][peripheral][DEBUG]num_of_app_entries=0
+[Thu Jan  1 00:00:34 1970][peripheral][DEBUG]num_of_class_entries=0
+[Thu Jan  1 00:00:34 1970][peripheral][DEBUG]num_of_priqueue_entries=0
+[Thu Jan  1 00:00:34 1970][peripheral][DEBUG]qos_system_init_load_param 2511 enable is 0.

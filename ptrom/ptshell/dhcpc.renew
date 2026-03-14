@@ -1,0 +1,13 @@
+#!/bin/sh
+# Sample udhcpc renew script
+interface=$1
+ip="0.0.0.0"
+broadcast="0.0.0.0"
+subnet="0.0.0.0"
+router="0.0.0.0"
+dns="0.0.0.0"
+domain="0.0.0.0"
+
+ubus call fh_svcmgr_dhcpc fh_svcmgr_dhcpc_notify "{\"interface\":\"$interface\",\"ip\":\"$ip\",\"broadcast\":\"$broadcast\",\"subnet\":\"$subnet\",\"route\":\"$router\",\"dns\":\"$dns\",\"domain\":\"$domain\"}"
+
+exit 0

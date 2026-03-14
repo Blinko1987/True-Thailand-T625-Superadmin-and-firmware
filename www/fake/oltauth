@@ -1,0 +1,10 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"loid":	{
+		"UserName":	"test",
+		"UserId":	"testtest",
+		"Status":	"0",
+		"Result":	"1"
+	}
+}

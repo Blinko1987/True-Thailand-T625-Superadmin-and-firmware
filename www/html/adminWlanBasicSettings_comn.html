@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/jquery.formFill.js"></script>
+		<script type="text/javascript" src="../js/adminWlanBasicSettings_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title">2.4G 无线基本配置</p>
+			<p class="main_header_hint">本页配置无线LAN口的基本特性。包括启用或禁用无线LAN口、从工作站的AP扫描搜索中隐藏SSID、设置无线网络名(即SSID)。点击 保存设置，无线设置的基本配置生效。</p>
+		</div>
+		<form id="wlan_basic_settings">
+			<div class="main_item">
+				<div class="main_item_name">国家区域</div>
+				<div class="main_item_content">
+					<select name="data.country" id="wlcfg_domain">
+					</select>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name">SSID索引</div>
+				<div class="main_item_content">
+					<select name="data.ssidIndex" id="wlcfg_ssid">
+						<option value="0">增加</option>
+					</select>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name">无线模式</div>
+				<div class="main_item_content">
+					<select name="data.wlanMode" id="wlcfg_wlgMode">
+					</select>
+				</div>
+			</div>
+			<div class="main_item" id="ofdmaenable_div" style="display:none;">
+				<div class="main_item_name">OFDMA</div>
+				<div class="main_item_content">
+					<input type="checkbox" id="OFDMAEnable_checkbox_value"/>&nbsp;
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name">(主)信道</div>
+				<div class="main_item_content">
+					<select name="data.channel" id="wlcfg_wlChannel">
+					</select>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name">802.11速率</div>
+				<div class="main_item_content">
+					<select name="data.rate" id="wlcfg_wlRate">
+					</select>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name">发送功率</div>
+				<div class="main_item_content">
+					<select name="data.powerLevel" id="wlcfg_wlTxPower">
+						<option value=3>Standard</option>
+			           	<option value=2>Medium</option>
+			           	<option value=1>High</option>
+					</select>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name">WMM(服务质量)</div>
+				<div class="main_item_content">
+					<div id="wlcfg_WMMEnable_checkbox" class="switch_content switch_content_on">
+						<input type="hidden" id="wlcfg_WMMEnable_value" name="data.wmmEnable">
+					</div>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name">WMM APSD</div>
+				<div class="main_item_content">
+					<div id="wlcfg_APSDEnable_checkbox" class="switch_content switch_content_on">
+						<input type="hidden" id="wlcfg_APSDEnable_value" name="data.wmmAPSD">
+					</div>
+				</div>
+			</div>
+			<div id="block_80211n">
+				<div>
+					<span><b>无线设置 - 802.11n:</b></span><br/>
+					<span>下面方框内选项用于配置802.11n的基本特性</span><br/>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">信道宽度管理</div>
+					<div class="main_item_content">
+						<select name="data.channelWidth" id="wlcfg_channelwidth">
+							<option value="0">20MHZ</option>
+	           				<option value="1">40MHZ</option>
+	           				<option value="2">20/40MHZ</option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">旁频宽</div>
+					<div class="main_item_content">
+						<select id="secondaryChannel" name="data.secondaryChannel" disabled>
+							<option value="auto">Auto</option>
+							<!--<option value="upper">Upper</option>
+							<option value="lower">Lower</option>-->
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">802.11n速率</div>
+					<div class="main_item_content">
+						<select name="data.rate802" id="wlcfg_802rate">
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name">SGI  ->   Mbps</div>
+				<div class="main_item_content">
+					<div id="wlcfg_sgi" class="switch_content switch_content_on">
+						<input type="hidden" id="wlcfg_sgi_value" name="data.sgiEnable">
+					</div>
+				</div>
+			</div>
+			
+			<div>
+				<span><b>无线-客户/虚拟访问点:</b></span><br/>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name">启用</div>
+				<div class="main_item_content">
+					<div id="wlcfg_open" class="switch_content switch_content_on">
+						<input type="hidden" id="wlcfg_open_value" name="data.Enable">
+					</div>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name">SSID</div>
+				<div class="main_item_content">
+					<input type="text" maxlength="32" name="data.SSID" id="wlcfg_ssidmun" class="input_text input_text_wifi">
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name">SSID隐藏</div>
+				<div class="main_item_content">
+					<div id="wlcfg_hidden" class="switch_content switch_content_on">
+						<input type="hidden" id="wlcfg_hidden_value" name="data.ssidHide">
+					</div>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name">BSSID</div>
+				<div class="main_item_content">
+					<input type="text" class="input_text input_text_wifi" id="wlcfg_bssid" name="data.BSSID" aria-invalid="false" readonly="readonly" disabled="disabled">
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button width-100px margin-10px" value="保存设置" id="apply" onclick="saveApply()">
+				<input type="button" style="display:none;" class="input_button width-100px margin-10px" value="删除" id="delete" onclick="deleteApply()" >
+			</div>
+		</form>
+
+	</body>
+</html>

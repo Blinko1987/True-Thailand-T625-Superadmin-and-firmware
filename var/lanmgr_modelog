@@ -1,0 +1,781 @@
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][main][56]lancc_log_init finish
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_operator_type_init][72]Get Operator Type:CHINA TELECOM!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][main][59]lancc_operator_type_init finish
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_areacode_init][82]Get areacode:Trunk!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][main][63]lancc_areacode_init finish
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][load_hosts_param_from_xml][1548]load_hosts_param_from_xml :start  
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][load_hosts_param_from_xml][1556]end 
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][main][71]lancc_hostmgr_init finish
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_br_mac_get][61]get br0 mac=64:20:E1:7B:04:02!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][vlan_bind_init][1935]brmac=64:20:E1:7B:04:02
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan1 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan1 X_CT-COM_Mode=0!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=1 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:1!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan2 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan2 X_CT-COM_Mode=0!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=2 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:2!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan3 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan3 X_CT-COM_Mode=0!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=3 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:3!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan4 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan4 X_CT-COM_Mode=0!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=4 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:4!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan5 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan5 X_CT-COM_Mode=0!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=5 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:5!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan6 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan6 X_CT-COM_Mode=0!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=6 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:6!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan7 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan7 X_CT-COM_Mode=0!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=7 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:7!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan8 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan8 X_CT-COM_Mode=0!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=8 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:8!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan9 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan9 X_CT-COM_Mode=0!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=9 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:9!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan10 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan10 X_CT-COM_Mode=0!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=10 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:10!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan11 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan11 X_CT-COM_Mode=0!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=11 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:11!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan12 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan12 X_CT-COM_Mode=0!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=12 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:12!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.13.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan13 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.13.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan13 X_CT-COM_Mode=0!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=13 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:13!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.14.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan14 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.14.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan14 X_CT-COM_Mode=0!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=14 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:14!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.15.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan15 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.15.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan15 X_CT-COM_Mode=0!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=15 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:15!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.16.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan16 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.16.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan16 X_CT-COM_Mode=0!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=16 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:16!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.17.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][764]get Lan17 X_CT-COM_VLAN fail!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.17.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][776]get Lan17 X_CT-COM_Mode fail!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=17 VLAN= Mode=, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.18.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][764]get Lan18 X_CT-COM_VLAN fail!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.18.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][776]get Lan18 X_CT-COM_Mode fail!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=18 VLAN= Mode=, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.19.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][764]get Lan19 X_CT-COM_VLAN fail!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.19.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][776]get Lan19 X_CT-COM_Mode fail!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=19 VLAN= Mode=, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.20.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][764]get Lan20 X_CT-COM_VLAN fail!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.20.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][776]get Lan20 X_CT-COM_Mode fail!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=20 VLAN= Mode=, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.21.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][764]get Lan21 X_CT-COM_VLAN fail!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.21.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][776]get Lan21 X_CT-COM_Mode fail!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=21 VLAN= Mode=, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.22.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][764]get Lan22 X_CT-COM_VLAN fail!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.22.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][776]get Lan22 X_CT-COM_Mode fail!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=22 VLAN= Mode=, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.23.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][764]get Lan23 X_CT-COM_VLAN fail!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.23.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][776]get Lan23 X_CT-COM_Mode fail!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=23 VLAN= Mode=, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.24.X_CT-COM_VLAN!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][764]get Lan24 X_CT-COM_VLAN fail!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.24.X_CT-COM_Mode!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][776]get Lan24 X_CT-COM_Mode fail!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=24 VLAN= Mode=, MacAddrNum=
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][main][74]vlan_bind_init finish
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_port_mgr_init][572]g_lan_inf_num is 5
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_lan_eth_workmode_cfg][265]get Lan1 DuplexMode=Auto!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_lan_eth_workmode_cfg][278]get Lan1 MaxBitRate=1000!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_lan_eth_workmode_set][378]lan_eth_id=1 MaxBitRate=1000, DuplexMode=Auto
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_lan_eth_workmode_set][468]lan_eth_id=1 auto_neg_enable=1,rate = 1000, duplex_mode = 1.
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_lan_eth_workmode_cfg][265]get Lan2 DuplexMode=Auto!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_lan_eth_workmode_cfg][278]get Lan2 MaxBitRate=1000!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_lan_eth_workmode_set][378]lan_eth_id=2 MaxBitRate=1000, DuplexMode=Auto
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_lan_eth_workmode_set][468]lan_eth_id=2 auto_neg_enable=1,rate = 1000, duplex_mode = 1.
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_lan_eth_workmode_cfg][265]get Lan3 DuplexMode=Auto!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_lan_eth_workmode_cfg][278]get Lan3 MaxBitRate=1000!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_lan_eth_workmode_set][378]lan_eth_id=3 MaxBitRate=1000, DuplexMode=Auto
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_lan_eth_workmode_set][468]lan_eth_id=3 auto_neg_enable=1,rate = 1000, duplex_mode = 1.
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_lan_eth_workmode_cfg][265]get Lan4 DuplexMode=Auto!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_lan_eth_workmode_cfg][278]get Lan4 MaxBitRate=1000!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_lan_eth_workmode_set][378]lan_eth_id=4 MaxBitRate=1000, DuplexMode=Auto
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_lan_eth_workmode_set][468]lan_eth_id=4 auto_neg_enable=1,rate = 1000, duplex_mode = 1.
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_lan_eth_workmode_cfg][265]get Lan5 DuplexMode=Auto!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][read_lan_eth_workmode_cfg][278]get Lan5 MaxBitRate=2500!
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_lan_eth_workmode_set][378]lan_eth_id=5 MaxBitRate=2500, DuplexMode=Auto
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_lan_eth_workmode_set][468]lan_eth_id=5 auto_neg_enable=1,rate = 2500, duplex_mode = 1.
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_node_port_status_init][2037]lancc_node_port_status_init finish
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][main][79]lancc_port_mgr_init finish
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][main][98]lancc_host_neigh_poll pthread_create
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_speedlimit_all][530]lancc_speedlimit_all start
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_speedlimit_all][550]lancc_speedlimit_all config mac 
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_host_neigh_poll][157]ifidx_lan = 20
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_speedlimit_all][555]lancc_speedlimit_all config up_speed_str:50000 down_speed_str:300000
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][vlan_bind_init_wifi][1998]entry vlan_bind_init_wifi wait 90s
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_ubus_init][877]lib_fh_ubus_init finish
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_lanhost_info_init][2451][lancc_lanhost_info_init] ----------mac---------- 
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_lanhost_info_init][2477][lancc_lanhost_info_init] line is:   2	   0	64:20:e1:7b:04:02	yes		   0.00		eth0.5
+.
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_lanhost_info_init][2486][lancc_lanhost_info_init] mac 64:20:e1:7b:04:02, local? yes, interface eth0.5
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_lanhost_info_init][2477][lancc_lanhost_info_init] line is:   3	   0	66:21:e1:7b:04:02	yes		   0.00		eth0.2
+.
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_lanhost_info_init][2486][lancc_lanhost_info_init] mac 66:21:e1:7b:04:02, local? yes, interface eth0.2
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_lanhost_info_init][2477][lancc_lanhost_info_init] line is:   4	   0	66:22:e1:7b:04:02	yes		   0.00		eth0.3
+.
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_lanhost_info_init][2486][lancc_lanhost_info_init] mac 66:22:e1:7b:04:02, local? yes, interface eth0.3
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_lanhost_info_init][2477][lancc_lanhost_info_init] line is:   5	   0	66:23:e1:7b:04:02	yes		   0.00		eth0.4
+.
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_lanhost_info_init][2486][lancc_lanhost_info_init] mac 66:23:e1:7b:04:02, local? yes, interface eth0.4
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_lanhost_info_init][2477][lancc_lanhost_info_init] line is:   1	   0	66:24:e1:7b:04:02	yes		   0.00		eth0.1
+.
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_lanhost_info_init][2486][lancc_lanhost_info_init] mac 66:24:e1:7b:04:02, local? yes, interface eth0.1
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_eventmgr_eventway_main][779]register event finished.
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][lancc_ubus_init][880]lancc_subscriber_main finish
+[Thu Jan  1 00:00:27 1970][lanmgr][DEBUG][send_ready_msg_2_sysmgr][853]lancc send_ready_msg_2_sysmgr ret = 0 .
+[Thu Jan  1 00:00:28 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:00:28 1970][lanmgr][DEBUG][lancc_port_status_ubus_handle_event][351]Receive port event message.
+[Thu Jan  1 00:00:28 1970][lanmgr][DEBUG][lancc_port_status_ubus_handle_event][377]port status event message,port=1, action=DOWN.
+[Thu Jan  1 00:00:28 1970][lanmgr][DEBUG][lancc_port_status_event_down][1256]-----[lancc_port_status_event_down]::entry  port = 1!!-------
+[Thu Jan  1 00:00:28 1970][lanmgr][DEBUG][lancc_port_up_down_set][2086]g_port_link_status port Status change
+[Thu Jan  1 00:00:28 1970][lanmgr][DEBUG][lancc_host_info_delete_by_port][676]lancc_host_info_delete_by_port:input port=1
+[Thu Jan  1 00:00:32 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:00:32 1970][lanmgr][DEBUG][lancc_port_status_ubus_handle_event][351]Receive port event message.
+[Thu Jan  1 00:00:32 1970][lanmgr][DEBUG][lancc_port_status_ubus_handle_event][377]port status event message,port=1, action=UP.
+[Thu Jan  1 00:00:32 1970][lanmgr][DEBUG][lancc_port_status_event_up][1231]++++++[lancc_port_status_event_up]::entry  port = 1!!+++++++
+[Thu Jan  1 00:00:32 1970][lanmgr][DEBUG][lancc_port_up_down_set][2086]g_port_link_status port Status change
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_handle_wanchange_info][485]Receive wanchange message.
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2094]enter into lancc_rebind_port_vlan
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][read_wan_param_cfg][1397]enter!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][read_wan_param_cfg][1456]read one!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][load_multi_config_from_xml][835]start load_multi_config_from_xml InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1. 
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][load_multi_config_from_xml][840]end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][read_wan_param_cfg][1456]read one!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][load_multi_config_from_xml][835]start load_multi_config_from_xml InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1. 
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][load_multi_config_from_xml][840]end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 1 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=1 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 2 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=2 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 3 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=3 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 4 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=4 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 5 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=5 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 6 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=6 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 7 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=7 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 8 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=8 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 9 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=9 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 10 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=10 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 11 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=11 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 12 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=12 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 13 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=13 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 14 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=14 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 15 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=15 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 16 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=16 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 17 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=17 VLAN= Mode=, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 18 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=18 VLAN= Mode=, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 19 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=19 VLAN= Mode=, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 20 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=20 VLAN= Mode=, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 21 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=21 VLAN= Mode=, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 22 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=22 VLAN= Mode=, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 23 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=23 VLAN= Mode=, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 24 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=24 VLAN= Mode=, MacAddrNum=
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 25 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 26 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 27 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 28 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 29 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 30 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 31 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2104]-------- port = 32 ----------
+[Thu Jan  1 00:00:52 1970][lanmgr][DEBUG][lancc_rebind_port_vlan][2115]leave lancc_rebind_port_vlan
+[Thu Jan  1 00:01:39 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:01:39 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:01:39 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 20000E0
+[Thu Jan  1 00:01:39 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= E0000002
+[Thu Jan  1 00:01:39 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_DEL,ip=224.0.0.2, mac=01:00:5E:00:00:02.
+[Thu Jan  1 00:01:39 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:01:39 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:01:39 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 0
+[Thu Jan  1 00:01:39 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= 0
+[Thu Jan  1 00:01:39 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_DEL,ip=0.0.0.0, mac=00:00:00:00:00:00.
+[Thu Jan  1 00:01:39 1970][lanmgr][DEBUG][lancc_arp_event_process][1834]lancc_arp_event_process::lo is not br0 , return!!
+[Thu Jan  1 00:01:39 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:01:39 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:01:39 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= FAFFFFEF
+[Thu Jan  1 00:01:39 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= EFFFFFFA
+[Thu Jan  1 00:01:39 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_DEL,ip=239.255.255.250, mac=01:00:5E:7F:FF:FA.
+[Thu Jan  1 00:01:39 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:01:39 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:01:39 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 14C5AE6
+[Thu Jan  1 00:01:39 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= E65A4C01
+[Thu Jan  1 00:01:39 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_DEL,ip=230.90.76.1, mac=01:00:5E:5A:4C:01.
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][vlan_bind_init_wifi][2000] vlan_bind_init_wifi goto vlan_bind_init
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_br_mac_get][61]get br0 mac=64:20:E1:7B:04:02!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][vlan_bind_init][1935]brmac=64:20:E1:7B:04:02
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_eth_macaddr_cfg_set][615]write Lan1 macAddr=64:20:E1:7B:04:02!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_eth_macaddr_cfg_set][627]write succ!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan1 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan1 X_CT-COM_Mode=0!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=1 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:1!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_eth_macaddr_cfg_set][615]write Lan2 macAddr=64:20:E1:7B:04:02!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_eth_macaddr_cfg_set][627]write succ!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan2 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan2 X_CT-COM_Mode=0!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=2 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:2!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_eth_macaddr_cfg_set][615]write Lan3 macAddr=64:20:E1:7B:04:02!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_eth_macaddr_cfg_set][627]write succ!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan3 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan3 X_CT-COM_Mode=0!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=3 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:3!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_eth_macaddr_cfg_set][615]write Lan4 macAddr=64:20:E1:7B:04:02!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_eth_macaddr_cfg_set][627]write succ!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan4 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan4 X_CT-COM_Mode=0!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=4 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:4!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_eth_macaddr_cfg_set][615]write Lan5 macAddr=64:20:E1:7B:04:02!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_eth_macaddr_cfg_set][627]write succ!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.5.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan5 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.5.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan5 X_CT-COM_Mode=0!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=5 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:5!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan1 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan1 X_CT-COM_Mode=0!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=6 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:6!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan2 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan2 X_CT-COM_Mode=0!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=7 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:7!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan3 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan3 X_CT-COM_Mode=0!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=8 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:8!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan4 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan4 X_CT-COM_Mode=0!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=9 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:9!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan5 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan5 X_CT-COM_Mode=0!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=10 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:10!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan6 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan6 X_CT-COM_Mode=0!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=11 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:11!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan7 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan7 X_CT-COM_Mode=0!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=12 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:12!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan8 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan8 X_CT-COM_Mode=0!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=13 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:13!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan9 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan9 X_CT-COM_Mode=0!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=14 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:14!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan10 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan10 X_CT-COM_Mode=0!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=15 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:15!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan11 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan11 X_CT-COM_Mode=0!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=16 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:16!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan12 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan12 X_CT-COM_Mode=0!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=17 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:17!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.13.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan13 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.13.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan13 X_CT-COM_Mode=0!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=18 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:18!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.14.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan14 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.14.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan14 X_CT-COM_Mode=0!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=19 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:19!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.15.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan15 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.15.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan15 X_CT-COM_Mode=0!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=20 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:20!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.16.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][768]get Lan16 X_CT-COM_VLAN=NULL!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.16.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][780]get Lan16 X_CT-COM_Mode=0!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=21 VLAN=NULL Mode=0, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1777]port:21!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1786]cfg no need proc,do nothing!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.17.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][764]get Lan17 X_CT-COM_VLAN fail!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.17.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][776]get Lan17 X_CT-COM_Mode fail!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=22 VLAN= Mode=, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.18.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][764]get Lan18 X_CT-COM_VLAN fail!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.18.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][776]get Lan18 X_CT-COM_Mode fail!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=23 VLAN= Mode=, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][760]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.19.X_CT-COM_VLAN!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][764]get Lan19 X_CT-COM_VLAN fail!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][772]url:InternetGatewayDevice.LANDevice.1.WLANConfiguration.19.X_CT-COM_Mode!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][read_laneth_vlan_bind_cfg_ct][776]get Lan19 X_CT-COM_Mode fail!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1746][lancc_port_vlan_bind]:port=24 VLAN= Mode=, MacAddrNum=
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][lancc_port_vlan_bind][1773]Param no change!
+[Thu Jan  1 00:01:57 1970][lanmgr][DEBUG][vlan_bind_init_wifi][2002]vlan_bind_init_wifi over
+[Thu Jan  1 00:02:57 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:02:57 1970][lanmgr][DEBUG][lancc_mac_ubus_handle_event][294]Receive mac event message.
+[Thu Jan  1 00:02:57 1970][lanmgr][DEBUG][lancc_mac_ubus_handle_event][324]mac event message,action=MAC_ADD,br=br0, mac=00:E0:4C:68:00:E5.
+[Thu Jan  1 00:02:57 1970][lanmgr][DEBUG][lancc_mac_event_add][177]++++++[lancc_mac_event_add]::entry  mac = 00E04C6800E5 ,eth_num = eth0.1, brname = br0!+++++++
+[Thu Jan  1 00:02:57 1970][lanmgr][DEBUG][lancc_mac_node_create][90]lancc_mac_node_create.
+[Thu Jan  1 00:02:57 1970][lanmgr][DEBUG][lancc_mac_node_add][166]lancc_mac_node_add!
+[Thu Jan  1 00:02:57 1970][lanmgr][DEBUG][eth_num2lanport_no_type][964]eth_num:eth0.1, lanport_no:1 !
+[Thu Jan  1 00:02:57 1970][lanmgr][DEBUG][lancc_host_node_create][78]lancc_host_node_create.
+[Thu Jan  1 00:02:57 1970][lanmgr][DEBUG][lancc_host_node_add][151]hal_route_node_add!
+[Thu Jan  1 00:02:57 1970][lanmgr][DEBUG][lancc_mac_event_add][233]goto add host info
+[Thu Jan  1 00:02:57 1970][lanmgr][DEBUG][lancc_layer2_interface_get_by_mac][448]lancc_layer2_interface_get_by_mac::entry!!
+[Thu Jan  1 00:02:57 1970][lanmgr][DEBUG][lancc_port_type_get_by_mac][493]lancc_port_type_get_by_mac::entry!!
+[Thu Jan  1 00:02:57 1970][lanmgr][DEBUG][lancc_add_host_info][742]lancc_add_host_info::entry!!! 
+[Thu Jan  1 00:02:57 1970][lanmgr][DEBUG][lancc_add_host_info][758]***is_utf8 = 0 	is not utf8*****
+[Thu Jan  1 00:02:57 1970][lanmgr][DEBUG][gbk_to_utf_eight][248]param err, buf length 0
+[Thu Jan  1 00:02:57 1970][lanmgr][DEBUG][lancc_add_host_info][768]***ret_convert != 0	 convert fail*****
+[Thu Jan  1 00:02:57 1970][lanmgr][DEBUG][lancc_del_host_associatedev_info][301]del Old hostinfo not found,mac=00E04C6800E5.
+[Thu Jan  1 00:02:57 1970][lanmgr][DEBUG][lancc_add_host_info][870]temp_url=InternetGatewayDevice.LANDevice.1.Hosts.Host.0. index=0
+[Thu Jan  1 00:02:57 1970][lanmgr][DEBUG][lancc_add_host_info][897]Error: Do not add No IP host mac = 00E04C6800E5
+[Thu Jan  1 00:02:57 1970][lanmgr][DEBUG][lancc_mac_event_add][374]mac update  node_host !!!
+[Thu Jan  1 00:04:09 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:04:09 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:04:09 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 14C5AE6
+[Thu Jan  1 00:04:09 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= E65A4C01
+[Thu Jan  1 00:04:09 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_DEL,ip=230.90.76.1, mac=01:00:5E:5A:4C:01.
+[Thu Jan  1 00:05:10 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:05:10 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:05:10 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 0
+[Thu Jan  1 00:05:10 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= 0
+[Thu Jan  1 00:05:10 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_DEL,ip=0.0.0.0, mac=00:00:00:00:00:00.
+[Thu Jan  1 00:05:10 1970][lanmgr][DEBUG][lancc_arp_event_process][1834]lancc_arp_event_process::lo is not br0 , return!!
+[Thu Jan  1 00:06:10 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:06:10 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:06:10 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 14C5AE6
+[Thu Jan  1 00:06:10 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= E65A4C01
+[Thu Jan  1 00:06:10 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_DEL,ip=230.90.76.1, mac=01:00:5E:5A:4C:01.
+[Thu Jan  1 00:08:10 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:08:10 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:08:10 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 14C5AE6
+[Thu Jan  1 00:08:10 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= E65A4C01
+[Thu Jan  1 00:08:10 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_DEL,ip=230.90.76.1, mac=01:00:5E:5A:4C:01.
+[Thu Jan  1 00:08:25 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:08:25 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:08:25 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 0
+[Thu Jan  1 00:08:25 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= 0
+[Thu Jan  1 00:08:25 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_DEL,ip=0.0.0.0, mac=00:00:00:00:00:00.
+[Thu Jan  1 00:08:25 1970][lanmgr][DEBUG][lancc_arp_event_process][1834]lancc_arp_event_process::lo is not br0 , return!!
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 100B14AC
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= AC140B10
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_ADD,ip=172.20.11.16, mac=00:E0:4C:68:00:E5.
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_arp_event_add][638]++++++[lancc_arp_event_add]::entry  mac = 00E04C6800E5 , ip = 172.20.11.16 ,brname = br0!+++++++
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_arp_event_add][666]lancc_arp_event_add::lancc_host_node_get_by_mac OK
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_arp_event_add][702]lancc_arp_event_add pnode->HostName 
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_arp_event_add][770]lancc_arp_event_add::pnode->LeaseTimeRemaining = 0 
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_layer2_interface_get_by_mac][448]lancc_layer2_interface_get_by_mac::entry!!
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_port_type_get_by_mac][493]lancc_port_type_get_by_mac::entry!!
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_add_host_info][742]lancc_add_host_info::entry!!! 
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_add_host_info][758]***is_utf8 = 0 	is not utf8*****
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][gbk_to_utf_eight][248]param err, buf length 0
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_add_host_info][768]***ret_convert != 0	 convert fail*****
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_del_host_associatedev_info][301]del Old hostinfo not found,mac=00E04C6800E5.
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_add_host_info][870]temp_url=InternetGatewayDevice.LANDevice.1.Hosts.Host.0. index=0
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_add_host_info][918]Create Host Node Success: s_hostnumberofentries =1,url=InternetGatewayDevice.LANDevice.1.Hosts.Host.,index=1
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][load_multi_config_from_xml][835]start load_multi_config_from_xml InternetGatewayDevice.LANDevice.1.Hosts.Host.1. 
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][load_multi_config_from_xml][840]end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_add_host_info][937]active_last:0 ip_last NULL, mac_last NULL, hostinfo->AddressSource STATIC hostinfo->IPAddress 172.20.11.16 macwithcolon 00:e0:4c:68:00:e5
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_add_host_info][955]sacktime:536
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_get_connection_type_from_ifacetype][160]lancc_get_connection_type_from_ifacetype:Ethernet: 0
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][get_port_from_layer2interface][194]get_port_from_layer2interface:InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.: 1
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_meshhost_connect_type_get][1095]lancc_meshhost_connect_type_get:1095 host_mac=00:E0:4C:68:00:E5 main_ifname=eth0.1
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_add_host_info][1009]lancc_add_host_info isMeshSlave = 0 mesh: mac = 00:E0:4C:68:00:E5, type = wired, option60 = 
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][trans_hostnametodevtype][663]hostname:
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][trans_hostnametodevtype][690]devtype:0
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][trans_opt60todevtype][638]opt60:
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][trans_opt60todevtype][653]devtype:0
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_add_host_info][1030]url:InternetGatewayDevice.LANDevice.1.Hosts.Host.1.
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_add_host_info][1038]map is hostparamvaluemap_nohostname
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][write_multi_config_to_xml_for_host_add][789]*****start write_multi_config_to_xml InternetGatewayDevice.LANDevice.1.Hosts.Host.1. *****
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][write_multi_config_to_xml_for_host_add][792]*****end write_multi_config_to_xml ret:0 *****
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_add_host_info][1054]Succ:write_multi_config_to_xml:Set HostInfo url=InternetGatewayDevice.LANDevice.1.Hosts.Host.1.,ret=0
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_add_host_info][1064]before add_associateddevice_info: index is 1,Temp Info is 00E04C6800E5
+[Thu Jan  1 00:08:55 1970][lanmgr][DEBUG][lancc_arp_event_add][853]lancc_arp_event_add:add host obj success,index=1!
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 301A8C0
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= C0A80103
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_ADD,ip=192.168.1.3, mac=00:E0:4C:68:00:E5.
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_arp_event_add][638]++++++[lancc_arp_event_add]::entry  mac = 00E04C6800E5 , ip = 192.168.1.3 ,brname = br0!+++++++
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_arp_event_add][666]lancc_arp_event_add::lancc_host_node_get_by_mac OK
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_arp_event_add][702]lancc_arp_event_add pnode->HostName 
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_arp_event_add][770]lancc_arp_event_add::pnode->LeaseTimeRemaining = 0 
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_layer2_interface_get_by_mac][448]lancc_layer2_interface_get_by_mac::entry!!
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_port_type_get_by_mac][493]lancc_port_type_get_by_mac::entry!!
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_add_host_info][742]lancc_add_host_info::entry!!! 
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_add_host_info][758]***is_utf8 = 0 	is not utf8*****
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][gbk_to_utf_eight][248]param err, buf length 0
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_add_host_info][768]***ret_convert != 0	 convert fail*****
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_del_associateddevice_info][259]delObject failed,url=,index=0
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_add_host_info][870]temp_url=InternetGatewayDevice.LANDevice.1.Hosts.Host.1. index=1
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_add_host_info][874]ret1=1
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][load_multi_config_from_xml][835]start load_multi_config_from_xml InternetGatewayDevice.LANDevice.1.Hosts.Host.1. 
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][load_multi_config_from_xml][840]end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_add_host_info][937]active_last:1 ip_last 172.20.11.16, mac_last 00:e0:4c:68:00:e5, hostinfo->AddressSource STATIC hostinfo->IPAddress 192.168.1.3 macwithcolon 00:e0:4c:68:00:e5
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_add_host_info][955]sacktime:569
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_get_connection_type_from_ifacetype][160]lancc_get_connection_type_from_ifacetype:Ethernet: 0
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][get_port_from_layer2interface][194]get_port_from_layer2interface:InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.: 1
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_meshhost_connect_type_get][1095]lancc_meshhost_connect_type_get:1095 host_mac=00:E0:4C:68:00:E5 main_ifname=eth0.1
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_add_host_info][1009]lancc_add_host_info isMeshSlave = 0 mesh: mac = 00:E0:4C:68:00:E5, type = wired, option60 = 
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][trans_hostnametodevtype][663]hostname:
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][trans_hostnametodevtype][690]devtype:0
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][trans_opt60todevtype][638]opt60:
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][trans_opt60todevtype][653]devtype:0
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_add_host_info][1030]url:InternetGatewayDevice.LANDevice.1.Hosts.Host.1.
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_add_host_info][1038]map is hostparamvaluemap_nohostname
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][write_multi_config_to_xml_for_host_add][789]*****start write_multi_config_to_xml InternetGatewayDevice.LANDevice.1.Hosts.Host.1. *****
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][write_multi_config_to_xml_for_host_add][792]*****end write_multi_config_to_xml ret:0 *****
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_add_host_info][1054]Succ:write_multi_config_to_xml:Set HostInfo url=InternetGatewayDevice.LANDevice.1.Hosts.Host.1.,ret=0
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_add_host_info][1064]before add_associateddevice_info: index is 1,Temp Info is 00E04C6800E5
+[Thu Jan  1 00:09:28 1970][lanmgr][DEBUG][lancc_arp_event_add][853]lancc_arp_event_add:add host obj success,index=1!
+[Thu Jan  1 00:09:55 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:09:55 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:09:55 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 0
+[Thu Jan  1 00:09:55 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= 0
+[Thu Jan  1 00:09:55 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_DEL,ip=0.0.0.0, mac=00:00:00:00:00:00.
+[Thu Jan  1 00:09:55 1970][lanmgr][DEBUG][lancc_arp_event_process][1834]lancc_arp_event_process::lo is not br0 , return!!
+[Thu Jan  1 00:09:55 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:09:55 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:09:55 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 100B14AC
+[Thu Jan  1 00:09:55 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= AC140B10
+[Thu Jan  1 00:09:55 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_DEL,ip=172.20.11.16, mac=00:E0:4C:68:00:E5.
+[Thu Jan  1 00:10:25 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:10:25 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:10:25 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 14C5AE6
+[Thu Jan  1 00:10:25 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= E65A4C01
+[Thu Jan  1 00:10:25 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_DEL,ip=230.90.76.1, mac=01:00:5E:5A:4C:01.
+[Thu Jan  1 00:10:40 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:10:40 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:10:40 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 301A8C0
+[Thu Jan  1 00:10:40 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= C0A80103
+[Thu Jan  1 00:10:40 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_DEL,ip=192.168.1.3, mac=00:E0:4C:68:00:E5.
+[Thu Jan  1 00:11:26 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:11:26 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:11:26 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 0
+[Thu Jan  1 00:11:26 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= 0
+[Thu Jan  1 00:11:26 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_DEL,ip=0.0.0.0, mac=00:00:00:00:00:00.
+[Thu Jan  1 00:11:26 1970][lanmgr][DEBUG][lancc_arp_event_process][1834]lancc_arp_event_process::lo is not br0 , return!!
+[Thu Jan  1 00:12:26 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:12:26 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:12:26 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 14C5AE6
+[Thu Jan  1 00:12:26 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= E65A4C01
+[Thu Jan  1 00:12:26 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_DEL,ip=230.90.76.1, mac=01:00:5E:5A:4C:01.
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 100B14AC
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= AC140B10
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_ADD,ip=172.20.11.16, mac=00:E0:4C:68:00:E5.
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_arp_event_add][638]++++++[lancc_arp_event_add]::entry  mac = 00E04C6800E5 , ip = 172.20.11.16 ,brname = br0!+++++++
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_arp_event_add][666]lancc_arp_event_add::lancc_host_node_get_by_mac OK
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_arp_event_add][702]lancc_arp_event_add pnode->HostName 
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_arp_event_add][770]lancc_arp_event_add::pnode->LeaseTimeRemaining = 0 
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_layer2_interface_get_by_mac][448]lancc_layer2_interface_get_by_mac::entry!!
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_port_type_get_by_mac][493]lancc_port_type_get_by_mac::entry!!
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][742]lancc_add_host_info::entry!!! 
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][758]***is_utf8 = 0 	is not utf8*****
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][gbk_to_utf_eight][248]param err, buf length 0
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][768]***ret_convert != 0	 convert fail*****
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_del_associateddevice_info][259]delObject failed,url=,index=0
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][870]temp_url=InternetGatewayDevice.LANDevice.1.Hosts.Host.1. index=1
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][874]ret1=1
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][load_multi_config_from_xml][835]start load_multi_config_from_xml InternetGatewayDevice.LANDevice.1.Hosts.Host.1. 
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][load_multi_config_from_xml][840]end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][937]active_last:1 ip_last 192.168.1.3, mac_last 00:e0:4c:68:00:e5, hostinfo->AddressSource STATIC hostinfo->IPAddress 172.20.11.16 macwithcolon 00:e0:4c:68:00:e5
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][955]sacktime:804
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_get_connection_type_from_ifacetype][160]lancc_get_connection_type_from_ifacetype:Ethernet: 0
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][get_port_from_layer2interface][194]get_port_from_layer2interface:InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.: 1
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_meshhost_connect_type_get][1095]lancc_meshhost_connect_type_get:1095 host_mac=00:E0:4C:68:00:E5 main_ifname=eth0.1
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][1009]lancc_add_host_info isMeshSlave = 0 mesh: mac = 00:E0:4C:68:00:E5, type = wired, option60 = 
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][trans_hostnametodevtype][663]hostname:
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][trans_hostnametodevtype][690]devtype:0
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][trans_opt60todevtype][638]opt60:
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][trans_opt60todevtype][653]devtype:0
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][1030]url:InternetGatewayDevice.LANDevice.1.Hosts.Host.1.
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][1038]map is hostparamvaluemap_nohostname
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][write_multi_config_to_xml_for_host_add][789]*****start write_multi_config_to_xml InternetGatewayDevice.LANDevice.1.Hosts.Host.1. *****
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][write_multi_config_to_xml_for_host_add][792]*****end write_multi_config_to_xml ret:0 *****
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][1054]Succ:write_multi_config_to_xml:Set HostInfo url=InternetGatewayDevice.LANDevice.1.Hosts.Host.1.,ret=0
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][1064]before add_associateddevice_info: index is 1,Temp Info is 00E04C6800E5
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_arp_event_add][853]lancc_arp_event_add:add host obj success,index=1!
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 301A8C0
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= C0A80103
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_ADD,ip=192.168.1.3, mac=00:E0:4C:68:00:E5.
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_arp_event_add][638]++++++[lancc_arp_event_add]::entry  mac = 00E04C6800E5 , ip = 192.168.1.3 ,brname = br0!+++++++
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_arp_event_add][666]lancc_arp_event_add::lancc_host_node_get_by_mac OK
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_arp_event_add][702]lancc_arp_event_add pnode->HostName 
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_arp_event_add][770]lancc_arp_event_add::pnode->LeaseTimeRemaining = 0 
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_layer2_interface_get_by_mac][448]lancc_layer2_interface_get_by_mac::entry!!
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_port_type_get_by_mac][493]lancc_port_type_get_by_mac::entry!!
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][742]lancc_add_host_info::entry!!! 
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][758]***is_utf8 = 0 	is not utf8*****
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][gbk_to_utf_eight][248]param err, buf length 0
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][768]***ret_convert != 0	 convert fail*****
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_del_associateddevice_info][259]delObject failed,url=,index=0
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][870]temp_url=InternetGatewayDevice.LANDevice.1.Hosts.Host.1. index=1
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][874]ret1=1
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][load_multi_config_from_xml][835]start load_multi_config_from_xml InternetGatewayDevice.LANDevice.1.Hosts.Host.1. 
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][load_multi_config_from_xml][840]end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][937]active_last:1 ip_last 172.20.11.16, mac_last 00:e0:4c:68:00:e5, hostinfo->AddressSource STATIC hostinfo->IPAddress 192.168.1.3 macwithcolon 00:e0:4c:68:00:e5
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][955]sacktime:804
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_get_connection_type_from_ifacetype][160]lancc_get_connection_type_from_ifacetype:Ethernet: 0
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][get_port_from_layer2interface][194]get_port_from_layer2interface:InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.: 1
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_meshhost_connect_type_get][1095]lancc_meshhost_connect_type_get:1095 host_mac=00:E0:4C:68:00:E5 main_ifname=eth0.1
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][1009]lancc_add_host_info isMeshSlave = 0 mesh: mac = 00:E0:4C:68:00:E5, type = wired, option60 = 
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][trans_hostnametodevtype][663]hostname:
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][trans_hostnametodevtype][690]devtype:0
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][trans_opt60todevtype][638]opt60:
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][trans_opt60todevtype][653]devtype:0
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][1030]url:InternetGatewayDevice.LANDevice.1.Hosts.Host.1.
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][1038]map is hostparamvaluemap_nohostname
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][write_multi_config_to_xml_for_host_add][789]*****start write_multi_config_to_xml InternetGatewayDevice.LANDevice.1.Hosts.Host.1. *****
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][write_multi_config_to_xml_for_host_add][792]*****end write_multi_config_to_xml ret:0 *****
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][1054]Succ:write_multi_config_to_xml:Set HostInfo url=InternetGatewayDevice.LANDevice.1.Hosts.Host.1.,ret=0
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_add_host_info][1064]before add_associateddevice_info: index is 1,Temp Info is 00E04C6800E5
+[Thu Jan  1 00:13:23 1970][lanmgr][DEBUG][lancc_arp_event_add][853]lancc_arp_event_add:add host obj success,index=1!
+[Thu Jan  1 00:14:26 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:14:26 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:14:26 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 0
+[Thu Jan  1 00:14:26 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= 0
+[Thu Jan  1 00:14:26 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_DEL,ip=0.0.0.0, mac=00:00:00:00:00:00.
+[Thu Jan  1 00:14:26 1970][lanmgr][DEBUG][lancc_arp_event_process][1834]lancc_arp_event_process::lo is not br0 , return!!
+[Thu Jan  1 00:14:26 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:14:26 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:14:26 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 100B14AC
+[Thu Jan  1 00:14:26 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= AC140B10
+[Thu Jan  1 00:14:26 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_DEL,ip=172.20.11.16, mac=00:E0:4C:68:00:E5.
+[Thu Jan  1 00:14:41 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:14:41 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:14:41 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 14C5AE6
+[Thu Jan  1 00:14:41 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= E65A4C01
+[Thu Jan  1 00:14:41 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_DEL,ip=230.90.76.1, mac=01:00:5E:5A:4C:01.
+[Thu Jan  1 00:14:41 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:14:41 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:14:41 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 301A8C0
+[Thu Jan  1 00:14:41 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= C0A80103
+[Thu Jan  1 00:14:41 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_DEL,ip=192.168.1.3, mac=00:E0:4C:68:00:E5.
+[Thu Jan  1 00:16:41 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:16:41 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:16:41 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 14C5AE6
+[Thu Jan  1 00:16:41 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= E65A4C01
+[Thu Jan  1 00:16:41 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_DEL,ip=230.90.76.1, mac=01:00:5E:5A:4C:01.
+[Thu Jan  1 00:17:42 1970][lanmgr][DEBUG][ubus_handle_event_msg][692]Receive event.
+[Thu Jan  1 00:17:42 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][235]Receive arp event message.
+[Thu Jan  1 00:17:42 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][259]ntohl  begin arp_event->ipv4= 0
+[Thu Jan  1 00:17:42 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][262]ntohl  end  arp_event->ipv4= 0
+[Thu Jan  1 00:17:42 1970][lanmgr][DEBUG][lancc_arp_ubus_handle_event][271]arp event message,action=ARP_DEL,ip=0.0.0.0, mac=00:00:00:00:00:00.
+[Thu Jan  1 00:17:42 1970][lanmgr][DEBUG][lancc_arp_event_process][1834]lancc_arp_event_process::lo is not br0 , return!!

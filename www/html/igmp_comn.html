@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+        <script language="javascript" src="../js/igmp_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.igmp_set"></p>
+			<p class="main_header_hint" i18n="igmp_hint"></p>
+		</div>
+		<form id="igmp_form">
+			<div class="main_content">
+				<div class="main_discribe">IPv4</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="enableigmpsnooping"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="IGMPSnooping_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="enableigmpproxy"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="IGMPProxy_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_discribe">IPv6</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="enablemldsnooping"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="MLDSnooping_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="enablemldproxy"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="MLDProxy_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_discribe" i18n="muticastvlan"></div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="networkconn"></div>
+					<div class="main_item_content">
+						<select id="wan_select">
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="muticastvlan"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" id="MulticastSettings_tex" name="MulticastSettings_tex" autocomplete="off"/>
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" onclick="saveApply()" i18n="save" i18n-set="value"/>
+			</div>
+		</form>
+	</body>
+</html>

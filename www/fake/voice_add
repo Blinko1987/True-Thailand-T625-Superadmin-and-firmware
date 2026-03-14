@@ -1,0 +1,24 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"voice_add":	{
+		"voice_port_num":	2,
+		"ServerType":	"1",
+		"PolarityReversalMode":	"1",
+		"TimeSyncMode":	"1",
+		"CountryRegion":	"3",
+		"EnableSubsAfterReg":	"1",
+		"ThreePartyInIMS":	"1",
+		"conferenceuri":	"1111",
+		"hotlineuri":	"13333",
+		"ThreeWayCallingEnable":	"1",
+		"HotlineEnable":	"1",
+		"HotlineNumber":	"1111",
+		"CallWaitingEnable":	"1",
+		"L1_HotlineTimer":	"5",
+		"HeartbeatMode":	"1",
+		"HeartbeatCycle":	"5",
+		"HeartbeatCount":	"5",
+		"AuthPassword2":	"56782"
+	}
+}

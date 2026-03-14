@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+        <script language="javascript" src="../js/mac_filter_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.mac_filter"></p>
+			<p class="main_header_hint"><span i18n="macfilter_hint1"></span><span id="maxnum"></span><span i18n="macfilter_hint2"></span></p>
+		</div>
+		<form id="mac_filter_form">
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name" i18n="enablemacfilter"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="enable_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="macfiltertype"></div>
+					<div class="main_item_content">
+						<select id='mode_select'>
+							<option value='black' i18n="blacklist"></option>
+							<option value='white' i18n="whitelist"></option>
+						</select>
+						<span id="black_hint" style="display:none;color:red;" i18n="noaccessblackmacaddr"></span>
+						<span id="white_hint" style="display:none;color:red;" i18n="onlyaccesswhitemacaddr"></span>
+					</div>
+				</div>
+			</div>
+			<div class="main_save_top_0">
+				<input type="button" class="input_button" onclick="saveApply()" i18n="save" i18n-set="value"/>
+			</div>
+		</form>
+		<form id="mac_filter_list_form">
+			<div class="div_between_form"></div>
+			<div id="add_div" style="display:none">
+				<div class="main_content">
+					<div class="main_item">
+						<div class="main_item_name" i18n="macaddress"></div>
+						<div class="main_item_content">
+							<input type="input" class="input_text" id="add_text" name="add_text"/>
+						</div>
+						<div class='main_item_error_hint_extra' id="add_text_error"></div>
+					</div>
+				</div>
+				<div class="main_save_top_0">
+					<input type="button" class="input_button" onclick="doAdd()" i18n="add" i18n-set="value"/>
+				</div>
+			</div>
+			<br /><br />
+			<table class="tablesmall" style="margin:auto" cellspacing="0" cellpadding="3px" border="1px">
+				<tr class="table-header">
+					<th colspan="2" i18n="mac_filterlist"></th>
+				</tr>
+				<tr class="another-table-header">
+					<td width="50%" i18n="macaddress"></td>
+					<td width="50%" i18n="operate"></td>
+				</tr>
+				<tbody id="mac_list">
+				</tbody>
+			</table>
+		</form>
+	</body>
+</html>

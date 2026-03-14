@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script language="javascript" src="../js/factory_log_download_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="log_download.title"></p>
+			<p class="main_header_hint" i18n="log_download.hint"></p>
+		</div>
+		<form>
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name" i18n="log_download.choose"></div>
+					<div class="main_item_content">
+						<select class="main_select" id="logname">
+							<option value="voice" i18n="log_download.voice"></option>
+							<option value="configManage" i18n="log_download.configManage"></option>
+							<option value="wancc" i18n="log_download.wancc"></option>
+							<option value="lancc" i18n="log_download.lancc"></option>
+							<option value="web" i18n="log_download.web"></option>
+							<option value="pon" i18n="log_download.pon"></option>
+							<!--<option value="jniapi" i18n="log_download.jniapi"></option>-->
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" id="download" class="input_button" i18n="download" i18n-set="value" onclick=""/>
+			</div>
+		</form>
+	</body>
+</html>

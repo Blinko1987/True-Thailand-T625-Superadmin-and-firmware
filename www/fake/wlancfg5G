@@ -1,0 +1,11 @@
+{
+	"success": "true",
+	"session_valid":"1",
+	"data":	{
+		"Enable":"1",
+		"SSID":	"ChinaNet-hisi-5G",
+		"BeaconType":	"mixed",
+		"WPAEncryptionModes":	"AESEncryption",
+		"PreSharedKey":	"12345678"
+	}
+}

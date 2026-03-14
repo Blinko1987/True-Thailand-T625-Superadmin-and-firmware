@@ -1,0 +1,51 @@
+#!/bin/sh
+#
+# init  app
+#
+
+if [ -e "/ptconf/GPY211PHY_update_flag" ]; then
+	echo "download GPY211 PHY image......."
+	touch /var/GPY211PHY_upgrade.log
+	upgrade_phy_image > /var/GPY211PHY_upgrade.log &
+fi
+
+if [ -e "/ptconf/precfg_update_flag" ]; then
+area=`uci  get -c /ptdata sysinfo_conf.area_code.value`
+echo "$area"
+if [ "$area" == "Trunk" ];then
+	preconfig_handler update_precfg TRUE >/dev/null 2>&1 
+elif [ "$area" == "SONIC" ];then
+	preconfig_handler update_precfg SONIC >/dev/null 2>&1 
+elif [ "$area" == "BR" ];then
+	preconfig_handler update_precfg BR >/dev/null 2>&1 
+else
+	echo "There is no preconfiguration."
+	if [ -e "/ptconf/precfg_update_flag" ]; then
+		rm -rf /ptconf/precfg_update_flag
+	fi
+fi
+fi
+
+#iptables -A INPUT -p tcp -m multiport --dports 80,443 -j DROP
+
+sysmgr >/dev/null 2>&1 &
+thttpd -C /ptrom/ptconf/thttpd.conf -p 80 >/dev/null 2>&1 &
+
+
+#for factory voice test
+#if [ -e "/ptdata/factorymodeflag" ] || [ -e "/var/tmpfactorymode" ]; then
+#	echo 1 >/proc/sys/net/ipv4/icmp_echo_ignore_all
+
+#fi
+
+#add for ipv6
+echo 1 >  /proc/sys/net/ipv6/conf/pon/disable_ipv6
+echo 100000 > /proc/sys/net/nf_conntrack_max
+
+#open 2.5G port flow control
+echo fc tx 1 > /proc/tc3162/hsgmii_usb_mac_dbg
+echo fc rx 1 > /proc/tc3162/hsgmii_usb_mac_dbg
+
+#iptables -D INPUT -p tcp -m multiport --dports 80,443 -j DROP
+
+

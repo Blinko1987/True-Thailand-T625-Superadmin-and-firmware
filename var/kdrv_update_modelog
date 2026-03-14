@@ -1,0 +1,4 @@
+[Thu Jan  1 00:00:27 1970][kdrv_update][DEBUG]
+[pt_update.c]pt_get_image_state 195 boot_flag:0 (ret:0)!!
+[Thu Jan  1 00:00:27 1970][kdrv_update][DEBUG]
+[pt_update.c]pt_get_image_state 200 ~~~~~boot_flag = 0

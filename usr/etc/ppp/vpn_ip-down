@@ -1,0 +1,53 @@
+#!/bin/sh
+
+#		$1         $2  $3      $4         $5          $6    
+
+# vpn node
+vpn_node=`expr $8 - 100`
+vpn_entry="VPN_Entry$vpn_node"
+route_table_node=`expr $8 - 100 + 300`
+interface=$1
+ip=$4
+mask=$5
+gateway=$6
+fw_mark=$7
+name_space=$9
+
+PROFILE_CFG=/userfs/profile.cfg
+if [ -f $PROFILE_CFG ] ; then
+    . $PROFILE_CFG
+fi
+
+
+rm -rf /var/run/xl2tpd/$vpn_node/*
+
+
+echo "down" > /var/run/xl2tpd/$vpn_node/status
+
+old_ip=`/userfs/bin/tcapi get $vpn_entry ip`
+
+if [ -n "$name_space" ] ; then
+	/usr/bin/ip netns exec $name_space iptables -t nat -D POSTROUTING -o $interface -j MASQUERADE
+	/usr/bin/ip netns exec $name_space iptables -D FORWARD -o $interface -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
+else
+	/usr/bin/iptables -t mangle -D OUTPUT -o $interface -j MARK --set-mark 0x$fw_mark/0x7f0000
+	/usr/bin/ip rule del from $old_ip/32 table $route_table_node
+	/usr/bin/ip rule del fwmark 0x$fw_mark/0x7f0000 table $route_table_node
+	/usr/bin/ip route flush table $route_table_node
+fi
+/userfs/bin/tcapi set $vpn_entry ip ""
+/userfs/bin/tcapi set $vpn_entry netmask ""
+/userfs/bin/tcapi set $vpn_entry gateway ""
+/userfs/bin/tcapi set $vpn_entry status "down"
+if [ "$TCSUPPORT_CMCCV2" != "" ]; then
+	/userfs/bin/tcapi set $vpn_entry vpnstatus 3
+else
+	/userfs/bin/tcapi set $vpn_entry vpnstatus 1
+	/userfs/bin/tcapi set globalstate dnsmaskRestart 1
+fi
+
+echo $vpn_node 1 > /proc/tc3162/br_vpn_itf
+
+vpn_tunnel_name="vpn_tunnel_$vpn_node"
+/userfs/bin/xl2tpd-control disconnect $vpn_tunnel_name
+/userfs/bin/xl2tpd-control remove $vpn_tunnel_name

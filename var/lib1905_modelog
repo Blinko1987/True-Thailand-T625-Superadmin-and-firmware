@@ -1,0 +1,27 @@
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG]meshcall_get_topology_info /userfs/bin/mapd_cli /tmp/mapd_ctrl dump_topology_v1
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG]meshcall_get_topology_info devnum array_size=1
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG]meshcall_get_topology_info devnum=0
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG]meshcall_get_topology_info curdev->mac1905:66:20:e1:0a:04:0d
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG]meshcall_get_topology_info tmp_json->valueint:01
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG]meshcall_get_topology_info curdev->devtype:1
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG]meshcall_get_topology_info curdev->hop_num:0
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG]meshcall_get_topology_info curdev->if_num:1
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG]meshcall_get_topology_info curdev->if_num:1
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG]meshcall_get_topology_info channel:149
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG]meshcall_get_topology_info bss_num:1
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG]meshcall_get_topology_info curbss->bssid:66:20:e1:0a:04:0d
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG]meshcall_get_topology_info  tmp_init:BackHaul_7B040E 
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG]meshcall_get_topology_info curbss->ssid:BackHaul_7B040E
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG]meshcall_get_topology_info channel 149 curbss->band:0
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG]meshcall_get_topology_info Security:0020
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG]meshcall_get_topology_info Encryption:0008
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG]meshcall_get_topology_info Pass-phrase:BFW6420E17B040E
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG]meshcall_get_topology_info curbss->map_flag:2
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG]meshcall_get_topology_info curbss->client_num:0
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG]meshcall_get_topology_info backhaul_link_metrics_num:0
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG]meshcall_get_topology_info end end devnum=1
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG]repeater_mac_update mac1905:66:20:e1:0a:04:0d devtype:1
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG][repeater_mac_cleanup:2711] delete index=1 to InternetGatewayDevice.LANDevice.1.WLANMeshConfiguration.Controller.Repeater.1.
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG][repeater_mac_cleanup:2711] delete index=2 to InternetGatewayDevice.LANDevice.1.WLANMeshConfiguration.Controller.Repeater.2.
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG][repeater_mac_cleanup:2711] delete index=3 to InternetGatewayDevice.LANDevice.1.WLANMeshConfiguration.Controller.Repeater.3.
+[Thu Jan  1 00:01:39 1970][lib1905][DEBUG][repeater_mac_cleanup:2711] delete index=4 to InternetGatewayDevice.LANDevice.1.WLANMeshConfiguration.Controller.Repeater.4.

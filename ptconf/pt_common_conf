@@ -1,0 +1,374 @@
+# alf_iot_sdk
+ALF_IOT_SDK_BIN_PATH_ALF_IOT="/ptrom/bin/alf_iot_sdk"
+
+# arping
+ARPING_ARP_PATH_STOP_NOTIFY="/ptrom/ptshell/arping_notify_servicemgr.sh"
+ARPING_BIN_PATH_ARPING="/ptrom/bin/arping"
+
+# basefile
+BASEFILE_FACTORY_PATH="/ptdata/"
+BASEFILE_PTCONF_PATH="/ptconf/"
+BASEFILE_BACKCONF_PATH="/ptrom/ptconf/"
+BASEFILE_PRECONF_PATH="/ptdata/"
+
+# cfg_cmd
+CFG_CMD_BIN_PATH_PTCFGCTRL="/ptrom/bin/ptcfg_ctrl"
+
+# cfg_tool
+CFG_TOOL_BIN_PATH_PTCFGLOAD="/ptrom/bin/ptcfg_load"
+
+# cfgmgr
+CFGMGR_CONF_PATH_USRCONFIG_DL="/ptconf/usrconfig_dl_conf"
+CFGMGR_BIN_PATH_CFGMGR="/ptrom/bin/cfgmgr"
+CFGMGR_CONF_PATH_CFGMGR_RESTORE_FLAG="/ptconf/cfgmgr_restore_flag_conf"
+CFGMGR_BIN_PATH_CFGMGR_INIT="/ptrom/bin/cfgmgr.init"
+
+# cfgutil
+CFGUTIL_BIN_PATH_CFGUTIL="/ptrom/bin/cfgutil"
+
+# cli
+CLI_LIB_PATH_LIBCLI_CLI="/ptrom/lib/libcli_cli.so"
+
+# dataconfig
+DATACONFIG_CONF_PATH_ATTRCONFIG="/ptconf/attrconfig_conf"
+DATACONFIG_CONF_PATH_USRCONFIG="/ptconf/usrconfig_conf"
+DATACONFIG_CONF_PATH_PARAMXML="/ptconf/param_ct.xml"
+
+# ddns
+DDNS_BIN_PATH_DDNSD="/ptrom/bin/ddnsd"
+DDNS_BIN_PATH_INADYN="/ptrom/bin/inadyn"
+
+# devmgr
+
+# dhcpc
+DHCPC_DHCPC_SHELL_PATH_SCRIPT="/ptrom/ptshell/dhcp.script"
+DHCPC_DHCPC_SHELL_PATH_START="/ptrom/ptshell/udhcpc-start"
+DHCPC_BIN_PATH_UDHCPC="/ptrom/bin/udhcpc"
+DHCPC_DHCPC_SHELL_PATH_RENEW="/ptrom/ptshell/dhcp.renew"
+DHCPC_DHCPC_SHELL_PATH_RENEW2="/ptrom/ptshell/dhcpc.renew"
+DHCPC_DHCPC_SHELL_PATH_BOUND="/ptrom/ptshell/dhcp.bound"
+
+# dhcpd
+DHCPD_CONF_PATH_UDHCPD_LEASE_FILENAME="/ptconf/udhcpd.lease"
+DHCPD_CONF_PATH_UDHCP_LIMIT="/ptconf/udhcp_limit.conf"
+DHCPD_BIN_PATH_DUMPLEASES="/ptrom/bin/dumpleases"
+DHCPD_BIN_PATH_DHCPSNIFF="/ptrom/bin/dhcpsniff"
+DHCPD_CONF_PATH_UDHCPD_PID_FILENAME="/ptconf/udhcpd.pid"
+DHCPD_CONF_PATH_UDHCPD_LAN="/ptconf/udhcpd_lan.conf"
+DHCPD_CONF_PATH_UDHCPD_CONFIG_FILENAME="/ptconf/udhcpd.conf"
+DHCPD_BIN_PATH_UDHCPD="/ptrom/bin/udhcpd"
+
+# dhcpv6
+DHCPV6_CONF_PATH_DHCP6C_NAAFTR="/ptconf/dhcp6c_naaftr.conf"
+DHCPV6_CONF_PATH_DHCP6C_NA="/ptconf/dhcp6c_na.conf"
+DHCPV6_SHELL_PATH_DHCP6C_SET_RADVD="/ptrom/ptshell/set_radvd_conf.sh"
+DHCPV6_SHELL_PATH_DHCP6C_SEND_MSG="/ptrom/ptshell/dhcp6c_msg_send.sh"
+DHCPV6_CONF_PATH_DHCP6C="/ptconf/dhcp6c_client.conf"
+DHCPV6_BIN_PATH_DHCP6S="/ptrom/bin/dhcp6s"
+DHCPV6_CONF_PATH_DHCP6C_NAPDAFTR="/ptconf/dhcp6c_napdaftr.conf"
+DHCPV6_CONF_PATH_DHCP6C_STATELESS="/ptconf/dhcp6c_stateless.conf"
+DHCPV6_CONF_PATH_DHCP6C_PDAFTR="/ptconf/dhcp6c_pdaftr.conf"
+DHCPV6_CONF_PATH_DHCP6S="/ptconf/dhcp6s.conf"
+DHCPV6_CONF_PATH_DHCP6C_NAPD="/ptconf/dhcp6c_napd.conf"
+DHCPV6_SHELL_PATH_DHCP6C_SET_DNS="/ptrom/ptshell/set_dns_conf.sh"
+DHCPV6_SHELL_PATH_DHCP6C_START_EMU="/ptrom/ptshell/dhcp6c_start"
+DHCPV6_BIN_PATH_DHCP6C="/ptrom/bin/dhcp6c"
+DHCPV6_CONF_PATH_DHCP6C_PD="/ptconf/dhcp6c_pd.conf"
+
+# dns
+DNS_CONF_PATH_DNSMASQ="/ptconf/dnsmasq.conf"
+DNS_SHELL_PATH_DNSMASQ="/ptrom/ptshell/dnsmasq.sh"
+DNS_BIN_PATH_DNSMASQ="/ptrom/bin/dnsmasq"
+
+# eventmgr
+EVENTMGR_BIN_PATH_EVENTMGR="/ptrom/bin/eventmgr"
+
+# factory_cli
+FACTORY_CLI_LIB_PATH_LIBCFGMGR_CLI="/ptrom/lib/libcfgmgr_cli.so"
+
+# ftp
+FTP_BIN_PATH_VSFTPD="/ptrom/bin/vsftpd"
+FTP_CONF_PATH_VSFTPD="/ptconf/vsftpd.conf"
+
+# httpget
+HTTPGET_BIN_PATH_HTTPGET="/ptrom/bin/httpget"
+
+# Include
+INCLUDE_CONF_PATH_PT_COMMON_CONF="/ptconf/pt_common_conf"
+
+# lancc
+LANCC_BIN_PATH_LANCC="/ptrom/bin/lanmgr"
+LANCC_BIN_PATH_LANSPEED="/ptrom/bin/lanspeed"
+
+# libalfiot
+
+# libcfgcustz
+LIBCFGCUSTZ_LIB_PATH_LIBPTCFGCUSTZ="/ptrom/lib/libptcfgcustz.so"
+
+# libcpeapi
+
+# libdevfunc
+LIBDEVFUNC_LIB_PATH_LIBPTDEV="/ptrom/lib/libptdev.so"
+
+# libmeshability
+LIBMESHABILITY_LIB_PATH_MESHABILITY="/ptrom/lib/libmeshability.so"
+
+# libptapi
+LIBPTAPI_LIB_PATH_LIBPTAPI="/ptrom/lib/libptapi.so"
+
+# libptcfg
+LIBPTCFG_LIB_PATH_LIBPTCFG="/ptrom/lib/libptcfg.so"
+
+# libptnetapi
+LIBPTNETAPI_LIB_PATH_LIBPTDRV_NET_CLI="/ptrom/lib/libptdrv_net_cli.so"
+LIBPTNETAPI_LIB_PATH_LIBPTDRV_NET_API="/ptrom/lib/libptdrv_net_api.so"
+LIBPTNETAPI_LIB_PATH_DIAG="/ptrom/lib/diag.ko"
+
+# libptsysmgr
+LIBPTSYSMGR_LIB_PATH_PTSYSMGR="/ptrom/lib/libptsysmgr.so"
+
+# libpttimer
+LIBPTTIMER_LIB_PATH_LIBPTTIMER="/ptrom/lib/libpttimer.so"
+
+# libptubus
+
+# libptutils
+LIBPTUTILS_LIB_PATH_LIBPTUTILS="/ptrom/lib/libptutils.so"
+
+# libtmwcfg
+
+# logmgr
+LOGMGR_CONF_PATH_SYSLOG="/ptconf/message_syslog"
+LOGMGR_BIN_PATH_LOGMGR="/ptrom/bin/logmgr"
+LOGMGR_LIB_PATH_LIBPTLOGMGR="/ptrom/lib/libptlogmgr.so"
+
+# loop
+LOOP_BIN_PATH_LOOP="/ptrom/bin/loop"
+
+# meshapp
+MESHAPP_BIN_PATH_MESHCONTROLLER="/ptrom/bin/meshcontroller"
+MESHAPP_BIN_PATH_MESHAGENT="/ptrom/meshcontroller"
+MESHAPP_LIB_PATH_MESHCALL="/ptrom/lib/libmeshcall.so"
+
+# ntp
+NTP_BIN_PATH_HGCNTPD="/ptrom/bin/hgcntpd"
+NTP_BIN_PATH_NTPDATE="/ptrom/bin/ntpdate"
+
+# onekeydiagnose
+ONEKEYDIAGNOSE_CONF_PATH_MODULELOG="/ptconf/modulelog.conf"
+ONEKEYDIAGNOSE_CONF_PATH_WIFI_DURATIONLOG="/ptconf/durationlog_wifi.conf"
+ONEKEYDIAGNOSE_BIN_PATH_ONEKEYDIAGNOSE="/ptrom/bin/onekeydiagnose"
+ONEKEYDIAGNOSE_CONF_PATH_DURATIONLOG="/ptconf/durationlog.conf"
+ONEKEYDIAGNOSE_CONF_PATH_CMDLINELOG="/ptconf/cmdlinelog.conf"
+ONEKEYDIAGNOSE_CONF_PATH_WIFI_MODULELOG="/ptconf/modulelog_wifi.conf"
+ONEKEYDIAGNOSE_CONF_PATH_WIFI_CMDLINELOG="/ptconf/cmdlinelog_wifi.conf"
+
+# peripheral_driver
+
+# ping
+PING_BIN_PATH_PINGDIAG="/ptrom/bin/pingdiag"
+
+# pondriver
+PONDRIVER_LIB_PATH_PTDRV_ETH_IMPL="/ptrom/lib/ptdrv_eth_impl.ko"
+PONDRIVER_LIB_PATH_PT_GPON_DRV="/ptrom/lib/pt_gpon_drv.ko"
+PONDRIVER_LIB_PATH_PT_PON_INIT="/ptrom/lib/pt_pon_init.ko"
+PONDRIVER_LIB_PATH_LIBPTDRV_PON_API="/ptrom/lib/libptdrv_pon_api.so"
+PONDRIVER_LIB_PATH_LIBPTDRV_PON_CLI="/ptrom/lib/libptdrv_pon_cli.so"
+
+# ponhw
+PONHW_SHELL_PATH_PON="/ptrom/ptshell/start_pon_process.sh"
+PONHW_VOIPCFG_CONF_PATH="/ptconf/xpon_voipcfg_conf"
+PONHW_LIB_PATH_PONHWAL="/ptrom/lib/libponhwal.so"
+PONHW_TR069CFG_CONF_PATH="/ptconf/xpon_tr069cfg_conf"
+
+# pppoe
+PPPOE_LIB_PATH_RP_PPPOE="/ptrom/lib/rp-pppoe.so"
+PPPOE_CONF_PATH_PAP_SECRETS="/ptconf/pap-secrets"
+PPPOE_SHELL_PATH_IPV6DOWN="/ptrom/ptshell/ipv6-down"
+PPPOE_SHELL_PATH_IPUP="/ptrom/ptshell/ip-up"
+PPPOE_SHELL_PATH_IPDOWN="/ptrom/ptshell/ip-down"
+PPPOE_CONF_PATH_OPTIONS="/ptconf/options"
+PPPOE_SHELL_PATH_IPV6UP="/ptrom/ptshell/ipv6-up"
+PPPOE_BIN_PATH_AUTOPPP="/ptrom/bin/autoppp"
+PPPOE_BIN_PATH_PPPD="/ptrom/bin/pppd"
+PPPOE_CONF_PATH_CHAP_SECRETS="/ptconf/chap-secrets"
+
+# pppOnDemand
+PPPONDEMAND_LIB_PATH_PT_PPP_DEMAND="/ptrom/lib/pppOnDemand.ko"
+
+# pptp
+PPTP_BIN_PATH_PPTP="/ptrom/bin/pptp"
+PPTP_CONF_PATH_PPTP_PPPOPTIONS="/ptconf/pppoptions.pptp"
+
+# preconfig
+PRECONFIG_CONF_PATH_PRE_USRCONFIG="/ptdata/pre_usrconfig_conf"
+PRECONFIG_CONF_PATH_PROC_MONITOR_LIST="/ptrom/ptconf/process_monitor_list"
+PRECONFIG_CONF_PATH_PRECONF_IMG="/ptrom/preconfimg"
+PRECONFIG_CONF_PATH_DEVICE_INFO="/ptconf/device_info"
+PRECONFIG_CONF_PATH_PRE_ATTRCONFIG="/ptdata/pre_attrconfig_conf"
+PRECONFIG_CONF_PATH_PROC_START_LIST="/ptrom/ptconf/process_start_list"
+PRECONFIG_CONF_PATH_FAC_PROC_START_LIST="/ptrom/ptconf/fac_process_start_list"
+PRECONFIG_CONF_PATH_PTDATA_FACTORY_CONF="/ptdata/factory_conf"
+PRECONFIG_CONF_PATH_SOFTVERSION_TABLE="/ptrom/SoftwareVersionTable_conf"
+PRECONFIG_CONF_PATH_SYSINFO="/ptconf/sysinfo_conf"
+PRECONFIG_CONF_PATH_PTROM_FACTORY_CONF="/ptconf/factory_conf"
+PRECONFIG_CONF_PATH_FACTORY_MODE_FLAG="/ptdata/factorymodeflag"
+
+# ptomci
+PTOMCI_BIN_PATH_PTOMCI="/ptrom/bin/ptomci"
+PTOMCI_CONFIG_FILE_PATH="/ptconf/omci_config_conf"
+
+# ptshell
+PTSHELL_WIFI_GUEST_SCRIPT="/ptrom/ptshell/wifiguest.sh"
+PTSHELL_CONF_PATH_NORMAL_REBOOT_FLAG="/ptconf/normal_reboot_flag"
+PTSHELL_MEM_CTRL_SCRIPT="/ptrom/ptshell/gdecms_mem.sh"
+PTSHELL_CONF_PATH_REBOOT="/ptrom/ptshell/reboot"
+PTSHELL_PROCESS_CHECK_SCRIPT="/ptrom/ptshell/process_check.sh"
+PTSHELL_PROCESS_MONITOR_SCRIPT="/ptrom/ptshell/gdecms_process_monitor.sh"
+PTSHELL_PROCESS_ABNORMAL_SCRIPT="/ptrom/ptshell/gdecms_process_abnormal.sh"
+PTSHELL_AVALANCHE_SCRIPT="/ptrom/ptshell/avalanche.sh"
+PTSHELL_SYS_MONITOR_SCRIPT="/ptrom/ptshell/gdecms_sys_monitor.sh"
+
+# radvd
+RADVD_SHELL_PATH_KEEP_SEND_RS="/ptrom/ptshell/keep_sending_rs.sh"
+RADVD_BIN_PATH_RADVD="/ptrom/bin/radvd"
+RADVD_SHELL_PATH_START_RADVD="/ptrom/ptshell/radvd_run.sh"
+
+# rastatus
+RASTATUS_BIN_PATH_RASTATUS="/ptrom/bin/rastatus"
+RASTATUS_SHELL_PATH_START_RASTATUS="/ptrom/ptshell/rastatus.sh"
+
+# redirectd
+REDIRECTD_BIN_PATH_REDIRECTD="/ptrom/bin/redirectd"
+
+# service_cli
+SERVICE_CLI_BIN_PATH_LOAD_CLI="/ptrom/bin/load_cli"
+SERVICE_CLI_LIB_PATH_LIBCLI_ADAPTATION_LAYER="/ptrom/lib/libcli_adaptation_layer.so"
+
+# serviceMgr
+SERVICEMGR_BIN_PATH_SERVICEMGR="/ptrom/bin/serviceMgr"
+
+# smartagent
+SMARTAGENT_BIN_PATH_SMARTAGENT="/ptrom/bin/smartagent"
+
+# sysmgr
+SYSMGR_BIN_PATH_SYSMGR="/ptrom/bin/sysmgr"
+
+# telnet
+TELNET_BIN_PATH_TELNETD="/ptrom/bin/telnetd"
+
+# thd_open_src
+THD_OPEN_SRC_LIB_PATH_CRYPTO="/ptrom/lib/libcrypto.so.1.1"
+THD_OPEN_SRC_BIN_PATH_MLDPROXY="/ptrom/bin/mldproxy"
+THD_OPEN_SRC_BIN_PATH_UCI="/sbin/uci"
+THD_OPEN_SRC_BIN_PATH_IP6TABLES="/xtables-multi"
+THD_OPEN_SRC_LIB_PATH_JSONC="/ptrom/lib/libjson-c.so.3.0.1"
+THD_OPEN_SRC_BIN_PATH_TCPDUMP="/sbin/tcpdump"
+THD_OPEN_SRC_BIN_PATH_FATLABEL="/ptrom/bin/fatlabel"
+THD_OPEN_SRC_LIB_PATH_SSL="/ptrom/lib/libssl.so.1.1"
+THD_OPEN_SRC_BIN_PATH_IPTABLES="/xtables-multi"
+THD_OPEN_SRC_LIB_PATH_UCI="/lib/libuci.so"
+THD_OPEN_SRC_BIN_PATH_RPCAPD="/ptrom/bin/rpcapd"
+THD_OPEN_SRC_LIB_PATH_PTRESOLV="/ptrom/lib/libptresolv.so"
+THD_OPEN_SRC_LIB_PATH_JSON="/ptrom/lib/libjson.so.0.1.0"
+THD_OPEN_SRC_BIN_PATH_XTABLES="/bin/xtables-multi"
+THD_OPEN_SRC_BIN_PATH_IGMPPROXY="/ptrom/bin/igmpproxy"
+
+# tr069
+TR069_BIN_PATH_TR069="/ptrom/bin/tr069"
+TR069_CONF_PATH_TR069_CONTROL="/ptconf/tr069_control_conf"
+TR069_CONF_PATH_TR069_FACTORY_RESET="/ptconf/factory_reset_conf"
+
+# traceroute
+TRACEROUTE_BIN_PATH_TRACEROUTE="/ptrom/bin/traceroute"
+
+# upgrade
+UPGRADE_INFO_PATH_UPGRADE_STATUS="/var/upgrade_status_info"
+UPGRADE_LIB_PATH_LIBUPGRADE="/ptrom/lib/libupgrade.so"
+UPGRADE_CONF_PATH_UPGRADE_CONFIG="/ptconf/upgrade_config_conf"
+UPGRADE_BIN_PATH_PRECONFIG_HANDLER="/ptrom/bin/preconfig_handler"
+
+# upnp
+UPNP_LIB_PATH_LIBAVCODEC_52="/ptrom/lib/libavcodec.so.52"
+UPNP_CONF_PATH_USHARE="/usr/etc/ushare.conf"
+UPNP_LIB_PATH_LIBAVDEVICE="/ptrom/lib/libavdevice.so"
+UPNP_LIB_PATH_LIBUPNP="/ptrom/lib/libupnp.so"
+UPNP_LIB_PATH_LIBAVFORMAT_52="/ptrom/lib/libavformat.so.52"
+UPNP_LIB_PATH_LIBDLNA="/ptrom/lib/libdlna.so"
+UPNP_BIN_PATH_USHARE="/ptrom/bin/ushare"
+UPNP_LIB_PATH_LIBIXML="/ptrom/lib/libixml.so"
+UPNP_LIB_PATH_LIBAVCODEC="/ptrom/lib/libavcodec.so"
+UPNP_LIB_PATH_LIBTHREADUTIL="/ptrom/lib/libthreadutil.so"
+UPNP_CONF_PATH_UPNPD="/usr/etc/upnpd.conf"
+UPNP_LIB_PATH_LIBDLNA_0="/ptrom/lib/libdlna.so.0"
+UPNP_LIB_PATH_LIBCHARSET="/ptrom/lib/libcharset.so"
+UPNP_LIB_PATH_LIBIXML6="/ptrom/lib/libixml.so.2"
+UPNP_BIN_PATH_UPNPD="/ptrom/bin/upnpd"
+UPNP_LIB_PATH_LIBTHREADUTIL6="/ptrom/lib/libthreadutil.so.6"
+UPNP_LIB_PATH_LIBAVUTIL_49="/ptrom/lib/libavutil.so.49"
+UPNP_XML_PATH_GATEDESC="/usr/etc/linuxigd"
+UPNP_LIB_PATH_LIBAVFORMAT="/ptrom/lib/libavformat.so"
+UPNP_LIB_PATH_LIBUPNP6="/ptrom/lib/libupnp.so.6"
+UPNP_BIN_PATH_UPNPC="/ptrom/bin/upnpc"
+UPNP_LIB_PATH_LIBICONV="/ptrom/lib/libiconv.so"
+UPNP_LIB_PATH_LIBAVUTIL="/ptrom/lib/libavutil.so"
+
+# voice
+VOICE_BIN_PATH_VOIPTEST="/ptrom/bin/voiptest"
+VOICE_SHELL_PATH_VOICE="/ptrom/ptshell/voice_init.sh"
+VOICE_BIN_PATH_SIP="/ptrom/bin/sip"
+VOICE_CONF_PATH_DIGITMAP="/ptconf/voice_digitmap_conf"
+VOICE_BIN_PATH_H248="/ptrom/bin/h248"
+
+# voicedriver
+VOICEDRIVER_LIB_PATH_LIBCODEC="/ptrom/lib/libcodec.so"
+VOICEDRIVER_LIB_PATH_LIBDSPCLI="/ptrom/lib/libdspCli.so"
+VOICEDRIVER_LIB_PATH_LIBDSP="/ptrom/lib/libdsp.so"
+
+# wancc
+WANCC_LIB_PATH_LIBDEV_WANCC_CLI="/ptrom/lib/libdev_wancc_cli.so"
+WANCC_VAR_WANCC_INIT_FINISH_FLAG="/var/wancc_finished"
+WANCC_SHELL_IPCALC="/ptrom/ptshell/ipcalc.sh"
+WANCC_SHELL_IPFORWARD="/ptrom/ptshell/ipforward.sh"
+WANCC_VAR_WAN_INFO="/var/wan_info"
+WANCC_VAR_PORTBIND_INFO="/var/portbind_info"
+WANCC_SHELL_POLICY_ROUTE_RULE="/ptrom/ptshell/policy_route.sh"
+WANCC_SHELL_POLICY_ROUTE_RULE_IPV6="/ptrom/ptshell/policy_bindv6.sh"
+WANCC_VAR_WAN_NAME_INFO="/var/wanname_info"
+WANCC_CONF_IP_FORWARDLIST="/ptconf/IPForwardList_conf"
+WANCC_SHELL_STATIC_ROUTE="/ptrom/ptshell/route_setv4.sh"
+WANCC_SHELL_IPFORWARD_IPV6="/ptrom/ptshell/ipforwardv6.sh"
+WANCC_BIN_PATH_WANCC="/ptrom/bin/wanmgr"
+
+# web
+WEB_BIN_PATH_THTTPD="/ptrom/bin/thttpd"
+WEB_CONF_PATH_THTTPD="/ptconf/thttpd.conf"
+WEB_LIB_PATH_LIBPTWEB="/ptrom/lib/libptweb.so"
+WEB_CONF_PATH_PTWEB="/ptconf/ptweb_conf"
+
+# wget
+WGET_BIN_PATH_WGET="/ptrom/bin/wget"
+
+# wifidriver
+WIFIDRIVER_BIN_PATH_MESHINFO="/ptrom/bin/meshinfo"
+WIFIDRIVER_BIN_PATH_WIFICTL="/ptrom/bin/wifictl"
+WIFIDRIVER_BIN_PATH_WLSRCFG="/ptrom/bin/wlsrcfg"
+WIFIDRIVER_BIN_PATH_WIFITXT="/ptrom/bin/wifi.txt"
+WIFIDRIVER_LIB_PATH_LIBWIFI="/ptrom/lib/libwifi.so"
+WIFIDRIVER_LIB_PATH_LIBWIFICLI="/ptrom/lib/libwificli.so"
+WIFIDRIVER_BIN_PATH_REPEATERSH="/ptrom/ptshell/repeater.sh"
+WIFIDRIVER_BIN_PATH_WIFI2GTXT="/ptrom/bin/wifi_2g.txt"
+
+# wifimgr
+WIFIMGR_BIN_WIFI_FACTORY_INIT="/ptrom/ptshell/wifi.sh"
+WIFIMGR_BIN_PATH_WIFIGUEST="/ptrom/bin/wifiguest"
+WIFIMGR_CONF_PATH_GUEST_2G="/ptconf/ptdrv_wifi_guest_2g_cfg"
+WIFIMGR_BIN_PATH_WIFIMGR="/ptrom/bin/wifimgr"
+WIFIMGR_CONF_PATH_GUEST_5G="/ptconf/ptdrv_wifi_guest_5g_cfg"
+
+# xl2tp
+XL2TP_CONF_PATH_XL2TP_PPPOPTIONS="/ptconf/pppoptions.xl2tpd"
+XL2TP_BIN_PATH_XL2TPD_CONTROL="/ptrom/bin/xl2tpd-control"
+XL2TP_BIN_PATH_XL2TPD="/ptrom/bin/xl2tpd"
+XL2TP_CONF_PATH_XL2TP="/ptconf/xl2tpd.conf"
+

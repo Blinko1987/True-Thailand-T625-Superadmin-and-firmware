@@ -1,0 +1,60 @@
+{
+	"success": "true",
+	"session_valid":"1",
+	"ssid1":	{
+		"Enable":"1",
+		"SSID":	"ChinaNet-hisi-2G-1",
+		"BeaconType":	"mixed",
+		"BasicAuthenticationMode": "SharedKey",
+		"WPAEncryptionModes":	"AESEncryption",
+		"WEPEncryptionLevel": "40-bit",
+		"PreSharedKey":	"11111111",
+		"WEPKeyIndex": "1",
+		"WEPKey1": "11111",
+		"WEPKey2": "11111",
+		"WEPKey3": "11111",
+		"WEPKey4": "11111"
+	},
+	"ssid2":	{
+		"Enable":"1",
+		"SSID":	"ChinaNet-hisi-2G-2",
+		"BeaconType":	"mixed",
+		"BasicAuthenticationMode": "SharedKey",
+		"WPAEncryptionModes":	"AESEncryption",
+		"WEPEncryptionLevel": "40-bit",
+		"PreSharedKey":	"22222222",
+		"WEPKeyIndex": "1",
+		"WEPKey1": "22222",
+		"WEPKey2": "22222",
+		"WEPKey3": "22222",
+		"WEPKey4": "22222"
+	},
+	"ssid3":	{
+		"Enable":"1",
+		"SSID":	"ChinaNet-hisi-2G-3",
+		"BeaconType":	"mixed",
+		"BasicAuthenticationMode": "SharedKey",
+		"WPAEncryptionModes":	"AESEncryption",
+		"WEPEncryptionLevel": "40-bit",
+		"PreSharedKey":	"33333333",
+		"WEPKeyIndex": "1",
+		"WEPKey1": "33333",
+		"WEPKey2": "33333",
+		"WEPKey3": "33333",
+		"WEPKey4": "33333"
+	},
+	"ssid4":	{
+		"Enable":"1",
+		"SSID":	"ChinaNet-hisi-2G-4",
+		"BeaconType":	"mixed",
+		"BasicAuthenticationMode": "SharedKey",
+		"WPAEncryptionModes":	"AESEncryption",
+		"WEPEncryptionLevel": "40-bit",
+		"PreSharedKey":	"44444444",
+		"WEPKeyIndex": "1",
+		"WEPKey1": "44444",
+		"WEPKey2": "44444",
+		"WEPKey3": "44444",
+		"WEPKey4": "44444"
+	}
+}

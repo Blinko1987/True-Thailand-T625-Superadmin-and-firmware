@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script language="javascript" src="../js/port_mirror_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="port_mirror.title"></p>
+			<p class="main_header_hint" i18n="port_mirror.hint"></p>
+		</div>
+		<form>
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name" i18n="port_mirror.title"></div>
+					<div class="main_item_content">
+						<input type="radio" name="switch" id="port_mirror_enable" value="1"/><span i18n="enable"></span>&nbsp;&nbsp;
+						<input type="radio" name="switch" id="port_mirror_disable" value="0"/><span i18n="disable"></span>
+					</div>
+				</div>
+				<div class="main_item" id="mirrordiv">
+					<div class="main_item_name" i18n="port_mirror.mirror"></div>
+					<div class="main_item_content" id="mirror">
+					</div>
+				</div>
+				<div class="main_item" id="directiondiv">
+					<div class="main_item_name" i18n="port_mirror.direction"></div>
+					<div class="main_item_content">
+						<select id="direction" class="main_select">
+							<option value="1">InDirection</option>
+							<option value="2">OutDirection</option>
+							<option value="3">BothDirection</option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item" id="catchdiv">
+					<div class="main_item_name" i18n="port_mirror.catch"></div>
+					<div class="main_item_content">
+						<select id="catch" class="main_select">
+							<option value="1">LAN1</option>
+							<option value="2">LAN2</option>
+							<option value="3">LAN3</option>
+							<option value="4">LAN4</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" i18n="save" i18n-set="value" value="保存" onclick="saveApply()"/>
+			</div>
+		</form>
+	</body>
+</html>

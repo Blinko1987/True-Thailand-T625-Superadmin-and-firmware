@@ -1,0 +1,143 @@
+
+config interface 'bfwsolutions'
+	option deviceinfo 'atos'
+
+config interface 'InternetGatewayDevice__DeviceInfo__'
+	option Cumulative_uptime '35696'
+
+config interface 'InternetGatewayDevice__X_CT111COM_UserInfo__'
+	option UserId '123456'
+	option ServiceName 'UCI_NULL'
+	option ServiceNum '0'
+	option X_PT_TIMEOUTFLAG '0'
+	option X_PT_ServicesCollect 'UCI_NULL'
+	option UserName '2001374923'
+	option Status '99'
+	option Result '99'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__1__'
+	option X_PT_SSIDAlias '2.4G-1'
+	option X_PT_PWD 'GMFNCX74'
+	option SSID 'TrueGigatexFiber_2.4G_8AA'
+	option X_CT111COM_SSIDHide '0'
+	option ConfigActive '0'
+	option Enable '0'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__1__PreSharedKey__1__'
+	option KeyPassphrase 'GMFNCX74'
+	option PreSharedKey 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__5__'
+	option WifiHoppingTime '7200'
+	option X_PT_SSIDAlias '5G-1'
+	option X_PT_PWD 'GMFNCX74'
+	option SSID 'TrueGigatexFiber_5G_8AA'
+	option X_CT111COM_SSIDHide '0'
+	option ConfigActive '0'
+	option Enable '0'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__2__PreSharedKey__1__'
+	option KeyPassphrase 'GMFNCX74'
+	option PreSharedKey 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__2__'
+	option X_PT_PWD 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__3__PreSharedKey__1__'
+	option KeyPassphrase 'GMFNCX74'
+	option PreSharedKey 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__3__'
+	option X_PT_PWD 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__4__PreSharedKey__1__'
+	option KeyPassphrase 'GMFNCX74'
+	option PreSharedKey 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__4__'
+	option X_PT_PWD 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__5__PreSharedKey__1__'
+	option KeyPassphrase 'GMFNCX74'
+	option PreSharedKey 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__6__PreSharedKey__1__'
+	option KeyPassphrase 'GMFNCX74'
+	option PreSharedKey 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__6__'
+	option X_PT_PWD 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__7__PreSharedKey__1__'
+	option KeyPassphrase '12345678'
+	option PreSharedKey '12345678'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__7__'
+	option X_PT_PWD 'UCI_NULL'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__8__PreSharedKey__1__'
+	option KeyPassphrase 'GMFNCX74'
+	option PreSharedKey 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__8__'
+	option X_PT_PWD 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__9__PreSharedKey__1__'
+	option KeyPassphrase 'GMFNCX74'
+	option PreSharedKey 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__9__'
+	option X_PT_PWD 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__10__PreSharedKey__1__'
+	option KeyPassphrase 'GMFNCX74'
+	option PreSharedKey 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__10__'
+	option X_PT_PWD 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__11__PreSharedKey__1__'
+	option KeyPassphrase 'GMFNCX74'
+	option PreSharedKey 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__11__'
+	option X_PT_PWD 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__12__PreSharedKey__1__'
+	option KeyPassphrase 'GMFNCX74'
+	option PreSharedKey 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__12__'
+	option X_PT_PWD 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__13__PreSharedKey__1__'
+	option KeyPassphrase 'GMFNCX74'
+	option PreSharedKey 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__13__'
+	option X_PT_PWD 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__14__PreSharedKey__1__'
+	option KeyPassphrase 'GMFNCX74'
+	option PreSharedKey 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__14__'
+	option X_PT_PWD 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__15__PreSharedKey__1__'
+	option KeyPassphrase 'GMFNCX74'
+	option PreSharedKey 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__15__'
+	option X_PT_PWD 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__16__PreSharedKey__1__'
+	option KeyPassphrase 'GMFNCX74'
+	option PreSharedKey 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__LANDevice__1__WLANConfiguration__16__'
+	option X_PT_PWD 'GMFNCX74'
+
+config interface 'InternetGatewayDevice__ManagementServer__'
+	option X_PT_TR69WANIP 'UCI_NULL'
+

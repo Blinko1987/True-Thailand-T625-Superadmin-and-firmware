@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/jquery.form.js"></script>
+		<script type="text/javascript" src="../js/upgrade_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.firmwareupgrade"></p>
+			<p class="main_header_hint" i18n="upgradehint1">
+			</p>
+		</div>
+		<!--form id="upgrade_form" method="post" enctype="multipart/form-data" onsubmit="return validCheck()" action="../cgi-bin/ajax?method=upload&action=upgradeimage"-->
+		<form enctype="multipart/form-data" method="post" action="../cgi-bin/ajax?method=upload&action=upgradeimage" id="upgrade_form">
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name" i18n="filepath"></div>
+					<div class="main_item_content">
+						<input type="file" id="upgradefile" name="upgradefile"/>&nbsp;
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="submit" class="input_button" id="upgrade_button" i18n="menu.upgrade" i18n-set="value">
+			</div>
+		</form>
+		<div id="progress_div" style="display:none">
+			<div class="progress_container"> 
+				<div id="progress_bar" style="width:0%;"></div>  
+			</div>
+			<br/>
+			<div id="progress_hint" i18n="upgradinghint"></div>
+			
+			<div class="main_save" id="retry_div" style="display:none;">
+				<input type="button" class="input_button" id="retry_button" onclick="retryUpgrade();" i18n="retry" i18n-set="value">
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/voice_add_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.voice_add"></p>
+			<p class="main_header_hint" i18n="voiceadd_hint"></p>
+		</div>
+		<form id="voice_add_form">
+			<div class="main_content">
+				<div class="main_item sip_item ims_item" style="display:none">
+					<div class="main_item_name" i18n="polarityreversal"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="PolarityReversalMode"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="timesync"></div>
+					<div class="main_item_content">
+						<select id="TimeSyncMode" class="main_select">
+							<option value="0" i18n="notsync"></option>
+							<option value="1" i18n="syncsystemtime"></option>
+							<option value="2" i18n="synccorenetwktime"></option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="calleriddisplaymode"></div>
+					<div class="main_item_content">
+						<select id="CountryRegion" class="main_select">
+							<option value="FSK">FSK</option>
+							<option value="DTMF">DTMF</option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item ims_item" style="display:none">
+					<div class="main_item_name" i18n="subscription"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="EnableSubsAfterReg"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item ims_item" style="display:none">
+					<div class="main_item_name" i18n="threewaycallingmode"></div>
+					<div class="main_item_content">
+						<select id="ThreePartyInIMS" class="main_select">
+							<option value="0" i18n="terminallocal"></option>
+							<option value="1" i18n="server"></option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item ims_item" style="display:none">
+					<div class="main_item_name" i18n="line1threewaycallinguri"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="conferenceuri1" name="conferenceuri1"/>
+					</div>
+				</div>
+				<div class="main_item sip_item" style="display:none">
+					<div class="main_item_name" i18n="line1hotlineenable"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="HotlineEnable1"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item sip_item" style="display:none">
+					<div class="main_item_name" i18n="line1hotlinedelay"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="HotlineTimer1" name="HotlineTimer1"/>
+					</div>
+				</div>
+				<div class="main_item ims_item sip_item" style="display:none">
+					<div class="main_item_name" i18n="line1hotlineuri"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="hotlineuri1" name="hotlineuri1"/>
+					</div>
+				</div>
+				<div class="main_item sip_item" style="display:none">
+					<div class="main_item_name" i18n="line1threewaycalling"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="ThreeWayCallingEnable1"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item sip_item" style="display:none">
+					<div class="main_item_name" i18n="line1callwaiting"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="CallWaitingEnable1"/>&nbsp;
+					</div>
+				</div>
+		<!-- 		<div class="main_item ims_item" style="display:none">
+					<div class="main_item_name" i18n="line2threewaycallinguri"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="conferenceuri2" name="conferenceuri2"/>
+					</div>
+				</div> -->
+	<!-- 			<div class="main_item sip_item" style="display:none">
+					<div class="main_item_name" i18n="line2hotlineenable"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="HotlineEnable2"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item sip_item" style="display:none">
+					<div class="main_item_name" i18n="line2hotlinedelay"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="HotlineTimer2" name="HotlineTimer2"/>
+					</div>
+				</div> -->
+			<!-- 	<div class="main_item ims_item sip_item" style="display:none">
+					<div class="main_item_name" i18n="line2hotlineuri"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="hotlineuri2" name="hotlineuri2"/>
+					</div>
+				</div> -->
+	<!-- 			<div class="main_item sip_item" style="display:none">
+					<div class="main_item_name" i18n="line2threewaycalling"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="ThreeWayCallingEnable2"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item sip_item" style="display:none">
+					<div class="main_item_name" i18n="line2callwaiting"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="CallWaitingEnable2"/>&nbsp;
+					</div>
+				</div> -->
+				<div class="main_item h248_item" style="display:none">
+					<div class="main_item_name" i18n="heartbeatenable"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="HeartbeatMode"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item h248_item" style="display:none">
+					<div class="main_item_name" i18n="heartbeatcycle"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="HeartbeatCycle" name="HeartbeatCycle"/>
+					</div>
+				</div>
+				<div class="main_item h248_item" style="display:none">
+					<div class="main_item_name" i18n="heartbeatcount"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="HeartbeatCount" name="HeartbeatCount"/>
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" onclick="saveApply()" i18n="save" i18n-set="value"/>
+			</div>
+		</form>
+	</body>
+</html>

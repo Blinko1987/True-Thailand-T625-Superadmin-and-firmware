@@ -1,0 +1,21 @@
+#<<Setting sequence>>
+#modtype: 0: regular(default) 1: modulate type 1 (pwr1=max db pwr2=min db) 2:modulate type 2(pwr1=mod_power pwr2=mod_depth)
+#f1,f2,f3,pwr1,pwr2,pwr3,mak1,brk1,mak2,brk2,mak3,brk3,modtype
+#Dail tone
+400,25,0,-10,-20,0,500,0,0,0,0,0,1
+#Ring back tone
+400,25,0,-10,-20,0,400,200,400,2000,0,0,1
+#Error tone
+400,0,0,-3,-3,0,500,0,0,0,0,0
+#Call waiting tone
+400,0,0,-15,0,0,200,100,200,7500,0,0
+#Second dail tone
+400,0,0,-10,-3,0,400,0,0,0,0,0
+#Busy tone
+400,0,0,-10,0,0,750,750,0,0,0,0
+#Warning tone
+400,0,0,-5,-5,0,500,0,0,0,0,0
+#stutter dial tone
+400,0,0,-5,-5,0,2800,200,0,0,0,0
+#1K Hz tone
+1000,0,0,-5,0,0,1000,0,0,0,0,0

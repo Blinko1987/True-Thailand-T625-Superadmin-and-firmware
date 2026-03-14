@@ -1,0 +1,311 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script language="javascript" src="../js/broadband_factory_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title">网络连接</p>
+			<p class="main_header_hint">在本页面，您可以修改、新增、删除网络连接。</p>
+		</div>
+		<form id="broadband_form">
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name">连接名称</div>
+					<div class="main_item_content">
+						<select id="WanConnectName_select" class="main_select">
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">封装类型</div>
+					<div class="main_item_content">
+						<select id="WanAddress_select">
+							<option value='IPoE'>IPoE</option>
+							<option value='PPPoE'>PPPoE</option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">业务类型</div>
+					<div class="main_item_content">
+						<select id="WanServiceList_select">
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">连接模式</div>
+					<div class="main_item_content">
+						<select id="WanConnectMode_select">
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">IP模式</div>
+					<div class="main_item_content">
+						<select id="WanIP_Mode_select">
+						</select>
+					</div>
+				</div>
+				<div id="Address_PPPoE_Setting">
+					<div class="main_item">
+						<div class="main_item_name">用户名</div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="WanUserName_text" name="WanUserName_text"/>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name">密码</div>
+						<div class="main_item_content">
+							<input type="password" class="input_text" autocomplete="off" id="WanPassword_text" name="WanPassword_text"/>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name">拨号方式</div>
+						<div class="main_item_content">
+							<select id="dialMode_select">
+							<option value='AlwaysOn'>自动拨号</option>
+							<option value='OnDemand'>按需拨号</option>
+							</select>
+						</div>
+					</div>
+					<div class="main_item" id="idleDisconnectTime_Setting">
+						<div class="main_item_name">空闲时间</div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="idleDisconnectTime_text" name="idleDisconnectTime_text"/>
+						</div>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">MTU</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="WanMTU_text" name="WanMTU_text"/>
+					</div>
+				</div>
+				<div class="main_item" id="NAT_Setting">
+					<div class="main_item_name" >使能NAT</div>
+					<div class="main_item_content">
+						<input type="checkbox" id="NAT_Enable"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">启用VLAN</div>
+					<div class="main_item_content">
+						<input type="checkbox" id="WanVlan_Enable"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item" id="VLAN_Setting">
+					<div class="main_item_name">VLAN ID</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="WanVlanID_text" name="WanVlanID_text"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">802.1P</div>
+					<div class="main_item_content">
+						<select id="Wan_802_1_P_select">
+							<option value='0'>0</option>
+							<option value='1'>1</option>
+							<option value='2'>2</option>
+							<option value='3'>3</option>
+							<option value='4'>4</option>
+							<option value='5'>5</option>
+							<option value='6'>6</option>
+							<option value='7'>7</option>
+						</select>
+					</div>
+				</div>
+				<div id="port_div">
+					<div class="main_item" id="lan_ports">
+						<div class="main_item_name">LAN端口绑定</div>
+						<div class="main_item_content">
+							<span id='LAN1enable' class='lanport'><input type='checkbox' name='portbind' id='Wan_Port_checkbox1'>LAN1</span>
+							<span id='LAN2enable' class='lanport'><input type='checkbox' name='portbind' id='Wan_Port_checkbox2'>LAN2</span>
+							<span id='LAN3enable' class='lanport'><input type='checkbox' name='portbind' id='Wan_Port_checkbox3'>LAN3</span>
+							<span id='LAN4enable' class='lanport'><input type='checkbox' name='portbind' id='Wan_Port_checkbox4'>LAN4</span>
+						</div>
+					</div>
+					<div class="main_item wifi_ports" id="wifi_ports_div1">
+						<div class="main_item_name">SSID端口绑定</div>
+						<div class="main_item_content">
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox1'/>2G-SSID1</span>
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox2'/>2G-SSID2</span>
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox3'/>2G-SSID3</span>
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox4'/>2G-SSID4</span>
+						</div>
+					</div>
+					<!-- <div class="main_item wifi_ports" id="wifi_ports_div2">
+						<div class="main_item_name"></div>
+						<div class="main_item_content">
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox5'/>2G-SSID5</span>
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox6'/>2G-SSID6</span>
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox7'/>2G-SSID7</span>
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox8'/>2G-SSID8</span>
+						</div>
+					</div> -->
+					<div class="main_item wifi_ports" id="wifi_ports_div3">
+						<div class="main_item_name"></div>
+						<div class="main_item_content">
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox5'/>5G-SSID1</span>
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox6'/>5G-SSID2</span>
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox7'/>5G-SSID3</span>
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox8'/>5G-SSID4</span>
+						</div>
+					</div>
+					<!-- <div class="main_item wifi_ports" id="wifi_ports_div4">
+						<div class="main_item_name"></div>
+						<div class="main_item_content">
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox13'/>5G-SSID5</span>
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox14'/>5G-SSID6</span>
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox15'/>5G-SSID7</span>
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox16'/>5G-SSID8</span>
+						</div>
+					</div> -->
+				</div>
+				<div id="IPv4_Settings">
+					<div class="main_item">
+						<div class="main_item_name"><b>IPv4信息:</b></div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name">地址获取方式</div>
+						<div class="main_item_content">
+							<select id="WanIPv4Address_select">
+								<!--IPoE: DHCP/Static, PPPoE: PPPoE-->
+							</select>
+						</div>
+					</div>
+					<div id="IPv4_Address_Static_Settings">
+						<div class="main_item">
+							<div class="main_item_name">IP地址</div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="WanIPv4Address_text" name="WanIPv4Address_text"/>
+							</div>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name">网络掩码</div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="WanSubmask_text" name="WanSubmask_text"/>
+							</div>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name">默认网关</div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="WanGateway_text" name="WanGateway_text"/>
+							</div>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name">首选DNS</div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="WanPri_DNS_text" name="WanPri_DNS_text"/>
+							</div>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name">备选DNS</div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="WanSec_DNS_text" name="WanSec_DNS_text"/>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="IPv6_Settings">
+					<div class="main_item">
+						<div class="main_item_name"><b>IPv6信息:</b></div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name">获取前缀</div>
+						<div class="main_item_content">
+							<input type="checkbox" id="WanPrefix_checkbox"/>&nbsp;
+						</div>
+					</div>
+					<div class="main_item" id="IPv6_Address_Prefix_Type_Tr">
+						<div class="main_item_name">获取前缀方式</div>
+						<div class="main_item_content">
+							<select id='WanPrefix_select'>
+								<!--PrefixDelegation/Static(仅IPoE方式下显示)/PPPoE(仅PPPoE方式下显示)/None-->
+							</select>
+						</div>
+					</div>
+					<div class="main_item" id="IPv6_Address_Prefix_Tr">
+						<div class="main_item_name">IPv6地址前缀</div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="WanIPv6Address_Pre_text" name="WanIPv6Address_Pre_text"/>
+						</div>
+					</div>
+					<!--DNS获取方式暂缺，隐藏-->
+					<div class="main_item" style="display:none">
+						<div class="main_item_name">DNS获取方式</div>
+						<div class="main_item_content">
+							<select id='WanIPv6DNS_select'>
+								<option value='WANConnection'>WANConnection</option>
+								<option value='Static'>Static</option>
+								<option value='HGWProxy'>HGWProxy</option>
+							</select>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name">获取地址方式</div>
+						<div class="main_item_content">
+							<select id='WanIPv6Address_select'>
+								<!--AutoConfigured/DHCPv6/Static(PPPoE方式下不显示)/None-->
+							</select>
+						</div>
+					</div>
+					<div id="IPv6_Address_Static_Settings">
+						<div class="main_item">
+							<div class="main_item_name">IPv6地址</div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="WanIPv6Address_text" name="WanIPv6Address_text"/>
+							</div>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name">默认IPv6网关</div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="WanIPv6_Gateway_text" name="WanIPv6_Gateway_text"/>
+							</div>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name">首选IPv6 DNS</div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="WanIPv6Pri_DNS_text" name="WanIPv6Pri_DNS_text"/>
+							</div>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name">备选IPv6 DNS</div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="WanIPv6Sec_DNS_text" name="WanIPv6Sec_DNS_text"/>
+							</div>
+						</div>
+					</div>
+					<div id="IPv6_Dslite_Settingstotal">
+						<div class="main_item">
+							<div class="main_item_name">启用DS-Lite</div>
+							<div class="main_item_content">
+								<input type="checkbox" id="WanDslite_checkbox"/>&nbsp;
+							</div>
+						</div>
+						<div class="main_item" id="aftr_check_div">
+							<div class="main_item_name">AFTR手动配置</div>
+							<div class="main_item_content">
+								<input type="checkbox" id="aftr_checkbox"/>&nbsp;
+							</div>
+						</div>
+						<div class="main_item" id="aftr_value_div">
+							<div class="main_item_name">AFTR</div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="aftr_text" name="aftr_text"/>(FQDN)
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main_save" id="tr69_wan_hint" style="display:none">您不能修改业务类型含有"管理"的连接</div>
+			<div class="main_save">
+				<input type="button" class="input_button broadband_save" id="save_button" value="保存" onclick="saveApply()"/>
+				<input type="button" class="input_button broadband_save" id="delete_button" value="删除" onclick="deleteWan()" id="delete_button"/>
+			</div>
+		</form>
+	</body>
+</html>

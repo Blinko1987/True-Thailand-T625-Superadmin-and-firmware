@@ -1,0 +1,14 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"qos":	{
+		"AppName1":	"INTERNET",
+		"ClassQueue1":	"1",
+		"AppName2":	"",
+		"ClassQueue2":	"",
+		"AppName3":	"",
+		"ClassQueue3":	"",
+		"AppName4":	"",
+		"ClassQueue4":	""
+	}
+}

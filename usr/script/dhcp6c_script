@@ -1,0 +1,67 @@
+#!/bin/sh
+
+#for nameserver in $new_domain_name_servers; do
+#	echo nameserver=$nameserver >> $1 
+#done
+STATE=$1
+DEVICE=$interface
+
+if [ "$STATE" = "release" ] ; then
+	#/sbin/ifconfig $DEVICE down
+	#/sbin/ifconfig $DEVICE up
+	echo "down" > /var/run/$DEVICE/status6
+	
+	if [ -f "/tmp/use_cfg_ng" ] ; then
+		/userfs/bin/msg send_ext 1 6 $DEVICE
+	else
+		/userfs/bin/tcapi commit WanInfo_Message_$DEVICE/6
+	fi
+
+	rm -f /var/run/$DEVICE/ip6
+	rm -f /var/run/$DEVICE/dns6
+	rm -f /var/run/$DEVICE/gateway6
+	rm -f /var/run/$DEVICE/pd6
+	rm -f /var/run/$DEVICE/orgpd6
+	rm -f /var/run/$DEVICE/pd6_ptime
+	rm -f /var/run/$DEVICE/pd6_vtime
+	rm -f /var/run/$DEVICE/prefix6
+	rm -f /var/run/$DEVICE/nodns6
+else
+	#if [ -n "$iapd_0" ] ; then
+	#echo $iapd_0 > /var/run/$DEVICE/pd6
+	#fi
+	
+	if [ -n "$iana_0" ] ; then
+	echo $iana_0 > /var/run/$DEVICE/ip6
+	echo "64" > /var/run/$DEVICE/prefix6
+	fi
+	
+	if [ -f /var/run/$DEVICE/dns6 ]; then
+		rm /var/run/$DEVICE/dns6
+	fi
+
+	if [ -n "$dslite_address" ] ; then
+		echo $dslite_address > /var/run/$DEVICE/dsliteaddr
+	fi
+	if [ -n "$dslite_name" ] ; then
+		echo $dslite_name > /var/run/$DEVICE/dslitename
+	fi
+
+	for nameserver in $new_domain_name_servers; do
+		echo $nameserver >> /var/run/$DEVICE/dns6 
+	done
+	
+	if [ -z "$new_domain_name_servers" ] ; then
+		echo 1 > /var/run/$DEVICE/nodns6
+	fi	
+	sleep 1
+	echo "up" > /var/run/$DEVICE/status6
+	
+	if [ -f "/tmp/use_cfg_ng" ] ; then
+		/userfs/bin/msg send_ext 1 5 $DEVICE
+	else
+		/userfs/bin/tcapi commit WanInfo_Message_$DEVICE/6
+	fi
+	
+fi
+

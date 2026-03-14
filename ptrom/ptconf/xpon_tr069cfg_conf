@@ -1,0 +1,46 @@
+config key 'Tr069_url'
+    option value '0'
+        option encryflag '0'
+
+config key 'Tr069_userName'
+    option value '0'
+        option encryflag '0'
+
+config key 'Tr069_password'
+    option value '0'
+        option encryflag '0'
+
+config key 'Tr069_vlanid'
+    option value '0'
+        option encryflag '0'
+
+config key 'Tr069_userPri'
+    option value '0'
+        option encryflag '0'
+
+config key 'Tr069_ipMode'
+    option value '0'
+        option encryflag '0'
+
+config key 'Tr069_ipAddr'
+    option value '0'
+        option encryflag '0'
+
+config key 'Tr069_ipMask'
+    option value '0'
+        option encryflag '0'
+
+config key 'Tr069_ipGateway'
+    option value '0'
+        option encryflag '0'
+
+config key 'Tr069_priDns'
+    option value '0'
+        option encryflag '0'
+
+config key 'Tr069_secDns'
+    option value '0'
+        option encryflag '0'
+
+
+

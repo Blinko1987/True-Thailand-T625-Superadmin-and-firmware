@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/factory_voice_base_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<form id="factory_voice_base_form">
+			<div class="main_content">
+				<div class="main_item"><b>语音协议选择</b></div>
+				<div class="main_item">
+					<div class="main_item_name">语音协议</div>
+					<div class="main_item_content">
+						<input type="radio" name="ServerType" value="0">IMS SIP&nbsp;&nbsp;
+						<input type="radio" name="ServerType" value="1">SIP&nbsp;&nbsp;
+						<input type="radio" name="ServerType" value="2">H.248
+					</div>
+				</div>
+				<div class="main_item"><b>IMS设置</b></div>
+				<div class="main_item">
+					<div class="main_item_name">ThreePartyInIMS</div>
+					<div class="main_item_content">
+						<input type="radio" name="ThreePartyInIMS" value="1">启用&nbsp;&nbsp;
+						<input type="radio" name="ThreePartyInIMS" value="0">禁用
+					</div>
+				</div>
+				<div class="main_item"><b>SIP设置</b></div>
+				<div class="main_item">
+					<div class="main_item_name">MoIP</div>
+					<div class="main_item_content">
+						<input type="radio" name="sipEnableModem" value="1">启用&nbsp;&nbsp;
+						<input type="radio" name="sipEnableModem" value="0">禁用
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">符号转义</div>
+					<div class="main_item_content">
+						<input type="radio" name="transferSharp" value="1">启用&nbsp;&nbsp;
+						<input type="radio" name="transferSharp" value="0">禁用
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">注册后订阅</div>
+					<div class="main_item_content">
+						<input type="radio" name="EnableSubsAfterReg" value="1">启用&nbsp;&nbsp;
+						<input type="radio" name="EnableSubsAfterReg" value="0">禁用
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">AKAv1-MD5鉴权</div>
+					<div class="main_item_content">
+						<input type="radio" name="EnableAKAV1MD5" value="1">启用&nbsp;&nbsp;
+						<input type="radio" name="EnableAKAV1MD5" value="0">禁用
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">呼叫协商转接</div>
+					<div class="main_item_content">
+						<input type="radio" name="EnableAttendedTransfer" value="1">启用&nbsp;&nbsp;
+						<input type="radio" name="EnableAttendedTransfer" value="0">禁用
+					</div>
+				</div>
+				<div class="main_item"><b>H.248设置</b></div>
+				<div class="main_item">
+					<div class="main_item_name">VoIP增益控制</div>
+					<div class="main_item_content">
+						<input type="radio" name="gainControl" value="1">MGC&nbsp;&nbsp;
+						<input type="radio" name="gainControl" value="0">MG
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">MoIP</div>
+					<div class="main_item_content">
+						<input type="radio" name="h248EnableModem" value="1">启用&nbsp;&nbsp;
+						<input type="radio" name="h248EnableModem" value="0">禁用
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">数图匹配模式</div>
+					<div class="main_item_content">
+						<select id="SendDigitImmediately" class="main_select">
+							<option value="0">最大匹配</option>
+							<option value="1">最小匹配</option>
+							<option value="2">自适应</option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">物理终结点的配置方法</div>
+					<div class="main_item_content">
+						<select id="PhysicalTermIDConfigMethod" class="main_select">
+							<option value="0">通配</option>
+							<option value="1">逐个配置</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" value="保存" onclick="saveApply('h248')"/>
+			</div>
+		</form>
+	</body>
+</html>

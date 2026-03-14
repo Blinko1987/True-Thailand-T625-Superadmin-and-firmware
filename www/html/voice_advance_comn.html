@@ -1,0 +1,290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/voice_advance_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.voice_advance"></p>
+			<p class="main_header_hint" i18n="voiceadv_hint"></p>
+		</div>
+		<form id="voice_advance_form">
+			<div class="main_content">
+				<div class="main_item sip_item">
+					<div class="main_item_name" i18n="uritype"></div>
+					<div class="main_item_content">
+						<select id="URIType_select" class="main_select">
+							<option value='0'>SIP</option>
+							<option value='1'>TEL</option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="secdailingmode"></div>
+					<div class="main_item_content">
+						<select id="DTMFMethod_select" class="main_select">
+							<option value='RFC2833'>RFC2833</option>
+							<option value='InBand'>InBand</option>
+							<option value='SIPInfo'>SIPInfo</option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item sip_item">
+					<div class="main_item_name" i18n="siplocalport"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="SipLocalPort_text" name="SipLocalPort_text"/>(1025~65535)
+					</div>
+				</div>
+				<div class="main_item sip_item">
+					<div class="main_item_name" i18n="regexpiretime"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="RegisterExpires_text" name="RegisterExpires_text"/>(20~65535)s
+					</div>
+				</div>
+				<div class="main_item sip_item">
+					<div class="main_item_name" i18n="regfailreregtime"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="RegisterRetryInterval_text" name="RegisterRetryInterval_text"/>(1~65535)s
+					</div>
+				</div>
+				<div id="SessionExpires_div" class="main_item sip_item">
+					<div class="main_item_name" i18n="sessionexpiretime"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="SessionExpires_text" name="SessionExpires_text"/>(120~3600)s
+					</div>
+				</div>
+				<div id="SessionUpdateTimer_div" class="main_item sip_item">
+					<div class="main_item_name" i18n="sessionexpiretime"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="SessionUpdateTimer_text" name="SessionUpdateTimer_text"/>(2~60)min
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="localrtpportmin"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="RtpPortStart_text" name="RtpPortStart_text"/>(1026~65494)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="localrtpportmax"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="RtpPortEnd_text" name="RtpPortEnd_text"/>(1032~65535)
+					</div>
+				</div>
+				<div class="main_item sip_item">
+					<div class="main_item_name" i18n="enableprack"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="PRACKEnable_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item sip_item">
+					<div class="main_item_name" i18n="enablepoweronlogout"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="BootDeRegisterEnable_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item sip_item">
+					<div class="main_item_name" i18n="sipdscpmark"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="SipDSCPMark_text" name="SipDSCPMark_text"/>(0~63)
+					</div>
+				</div>
+				<div class="main_item sip_item">
+					<div class="main_item_name" i18n="rtpdscpmark"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="RtpDSCPMark_text" name="RtpDSCPMark_text"/>(0~63)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="flashmini"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="FlashMin_text" name="FlashMin_text"/>(40~500)ms
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="flashmaxi"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="FlashMax_text" name="FlashMax_text"/>(40~2000)ms
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="ringvoltage"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="RingVoltage_text" name="RingVoltage_text"/>(45~65)Vms
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="highspeedfaxec"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="ECEnable"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="jitterbuffminimum"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="Jitterbuffer_min" name="Jitterbuffer_min"/>ms
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="jitterbuffmaximum"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="Jitterbuffer_max" name="Jitterbuffer_max"/>ms
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="jitterbufferfax"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="JBFaxSize" name="JBFaxSize"/>(30~200)ms
+					</div>
+				</div>
+				<div class="main_item sip_item">
+					<div class="main_item_name" i18n="forcedtimesyn"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="TimeEnable"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item" style="display:none">
+					<div class="main_item_name" i18n="smalldisplay"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="DisplayName"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="reversepolarity"></div>
+					<div class="main_item_content">
+						<select id="Polarity_select" class="main_select">
+							<option value='0' i18n="turnoff"></option>
+							<option value='1' i18n="turnon"></option>
+							<option value='2' i18n="platformctl"></option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="line1dspreceivegain"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="DSPRXGain_text1" name="DSPRXGain_text1"/>(-14~6)dB
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="line1dsptransmitgain"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="DSPTXGain_text1" name="DSPTXGain_text1"/>(-14~6)dB
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="line1echosuppression"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="EchoCancelEnable_checkbox1"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="line1enablevad"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="VadCngEnable_checkbox1"/>&nbsp;
+					</div>
+				</div>
+				<!--todo-->
+				<table width="100%" cellspacing="0" cellpadding="3px" border="1px">
+					<tr class="table-header">
+						<th colspan="4" i18n="line1codecpriority"></th>
+					</tr>
+					<tr class="another-table-header">
+						<td width='10%' i18n="codec"></td>
+						<td width='10%' i18n="enabling"></td>
+						<td width='39%' style="text-align:left" i18n="priority"></td>
+						<td width='39%' style="text-align:left" i18n="rtpptime"></td>
+					</tr>
+					<tr class="oddtr">
+						<td>G.722</td>
+						<td><input type="checkbox" id="G722Enable_checkbox1" style="margin-top: 4px;"/></td>
+						<td><div style="float:left"><input type="text" class="input_short" id="G722Priority_text1" name="G722Priority_text1"/></div></td>
+						<td><div style="float:left"><input type="text" class="input_short" id="G722RtpPackageInterval_text1" name="G722RtpPackageInterval_text1"/>ms</div></td>
+					</tr>
+					<tr class="eventr">
+						<td>G.711A</td>
+						<td><input type="checkbox" id="G711aEnable_checkbox1" style="margin-top: 4px;"/></td>
+						<td><div style="float:left"><input type="text" class="input_short" id="G711aPriority_text1" name="G711aPriority_text1"/></td>
+						<td><div style="float:left"><input type="text" class="input_short" id="G711aRtpPackageInterval_text1" name="G711aRtpPackageInterval_text1"/>ms</div></td>
+					</tr>
+					<tr class="oddtr">
+						<td>G.711U</td>
+						<td><input type="checkbox" id="G711uEnable_checkbox1" style="margin-top: 4px;"/></td>
+						<td><div style="float:left"><input type="text" class="input_short" id="G711uPriority_text1" name="G711uPriority_text1"/></div></td>
+						<td><div style="float:left"><input type="text" class="input_short" id="G711uRtpPackageInterval_text1" name="G711uRtpPackageInterval_text1"/>ms</div></td>
+					</tr>
+					<tr class="eventr">
+						<td>G.729</td>
+						<td><input type="checkbox" id="G729Enable_checkbox1" style="margin-top: 4px;"/></td>
+						<td><div style="float:left"><input type="text" class="input_short" id="G729Priority_text1" name="G729Priority_text1"/></div></td>
+						<td><div style="float:left"><input type="text" class="input_short" id="G729RtpPackageInterval_text1" name="G729RtpPackageInterval_text1"/>ms</div></td>
+					</tr>
+				</table>
+		<!-- 		<div class="main_item">
+					<div class="main_item_name" i18n="line2dspreceivegain"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="DSPRXGain_text2" name="DSPRXGain_text2"/>(-14~6)dB
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="line2dsptransmitgain"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="DSPTXGain_text2" name="DSPTXGain_text2"/>(-14~6)dB
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="line2echosuppression"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="EchoCancelEnable_checkbox2"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="line2enablevad"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="VadCngEnable_checkbox2"/>&nbsp;
+					</div>
+				</div>
+				<table width="100%" cellspacing="0" cellpadding="3px" border="1px">
+					<tr class="table-header">
+						<th colspan="4" i18n="line2codecpriority"></th>
+					</tr>
+					<tr class="another-table-header">
+						<td width='10%' i18n="codec"></td>
+						<td width='10%' i18n="enabling"></td>
+						<td width='39%' style="text-align:left" i18n="priority"></td>
+						<td width='39%' style="text-align:left" i18n="rtpptime"></td>
+					</tr>
+					<tr class="oddtr">
+						<td>G.722</td>
+						<td><input type="checkbox" id="G722Enable_checkbox2" style="margin-top: 4px;"/></td>
+						<td><div style="float:left"><input type="text" class="input_short" id="G722Priority_text2" name="G722Priority_text2"/></div></td>
+						<td><div style="float:left"><input type="text" class="input_short" id="G722RtpPackageInterval_text2" name="G722RtpPackageInterval_text2"/>ms</div></td>
+					</tr>
+					<tr class="eventr">
+						<td>G.711A</td>
+						<td><input type="checkbox" id="G711aEnable_checkbox2" style="margin-top: 4px;"/></td>
+						<td><div style="float:left"><input type="text" class="input_short" id="G711aPriority_text2" name="G711aPriority_text2"/></td>
+						<td><div style="float:left"><input type="text" class="input_short" id="G711aRtpPackageInterval_text2" name="G711aRtpPackageInterval_text2"/>ms</div></td>
+					</tr>
+					<tr class="oddtr">
+						<td>G.711U</td>
+						<td><input type="checkbox" id="G711uEnable_checkbox2" style="margin-top: 4px;"/></td>
+						<td><div style="float:left"><input type="text" class="input_short" id="G711uPriority_text2" name="G711uPriority_text2"/></div></td>
+						<td><div style="float:left"><input type="text" class="input_short" id="G711uRtpPackageInterval_text2" name="G711uRtpPackageInterval_text2"/>ms</div></td>
+					</tr>
+					<tr class="eventr">
+						<td>G.729</td>
+						<td><input type="checkbox" id="G729Enable_checkbox2" style="margin-top: 4px;"/></td>
+						<td><div style="float:left"><input type="text" class="input_short" id="G729Priority_text2" name="G729Priority_text2"/></div></td>
+						<td><div style="float:left"><input type="text" class="input_short" id="G729RtpPackageInterval_text2" name="G729RtpPackageInterval_text2"/>ms</div></td>
+					</tr>
+				</table> -->
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" onclick="saveApply()" i18n="save" i18n-set="value"/>
+			</div>
+		</form>
+	</body>
+</html>

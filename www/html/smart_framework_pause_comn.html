@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+        <script language="javascript" src="../js/smart_framework_pause_comn.js"></script>
+		</script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.framework"></p>
+			<p class="main_header_hint" i18n="pausefrk_hint"></p>
+		</div>
+		<form>
+			<!--<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name">Framework状态</div>
+					<div class="main_item_content" id="status"></div>
+				</div>-->
+			<div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="frkpauseperiod"></div>
+					<div class="main_item_content">
+						<select id="pause_time">
+							<option value="3" i18n="3minutes"></option>
+							<option value="10" i18n="10minutes"></option>
+							<option value="30" i18n="30minutes"></option>
+							<option value="120" i18n="120minutes"></option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" onclick="saveApply()" i18n="menu.pausefrk" i18n-set="value"/>
+			</div>
+		</form>
+	</body>
+</html>

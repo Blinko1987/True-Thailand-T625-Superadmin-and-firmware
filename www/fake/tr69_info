@@ -1,0 +1,16 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"tr69":	{
+		"PeriodicInformEnable":	"1",
+		"PeriodicInformInterval":	"43200",
+		"URL":	"http://devacs.edatahome.com:9090/ACS-server/ACS",
+		"Username":	"hgw",
+		"Password":	"hgw",
+		"ConnectionRequestUsername":	"itms",
+		"ConnectionRequestPassword":	"itms",
+		"MiddlewareURL":	"",
+		"MiddlewarePort":	"0",
+		"Tr069Enable":	"1"
+	}
+}

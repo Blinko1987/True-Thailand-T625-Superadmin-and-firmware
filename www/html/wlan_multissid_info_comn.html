@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	<script language="javascript" src="../js/util_comn.js"></script>
+	<script type="text/javascript" src="../js/wlan_multissid_info_comn.js"></script>
+</head>
+<body class='main_config_body'>
+	<div class="main_header">
+		<p class="main_header_title" i18n="menu.wifi_multiaps"></p>
+		<p class="main_header_hint" i18n="multissid_hint"></p>
+	</div>
+	<form>
+		<br>
+		<table class="tablelarge" cellspacing="0" cellpadding="3px" border="1px">
+            <tbody>
+			<tr class="table-header">
+				<th colspan="8">2.4G</th>
+			</tr>
+			<tr class="another-table-header">
+			    <th width="7%" i18n="no">
+				</th>
+	            <th width="8%" i18n="enable">
+				</th>
+				<th width="20%" i18n="ssid">
+				</th>
+				<th width="15%" i18n="mode">
+				</th>
+	            <th width="10%" i18n="datarate">
+				</th>
+				<th width="15%" i18n="broadcastssid">
+				</th>
+				<th width="10%" i18n="wmm">
+				</th>
+				<th width="15%" i18n="guestnetwork">
+				</th>
+            </tr>
+			</tbody>
+			<tbody id="ssidinfo">
+				<tr class="oddtr">
+					<td>SSID1</td>
+					<td><input type="checkbox" style="margin-top:0px;" id="WlanEnable_checkbox_ap1" onclick="enableordisable(2)"/>&nbsp;</td>
+					<td><input type="text" maxlength="32" style="width:150px" id="WlanSsid_text1" class="input_text2"></td>
+					<td>
+						<select id="wlcfg_wlgMode1" style="width:154px; margin-top:8px;" aria-invalid="false" class="valid">
+							<option value="b">2.4G + 802.11b</option>
+							<option value="g">2.4G + 802.11g</option>
+							<option value="b,g">2.4G + 802.11bg Mixed</option>
+							<option value="n">2.4G + 802.11n</option>
+							<option value="n,g">2.4G + 802.11gn Mixed</option>
+							<option value="b,g,n">2.4G + 802.11bgn Mixed</option>
+							<option value="n,ax">2.4G + 802.11bgn/ax Mixed</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_wlRate1" style="width:85px; margin-top:8px;">
+							<option value="0">Auto</option>
+							<option value="1">1 Mbps</option>
+							<option value="2">2 Mbps</option>
+							<option value="3">5.5 Mbps</option>
+							<option value="4">6 Mbps</option>
+							<option value="5">9 Mbps</option>
+							<option value="6">11 Mbps</option>
+							<option value="7">12 Mbps</option>
+							<option value="8">18 Mbps</option>
+							<option value="9">24 Mbps</option>
+							<option value="10">36 Mbps</option>
+							<option value="11">48 Mbps</option>
+							<option value="12">54 Mbps</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_hide_ssid1" style="width:84px; margin-top:8px;">
+							<option value="1">Disabled</option>
+							<option value="0">Enabled</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_wmm1" style="width:84px; margin-top:8px;" disabled>
+							<option value="0">Disabled</option>
+							<option value="1">Enabled</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_guestnetwork1" style="width:84px; margin-top:8px;">
+							<option value="0">Disabled</option>
+							<option value="1">Enabled</option>
+						</select>
+					</td>
+				</tr>
+				<tr class="eventr">
+					<td>SSID2</td>
+					<td><input type="checkbox" style="margin-top:0px;" id="WlanEnable_checkbox_ap2" onclick="enableordisable(3)"/>&nbsp;</td>
+					<td><input type="text" maxlength="32" style="width:150px" id="WlanSsid_text2" class="input_text2"></td>
+					<td> 
+						<select id="wlcfg_wlgMode2" aria-invalid="false" class="valid" style="width:154px; margin-top:8px;">
+							<option value="b">2.4G + 802.11b</option>
+							<option value="g">2.4G + 802.11g</option>
+							<option value="b,g">2.4G + 802.11bg Mixed</option>
+							<option value="n">2.4G + 802.11n</option>
+							<option value="n,g">2.4G + 802.11gn Mixed</option>
+							<option value="b,g,n">2.4G + 802.11bgn Mixed</option>
+							<option value="n,ax">2.4G + 802.11bgn/ax Mixed</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_wlRate2" style="width:85px; margin-top:8px;">
+							<option value="0">Auto</option>
+							<option value="1">1 Mbps</option>
+							<option value="2">2 Mbps</option>
+							<option value="3">5.5 Mbps</option>
+							<option value="4">6 Mbps</option>
+							<option value="5">9 Mbps</option>
+							<option value="6">11 Mbps</option>
+							<option value="7">12 Mbps</option>
+							<option value="8">18 Mbps</option>
+							<option value="9">24 Mbps</option>
+							<option value="10">36 Mbps</option>
+							<option value="11">48 Mbps</option>
+							<option value="12">54 Mbps</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_hide_ssid2" style="width:84px; margin-top:8px;">
+							<option value="1">Disabled</option>
+							<option value="0">Enabled</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_wmm2" style="width:84px; margin-top:8px;" disabled>
+							<option value="0">Disabled</option>
+							<option value="1">Enabled</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_guestnetwork2" style="width:84px; margin-top:8px;">
+							<option value="0">Disabled</option>
+							<option value="1">Enabled</option>
+						</select>
+					</td>
+				</tr>
+				<tr class="oddtr">
+					<td>SSID3</td>
+					<td><input type="checkbox" style="margin-top:0px;" id="WlanEnable_checkbox_ap3" onclick="enableordisable(4)"/>&nbsp;</td>
+					<td><input type="text" maxlength="32" style="width:150px" id="WlanSsid_text3" class="input_text2"></td>
+					<td>
+						<select id="wlcfg_wlgMode3" aria-invalid="false" style="width:154px; margin-top:8px;" class="valid">
+							<option value="b">2.4G + 802.11b</option>
+							<option value="g">2.4G + 802.11g</option>
+							<option value="b,g">2.4G + 802.11bg Mixed</option>
+							<option value="n">2.4G + 802.11n</option>
+							<option value="n,g">2.4G + 802.11gn Mixed</option>
+							<option value="b,g,n">2.4G + 802.11bgn Mixed</option>
+							<option value="n,ax">2.4G + 802.11bgn/ax Mixed</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_wlRate3" style="width:85px; margin-top:8px;">
+							<option value="0">Auto</option>
+							<option value="1">1 Mbps</option>
+							<option value="2">2 Mbps</option>
+							<option value="3">5.5 Mbps</option>
+							<option value="4">6 Mbps</option>
+							<option value="5">9 Mbps</option>
+							<option value="6">11 Mbps</option>
+							<option value="7">12 Mbps</option>
+							<option value="8">18 Mbps</option>
+							<option value="9">24 Mbps</option>
+							<option value="10">36 Mbps</option>
+							<option value="11">48 Mbps</option>
+							<option value="12">54 Mbps</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_hide_ssid3" style="width:84px; margin-top:8px;">
+							<option value="1">Disabled</option>
+							<option value="0">Enabled</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_wmm3" style="width:84px; margin-top:8px;" disabled>
+							<option value="0">Disabled</option>
+							<option value="1">Enabled</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_guestnetwork3" style="width:84px; margin-top:8px;" disabled>
+							<option value="0">Disabled</option>
+							<option value="1">Enabled</option>
+						</select>
+					</td>
+				</tr>
+				<tr class="eventr" id="ssid4">
+					<td>SSID4</td>
+					<td><input type="checkbox" style="margin-top:0px;" id="WlanEnable_checkbox_ap4" onclick="enableordisable(5)"/>&nbsp;</td>
+					<td><input type="text" maxlength="32" id="WlanSsid_text4" style="width:150px" class="input_text2"></td>
+					<td>
+						<select id="wlcfg_wlgMode4" aria-invalid="false" style="width:154px; margin-top:8px;" class="valid">
+							<option value="b">2.4G + 802.11b</option>
+							<option value="g">2.4G + 802.11g</option>
+							<option value="b,g">2.4G + 802.11bg Mixed</option>
+							<option value="n">2.4G + 802.11n</option>
+							<option value="n,g">2.4G + 802.11gn Mixed</option>
+							<option value="b,g,n">2.4G + 802.11bgn Mixed</option>
+							<option value="n,ax">2.4G + 802.11bgn/ax Mixed</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_wlRate4" style="width:85px; margin-top:8px;">
+							<option value="0">Auto</option>
+							<option value="4">6 Mbps</option>
+							<option value="5">9 Mbps</option>
+							<option value="6">11 Mbps</option>
+							<option value="7">12 Mbps</option>
+							<option value="8">18 Mbps</option>
+							<option value="9">24 Mbps</option>
+							<option value="10">36 Mbps</option>
+							<option value="11">48 Mbps</option>
+							<option value="12">54 Mbps</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_hide_ssid4" style="width:84px; margin-top:8px;">
+							<option value="1">Disabled</option>
+							<option value="0">Enabled</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_wmm4" style="width:84px; margin-top:8px;" disabled>
+							<option value="0">Disabled</option>
+							<option value="1">Enabled</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_guestnetwork4" style="width:84px; margin-top:8px;" disabled>
+							<option value="0">Disabled</option>
+							<option value="1">Enabled</option>
+						</select>
+					</td>
+				</tr>
+				<tr class="oddtr"  id="ssid5">
+					<td>SSID5</td>
+					<td><input type="checkbox" style="margin-top:0px;" id="WlanEnable_checkbox_ap5" onclick="enableordisable(6)"/>&nbsp;</td>
+					<td><input type="text" maxlength="32" id="WlanSsid_text5" style="width:150px" class="input_text2"></td>
+					<td>
+						<select id="wlcfg_wlgMode5" aria-invalid="false" style="width:154px; margin-top:8px;" class="valid">
+							<option value="b">2.4G + 802.11b</option>
+							<option value="g">2.4G + 802.11g</option>
+							<option value="b,g">2.4G + 802.11bg Mixed</option>
+							<option value="n">2.4G + 802.11n</option>
+							<option value="n,g">2.4G + 802.11gn Mixed</option>
+							<option value="b,g,n">2.4G + 802.11bgn Mixed</option>
+							<option value="n,ax">2.4G + 802.11bgn/ax Mixed</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_wlRate5" style="width:85px; margin-top:8px;">
+							<option value="0">Auto</option>
+							<option value="4">6 Mbps</option>
+							<option value="5">9 Mbps</option>
+							<option value="6">11 Mbps</option>
+							<option value="7">12 Mbps</option>
+							<option value="8">18 Mbps</option>
+							<option value="9">24 Mbps</option>
+							<option value="10">36 Mbps</option>
+							<option value="11">48 Mbps</option>
+							<option value="12">54 Mbps</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_hide_ssid5" style="width:84px; margin-top:8px;">
+							<option value="1">Disabled</option>
+							<option value="0">Enabled</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_wmm5" style="width:84px; margin-top:8px;" disabled>
+							<option value="0">Disabled</option>
+							<option value="1">Enabled</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_guestnetwork5" style="width:84px; margin-top:8px;" disabled>
+							<option value="0">Disabled</option>
+							<option value="1">Enabled</option>
+						</select>
+					</td>
+				</tr>
+				<tr class="eventr" id="ssid6">
+					<td>SSID6</td>
+					<td><input type="checkbox" style="margin-top:0px;" id="WlanEnable_checkbox_ap6" onclick="enableordisable(7)"/>&nbsp;</td>
+					<td><input type="text" maxlength="32" id="WlanSsid_text6" style="width:150px" class="input_text2"></td>
+					<td>
+						<select id="wlcfg_wlgMode6" aria-invalid="false" style="width:154px; margin-top:8px;" class="valid">
+							<option value="b">2.4G + 802.11b</option>
+							<option value="g">2.4G + 802.11g</option>
+							<option value="b,g">2.4G + 802.11bg Mixed</option>
+							<option value="n">2.4G + 802.11n</option>
+							<option value="n,g">2.4G + 802.11gn Mixed</option>
+							<option value="b,g,n">2.4G + 802.11bgn Mixed</option>
+							<option value="n,ax">2.4G + 802.11bgn/ax Mixed</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_wlRate6" style="width:85px; margin-top:8px;">
+							<option value="0">Auto</option>
+							<option value="4">6 Mbps</option>
+							<option value="5">9 Mbps</option>
+							<option value="6">11 Mbps</option>
+							<option value="7">12 Mbps</option>
+							<option value="8">18 Mbps</option>
+							<option value="9">24 Mbps</option>
+							<option value="10">36 Mbps</option>
+							<option value="11">48 Mbps</option>
+							<option value="12">54 Mbps</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_hide_ssid6" style="width:84px; margin-top:8px;">
+							<option value="1">Disabled</option>
+							<option value="0">Enabled</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_wmm6" style="width:84px; margin-top:8px;" disabled>
+							<option value="0">Disabled</option>
+							<option value="1">Enabled</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_guestnetwork6" style="width:84px; margin-top:8px;" disabled>
+							<option value="0">Disabled</option>
+							<option value="1">Enabled</option>
+						</select>
+					</td>
+				</tr>
+				<tr style="display:none;" class="oddtr" id="ssid7">
+					<td>SSID7</td>
+					<td><input type="checkbox" style="margin-top:0px;" id="WlanEnable_checkbox_ap7" onclick="enableordisable(8)" disabled="true"/>&nbsp;</td>
+					<td><input type="text" maxlength="32" id="WlanSsid_text7" style="width:150px" class="input_text2" disabled></td>
+					<td>
+						<select id="wlcfg_wlgMode7" aria-invalid="false" style="width:154px; margin-top:8px;" class="valid" disabled>
+							<option value="b">2.4G + 802.11b</option>
+							<option value="g">2.4G + 802.11g</option>
+							<option value="b,g">2.4G + 802.11bg Mixed</option>
+							<option value="n">2.4G + 802.11n</option>
+							<option value="n,g">2.4G + 802.11gn Mixed</option>
+							<option value="b,g,n">2.4G + 802.11bgn Mixed</option>
+							<option value="n,ax">2.4G + 802.11bgn/ax Mixed</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_wlRate7" style="width:85px; margin-top:8px;" disabled>
+							<option value="0">Auto</option>
+							<option value="4">6 Mbps</option>
+							<option value="5">9 Mbps</option>
+							<option value="6">11 Mbps</option>
+							<option value="7">12 Mbps</option>
+							<option value="8">18 Mbps</option>
+							<option value="9">24 Mbps</option>
+							<option value="10">36 Mbps</option>
+							<option value="11">48 Mbps</option>
+							<option value="12">54 Mbps</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_hide_ssid7" style="width:84px; margin-top:8px;" disabled>
+							<option value="1">Disabled</option>
+							<option value="0">Enabled</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_wmm7" style="width:84px; margin-top:8px;" disabled>
+							<option value="0">Disabled</option>
+							<option value="1">Enabled</option>
+						</select>
+					</td>
+					<td>
+						<select id="wlcfg_guestnetwork7" style="width:84px; margin-top:8px;" disabled>
+							<option value="0">Disabled</option>
+							<option value="1">Enabled</option>
+						</select>
+					</td>
+				</tr>
+			</tbody>
+        </table>
+		<div class="main_content">
+			<div class="main_save">
+				<input type="button" onclick="saveApply()" class="input_button" i18n="save" i18n-set="value">
+			</div>
+		</div>
+    </form>
+		
+</body>
+</html>

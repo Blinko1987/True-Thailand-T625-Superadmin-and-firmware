@@ -1,0 +1,21 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"lan_ipv4":	{
+		"IPInterfaceIPAddress":	"192.168.1.1",
+		"IPInterfaceSubnetMask":	"255.255.255.0",
+		"DHCPServerEnable":	"1",
+		"MinAddress":	"192.168.1.111",
+		"MaxAddress":	"192.168.1.122",
+		"SubnetMask":	"255.255.255.0",
+		"DHCPLeaseTime":	"604800",
+		"Computer_MinAddress":	"192.168.1.123",
+		"Computer_MaxAddress":	"192.168.1.132",
+		"STB_MinAddress":	"192.168.1.155",
+		"STB_MaxAddress":	"192.168.1.166",
+		"Phone_MinAddress":	"192.168.1.177",
+		"Phone_MaxAddress":	"192.168.1.188",
+		"Camera_MinAddress":	"192.168.1.133",
+		"Camera_MaxAddress":	"192.168.1.144"
+	}
+}

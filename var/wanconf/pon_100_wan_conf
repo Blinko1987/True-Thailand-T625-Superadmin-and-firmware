@@ -1,0 +1,17 @@
+
+config key 'usrIndex'
+	option value '3'
+	option encryflag '0'
+
+config key 'index'
+	option value '1'
+	option encryflag '0'
+
+config key 'servicelist'
+	option value 'TR069_INTERNET'
+	option encryflag '0'
+
+config key 'portmap'
+	option value '00000000000000000000'
+	option encryflag '0'
+

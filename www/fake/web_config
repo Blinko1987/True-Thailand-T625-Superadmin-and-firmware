@@ -1,0 +1,8 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"SessionMaxTime":	"3000",
+	"ConfigFlag":	"1",
+	"operator":	"telecom",
+	"i18n":	"zh_cn"
+}

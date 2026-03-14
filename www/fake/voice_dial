@@ -1,0 +1,18 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"voice_dial":	{
+		"ServerType":	"1",
+		"DigitMap":	"[*#]x[0-9*].#|[0-9]X.",
+		"DigitMapType":	"1",
+		"TWaitTime":	"0",
+		"LocalRuleType":	"0",
+		"DotWaitTime":	"1",
+		"DigitMapEnable":	"1",
+		"InterDigitTimerLong":	"20",
+		"InterDigitTimerStd":	"5000",
+		"OffHookNoDailTimer":	"20000",
+		"StartDigitTimer":	"16",
+		"InterDigitTimerShort":	"5"
+	}
+}

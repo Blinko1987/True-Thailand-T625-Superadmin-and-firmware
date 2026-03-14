@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+        <script language="javascript" src="../js/alg_comn.js"></script>
+		</script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="algset"></p>
+			<p class="main_header_hint" i18n="alg_hint"></p>
+		</div>
+		<form id="alg_form">
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name" i18n="enableh323"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="H323Enable_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="enablertsp"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="RTSPEnable_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="enablel2tp"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="L2TPEnable_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="enableipsec"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="IPSECEnable_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="enablesip"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="SIPEnable_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="enableftp"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="FTPEnable_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item" id="pptp_div">
+					<div class="main_item_name" i18n="enablepptp"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="PPTPEnable_checkbox"/>&nbsp;
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" onclick="saveApply()" i18n="save" i18n-set="value"/>
+			</div>
+		</form>
+	</body>
+</html>

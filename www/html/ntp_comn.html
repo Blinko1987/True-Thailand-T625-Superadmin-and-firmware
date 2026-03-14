@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script language="javascript" src="../js/ntp_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.timezone"></p>
+			<p class="main_header_hint" i18n="ntp_hint"></p>
+		</div>
+		<form id="ntp_form">
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name" i18n="currsystemtime"></div>
+					<div class="main_item_content">
+						<label id="SystemTime_label"></label>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="autosynnetwktime"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="NtpEnable_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div id="setting_div" style="display:none">
+					<div class="main_item">
+						<div class="main_item_name" i18n="timezoneselect"></div>
+						<div class="main_item_content">
+							<select id="TimeZone_select" class="select_short">
+								<option value='-12:00' i18n="timezone_12"></option>
+								<option value='-11:00' i18n="timezone_11"></option>
+								<option value='-10:00' i18n="timezone_10"></option>
+								<option value='-09:00' i18n="timezone_9"></option>
+								<option value='-08:00' i18n="timezone_8"></option>
+								<option value='-07:00' i18n="timezone_7"></option>
+								<option value='-06:00' i18n="timezone_6"></option>
+								<option value='-05:00' i18n="timezone_5"></option>
+								<option value='-04:00' i18n="timezone_4"></option>
+								<option value='-03:00' i18n="timezone_3"></option>
+								<option value='-02:00' i18n="timezone_2"></option>
+								<option value='-01:00' i18n="timezone_1"></option>
+								<option value='-00:00' i18n="timezone_0"></option>
+								<option value='+01:00' i18n="timezone1"></option>
+								<option value='+02:00' i18n="timezone2"></option>
+								<option value='+03:00' i18n="timezone3"></option>
+								<option value='+04:00' i18n="timezone4"></option>
+								<option value='+05:00' i18n="timezone5"></option>
+								<option value='+06:00' i18n="timezone6"></option>
+								<option value='+07:00' i18n="timezone7"></option>
+								<option value='+08:00' i18n="timezone8"></option>
+								<option value='+09:00' i18n="timezone9"></option>
+								<option value='+10:00' i18n="timezone10"></option>
+								<option value='+11:00' i18n="timezone11"></option>
+								<option value='+12:00' i18n="timezone12"></option>
+							</select>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="ntpchannel"></div>
+						<div class="main_item_content">
+							<select id="NtpType_select" class="select_short">
+								<option value='0' i18n="internetattr"></option>
+								<!--<option value='1' i18n="voiceattr"></option>-->
+								<option value='2' i18n="tr69attr"></option>
+							</select>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="synchronizeinterval"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text input_short" autocomplete="off" id="NtpInterval_text" name="NtpInterval_text"/>(0,3600s-604800s)
+						</div>
+						<div id="NtpInterval_error" class="main_item_error_hint_extra"></div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="firstntptimeserver"></div>
+						<div class="main_item_content">
+							<select id="SntpServer1_select" name="server" class="select_short">
+							</select>
+							<input type="text" class="input_text input_short" autocomplete="off" id="Server1Other_text" name="Server1Other_text"/>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="secondntptimeserver"></div>
+						<div class="main_item_content">
+							<select id="SntpServer2_select" name="server" class="select_short">
+							</select>
+							<input type="text" class="input_text input_short" autocomplete="off" id="Server2Other_text" name="Server2Other_text"/>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="thirdntptimeserver"></div>
+						<div class="main_item_content">
+							<select id="SntpServer3_select" name="server" class="select_short">
+							</select>
+							<input type="text" class="input_text input_short" autocomplete="off" id="Server3Other_text" name="Server3Other_text"/>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="fourthntptimeserver"></div>
+						<div class="main_item_content">
+							<select id="SntpServer4_select" name="server" class="select_short">
+							</select>
+							<input type="text" class="input_text input_short" autocomplete="off" id="Server4Other_text" name="Server4Other_text"/>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="fifthntptimeserver"></div>
+						<div class="main_item_content">
+							<select id="SntpServer5_select" name="server" class="select_short">
+							</select>
+							<input type="text" class="input_text input_short" autocomplete="off" id="Server5Other_text" name="Server5Other_text"/>
+						</div>
+					</div>
+				</div>
+			<div class="main_save">
+				<input type="button" class="input_button" onclick="saveApply()" i18n="save" i18n-set="value"/>
+			</div>
+		</form>
+	</body>
+</html>

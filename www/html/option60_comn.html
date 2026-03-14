@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<link href='../css/main_style_ct.css' rel='stylesheet' type='text/css'/>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/option60_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<form id="option_form">
+			<div class="main_item">
+				<div class="main_item_name">网络连接</div>
+				<div class="main_item_content">
+					<select id="wan_select" onchange='selectWanChange()'>
+					</select>
+				</div>
+			</div>		
+			<div class="main_content">
+				<div class="main_item"><b>Option 60配置</b></div>
+				<div class="main_item">
+					<div class="main_item_name">是否加密VoIP认证信息</div>
+					<div class="main_item_content">
+						<input type="checkbox" id="option60_encry_enable"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item"><b>Option 125配置</b></div>
+				<div class="main_item">
+					<div class="main_item_name">使能option 125</div>
+					<div class="main_item_content">
+						<input type="checkbox" id="option_125_enable"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">option 125值</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" id="option_125_value" name="option_125_value"/>
+					</div>
+				</div>
+				<!--
+				<div class="main_item">
+					<div class="main_item_name">option 125 报文长度</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" id="option_125_len" name="option_125_len"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">企业码</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="Enterprise_number1" name="Enterprise_number1"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">供应商数据</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="option_125_string" name="option_125_string"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">供应商数据长度</div>
+					<div class="main_item_content">
+						21
+					</div>
+				</div>
+				-->
+				<div class="main_item">
+					<div class="main_item_name">网关ID</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="SerialNumber" name="SerialNumber"/>
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" value="保存" onclick="saveApply()"/>
+			</div>
+		</form>
+	</body>
+</html>

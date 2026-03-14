@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/baseinfoSet_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<form id="baseinfoset_form">
+			<div class="main_content">
+				<div class="main_item"><b>版本信息</b></div>
+				<div class="main_item">
+					<div class="main_item_name">版本编译时间</div>
+					<div class="main_item_content" id="compile_time" style="line-height:25px"></div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">软件版本号</div>
+					<div class="main_item_content" id="SoftwareVersion"></div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">扩展版本号</div>
+					<div class="main_item_content" id="ExternalNumber"></div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">硬件版本号</div>
+					<div class="main_item_content" id="HardwareVersion"></div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">硬件盘号</div>
+					<div class="main_item_content" id="HardwareDiskNumber"></div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">镜像ID</div>
+					<div class="main_item_content" id="ImageID"></div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">预配置ID</div>
+					<div class="main_item_content" id="">本版本中不包含该功能</div>
+				</div>
+				<div class="main_item"><b>宽带账号设置</b></div>
+				<div class="main_item">
+					<div class="main_item_name">宽带账号注册状态</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="result" name="result"/>(0-99)
+					</div>
+				</div>
+				<div class="main_item" style="color:red"><b>以下信息出厂不允许修改</b></div>
+				<div class="main_item"><b>设备信息设置</b></div>
+				<div class="main_item">
+					<div class="main_item_name">厂商OUI</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text disabled_item" autocomplete="off" id="ManufacturerOUI" name="ManufacturerOUI"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">终端序列号</div>
+					<div class="main_item_content">
+						<span id="sn_head"></span><input type="text" class="input_text disabled_item" autocomplete="off" id="SerialNumber" name="SerialNumber"/>
+					</div>
+				</div>
+				<div class="main_item"><b>账号密码设置</b></div>
+				<div class="main_item">
+					<div class="main_item_name">维护账号</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text disabled_item" autocomplete="off" id="admin_name" name="admin_name"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">维护密码</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text disabled_item" autocomplete="off" id="admin_password" name="admin_password"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">普通用户账号</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text disabled_item" autocomplete="off" id="user_name" name="user_name"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">普通用户密码</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text disabled_item" autocomplete="off" id="usre_password" name="usre_password"/>
+					</div>
+				</div>
+				<div class="main_item"><b>WAN侧MAC地址配置</b></div>
+				<div class="main_item">
+					<div class="main_item_name">Internet MAC<input type="checkbox" id="InternetMacEnable" class="disabled_item"/></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text disabled_item" autocomplete="off" id="InternetMac" name="InternetMac"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">Tr069 MAC<input type="checkbox" id="Tr069MacEnable" class="disabled_item"/></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text disabled_item" autocomplete="off" id="Tr069Mac" name="Tr069Mac"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">VoIP MAC<input type="checkbox" id="VoIPMacEnable" class="disabled_item"/></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text disabled_item" autocomplete="off" id="VoIPMac" name="VoIPMac"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">PRIPROTOCOL MAC<input type="checkbox" id="PriProtocolMacEnable" class="disabled_item"/></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text disabled_item" autocomplete="off" id="PriProtocolMac" name="PriProtocolMac"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">BRMAC</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text disabled_item" autocomplete="off" id="brmac" name="brmac"/>
+					</div>
+				</div>
+				<div class="main_item wifi_item" style="display:none">
+					<div class="main_item_name">2.4G WLAN MAC</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text disabled_item" autocomplete="off" id="apmac_1" name="apmac_1"/>
+					</div>
+				</div>
+				<div class="main_item wifi_item" style="display:none" id="5gwifi">
+					<div class="main_item_name">5G WLAN MAC</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text disabled_item" autocomplete="off" id="apmac_2" name="apmac_2"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">PON类型</div>
+					<div class="main_item_content">
+						<!--<input type="radio" name="pon_flag" value="GPON" class="disabled_item"/>GPON&nbsp;&nbsp;
+						<input type="radio" name="pon_flag" value="EPON" class="disabled_item"/>EPON
+						-->
+						<input type="radio" name="pon_flag" value="GPON" disabled="disabled"/>GPON&nbsp;&nbsp;
+						<input type="radio" name="pon_flag" value="EPON" disabled="disabled"/>EPON
+					</div>
+					<div class="main_item_error_hint_extra">*此修改重启生效</div>
+				</div>
+				<div class="main_item epon_item" style="display:none">
+					<div class="main_item_name">PON MAC</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text disabled_item" autocomplete="off" id="PONMac" name="PONMac"/>
+					</div>
+				</div>
+				<div class="main_item gpon_item" style="display:none">
+					<div class="main_item_name">GPON SN</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text disabled_item" autocomplete="off" id="GponSN" name="GponSN"/>
+					</div>
+				</div>
+				<div class="main_item gpon_item" style="display:none">
+					<div class="main_item_name">GPON Password</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text disabled_item" autocomplete="off" id="GPONPassWord" name="GPONPassWord"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">PON模式</div>
+					<div class="main_item_content">
+						<input type="radio" name="pon_mode" value="sym" class="disabled_item"/>对称&nbsp;&nbsp;
+						<input type="radio" name="pon_mode" value="asym" class="disabled_item"/>非对称
+					</div>
+					<div class="main_item_error_hint_extra">*此修改重启生效</div>
+				</div>
+				<!--div class="main_item"><b>无线信息设置</b></div>
+				<div class="main_item">
+					<div class="main_item_name">SSID</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">WPA密钥</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off"/>
+					</div>
+				</div-->
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" value="保存" onclick="saveApply()"/>
+			</div>
+		</form>
+	</body>
+</html>

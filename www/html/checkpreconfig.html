@@ -1,0 +1,315 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<style>
+			body {
+				background-color: #FFFFFF;
+				margin: 0;
+				font-size: 14px;
+				padding: 30px;
+				background-color: #FAFAFA;
+				color: #535353;
+				font-family: "Microsoft YaHei",微软雅黑;
+			}
+			span{
+				width: 150px;
+				display:block;
+				text-align:left;
+				float:left;
+			}
+			table{border-collapse:collapse;}
+		</style>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script>
+		
+			function initPage(data)
+			{
+				var dynamicHTML;
+				if ( data )
+				{
+					$("#area_code").html(data.area_code);
+					$("#user_user").html(data.user_user);
+					$("#user_pass").html(data.user_pass);
+					$("#softversion").html(data.softversion);
+					$("#oui").html(data.oui);
+					
+					dynamicHTML = "<span>Internet MAC: </span>" + data.internetmac;
+					dynamicHTML += "<br /><span>Tr069 MAC: </span>" + data.tr69mac;
+					dynamicHTML += "<br /><span>VoIP MAC: </span>" + data.voipmac;
+					dynamicHTML += "<br /><span>PRIPROTOCOL MAC: </span>" + data.primac;
+					dynamicHTML += "<br /><span>BRMAC: </span>" + data.brmac;
+					if ( data.wifi_enable == 1 )
+					{
+						dynamicHTML += "<br /><span>2.4G WLAN MAC: </span>" + data.apmac_1;
+						if ( data.wifi_5g_enable == 1 )
+						{
+							dynamicHTML += "<br /><span>5G WLAN MAC: </span>" + data.apmac_2;
+						}
+					}
+					$("#mac").html(dynamicHTML);
+					
+					$("#sn").html(data.sn);
+					$("#compile_time").html(data.uname);
+					
+					if ( data.ftp == 1 )
+					{
+						$("#ftp").html("开启");
+					}
+					else
+					{
+						$("#ftp").html("关闭");
+					}
+					
+					if ( data.telnet == 1 )
+					{
+						$("#telnet").html("开启");
+					}
+					else
+					{
+						$("#telnet").html("关闭");
+					}
+					
+					$("#itms_url").html(data.itms_url);
+					
+					if ( data.voice_port_num > 0 )
+					{
+						$("#voip").show();
+						if ( data.voip_protocol == 0 )
+						{
+							$("#voip_protocol").html("IMS");
+						}
+						else if ( data.voip_protocol == 1 )
+						{
+							$("#voip_protocol").html("软交换");
+						}
+						else if ( data.voip_protocol == 2 )
+						{
+							$("#voip_protocol").html("H.248");
+						}
+					}
+					
+					if ( data.pon_type == "GPON" )
+					{
+						$("#gpon").show();
+						$("#gponsn").html(data.gponsn);
+					}
+					
+					if ( data.wifi_enable == 1 )
+					{
+						$("#wlan").show();
+						
+						dynamicHTML = "<span>2.4G 无线: </span>" + data.ssid_2g;
+						if ( data.wifi_5g_enable == 1 )
+						{
+							dynamicHTML += "<br /><span>5G 无线:   </span>" + data.ssid_5g;
+						}
+						$("#ssid").html(dynamicHTML);
+						
+						var encmode_2g = getWifiEncMode(data.BeaconType_2g, data.BasicAuthenticationMode_2g);
+						var encmode_5g = getWifiEncMode(data.BeaconType_5g, data.BasicAuthenticationMode_5g);
+						dynamicHTML = "<span>2.4G 无线: </span>" + encmode_2g;
+						if ( data.wifi_5g_enable == 1 )
+						{
+							dynamicHTML += "<br /><span>5G 无线:   </span>" + encmode_5g;
+						}
+						$("#ssid_encryption").html(dynamicHTML);
+						
+						dynamicHTML = "";
+						if ( encmode_2g.indexOf("PSK") >=0 )
+						{
+							dynamicHTML = "<span>2.4G 无线: </span>" + data.pass_2g;
+						}
+						if ( data.wifi_5g_enable == 1 && encmode_5g.indexOf("PSK") >=0 )
+						{
+							dynamicHTML += "<br /><span>5G 无线:   </span>" + data.pass_5g;
+						}
+						$("#ssid_pass").html(dynamicHTML);
+					}
+					
+					if ( data.wan )
+					{
+						genWanHTML(data.wan);
+					}
+				}
+			}
+			
+			function genWanHTML(data)
+			{
+				var dynamicHTML = "";
+				
+				dynamicHTML += "<table border=\"1px\" cellpadding=\"2px\" cellspacing=\"2px\" width=\"100%\">";
+				dynamicHTML += "<tr>";
+				dynamicHTML += "<th width=\"30%\">WAN连接名称</th>";
+				dynamicHTML += "<th width=\"20%\">连接模式</th>";
+				dynamicHTML += "<th width=\"20%\">IP模式</th>";
+				dynamicHTML += "<th width=\"20%\">地址获取方式</th>";
+				dynamicHTML += "<th width=\"10%\">802.1P</th>";
+				dynamicHTML += "</tr>";
+				
+				for (var i=0; i<data.length; i++ )
+				{
+					var singleWan = data[i];
+					dynamicHTML += "<tr>";
+					dynamicHTML += "<td align=\"center\">" + singleWan.Name + "</td>";
+					if ( singleWan.Name.indexOf("_R_") >=0 )
+					{
+						dynamicHTML += "<td align=\"center\">路由</td>";
+					}
+					else
+					{
+						dynamicHTML += "<td align=\"center\">桥接</td>";
+					}
+					
+					if ( singleWan.IPMode == 1 )
+					{
+						dynamicHTML += "<td align=\"center\">IPv4</td>";
+					}
+					else if ( singleWan.IPMode == 2 )
+					{
+						dynamicHTML += "<td align=\"center\">IPv6</td>";
+					}
+					else if ( singleWan.IPMode == 3 )
+					{
+						dynamicHTML += "<td align=\"center\">IPv4&IPv6</td>";
+					}
+					dynamicHTML += "<td align=\"center\">" + singleWan.AddressingType + "</td>";
+					dynamicHTML += "<td align=\"center\">" + singleWan.p8021 + "</td>";
+					dynamicHTML += "</tr>";
+				}
+				
+				dynamicHTML += "</table>";
+				
+				$("#wan").html(dynamicHTML);
+			}
+			
+			function getWifiEncMode(BeaconType, BasicAuthenticationMode)
+			{
+				var encmode;
+				if ( BasicAuthenticationMode == "OpenSystem" && BeaconType == "None" )
+				{
+					encmode = "无";
+				}
+				else if ( ( BasicAuthenticationMode == "OpenSystem" 
+							|| BasicAuthenticationMode == "SharedKey"
+							|| BasicAuthenticationMode == "Both" )
+						&& BeaconType == "Basic" )
+				{
+					encmode = 'WEP';
+				}
+				else if ( BeaconType == "WPA" )
+				{
+					encmode = 'WPA PSK';
+				}
+				else if ( BeaconType == "11i" )
+				{
+					encmode = 'WPA2 PSK';
+				}
+				else if ( BeaconType == "WPA/WPA2" || BeaconType == "mixed" )
+				{
+					encmode = 'WPA/WPA2 PSK';
+				}
+				else
+				{
+					encmode = "";
+				}
+				return encmode;
+			}
+			
+			$(document).ready(function(){
+				if ( gDebug ) //调试模式读取本地数据
+				{
+					getDataByAjax("../fake/all_preconfig_info", initPage);
+				}
+				else
+				{
+					XHR.get("get_all_preconfig_info", null, initPage);
+				}
+			});
+			
+		</script>
+		
+	</head>
+	<body>
+		<form>
+			<p><b>预配置信息</b></p>
+			<table border="1px" cellspacing="3px" cellpadding="3px" width="800px">
+				<tr>
+					<th width="20%">地区码</th>
+					<td width="80%" id="area_code"></td>
+				</tr>
+				<tr>
+					<th>用户账号</th>
+					<td id="user_user"></td>
+				</tr>
+				<tr>
+					<th>用户账号密码</th>
+					<td id="user_pass"></td>
+				</tr>
+				<tr>
+					<th>软件版本号</th>
+					<td id="softversion"></td>
+				</tr>
+				<tr>
+					<th>OUI</th>
+					<td id="oui"></td>
+				</tr>
+				<tr>
+					<th>设备MAC</th>
+					<td id="mac"></td>
+				</tr>
+				<tr>
+					<th>MAC num</th>
+					<td>8</td>
+				</tr>
+				<tr>
+					<th>设备序列号</th>
+					<td id="sn"></td>
+				</tr>
+				<tr>
+					<th>软件编译时间</th>
+					<td id="compile_time"></td>
+				</tr>
+				<tr>
+					<th>FTP</th>
+					<td id="ftp"></td>
+				</tr>
+				<tr>
+					<th>Telnet</th>
+					<td id="telnet"></td>
+				</tr>
+				<tbody id="wlan" style="display:none">
+					<tr>
+						<th>SSID</th>
+						<td id="ssid"></td>
+					</tr>
+					<tr>
+						<th>无线加密方式</th>
+						<td id="ssid_encryption"></td>
+					</tr>
+					<tr>
+						<th>无线密码</th>
+						<td id="ssid_pass"></td>
+					</tr>
+				</tbody>
+				<tr>
+					<th>ITMS URL</th>
+					<td id="itms_url"></td>
+				</tr>
+				<tr id="voip" style="display:none">
+					<th>语音协议</th>
+					<td id="voip_protocol"></td>
+				</tr>
+				<tr>
+					<th>WAN连接</th>
+					<td id="wan"></td>
+				</tr>
+				<tr id="gpon" style="display:none">
+					<th>GPON SN</th>
+					<td id="gponsn"></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

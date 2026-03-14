@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/qos_queue_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.qos_queue"></p>
+			<p class="main_header_hint" i18n="qosqueue_hint">
+				
+			</p>
+		</div>
+		<form id="qos_form">
+			<div class="main_content">
+				<div class="main_item" id="bandwidth_div">
+					<div class="main_item_name" i18n="totalbandwidth"></div>
+					<div class="main_item_content">
+						<input type="text" id="Bandwidth" class="input_text" />Kbps
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="qospolicy"></div>
+					<div class="main_item_content">
+						<select id="Plan" class="main_select">
+							<option value="priority">PQ</option>
+							<option value="weight">WRR</option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="enable8021pmark"></div>
+					<div class="main_item_content">
+						<select id="Enable8021P" class="main_select">
+							<option value="0" i18n="disable8021p"></option>
+							<option value="1" i18n="keep8021p"></option>
+							<option value="2" i18n="modify8021p"></option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="enabledscpmark"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="EnableDSCPMark"/>&nbsp;
+					</div>
+				</div>
+			</div>
+			<div id="adddiv" style="display:none">
+				<div class="main_save">
+					<input type="button" class="input_button" onclick="addqueue()" i18n="add" i18n-set="value"/>
+				</div>
+			</div>
+			<br />
+			<table width="100%" cellspacing="0" cellpadding="3px" border="1px">
+				<tbody id="priority_table" style="display:none">
+				<tr class="table-header">
+					<th colspan="4">PQ</th>
+				</tr>
+				<tr class="another-table-header">
+					<th width="20%" i18n="queuename"></th>
+					<th width="40%" i18n="priority"></th>
+					<th width="20%" i18n="enabling"></th>
+					<th width="20%" i18n="operate"></th>
+				</tr>
+				</tbody>	
+				<tbody id="priority_table2">
+				</tbody>
+				<tbody id="weight_table" style="display:none">
+					<tr class="table-header">
+						<th colspan="4">WRR</th>
+					</tr>
+					<tr class="another-table-header">
+						<th width="20%" i18n="queuename"></th>
+						<th width="40%" i18n="weight"></th>
+						<th width="20%" i18n="enabling"></th>
+						<th width="20%" i18n="operate"></th>
+					</tr>
+				</tbody>	
+				<tbody id="weight_table2">
+				</tbody>
+			</table>
+			<div class="main_save">
+				<input type="button" class="input_button" onclick="saveApply()" i18n="save" i18n-set="value"/>
+			</div>
+		</form>
+	</body>
+</html>

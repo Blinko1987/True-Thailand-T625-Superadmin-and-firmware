@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script language="javascript" src="../js/resetrouter_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<!-- <div class="main_header">
+			<p class="main_header_title" i18n="menu.usbbackup"></p>
+		</div>
+		<form>
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name" i18n="fastrecovery"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="restore_checkbox" name="restore_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="usbpartitionselect"></div>
+					<div class="main_item_content">
+						<select id="usb_device" class="main_select">
+						</select>
+						/HG_Config_Backup
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" onclick="saveApply()" i18n="backupset" i18n-set="value"/>
+			</div>
+		</form>
+		
+		<br/><br/> -->
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.restore_reset"></p>
+			<p class="main_header_hint" i18n="restorereset_hint">
+			</p>
+		</div>
+		<form>
+			<div class="main_save">
+				<input type="button" class="input_button" onclick="restore_factory()" i18n="menu.restore_reset" i18n-set="value">
+			</div>
+		</form>
+		
+		<br/><br/>
+		<div class="main_header">
+			<p class="main_header_title" i18n="rebootdevice"></p>
+			<p class="main_header_hint" i18n="rebootdevice_hint">
+			</p>
+		</div>
+		<form id="deviceRebootForm">
+			<div class="main_save">
+				<input type="button" class="input_button" onclick="webreboot()" id="Restart_button" i18n="menu.reboot" i18n-set="value">
+			</div>
+		</form>
+	</body>
+</html>

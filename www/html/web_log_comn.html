@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/web_log_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<form id="web_form">
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name">Web日志</div>
+					<div class="main_item_content">
+						<input type="radio" name="enable" id="log_enable" value="1"/>启用&nbsp;&nbsp;
+						<input type="radio" name="enable" id="log_disable" value="0"/>禁用
+					</div>
+				</div>
+				<div class="main_item" id="loglevel">
+					<div class="main_item_name">Web日志等级</div>
+					<div class="main_item_content">
+						<select id="level">
+							<option value="7">LOG_DEBUG</option>
+							<option value="6">LOG_INFO</option>
+							<option value="5">LOG_NOTICE</option>
+							<option value="4">LOG_WARNING</option>
+							<option value="3">LOG_ERR</option>
+							<option value="2">LOG_CRIT</option>
+							<option value="1">LOG_ALERT</option>
+							<option value="0">LOG_EMERG</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" value="保存" onclick="saveApply()"/>
+			</div>
+		</form>
+	</body>
+</html>

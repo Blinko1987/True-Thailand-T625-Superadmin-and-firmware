@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	<script language="javascript" src="../js/util_comn.js"></script>
+	<style>
+		.table_title{
+			background-color:#E7E7E7;
+			font-weight: bold;
+		}
+	</style>
+	<script>
+var tokenstr = "";
+$(document).ready(function(){
+	//优化滚动条，无需改动
+	customScrollBar("html");
+	
+	showOrHideLoadingWindowFromIframe("show");
+	
+	getData();
+});
+
+function getData()
+{
+	if ( gDebug ) //调试模式读取本地数据
+	{
+		getDataByAjax("../fake/get_service_info", parseBaseInfo);
+	}
+	else
+	{
+		XHR.poll(gStatusFreshInterval, "get_factorycheck_info", null, parseBaseInfo);
+	}
+	
+	showOrHideLoadingWindowFromIframe("show");
+}
+
+function parseBaseInfo(data)
+{
+	if ( data.token != undefined )
+	{
+		tokenstr = data.token;
+	}
+    var flag="";
+    showOrHideLoadingWindowFromIframe("hide");
+	if(data.area != "" && data.area != undefined){
+		$("#areacode").html(data.area);
+	}
+	if(data.devicetype != "" && data.devicetype != undefined){
+		$("#devicetype").html(data.devicetype);
+	}
+	if(data.onu_mac != "" && data.onu_mac != undefined){
+		$("#onumac").html(data.onu_mac);
+	}
+	if(data.gpon_sn != "" && data.gpon_sn != undefined){
+		 if(data.gpon_sn.substring(0,8) == "46485454"){
+		     var devicestring = data.gpon_sn.slice(8);
+			 devicestring = "FHTT" + devicestring;
+			 $("#gponsn").html(devicestring);
+		}else{
+		     $("#gponsn").html(data.gpon_sn);
+		}
+	}
+	if(data.device_sn != "" && data.device_sn != undefined){
+	      if(data.device_sn.substring(0,8) == "46485454"){
+			  var devicestring = data.gponsn.slice(8);
+			  devicestring = "FHTT" + devicestring;
+			  $("#gponsn").html(devicestring);
+		  }else{
+			  $("#devicesn").html(data.device_sn);
+		  }
+	}
+	if(data.ssid1 != "" && data.ssid1 != undefined){
+		$("#ssid1").html(data.ssid1);
+	}
+	if(data.ssid1_pwd != "" && data.ssid1_pwd != undefined){
+		$("#ssid1_password").html(data.ssid1_pwd);
+	}
+	if(data.ssid5 != "" && data.ssid5 != undefined){
+		$("#ssid5").html(data.ssid5);
+	}
+	if(data.ssid5_pwd != "" && data.ssid5_pwd != undefined){
+		$("#ssid5_password").html(data.ssid5_pwd);
+	}
+	if(data.user_pwd != "" && data.user_pwd != undefined){
+		$("#userpassword").html(data.user_pwd);
+	}
+	if(data.software_version != "" && data.software_version != undefined){
+		$("#softwarever").html(data.software_version);
+	}
+	if(data.hardware_version != "" && data.hardware_version != undefined){
+		$("#hardwarever").html(data.hardware_version);
+	}
+	if(data.build != "" && data.build != undefined){
+		$("#buildtime").html(data.build);
+	}
+	if(data.deviceoui != "" && data.deviceoui != undefined){
+		$("#devoui").html(data.deviceoui);
+	}
+	if(data.configcheck != "" && data.configcheck != undefined){
+		$("#configcheck").html(data.configcheck);
+	}
+	if(data.transceiver_type != "" && data.transceiver_type != undefined){
+        $("#bosamodel").html(data.transceiver_type);
+    }
+    if(data.transceiver_serial != "" && data.transceiver_serial != undefined){
+        $("#opticalmodel").html(data.transceiver_serial);
+    }
+    if(data.vendor_id != "" && data.vendor_id != undefined){
+        $("#odmfactoryinfo").html(data.vendor_id);
+    }
+	//if(data.vendor_id != "" && data.vendor_id != undefined){
+      //  $("#factoryname").html(data.vendor_id);
+    //}
+	if(data.MPmode != "" && data.MPmode != undefined){
+	    if(data.MPmode == "open"){
+		   flag="开启";
+		   $("#developmode").html(flag);
+		   $("#checkmodeswitch").attr("disabled",true);
+		}else{
+		   flag="关闭";
+		   $("#developmode").html(flag);
+		   $("#checkmodeswitch").attr("disabled",false);
+		}
+    }
+	if(data.factorymode != "" && data.factorymode != undefined){
+	    if(data.factorymode == "open"){
+		   flag="开启";
+		   $("#factorymode").html(flag);
+		   $("#factorymodeswitch").attr("disabled",true);
+		}else{
+		   flag="关闭";
+		   $("#factorymode").html(flag);
+		   $("#factorymodeswitch").attr("disabled",false);
+		}
+    }
+	/*if(data.telnet != "" && data.telnet != undefined){
+         if(data.telnet == "1"){
+		   flag="开启";
+		   $("#telnetenabled").html(flag);
+		}else{
+		   flag="禁用";
+		   $("#telnetenabled").html(flag);
+		}
+    }
+	if(data.ftp != "" && data.ftp != undefined){
+          if(data.ftp == "1"){
+		   flag="开启";
+		   $("#tfpenabled").html(flag);
+		}else{
+		   flag="禁用";
+		   $("#tfpenabled").html(flag);
+		};
+    }
+	if(data.voiceprotocol != "" && data.voiceprotocol != undefined){
+         if(data.voiceprotocol == "0"){
+		   flag="IMS SIP";
+		   $("#voiceprotocol").html(flag);
+		}else if(data.voiceprotocol == "1"){
+		   flag="SIP";
+		   $("#voiceprotocol").html(flag);
+		}else {
+		   flag="H.248";
+		   $("#voiceprotocol").html(flag);
+		}
+    }*/
+}
+function SwitchCheckMode(){
+	var postdata = new Object();
+	XHR.get("get_operator", null, function(data){
+			if ( data )
+			{
+				tokenstr = data.token;
+			}
+		});
+	postdata.token = tokenstr;
+	showOrHideLoadingWindowFromIframe("show");
+	XHR.post("set_switchmode_result", postdata, pagenull);
+}
+
+function SwitchFactoryMode(){
+	if ( confirm("产测模式开启后注意退出") == true )
+	{
+		var postdata = new Object();
+		XHR.get("get_operator", null, function(data){
+			if ( data )
+			{
+				tokenstr = data.token;
+			}
+		});
+		postdata.token = tokenstr;
+		showOrHideLoadingWindowFromIframe("show");
+		XHR.post("set_switch_factorymode", postdata, pagenull);
+	}
+	else
+	{
+		return false;
+	}
+}
+
+function OpenSerial(){
+   showOrHideLoadingWindowFromIframe("show");
+   XHR.post("set_openserial_result", null, pagenull);
+
+}
+function closeSerial(){
+   showOrHideLoadingWindowFromIframe("show");
+   XHR.post("set_closeserial_result", null, pagenull);
+}
+function pagenull(data)
+{
+	showOrHideLoadingWindowFromIframe("hide");
+	if ( data.success == "true" )
+	{
+		XHR.get("get_factorycheck_info", null, parseBaseInfo);
+	}
+}
+	</script>
+</head>
+<body class='main_config_body'>
+		<form>
+			<label><b>产测信息</b></label>
+			<br><br> 
+			<table width="350px" cellspacing="0" cellpadding="3" border="1px">	
+	            <tbody>
+					<tr>
+			            <td class="table_title" width="38%">地区码</td>
+			            <td width="62%" id='areacode'>--</td>
+		            </tr>
+		            <tr>
+			            <td class="table_title" width="38%">设备类型</td>
+			            <td width="62%" id='devicetype'>--</td>
+		            </tr>
+					<tr>
+			            <td class="table_title" width="38%">ONU MAC</td>
+			            <td width="62%" id='onumac'>--</td>
+		            </tr>
+					<tr>
+			            <td class="table_title" width="38%">GPON SN</td>
+			            <td width="62%" id='gponsn'>--</td>
+		            </tr>
+					<tr>
+			            <td class="table_title" width="38%">DEVICE SN</td>
+			            <td width="62%" id='devicesn'>--</td>
+		            </tr>
+		            <tr>
+			            <td class="table_title">2.4G SSID名称</td>
+			            <td id="ssid1">--</td>
+		            </tr>
+		            <tr>
+			            <td class="table_title">2.4G SSID密码</td>
+			            <td id="ssid1_password">--</td>
+		            </tr>
+		            <tr id="5Game">
+			            <td class="table_title">5G SSID名称</td>
+			            <td id="ssid5">--</td>
+		            </tr>
+		            <tr id="5GPassword">
+			            <td class="table_title">5G SSID密码</td>
+			            <td id="ssid5_password">--</td>
+		            </tr>
+		            <tr>
+			            <td class="table_title">用户登录密码</td>
+			            <td id="userpassword">--</td>
+		            </tr>
+					<tr>
+			            <td class="table_title">软件版本号</td>
+			            <td id="softwarever">--</td>
+		            </tr>
+					<tr>
+			            <td class="table_title">硬件版本号</td>
+			            <td id="hardwarever">--</td>
+		            </tr>
+					<tr>
+			            <td class="table_title">编译时间</td>
+			            <td id="buildtime">--</td>
+		            </tr>
+					<tr>
+			            <td class="table_title">设备OUI</td>
+			            <td id="devoui">--</td>
+		            </tr>
+					<tr>
+			            <td class="table_title">预配置校验</td>
+			            <td id="configcheck">--</td>
+		            </tr>
+					<tr>
+			             <td class="table_title">BOSA/光模块型号</td>
+                         <td id="bosamodel">--</td>
+		            </tr>
+					<tr>
+			            <td class="table_title">BOSA/光模块序列号</td>
+			            <td id="opticalmodel">--</td>
+		            </tr>
+					<tr>
+			            <td class="table_title">ODM工厂信息</td>
+			            <td id="odmfactoryinfo">--</td>
+		            </tr>
+					<tr>
+			            <td class="table_title">抽检模式</td>
+			            <td id="developmode">--</td>
+		            </tr>
+					<tr>
+			            <td class="table_title">产测模式</td>
+			            <td id="factorymode">--</td>
+		            </tr>
+					<!--<tr>
+			            <td>telnet使能状态</td>
+			            <td id="telnetenabled">--</td>
+		            </tr>
+					<tr>
+			            <td>ftp使能状态</td>
+			            <td id="tfpenabled">--</td>
+		            </tr>
+					<tr>
+			            <td>语音协议</td>
+			            <td id="voiceprotocol">--</td>
+		            </tr>-->
+                </tbody>
+            </table>
+			<br>
+			<input type="button" value="开启抽检模式" id="checkmodeswitch" onclick="SwitchCheckMode()">&nbsp;&nbsp;&nbsp;
+			<input type="button" value="开启产测模式" id="factorymodeswitch" onclick="SwitchFactoryMode()">
+			<br>
+			<!--<br>
+			<span>串口开关  </span>&nbsp;&nbsp;&nbsp;<input type="button" value="开启" onclick="OpenSerial()">&nbsp;&nbsp;&nbsp;<input type="button" value="关闭" onclick="closeSerial()">-->
+		</form>
+	</body>
+</html>

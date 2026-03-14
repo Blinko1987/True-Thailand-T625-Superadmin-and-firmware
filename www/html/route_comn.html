@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/route_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.route_route"></p>
+			<p class="main_header_hint" i18n="route_hint"></p>
+		</div>
+		<form id="route_list_form">
+		<table class="tablelarge" cellspacing="0" cellpadding="3px" border="1px">
+				<tr class="table-header">
+					<th colspan="5" i18n="menu.route_route"></th>
+				</tr>
+				<tr class="another-table-header" align="center">
+					<td width="15%" i18n="ipversion"></td>
+					<td width="30%" i18n="daddrsubnetmask"></td>
+					<td width="20%" i18n="gwaddr"></td>
+					<td width="25%" i18n="wanname"></td>
+					<td width="10%" i18n="delete"></td>
+				</tr>
+				<tbody id="routeList">
+				</tbody>
+			</table>
+		</form>
+		<form id="route_form">
+		<div class="div_between_form"></div>
+		<div class="main_content">
+			<div class="main_item">
+				<div class="main_item_name" i18n="wanname"></div>
+				<div class="main_item_content">
+					<select id="Interface_select">
+					</select>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name" i18n="ipversion"></div>
+				<div class="main_item_content">
+					<select id='IpVersion_select'>
+					</select>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name" i18n="destaddr"></div>
+				<div class="main_item_content">
+					<input type='text' class="input_text" id='DestIPAddress_text'/>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name" i18n="subnetmask"></div>
+				<div class="main_item_content">
+					<input type='text' class="input_text" id='DestSubnetMask_text'/>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name" i18n="gwaddr"></div>
+				<div class="main_item_content">
+					<input type='text' class="input_text" id='GatewayIPAddress_text'/>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" id='RouteApply_button' onClick='addStaticRoute()' i18n="save" i18n-set="value"/>
+			</div>
+		</form>
+	</body>
+</html>

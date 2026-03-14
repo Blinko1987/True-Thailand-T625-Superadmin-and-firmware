@@ -1,0 +1,71 @@
+#!/bin/sh
+
+ppid_name=$(cat /proc/$PPID/cmdline)
+log_output="$ppid_name run reboot"
+logger \"$log_output\" -p 4
+
+if [ $# -eq 0 ]
+then
+	echo "reboot starting........."
+	# datebuf=`date "+%Y-%m-%d %H:%M:%S"`
+	# echo "datebuf=$datebuf"
+	# echo "{\"Time\":\"$datebuf\",\"Source\":\"Terminal\"}" > /opt/upt/apps/info/reboot_info
+	# touch /ptconf/normal_reboot_flag
+	# chmod 777 /opt/upt/apps/info/reboot_info
+	# sleep 1
+	sync
+	ubus call uptime reboot '{"mode":0}'
+	/bin/busybox reboot
+elif [ $# -eq 1 ]
+then
+	case "$1" in
+		itms)
+			echo "reboot $1 starting........."
+			# datebuf=`date "+%Y-%m-%d %H:%M:%S"`
+			# echo "datebuf=$datebuf"
+			# echo "{\"Time\":\"$datebuf\",\"Source\":\"ITMS\"}" > /opt/upt/apps/info/reboot_info
+			# touch /ptconf/normal_reboot_flag
+			# chmod 777 /opt/upt/apps/info/reboot_info
+			# sleep 1
+			sync
+			ubus call uptime reboot '{"mode":0}'
+			/bin/busybox reboot
+		;;
+		
+		web)
+			echo "reboot $1 starting........."
+			# datebuf=`date "+%Y-%m-%d %H:%M:%S"`
+			# echo "datebuf=$datebuf"
+			# echo "{\"Time\":\"$datebuf\",\"Source\":\"Telecomadmin\"}" > /opt/upt/apps/info/reboot_info
+			# touch /ptconf/normal_reboot_flag
+			# chmod 777 /opt/upt/apps/info/reboot_info
+			# sleep 1
+			sync
+			ubus call uptime reboot '{"mode":0}'
+			/bin/busybox reboot
+		;;
+		
+		dbus)
+			echo "reboot $1 starting........."
+			# datebuf=`date "+%Y-%m-%d %H:%M:%S"`
+			# echo "datebuf=$datebuf"
+			# echo "{\"Time\":\"$datebuf\",\"Source\":\"DBus\"}" > /opt/upt/apps/info/reboot_info
+			# touch /ptconf/normal_reboot_flag
+			# chmod 777 /opt/upt/apps/info/reboot_info
+			# sleep 1
+			sync
+			ubus call uptime reboot '{"mode":0}'
+			/bin/busybox reboot
+		;;
+		
+		*)
+			echo "usage:reboot | reboot web | reboot itms | reboot dbus"
+		;;
+		
+	esac
+elif [ $# -gt 1 ]
+then
+	echo "usage:reboot | reboot web | reboot itms | reboot dbus"
+	exit 1
+fi
+

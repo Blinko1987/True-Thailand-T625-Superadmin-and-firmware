@@ -1,0 +1,37 @@
+
+config key 'DiagnosticsState'
+	option value 'UCI_NULL'
+	option encryflag '0'
+
+config key 'Interface'
+	option value 'UCI_NULL'
+	option encryflag '0'
+
+config key 'DownloadURL'
+	option value 'UCI_NULL'
+	option encryflag '0'
+
+config key 'ROMTime'
+	option value '0000-00-00T00:00:00'
+	option encryflag '0'
+
+config key 'BOMTime'
+	option value '0000-00-00T00:00:00'
+	option encryflag '0'
+
+config key 'EOMTime'
+	option value '0000-00-00T00:00:00'
+	option encryflag '0'
+
+config key 'TCPOpenRequestTime'
+	option value '0000-00-00T00:00:00'
+	option encryflag '0'
+
+config key 'TCPOpenResponseTime'
+	option value '0000-00-00T00:00:00'
+	option encryflag '0'
+
+config key 'SampledValues'
+	option value '0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0'
+	option encryflag '0'
+

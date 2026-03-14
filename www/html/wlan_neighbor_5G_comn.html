@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	<script language="javascript" src="../js/util_comn.js"></script>
+	<script type="text/javascript" src="../js/wlan_neighbor_5G_comn.js"></script>
+</head>
+<body class='main_config_body'>
+	<form>
+	    <!-- <label i18n="wlanneighbor_hint"></label> -->
+		<br><br><br>
+		<table class="tablelarge" cellspacing="0" cellpadding="3px" border="1px">
+            <tbody>
+				<tr class="table-header">
+					<th colspan="7" i18n="menu.wifi_neighbor5g"></th>
+				</tr>
+				<tr class="another-table-header">
+					<th width="20%" i18n="ssid"></th>
+					<th width="20%" i18n="bssid"></th>
+					<th width="10%" i18n="channel"></th>
+					<th width="10%" i18n="band"></th>
+					<th width="10%" i18n="rssi"></th>
+					<th width="20%" i18n="encryption"></th>
+					<th width="10%" i18n="signal"></th>
+				</tr>
+			</tbody>
+			<tbody id="wifineighborinfo">
+			</tbody>
+        </table>
+		<div class="main_save">
+			<input type="button" class="input_button" id="apply" onclick="saveApply()" i18n="scan" i18n-set="value">
+		</div>
+    </form>
+		
+</body>
+</html>

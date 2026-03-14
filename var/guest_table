@@ -1,0 +1,256 @@
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra0 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra0 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra0 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra0 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra1 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra1 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra1 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra1 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra2 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra2 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra2 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra2 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra3 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra3 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra3 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra3 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai0 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai0 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai0 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai0 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai1 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai1 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai1 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai1 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai2 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai2 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai2 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai2 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai3 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai3 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai3 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai3 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra4 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra4 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra4 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra4 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra5 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra5 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra5 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra5 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra6 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra6 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra6 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra6 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra7 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra7 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra7 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del ra7 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai4 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai4 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai4 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai4 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai5 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai5 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai5 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai5 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai6 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai6 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai6 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai6 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai7 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai7 2
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai7 1
+LAN_IPv4:192.168.1.1
+LAN_IPV6:fe80::1
+USHARE_PORT:2468
+/ptrom/ptshell/wifiguest.sh del rai7 2

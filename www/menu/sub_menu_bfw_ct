@@ -1,0 +1,96 @@
+{
+	"factory": {
+		"childMenuPosition": "left",
+		"secondmenus":[
+			{"name": "factory_base", "title":"menu.base_set", 
+				"thirdmenus": [
+					{"name":"factory_base_base", "title":"menu.base_set", "src": "baseinfoSet_comn.html"},
+					{"name":"factory_base_preconfig", "title":"menu.preconfig_set", "src": "preconfig_comn.html"}
+				]
+			},
+			{"name": "factory_upgrade", "title":"menu.upgrade", 
+				"thirdmenus": [
+					{"name":"factory_upgrade_upgrade", "title":"menu.upgrade", "src": "upgrade_comn.html"},
+					{"name":"factory_upgrade_preconfig", "title":"menu.upgrade_preconfig", "src": "upgrade_preconfig_comn.html"}
+				]
+			},
+			{"name": "factory_restore", "title":"menu.restore_factory", 
+				"thirdmenus": [
+					{"name":"factory_restore_restore", "title":"menu.restore_factory", "src": "restore_factory_comn.html"}
+				]
+			}
+		]
+	},
+	"service": {
+		"childMenuPosition": "left",
+		"secondmenus":[
+		    {"name": "service_wan", "title":"menu.wan_set", 
+				"thirdmenus": [
+					{"name":"service_wan_broadbund", "title":"menu.wan_set", "src": "broadband_factory_comn.html"}
+				]
+			},
+			{"name": "service_service", "title":"menu.app_service",
+				"thirdmenus": [
+					{"name":"service_service_service", "title":"menu.app_service", "src": "services_comn.html"},
+					{"name":"service_service_option60", "title":"menu.option60", "src": "option60_comn.html"},
+					{"name":"service_service_option16", "title":"menu.option16", "src": "option16_comn.html"}
+				]
+			},
+			{"name": "service_wifi", "title":"menu.wifi_set",
+				"thirdmenus": [
+					{"name":"service_wifi_base", "title":"menu.wifi_2gbase", "src": "adminWlanBasicSettings_comn.html"},
+					{"name":"service_wifi_advance", "title":"menu.wifi_2gadvance", "src": "adminWlanAdvancedSettings_comn.html"},
+					{"name":"service_wifi_base5g", "title":"menu.wifi_5gbase", "src": "adminWlanBasicSettings_5G_comn.html"},
+					{"name":"service_wifi_advance5g", "title":"menu.wifi_5gadvance", "src": "adminWlanAdvancedSettings_5G_comn.html"}
+				]
+			},
+			{"name": "service_voice", "title":"menu.voice_set",
+				"thirdmenus": [
+					{"name":"service_voice_base", "title":"menu.voice_base", "src": "factory_voice_base_comn.html"},
+					{"name":"service_voice_h248", "title":"menu.h248_preconfig", "src": "factory_h248_preconfig_comn.html"},
+					{"name":"service_voice_sip", "title":"menu.sip_preconfig", "src": "factory_sip_preconfig_comn.html"},
+					{"name":"service_voice_common", "title":"menu.common_preconfig", "src": "factory_voicecommon_preconfig_comn.html"}
+				]
+			},
+			{"name": "service_other", "title":"menu.other",
+				"thirdmenus": [
+					{"name":"service_other_driver", "title":"menu.driver", "src": "main_demo_comn.html"}
+				]
+			}
+		]
+	},
+	"maintain": {
+		"childMenuPosition": "left",
+		"secondmenus":[
+			{"name": "maintain_catch", "title":"menu.capture",
+				"thirdmenus": [
+					{"name":"maintain_catch_portmirror", "title":"menu.port_mirror", "src": "port_mirror_comn.html"},
+					{"name":"maintain_catch_dsp", "title":"menu.dsp_capture", "src": "dsp_comn.html"}
+				]
+			},
+			{"name": "maintain_log", "title":"menu.log", 
+				"thirdmenus": [
+					{"name":"maintain_log_set", "title":"menu.log_set", "src": "factory_log_comn.html"},
+					{"name":"maintain_log_download", "title":"menu.log_download", "src": "factory_log_download_comn.html"}
+				]
+			},
+			{"name": "maintain_web", "title":"menu.web", 
+				"thirdmenus": [
+					{"name":"maintain_web_set", "title":"menu.web_log", "src": "web_log_comn.html"}
+				]
+			},
+			{"name": "maintain_file", "title":"上传下载", 
+				"thirdmenus": [
+					{"name":"maintain_file_up", "title":"上传文件", "src": "file_upload_comn.html"},
+					{"name":"maintain_file_down", "title":"下载文件", "src": "file_download_comn.html"}
+				]
+			},
+			{"name": "maintain_shortcut", "title":"快捷操作", 
+				"thirdmenus": [
+					{"name":"maintain_shortcut_onekey", "title":"一键操作", "src": "shortcut_onekey_comn.html"},
+					{"name":"maintain_shortcut_telnet", "title":"命令行操作", "src": "shortcut_telnet_comn.html"}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<link href='../css/main_style_ct.css' rel='stylesheet' type='text/css'/>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script>
+			var tokenstr = "";
+			var doSave = 0;
+			$(document).ready(function(){
+				if ( gDebug ) //调试模式读取本地数据
+				{
+					getDataByAjax("../fake/ptweb_info", initPage);
+				}
+				else
+				{
+					XHR.get("get_ptweb_info", null, initPage);
+				}
+			});
+			function initPage(data)
+			{
+				if ( data.token != undefined )
+				{
+					tokenstr = data.token;
+				}
+				$("#fiberuser_enable").val(data.fiberuser_enable);
+				$("#tr69wan").val(data.tr69wan_modify);
+				$("#itms").val(data.itms_modify);
+				if ( doSave == 1 )
+				{
+					alert("修改成功！");
+				}
+			}
+			
+			function saveApply()
+			{
+				var postdata = new Object();
+				postdata.fiberuser_enable = $("#fiberuser_enable").val();
+				postdata.tr69wan_modify = $("#tr69wan").val();
+				postdata.itms_modify = $("#itms").val();
+				
+				doSave = 1;
+				XHR.get("get_operator", null, function(data){
+					if ( data )
+					{
+						tokenstr = data.token;
+					}
+				});
+				postdata.token = tokenstr;
+				XHR.post("set_ptweb_info", postdata, initPage);
+			}
+		</script>
+	</head>
+	<body class='main_config_body'>
+		<form id="account_form">
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name">隐藏用户</div>
+					<div class="main_item_content">
+						<select id="fiberuser_enable">
+							<option value="1">启用</option>
+							<option value="0">禁用</option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">TR069 WAN连接</div>
+					<div class="main_item_content">
+						<select id="tr69wan">
+							<option value="1">可修改</option>
+							<option value="0">不可修改</option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">ITMS参数</div>
+					<div class="main_item_content">
+						<select id="itms">
+							<option value="1">可修改</option>
+							<option value="0">不可修改</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" value="保存" onclick="saveApply()"/>
+			</div>
+		</form>
+	</body>
+</html>

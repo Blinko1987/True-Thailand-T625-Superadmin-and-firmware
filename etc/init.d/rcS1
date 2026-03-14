@@ -1,0 +1,52 @@
+#!/bin/sh
+#
+# init sdk precfg
+#
+export PATH='/userfs/bin:/home/bin:/home/scripts:/opt/bin:/bin:/sbin:/usr/bin:/usr/local/jamvm/bin:/opt/scripts:/usr/sbin:/opt/bin:/opt/sbin:/opt/usr/bin:/opt/usr/sbin:/ptrom/bin:/ptrom/ptshell'
+export LD_LIBRARY_PATH='/usr/lib:/lib/gpl:/lib64/gpl:/lib64:/ptrom/lib:/usr/lib/glib-2.0'
+#java
+# export JAVA_HOME=/fhos/jre
+# export PATH=${JAVA_HOME}/bin:${PATH}
+# export LD_LIBRARY_PATH=${JAVA_HOME}/lib/aarch32:${JAVA_HOME}/lib/aarch32/jli:${JAVA_HOME}/lib/aarch32/client:${LD_LIBRARY_PATH}
+# export BOOTCLASSPATH=${JAVA_HOME}/lib/rt.jar:${JAVA_HOME}/lib/jce.jar:${JAVA_HOME}/lib/jsse.jar
+
+
+#common driver
+insmod /ptrom/lib/pt_peripheral.ko
+insmod /lib/modules/mt7916_ap.ko
+insmod /lib/modules/mapfilter.ko 
+insmod /lib/modules/mt_whnat.ko
+
+if [ -s "/ptdata/RT30xxEEPROM.bin" ]; then
+	echo "copy wifi cali file from ptdata!"
+	cp -f /ptdata/RT30xxEEPROM.bin /etc/Wireless/RT2860AP_AC/RT30xxEEPROM.bin
+else
+	if [ -s "/ptrom/bin/RT30xxEEPROM.bin" ]; then
+		echo "copy wifi cali file from ptrom!"
+		cp -f /ptrom/bin/RT30xxEEPROM.bin /etc/Wireless/RT2860AP_AC/RT30xxEEPROM.bin
+	fi
+fi
+
+if [ -f "/ptconf/sysinfo_conf" ]; then
+	if [ -s "/ptconf/sysinfo_conf" ]; then
+		echo "sysinfo_conf is ok !"
+	else
+		echo "sysinfo_conf is empty !"
+		cp -f /ptrom/ptconf/sysinfo_conf /ptconf/sysinfo_conf
+	fi
+else
+	echo "sysinfo_conf is lost !"
+	cp -f /ptrom/ptconf/sysinfo_conf /ptconf/sysinfo_conf
+	sync	
+fi
+
+passwd_file="/var/passwd"
+echo "pw file to var !"
+cp -f /ptrom/ptconf/passwd $passwd_file
+
+sysmgr -init
+
+wantype=`uci  get -c /var deviceinfo.pon_mode.value`
+	echo "wantype=$wantype"
+
+. /usr/etc/init.d/rcS2

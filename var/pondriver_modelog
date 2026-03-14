@@ -1,0 +1,380 @@
+[Thu Jan  1 00:00:20 1970][pondriver][DEBUG][61]:ptdrv_pon_init In.
+[Thu Jan  1 00:00:20 1970][pondriver][DEBUG][84]:onu_type:1,pon_type:4,eth_port_num:5         pon_port_num:1,wifi_ssid_num16,wifi_2_4_capability:1         wifi_5_capability:1,xe_port_bits:1         ge_port_bits:30,fe_port_bits:0,device_type:T625Pro
+[Thu Jan  1 00:00:20 1970][pondriver][DEBUG][2442]:ptad_set_pon_env In.
+[Thu Jan  1 00:00:20 1970][pondriver][DEBUG][2443]:ptad_set_pon_env Return.
+[Thu Jan  1 00:00:20 1970][pondriver][DEBUG][113]:ptdrv_pon_init Return.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][587]:ptdrv_pon_set_eth_port_work_mode In.
+[Thu Jan  1 00:00:27 1970][pondriver][INFO][595]:Port 1 auto_neg_enable 1 rate 1000 duplex_mode 1.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1543]:ptad_set_port_work_mode In.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1550]:ptad_set_port_work_mode port_type=2 port_index=1.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1553]:ptad_set_port_work_mode adptive_enable:1,duplex_mode:1,port_rate_mode:1000
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1656]:ptad_set_port_work_mode Return.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][616]:ptdrv_pon_set_eth_port_work_mode Return.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][587]:ptdrv_pon_set_eth_port_work_mode In.
+[Thu Jan  1 00:00:27 1970][pondriver][INFO][595]:Port 2 auto_neg_enable 1 rate 1000 duplex_mode 1.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1543]:ptad_set_port_work_mode In.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1550]:ptad_set_port_work_mode port_type=2 port_index=2.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1553]:ptad_set_port_work_mode adptive_enable:1,duplex_mode:1,port_rate_mode:1000
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1656]:ptad_set_port_work_mode Return.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][616]:ptdrv_pon_set_eth_port_work_mode Return.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][587]:ptdrv_pon_set_eth_port_work_mode In.
+[Thu Jan  1 00:00:27 1970][pondriver][INFO][595]:Port 3 auto_neg_enable 1 rate 1000 duplex_mode 1.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1543]:ptad_set_port_work_mode In.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1550]:ptad_set_port_work_mode port_type=2 port_index=3.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1553]:ptad_set_port_work_mode adptive_enable:1,duplex_mode:1,port_rate_mode:1000
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1656]:ptad_set_port_work_mode Return.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][616]:ptdrv_pon_set_eth_port_work_mode Return.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][587]:ptdrv_pon_set_eth_port_work_mode In.
+[Thu Jan  1 00:00:27 1970][pondriver][INFO][595]:Port 4 auto_neg_enable 1 rate 1000 duplex_mode 1.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1543]:ptad_set_port_work_mode In.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1550]:ptad_set_port_work_mode port_type=2 port_index=4.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1553]:ptad_set_port_work_mode adptive_enable:1,duplex_mode:1,port_rate_mode:1000
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1656]:ptad_set_port_work_mode Return.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][616]:ptdrv_pon_set_eth_port_work_mode Return.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][587]:ptdrv_pon_set_eth_port_work_mode In.
+[Thu Jan  1 00:00:27 1970][pondriver][INFO][595]:Port 5 auto_neg_enable 1 rate 2500 duplex_mode 1.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1543]:ptad_set_port_work_mode In.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1550]:ptad_set_port_work_mode port_type=2 port_index=5.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1553]:ptad_set_port_work_mode adptive_enable:1,duplex_mode:1,port_rate_mode:2500
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1656]:ptad_set_port_work_mode Return.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][616]:ptdrv_pon_set_eth_port_work_mode Return.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1916]:ptad_get_port_link_status In.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1923]:ptad_get_port_link_status port_type=2 port_index=1.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1978]:ptad_get_port_link_status port_index=1 link_up=1.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1980]:ptad_get_port_link_status Return.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1916]:ptad_get_port_link_status In.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1923]:ptad_get_port_link_status port_type=2 port_index=2.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1978]:ptad_get_port_link_status port_index=2 link_up=0.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1980]:ptad_get_port_link_status Return.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1916]:ptad_get_port_link_status In.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1923]:ptad_get_port_link_status port_type=2 port_index=3.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1978]:ptad_get_port_link_status port_index=3 link_up=0.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1980]:ptad_get_port_link_status Return.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1916]:ptad_get_port_link_status In.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1923]:ptad_get_port_link_status port_type=2 port_index=4.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1978]:ptad_get_port_link_status port_index=4 link_up=0.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1980]:ptad_get_port_link_status Return.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1916]:ptad_get_port_link_status In.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1923]:ptad_get_port_link_status port_type=2 port_index=5.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1978]:ptad_get_port_link_status port_index=5 link_up=0.
+[Thu Jan  1 00:00:27 1970][pondriver][DEBUG][1980]:ptad_get_port_link_status Return.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][501]:ptdrv_pon_set_eth_port_state In.
+[Thu Jan  1 00:00:28 1970][pondriver][INFO][508]:Port_id 1,state:0.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2019]:ptad_set_port_work_state In.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2026]:ptad_set_port_work_state port_type=2 port_index=1 enable=0.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2079]:ptad_set_port_work_state Return.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][526]:ptdrv_pon_set_eth_port_state Return.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][501]:ptdrv_pon_set_eth_port_state In.
+[Thu Jan  1 00:00:28 1970][pondriver][INFO][508]:Port_id 2,state:0.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2019]:ptad_set_port_work_state In.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2026]:ptad_set_port_work_state port_type=2 port_index=2 enable=0.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2079]:ptad_set_port_work_state Return.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][526]:ptdrv_pon_set_eth_port_state Return.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][501]:ptdrv_pon_set_eth_port_state In.
+[Thu Jan  1 00:00:28 1970][pondriver][INFO][508]:Port_id 3,state:0.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2019]:ptad_set_port_work_state In.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2026]:ptad_set_port_work_state port_type=2 port_index=3 enable=0.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2079]:ptad_set_port_work_state Return.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][526]:ptdrv_pon_set_eth_port_state Return.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][501]:ptdrv_pon_set_eth_port_state In.
+[Thu Jan  1 00:00:28 1970][pondriver][INFO][508]:Port_id 4,state:0.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2019]:ptad_set_port_work_state In.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2026]:ptad_set_port_work_state port_type=2 port_index=4 enable=0.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2079]:ptad_set_port_work_state Return.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][526]:ptdrv_pon_set_eth_port_state Return.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][501]:ptdrv_pon_set_eth_port_state In.
+[Thu Jan  1 00:00:28 1970][pondriver][INFO][508]:Port_id 5,state:0.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2019]:ptad_set_port_work_state In.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2026]:ptad_set_port_work_state port_type=2 port_index=5 enable=0.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2079]:ptad_set_port_work_state Return.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][526]:ptdrv_pon_set_eth_port_state Return.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2706]:ptdrv_pon_set_onu_physical_sn In.
+[Thu Jan  1 00:00:28 1970][pondriver][INFO][2715]:Set ONU Physical SN: T 3 T H 0x17 0x7b 0x4 0x2
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2685]:transfSn[0]:54
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2685]:transfSn[1]:33
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2685]:transfSn[2]:54
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2685]:transfSn[3]:48
+[Thu Jan  1 00:00:28 1970][pondriver][INFO][2722]:phy_sn: 0x54 0x33 0x54 0x48 0x17 0x7b 0x4 0x2
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][918]:ptad_set_onu_physical_sn In.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][932]:ptad_set_onu_physical_sn Return.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2730]:ptdrv_pon_set_onu_physical_sn Return.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2787]:ptdrv_pon_set_onu_physical_password In.
+[Thu Jan  1 00:00:28 1970][pondriver][INFO][2798]:Set ONU Physical pwd: 0x54 0x33 0x54 0x48 0x30 0x31 0x32 0x33 0x34 0x35 
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][951]:ptad_set_onu_physical_passwd In.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][965]:ptad_set_onu_physical_passwd Return.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2810]:ptdrv_pon_set_onu_physical_password Return.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2415]:ptad_pon_init In.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][587]:ptadp_xsi_event_init In.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][593]:ptadp_xsi_event_init Return.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2423]:ptad_pon_init pon event init success 
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2426]:ptad_pon_init Return.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2289]:ptad_omci_socket_init In.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][521]:ptadp_xsi_event_thread In.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2327]:ptad_omci_socket_init bind omci_socket=10 success 
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2330]:ptad_omci_socket_init Return.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2372]:ptad_pon_init omci socket init success 
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][2391]:ptad_pon_init ptad_set_pon_start success 
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][144]:ptdrv_omci_init Return.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][466]:LAN_1 link down, data->lan_port=0!
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][185]:pon_event_report In.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][198]:pon_event_report event_id:106,status:0
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][250]:pon_event_report send UBUS_EVENT_UNI_PORT_LINK_STATE event.
+[Thu Jan  1 00:00:28 1970][pondriver][DEBUG][261]:pon_event_report Return.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][501]:ptdrv_pon_set_eth_port_state In.
+[Thu Jan  1 00:00:29 1970][pondriver][INFO][508]:Port_id 1,state:1.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][2019]:ptad_set_port_work_state In.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][2026]:ptad_set_port_work_state port_type=2 port_index=1 enable=1.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][2079]:ptad_set_port_work_state Return.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][526]:ptdrv_pon_set_eth_port_state Return.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][501]:ptdrv_pon_set_eth_port_state In.
+[Thu Jan  1 00:00:29 1970][pondriver][INFO][508]:Port_id 2,state:1.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][2019]:ptad_set_port_work_state In.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][2026]:ptad_set_port_work_state port_type=2 port_index=2 enable=1.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][2079]:ptad_set_port_work_state Return.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][526]:ptdrv_pon_set_eth_port_state Return.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][501]:ptdrv_pon_set_eth_port_state In.
+[Thu Jan  1 00:00:29 1970][pondriver][INFO][508]:Port_id 3,state:1.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][2019]:ptad_set_port_work_state In.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][2026]:ptad_set_port_work_state port_type=2 port_index=3 enable=1.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][2079]:ptad_set_port_work_state Return.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][526]:ptdrv_pon_set_eth_port_state Return.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][501]:ptdrv_pon_set_eth_port_state In.
+[Thu Jan  1 00:00:29 1970][pondriver][INFO][508]:Port_id 4,state:1.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][2019]:ptad_set_port_work_state In.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][2026]:ptad_set_port_work_state port_type=2 port_index=4 enable=1.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][2079]:ptad_set_port_work_state Return.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][526]:ptdrv_pon_set_eth_port_state Return.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][501]:ptdrv_pon_set_eth_port_state In.
+[Thu Jan  1 00:00:29 1970][pondriver][INFO][508]:Port_id 5,state:1.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][2019]:ptad_set_port_work_state In.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][2026]:ptad_set_port_work_state port_type=2 port_index=5 enable=1.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][2079]:ptad_set_port_work_state Return.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][526]:ptdrv_pon_set_eth_port_state Return.
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][331]:Enter ptadp_pon_event_handler_wrapper [331] pEvent->id = 6 Event->value = 42
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][366]:receive XMCS_EVENT_GPON_PHY_TRANS_ALARM message
+[Thu Jan  1 00:00:29 1970][pondriver][DEBUG][378]:Exit ptadp_pon_event_handler_wrapper [378] ret = 0
+[Thu Jan  1 00:00:32 1970][pondriver][DEBUG][490]:LAN_1 link up at 1000Mbps/Full Duplex. data->lan_port=0
+[Thu Jan  1 00:00:32 1970][pondriver][DEBUG][185]:pon_event_report In.
+[Thu Jan  1 00:00:32 1970][pondriver][DEBUG][198]:pon_event_report event_id:106,status:1
+[Thu Jan  1 00:00:32 1970][pondriver][DEBUG][250]:pon_event_report send UBUS_EVENT_UNI_PORT_LINK_STATE event.
+[Thu Jan  1 00:00:32 1970][pondriver][DEBUG][261]:pon_event_report Return.
+[Thu Jan  1 00:00:37 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:00:37 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:00:47 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:00:47 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:00:57 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:00:57 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:01:07 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:01:07 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:01:17 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:01:17 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:01:27 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:01:27 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:01:37 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:01:37 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:01:47 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:01:47 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:01:57 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:01:57 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:02:07 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:02:07 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:02:17 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:02:17 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:02:27 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:02:27 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:02:37 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:02:37 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:02:47 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:02:47 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:02:57 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:02:57 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:03:07 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:03:07 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:03:17 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:03:17 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:03:27 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:03:27 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:03:37 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:03:37 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:03:47 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:03:47 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:03:57 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:03:57 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:04:07 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:04:07 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:04:17 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:04:17 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:04:27 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:04:27 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:04:37 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:04:37 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:04:47 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:04:47 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:04:57 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:04:57 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:05:07 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:05:07 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:05:17 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:05:17 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:05:27 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:05:27 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:05:37 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:05:37 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:05:47 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:05:47 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:05:57 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:05:57 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:06:07 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:06:07 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:06:17 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:06:17 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:06:27 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:06:27 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:06:37 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:06:37 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:06:47 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:06:47 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:06:57 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:06:57 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:07:07 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:07:07 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:07:17 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:07:17 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:07:27 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:07:27 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:07:37 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:07:37 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:07:47 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:07:47 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:07:57 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:07:57 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:08:07 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:08:07 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:08:17 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:08:17 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:08:27 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:08:27 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:08:37 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:08:37 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:08:47 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:08:47 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:08:57 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:08:57 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:09:07 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:09:07 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:09:17 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:09:17 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:09:27 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:09:27 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:09:37 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:09:37 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:09:47 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:09:47 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:09:57 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:09:57 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:10:07 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:10:07 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:10:17 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:10:17 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:10:28 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:10:28 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:10:38 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:10:38 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:10:48 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:10:48 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:10:58 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:10:58 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:11:08 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:11:08 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:11:18 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:11:18 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:11:28 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:11:28 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:11:38 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:11:38 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:11:48 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:11:48 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:11:58 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:11:58 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:12:08 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:12:08 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:12:18 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:12:18 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:12:28 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:12:28 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:12:38 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:12:38 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:12:48 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:12:48 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:12:58 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:12:58 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:13:08 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:13:08 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:13:18 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:13:18 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:13:28 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:13:28 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:13:38 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:13:38 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:13:48 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:13:48 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:13:58 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:13:58 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:14:08 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:14:08 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:14:18 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:14:18 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:14:28 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:14:28 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:14:38 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:14:38 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:14:48 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:14:48 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:14:58 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:14:58 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:15:08 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:15:08 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:15:18 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:15:18 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:15:28 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:15:28 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:15:38 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:15:38 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:15:48 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:15:48 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:15:58 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:15:58 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:16:08 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:16:08 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:16:18 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:16:18 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:16:28 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:16:28 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:16:38 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:16:38 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:16:48 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:16:48 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:16:58 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:16:58 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:17:08 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:17:08 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:17:18 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:17:18 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:17:28 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:17:28 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:17:38 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:17:38 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:17:48 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:17:48 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:17:58 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:17:58 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:18:08 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:18:08 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:18:18 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:18:18 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:18:28 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:18:28 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:18:38 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:18:38 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.
+[Thu Jan  1 00:18:48 1970][pondriver][DEBUG][312]:ptad_get_port_statistic In.
+[Thu Jan  1 00:18:48 1970][pondriver][DEBUG][424]:ptad_get_port_statistic Return.

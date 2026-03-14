@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	<script language="javascript" src="../js/util_comn.js"></script>
+	<script type="text/javascript" src="../js/domain_comn.js"></script>
+	<script language='javascript'>
+		$(document).ready(function(){
+			//优化滚动条，无需改动
+			customScrollBar("html");
+		});
+	</script>
+</head>
+<body class='main_config_body'>
+	<form>
+	    <!-- <label><b i18n="domain_hint"></b></label> -->
+		<br><br> 
+		<table class="tablesmall" cellspacing="0" cellpadding="3px" border="1px">
+            <tbody>
+				<tr class="table-header">
+					<th colspan="5" i18n="domain_hint"></th>
+				</tr>
+				<tr class="another-table-header">
+					<th width="10%" i18n="index"></th>
+					<th width="20%" i18n="client"></th>
+					<th width="20%" i18n="ipaddr"></th>
+					<th width="30%" i18n="macaddress"></th>
+					<th width="20%" i18n="devicetype"></th>
+				</tr>
+	        </tbody>
+	        <tbody id='lan_host'>
+	        </tbody>
+        </table>
+    </form>
+		
+</body>
+</html>

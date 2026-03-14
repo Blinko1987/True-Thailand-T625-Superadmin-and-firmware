@@ -1,0 +1,24 @@
+#!/bin/sh
+fpath=/var/run
+echo "ipv6-down-script start" > /dev/ttyAMA1
+interface_name="$1"
+tty_device="$2"
+RM="rm -f"
+local_IP_address="$4"
+remote_IP_address="$5"
+export PATH=/home/bin:/home/scripts:/opt/bin:/bin:/sbin:/usr/bin:/usr/local/jamvm/bin:/opt/scripts:/usr/sbin:/opt/bin:/opt/sbin:/opt/usr/bin:/opt/usr/sbin:/ptrom/bin:/userfs/bin
+export LD_LIBRARY_PATH=/lib:/lib/gpl:/lib64/gpl:/lib64:/ptrom/lib
+
+ip6tables -t mangle -D POSTROUTING -o ${interface_name} -p tcp -m tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu 
+
+ubus call pppoe notify_v6 "{\"interface\":\"$interface_name\",\"tty_device\":\"$tty_device\",\"state\":\"down\"}"
+
+if [ "$LINKNAME" == "all" ];then
+	FILE="${fpath}/tr069_${tty_device}_${interface_name}.info ${fpath}/voip_${tty_device}_${interface_name}.info"
+	${RM} ${FILE}
+else
+	FILE="${fpath}/${LINKNAME}_${tty_device}_${interface_name}.info"
+	${RM} ${FILE}
+fi
+echo "ipv6-down-script end" > /dev/ttyAMA1
+

@@ -1,0 +1,4 @@
+[Thu Jan  1 00:00:37 1970][alf_iot_sdk][DEBUG][alf_iot_init_and_set_capability][34]alf_iot_setLogSaveFile 0
+[Thu Jan  1 00:00:37 1970][alf_iot_sdk][DEBUG][alf_create_thread][187]alf_create_thread creat succ!
+[Thu Jan  1 00:00:37 1970][alf_iot_sdk][DEBUG][alf_loop_thread][162]alf_loop_thread enter
+[Thu Jan  1 00:00:37 1970][alf_iot_sdk][DEBUG][alf_iot_ubus_loop][109]alf_iot ubus running

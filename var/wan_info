@@ -1,0 +1,41 @@
+
+config key 'internet_wanindex'
+	option value '3'
+	option encryflag '0'
+
+config key 'internet_wanname'
+	option value 'pon.100'
+	option encryflag '0'
+
+config key 'internet_portbind'
+	option value '0'
+	option encryflag '0'
+
+config key 'tr069_wanindex'
+	option value '3'
+	option encryflag '0'
+
+config key 'tr069_wanname'
+	option value 'pon.100'
+	option encryflag '0'
+
+config key 'tr069_portbind'
+	option value '0'
+	option encryflag '0'
+
+config key 'internet2_wanintf'
+	option value 'pon.293_B'
+	option encryflag '0'
+
+config key 'internet2_wanindex'
+	option value '9'
+	option encryflag '0'
+
+config key 'internet2_wanname'
+	option value 'pon.293'
+	option encryflag '0'
+
+config key 'internet2_portbind'
+	option value '16384'
+	option encryflag '0'
+

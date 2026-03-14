@@ -1,0 +1,58 @@
+#!/bin/sh
+
+usbinfo="`ls /dev/ | grep sd`"
+usbdongleinfo="`ls /dev/ | grep ttyUSB`"
+
+echo "usbremove is call...usbinfo=${usbinfo}" >> /var/usbmounttest
+echo "usbremove is call...usbdongleinfo=${usbdongleinfo}" >> /var/usbmounttest
+
+if [ -z "${usbinfo}" ]
+then
+	tempmountpoint="`/bin/mount |grep /dev/sd |awk -F " " '{print $3}'`"
+	for tpp in $tempmountpoint;do
+		tmp_mainNum=`echo ${tempmountpoint:12:1}`
+		tmp_followNum=`echo ${tempmountpoint:14:1}`
+		umount -l "$tpp"
+		rm -rf "$tpp"
+		ubus send UsbDevAction '{"actiontype":0, "instnum":8'$tmp_mainNum''$tmp_followNum'}'
+		#sleep 1
+		rm -f /tmp/usblist
+		if [ -d /tmp/usbconf ]; then
+			rm -rf /tmp/usbconf
+		fi
+	done
+	
+
+else
+
+	echo ${usbinfo}
+	tempusbdev="`/bin/mount |grep /dev/sd |awk -F " " '{print $1}'`"
+	for tud in $tempusbdev;do
+		echo ${tud}
+		if [ ! -b "${tud}" ]
+		then
+			tempmountpoint="`/bin/mount |grep "${tud} " |awk -F " " '{print $3}'`"
+			if [ ! -z "${tempmountpoint}" ]
+			then				
+				umount -l "${tempmountpoint}"
+				rm -rf "${tempmountpoint}"
+			fi
+		fi
+	done
+fi
+
+if [ -z "${usbdongleinfo}" ]
+then
+	usbdongleconfile="`ls /tmp/usbdongleconf | grep info1`"
+	for dcf in $usbdongleconfile;do
+		tmp_mainNum=`echo ${usbdongleconfile:14:1}`
+		tmp_followNum=`echo ${usbdongleconfile:15:1}`
+		ubus send UsbDevAction '{"actiontype":0, "instnum":1'$tmp_mainNum''$tmp_followNum'}'
+		# sleep 1
+		if [ -d /tmp/usbdongleconf ]; then
+			rm -rf /tmp/usbdongleconf
+		fi
+	done
+else
+	echo ${usbdongleinfo} 
+fi

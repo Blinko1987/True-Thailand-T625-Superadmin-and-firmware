@@ -1,0 +1,5 @@
+config key 'dig_map'
+		option value '[0-9*#].'
+		option encryflag '0'
+		
+		

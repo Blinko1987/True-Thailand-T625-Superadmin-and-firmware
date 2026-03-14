@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<link href='../css/main_style_ct.css' rel='stylesheet' type='text/css'/>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/preconfig_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title">预配置设置</p>
+			<p class="main_header_hint">在本页面，您可以查看当前使用的预配置、导入不同省份的预配置。</p>
+		</div>
+		<form id="preconfig_form">
+			<div class="main_item">当前预配置为：<b id="current_province"></b></div>
+			<div class="main_item">
+				<div class="main_item_name">运营商</div>
+				<div class="main_item_content">
+					<select id="operator" class="main_select" onchange="changeOperator()">
+						<option value="CT">中国电信</option>
+						<option value="CU">中国联通</option>
+						<option value="CM">中国移动</option>
+						<option value="Trunk">其他</option>
+					</select>
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name">预配置</div>
+				<div class="main_item_content">
+					<select id="province" class="main_select">
+					</select>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" value="导入" onclick="saveApply()"/>
+			</div>
+		</form>
+	</body>
+</html>

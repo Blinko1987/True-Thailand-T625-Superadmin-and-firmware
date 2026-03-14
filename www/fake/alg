@@ -1,0 +1,13 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"alg":	{
+		"H323Enable":	"1",
+		"SIPEnable":	"1",
+		"RTSPEnable":	"1",
+		"L2TPEnable":	"1",
+		"IPSECEnable":	"1",
+		"FTPEnable":	"1",
+		"PPTPEnable":	"1"
+	}
+}

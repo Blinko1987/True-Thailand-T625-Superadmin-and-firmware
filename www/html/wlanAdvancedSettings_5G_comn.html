@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/jquery.formFill.js"></script>
+		<script type="text/javascript" src="../js/wlanAdvancedSettings_5G_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.wifi_5gadvance"></p>
+			<p class="main_header_hint" i18n="wlanadvancesetting_hint"></p>
+		</div>
+			
+		<form id="wlanAdv_settings_form">
+			<div class="main_content">
+				<!-- <div class="main_item">
+					<div class="main_item_name" i18n="bandsteering"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="BandSteering_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div id="rssithreshold_div" style="display:none;">
+					<div class="main_item">
+						<div class="main_item_name" i18n="2gtransitionthreshold"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" id="rssithreshold_2g" />(db)
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="5gtransitionthreshold"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" id="rssithreshold_5g" />(db)
+						</div>
+					</div>
+				</div> -->
+				<!-- <div class="main_item">
+					<div class="main_item_name" i18n="wifismartconnect"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="smartconnect_checkbox"/>&nbsp;
+					</div>
+				</div> -->
+				<div class="main_item">
+					<div class="main_item_name" i18n="mufeature"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="WlanMUMIMO_checkbox" name="data.mufeature"/>&nbsp;
+					</div>
+				</div>
+				<!-- <div class="main_item">
+					<div class="main_item_name" i18n="hidessid"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="WlanHide_checkbox" name="data.ssidHide"/>&nbsp;
+					</div>
+				</div> -->
+				<div class="main_item">
+					<div class="main_item_name" i18n="wifimode"></div>
+					<div class="main_item_content">
+						<select name="data.wlanMode" id="wlcfg_wlgMode">
+						</select>
+					</div>
+					<div id="wlanmodehint" style="width:300px; height:100%; line-height:15px; color: red; display:none;" i18n="wifimodehint"></div>
+				</div>
+				<div class="main_item" id="ofdmaenable_div" style="display:none;">
+					<div class="main_item_name">OFDMA</div>
+					<div class="main_item_content">
+						<input type="checkbox" id="OFDMAEnable_checkbox_value" name="data.OFDMAEnable"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="channel"></div>
+					<div class="main_item_content">
+						<select id="WlanChannel_select" name="data.channel"></select><span i18n="currentchannel"></span><span id="currentchannel"></span>&nbsp;&nbsp;<span id="channelhint" style="color:red; display:none;" i18n="channelhint"></span>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="autochannelscanenable"></div>
+					<div class="main_item_content">
+						<input type='radio' name='data.AutoChannelScanEnable' id='AutoChannelScanEnable_select_1' value='1' onclick="CSScanTime(1)"/><span i18n="enable"></span>&nbsp;&nbsp;
+						<input type='radio' name='data.AutoChannelScanEnable' id='AutoChannelScanEnable_select_0' value='0' onclick="CSScanTime(0)"/><span i18n="disable"></span>
+					</div>
+				</div>
+				<div class="main_item" id="CSScanTime_div">
+					<div class="main_item_name" i18n="autochannelscantime"></div>
+					<div class="main_item_content">
+						<input type="text" maxlength="32" name="data.CSScanTime" id="CSScanTime_text" class="input_text input_text_wifi">(300s-86400s)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="channelwidth"></div>
+					<div class="main_item_content">
+						<select id="WlanBandWidth_select" name="data.channelWidth"></select><span id="bandwidthhint" style="color:red; display:none;" i18n="channelwidthhint"></span>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="secondarychannelwidth"></div>
+					<div class="main_item_content">
+						<select id="secondaryChannel" name="data.secondaryChannel" disabled>
+							<option value="auto">Auto</option>
+							<!--<option value="upper">Upper</option>
+							<option value="lower">Lower</option>-->
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="80211protectinterval"></div>
+					<div class="main_item_content">
+						<select id="WlanInterval_select" name="data.wlanSgi"></select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="dfssetting"></div>
+					<div class="main_item_content">
+						<select id="DFS_select" name="data.DFSEnable">
+							<option value="0">Without DFS</option>
+							<option value="1">With DFS</option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="radardetect"></div>
+					<div class="main_item_content">
+						<input type='radio' name='data.RadarDetect' id='radardetect_select_1' value='1'/><span i18n="enable"></span>&nbsp;&nbsp;
+						<input type='radio' name='data.RadarDetect' id='radardetect_select_0' value='0'/><span i18n="disable"></span>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="transmitpower"></div>
+					<div class="main_item_content">
+						<select id="WlanTransmit_select" name="data.powerLevel"></select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="82011rate"></div>
+					<div class="main_item_content">
+						<select id="wlcfg_wlRate" disabled>
+							<option value="0">Auto</option>
+						</select>
+					</div>
+				</div>
+				<div class="main_save">
+					<input type="button" onclick="saveApply()" class="input_button" i18n="save" i18n-set="value">
+				</div>
+			</div>
+		</form>
+	</body>
+</html>

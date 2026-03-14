@@ -1,0 +1,29 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+        "ddns":  [{
+                        "wan_index":    1,
+                        "wan_session_index":    1,
+                        "iporppp":      1,
+                        "Name": "1_INTERNET_R_50",
+                        "DDNSCfgEnabled": "0",
+                        "DDNSProvider": "provider",
+                        "DDNSUsername": "username",
+                        "DDNSPassword": "pssword",
+                        "ServicePort": "222",
+                        "DDNSDomainName": "domainname",
+                        "DDNSHostName": "hostname"
+                }, {
+                        "wan_index":    2,
+                        "wan_session_index":    1,
+                        "iporppp":      2,
+                        "Name": "2_INTERNET_R_52",
+                        "DDNSCfgEnabled": "1",
+                        "DDNSProvider": "provider2",
+                        "DDNSUsername": "username2",
+                        "DDNSPassword": "pssword2",
+                        "ServicePort": "244",
+                        "DDNSDomainName": "domainname2",
+                        "DDNSHostName": "hostname2"
+                }]
+}

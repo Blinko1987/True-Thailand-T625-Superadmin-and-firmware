@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script language="javascript" src="../js/lan_ipv6_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.lan_ipv6_set"></p>
+			<p class="main_header_hint" i18n="lanipv6_hint"></p>
+		</div>
+		<form id="lan_ipv6_form">
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name" i18n="dnsorigin"></div>
+					<div class="main_item_content">
+						<select id="LanDNS_select">
+							<option value="WANConnection" i18n="networkconn"></option>
+							<option value="Static" i18n="staticconfig"></option>
+							<option value="HGWProxy" i18n="homegwagent"></option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item v6dns">
+					<div class="main_item_name" i18n="primarydns"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="LanPri_DNS_text" name="LanPri_DNS_text"/>
+					</div>
+				</div>
+				<div class="main_item v6dns">
+					<div class="main_item_name" i18n="secondarydns"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="LanSec_DNS_text" name="LanSec_DNS_text"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="enabledhcpv6"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="LanDHCPv6_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item v6address">
+					<div class="main_item_name" i18n="startipaddr"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="LanStartAddress_text" name="LanStartAddress_text"/>
+					</div>
+				</div>
+				<div class="main_item v6address">
+					<div class="main_item_name" i18n="endipaddr"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="LanEndAddress_text" name="LanEndAddress_text"/>
+					</div>
+					<div id="address-error" class="main_item_error_hint_extra"></div>
+				</div>
+				<div class="main_item v6address">
+					<div class="main_item_name" i18n="preferredlifetime"></div>
+					<div class="main_item_content">
+						<select id="PreferredLifeTime_select">
+							<option value="60" i18n="oneminute"></option>
+							<option value="3600" i18n="onehour"></option>
+							<option  value="86400" i18n="oneday"></option>
+							<option value="604800" i18n="oneweek"></option>
+							<option value="2592000" i18n="onemonth"></option>
+						</select>
+					</div>
+					<div id="lifetime-error" class="main_item_error_hint_extra"></div>
+				</div>
+				<div class="main_item v6address">
+					<div class="main_item_name" i18n="validlifetime"></div>
+					<div class="main_item_content">
+						<select id="ValidLifeTime_select">
+							<option value="60" i18n="oneminute"></option>
+							<option value="3600" i18n="onehour"></option>
+							<option  value="86400" i18n="oneday"></option>
+							<option value="604800" i18n="oneweek"></option>
+							<option value="2592000" i18n="onemonth"></option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="prefixorigin"></div>
+					<div class="main_item_content">
+						<select id="LanPrefix_select">
+							<option value="WANDelegated" i18n="wandelegated"></option>
+							<option value="Static" i18n="static"></option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item v6prefix">
+					<div class="main_item_name" i18n="prefix"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="LanPrefix_text" name="LanPrefix_text"/>
+					</div>
+					<div id="prefix-error" class="main_item_error_hint_extra"></div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="getaddrinfobydhcp"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="LanAddressInfo_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="getotherinfobydhcp"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="LanOtherInfo_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="maxraautosendtime"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="LanMaxRA_text" name="LanMaxRA_text"/>(4-1800)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="miniraautosendtime"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="LanMinRA_text" name="LanMinRA_text"/>(4-1800)
+					</div>
+					<div id="RA-error" class="main_item_error_hint_extra"></div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" onclick="saveApply()" i18n="save" i18n-set="value"/>
+			</div>
+		</form>
+	</body>
+</html>

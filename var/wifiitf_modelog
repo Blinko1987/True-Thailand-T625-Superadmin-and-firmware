@@ -1,0 +1,36 @@
+[Thu Jan  1 00:00:38 1970][wifiitf][INFO]main cmd: touch /var/wifi_finish
+[Thu Jan  1 00:01:11 1970][wifiitf][INFO]fhad_wifi_set_bfw_vsie cmd: wlanphxcmd vendorIE_del ra0
+[Thu Jan  1 00:01:11 1970][wifiitf][INFO]mtk_channel_set cmd: iwpriv rai0 set RadarDetectMode=0
+[Thu Jan  1 00:01:11 1970][wifiitf][INFO]SetBfwVsieInBhCfg cmd: wlanphxcmd vendorIE_del rai0
+[Thu Jan  1 00:01:11 1970][wifiitf][INFO]main cmd: ifconfig ra0 up
+[Thu Jan  1 00:01:18 1970][wifiitf][INFO]mtk_stop_mesh_map cmd: rm -rf /var/wifi_ready
+[Thu Jan  1 00:01:18 1970][wifiitf][INFO]wifiBringDownInterfaces cmd: ifconfig rai7 down
+[Thu Jan  1 00:01:18 1970][wifiitf][INFO]wifiBringDownInterfaces cmd: ifconfig rai6 down
+[Thu Jan  1 00:01:18 1970][wifiitf][INFO]wifiBringDownInterfaces cmd: ifconfig rai5 down
+[Thu Jan  1 00:01:18 1970][wifiitf][INFO]wifiBringDownInterfaces cmd: ifconfig rai4 down
+[Thu Jan  1 00:01:18 1970][wifiitf][INFO]wifiBringDownInterfaces cmd: ifconfig rai3 down
+[Thu Jan  1 00:01:18 1970][wifiitf][INFO]wifiBringDownInterfaces cmd: ifconfig rai2 down
+[Thu Jan  1 00:01:18 1970][wifiitf][INFO]wifiBringDownInterfaces cmd: ifconfig rai1 down
+[Thu Jan  1 00:01:18 1970][wifiitf][INFO]wifiBringDownInterfaces cmd: ifconfig rai0 down
+[Thu Jan  1 00:01:18 1970][wifiitf][INFO]wifiBringDownInterfaces cmd: ifconfig apcli0 down
+[Thu Jan  1 00:01:18 1970][wifiitf][INFO]wifiBringDownInterfaces cmd: ifconfig apclii0 down
+[Thu Jan  1 00:01:18 1970][wifiitf][INFO]wifiBringDownInterfaces cmd: ifconfig ra7 down
+[Thu Jan  1 00:01:18 1970][wifiitf][INFO]wifiBringDownInterfaces cmd: ifconfig ra6 down
+[Thu Jan  1 00:01:18 1970][wifiitf][INFO]wifiBringDownInterfaces cmd: ifconfig ra5 down
+[Thu Jan  1 00:01:18 1970][wifiitf][INFO]wifiBringDownInterfaces cmd: ifconfig ra4 down
+[Thu Jan  1 00:01:18 1970][wifiitf][INFO]wifiBringDownInterfaces cmd: ifconfig ra3 down
+[Thu Jan  1 00:01:18 1970][wifiitf][INFO]wifiBringDownInterfaces cmd: ifconfig ra2 down
+[Thu Jan  1 00:01:18 1970][wifiitf][INFO]wifiBringDownInterfaces cmd: ifconfig ra1 down
+[Thu Jan  1 00:01:18 1970][wifiitf][INFO]wifiBringDownInterfaces cmd: ifconfig ra0 down
+[Thu Jan  1 00:01:18 1970][wifiitf][INFO]wifiBringDownInterfaces cmd: ifconfig apcli0 down
+[Thu Jan  1 00:01:18 1970][wifiitf][INFO]wifiBringDownInterfaces cmd: ifconfig apclii0 down
+[Thu Jan  1 00:01:18 1970][wifiitf][INFO]wifiBringUpInterfaces cmd: ifconfig rai7 up
+[Thu Jan  1 00:01:25 1970][wifiitf][INFO]wifiBringUpInterfaces cmd: brctl addif br0 rai7
+[Thu Jan  1 00:01:25 1970][wifiitf][INFO]wifiBringUpInterfaces ptdrv_wifi_led_set band:0  indev:7 1-off
+[Thu Jan  1 00:01:25 1970][wifiitf][INFO]wifiBringUpInterfaces ptdrv_wifi_led_set band:1  indev:7 1-off
+[Thu Jan  1 00:01:25 1970][wifiitf][INFO]wifi_clean_quality_file cmd: rm /var/alf_wifi_quality_2g
+[Thu Jan  1 00:01:25 1970][wifiitf][INFO]wifi_clean_quality_file cmd: rm /var/alf_wifi_quality_5g
+[Thu Jan  1 00:01:25 1970][wifiitf][INFO]fhad_write_mtk_mesh_mapd_cfg cmd: echo ";52;56;60;64;100;104;108;112;116;120;124;128;132;136;140;144;165;" > /var/ch_skip
+[Thu Jan  1 00:01:25 1970][wifiitf][INFO]mtk_wifi_start cmd: killall -9 meshcontroller
+[Thu Jan  1 00:01:25 1970][wifiitf][INFO]mtk_wifi_start cmd: meshcontroller &
+[Thu Jan  1 00:01:32 1970][wifiitf][INFO]mtk_disconnect_all_sta cmd: touch /var/wifi_ready

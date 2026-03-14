@@ -1,0 +1,1256 @@
+[Thu Jan  1 00:00:20 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:00:20 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:00:20 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:20 1970][libptubus][DEBUG]ubus_object:sysmgr is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:20 1970][libptubus][DEBUG]Enter lib_pt_ubus_run.
+[Thu Jan  1 00:00:23 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:00:23 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:00:23 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:23 1970][libptubus][DEBUG]ubus_object:cfgmgr is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:24 1970][libptubus][DEBUG]pthread_id:3061010960 Enter lib_pt_ubus_call_method_sync!
+[Thu Jan  1 00:00:24 1970][libptubus][DEBUG]pthread_id:3061010960 lib_pt_ubus_call_method_sync! ubus_ctx=1f13398. obj_name=sysmgr, method=register
+[Thu Jan  1 00:00:24 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3061010960
+[Thu Jan  1 00:00:24 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:24 1970][libptubus][DEBUG]object_id=50f8a659. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:24 1970][libptubus][DEBUG]pthread_id:3061010960 Leave lib_pt_ubus_call_method_sync!
+[Thu Jan  1 00:00:24 1970][libptubus][DEBUG]pthread_id:3061010960 Enter lib_pt_ubus_call_method_sync!
+[Thu Jan  1 00:00:24 1970][libptubus][DEBUG]pthread_id:3061010960 lib_pt_ubus_call_method_sync! ubus_ctx=1f13398. obj_name=sysmgr, method=process_ready
+[Thu Jan  1 00:00:24 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3061010960
+[Thu Jan  1 00:00:24 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:24 1970][libptubus][DEBUG]object_id=50f8a659. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:24 1970][libptubus][DEBUG]pthread_id:3061010960 Leave lib_pt_ubus_call_method_sync!
+[Thu Jan  1 00:00:24 1970][libptubus][DEBUG]Enter lib_pt_ubus_run.
+[Thu Jan  1 00:00:25 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:00:25 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:00:25 1970][libptubus][DEBUG]pthread_id:3061211136 Enter lib_pt_ubus_call_method!
+[Thu Jan  1 00:00:25 1970][libptubus][DEBUG]pthread_id:3061211136 lib_pt_ubus_call_method! ubus_ctx=8da020. obj_name=sysmgr, method=process_ready
+[Thu Jan  1 00:00:25 1970][libptubus][DEBUG]lib_pt_ubus_call_method directly send branch 1! pthread_id=3061211136
+[Thu Jan  1 00:00:25 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:25 1970][libptubus][DEBUG]object_id=50f8a659. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:25 1970][libptubus][DEBUG]pthread_id:3061211136 Leave lib_pt_ubus_call_method!
+[Thu Jan  1 00:00:25 1970][libptubus][DEBUG]Enter lib_pt_ubus_exit.
+[Thu Jan  1 00:00:25 1970][libptubus][DEBUG]free ctx.
+[Thu Jan  1 00:00:25 1970][libptubus][DEBUG]Leave lib_pt_ubus_exit.
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]Enter lib_pt_ubus_run.
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]Multiple thread.
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]ubus_object:tr069 is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]pthread_id:3052789760 Enter lib_pt_ubus_call_method!
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]pthread_id:3052789760 lib_pt_ubus_call_method! ubus_ctx=15a8580. obj_name=sysmgr, method=register
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]lib_pt_ubus_call_method directly send branch 1! pthread_id=3052789760
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]object_id=50f8a659. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]pthread_id:3052789760 Leave lib_pt_ubus_call_method!
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]pthread_id:3052789760 Enter lib_pt_ubus_call_method!
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]pthread_id:3052789760 lib_pt_ubus_call_method! ubus_ctx=15a8580. obj_name=sysmgr, method=process_ready
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]lib_pt_ubus_call_method directly send branch 1! pthread_id=3052789760
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]object_id=50f8a659. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]pthread_id:3052789760 Leave lib_pt_ubus_call_method!
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]Enter lib_pt_ubus_run.
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]Multiple thread.
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]pthread_id:3052789760 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]pthread_id:3052789760 lib_pt_ubus_call_method_async! ubus_ctx=1586020. obj_name=tr069, method=param_change_noti
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]lib_pt_ubus_call_method_async indirectly send branch 2! pthread_id=3052789760
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]pthread_id:3052789760 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]Enter ptevent_call_method_async
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]object_id=e4807a20. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]going to call ubus_invoke_async in ptevent_call_method_async.
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]going to free hreq in fhevent_call_method_async
+[Thu Jan  1 00:00:26 1970][libptubus][DEBUG]Leave ptevent_call_method_async
+[Thu Jan  1 00:00:27 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:00:27 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:00:27 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:27 1970][libptubus][DEBUG]ubus_object:lancc is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:27 1970][libptubus][DEBUG]pthread_id:3053498368 Enter lib_pt_ubus_call_method!
+[Thu Jan  1 00:00:27 1970][libptubus][DEBUG]pthread_id:3053498368 lib_pt_ubus_call_method! ubus_ctx=76d620. obj_name=sysmgr, method=process_ready
+[Thu Jan  1 00:00:27 1970][libptubus][DEBUG]lib_pt_ubus_call_method directly send branch 1! pthread_id=3053498368
+[Thu Jan  1 00:00:27 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:27 1970][libptubus][DEBUG]object_id=50f8a659. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:27 1970][libptubus][DEBUG]pthread_id:3053498368 Leave lib_pt_ubus_call_method!
+[Thu Jan  1 00:00:27 1970][libptubus][DEBUG]Enter lib_pt_ubus_run.
+[Thu Jan  1 00:00:27 1970][libptubus][DEBUG]Multiple thread.
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]pthread_id:3052068864 Enter lib_pt_ubus_call_method_sync!
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]pthread_id:3052068864 lib_pt_ubus_call_method_sync! ubus_ctx=158e1b8. obj_name=sysmgr, method=register
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052068864
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]object_id=50f8a659. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]pthread_id:3052068864 Leave lib_pt_ubus_call_method_sync!
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]ubus_object:udhcpd is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]Enter lib_pt_ubus_run.
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]Multiple thread.
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]pthread_id:3031430224 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3031430224
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3031430224
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:00:28 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:00:29 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:00:29 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:00:29 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:29 1970][libptubus][DEBUG]ubus_object:fh_svcmgr_dhcpc is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:29 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:29 1970][libptubus][DEBUG]ubus_object:pppoe is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:29 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:29 1970][libptubus][DEBUG]ubus_object:ntp is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:29 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:29 1970][libptubus][DEBUG]ubus_object:dns is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:29 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:29 1970][libptubus][DEBUG]ubus_object:fh_svcmgr_ping_diag is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:29 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:29 1970][libptubus][DEBUG]ubus_object:fh_svcmgr_ct_com_ping is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:29 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:29 1970][libptubus][DEBUG]ubus_object:alg is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:30 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:30 1970][libptubus][DEBUG]ubus_object:ddns is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:30 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:30 1970][libptubus][DEBUG]ubus_object:fh_svcmgr_dhcp6c is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:30 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:30 1970][libptubus][DEBUG]ubus_object:firewall is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:32 1970][libptubus][DEBUG]pthread_id:3031430224 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:00:32 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3031430224
+[Thu Jan  1 00:00:32 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3031430224
+[Thu Jan  1 00:00:32 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:00:32 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:00:34 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:34 1970][libptubus][DEBUG]ubus_object:fh_svcmgr_ftpd is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:34 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:34 1970][libptubus][DEBUG]ubus_object:fh_svcmgr_ipv6_lan is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:34 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:34 1970][libptubus][DEBUG]ubus_object:qos is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:34 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:34 1970][libptubus][DEBUG]ubus_object:redirect is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:36 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:36 1970][libptubus][DEBUG]ubus_object:simulate is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:36 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:36 1970][libptubus][DEBUG]ubus_object:telnetd is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:36 1970][libptubus][DEBUG]pthread_id:3052068864 Enter lib_pt_ubus_call_method!
+[Thu Jan  1 00:00:36 1970][libptubus][DEBUG]pthread_id:3052068864 lib_pt_ubus_call_method! ubus_ctx=158e1b8. obj_name=sysmgr, method=register
+[Thu Jan  1 00:00:36 1970][libptubus][DEBUG]lib_pt_ubus_call_method directly send branch 1! pthread_id=3052068864
+[Thu Jan  1 00:00:36 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:36 1970][libptubus][DEBUG]object_id=50f8a659. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:36 1970][libptubus][DEBUG]pthread_id:3052068864 Leave lib_pt_ubus_call_method!
+[Thu Jan  1 00:00:36 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:36 1970][libptubus][DEBUG]ubus_object:traceroute is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:36 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:36 1970][libptubus][DEBUG]ubus_object:upnp is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:36 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:36 1970][libptubus][DEBUG]ubus_object:serviceMgr is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:36 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:36 1970][libptubus][DEBUG]ubus_object:fh_svcmgr_samba is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]ubus_object:httpget is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]ubus_object:itv is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]ubus_object:dlna is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]ubus_object:svcmgr_igmp is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]ubus_object:tftp_server is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]ubus_object:fh_svcmgr_easy_diag is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]ubus_object:syslog is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]ubus_object:antman is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]ubus_object:usrinfo is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]ubus_object:uptime is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]ubus_object:alf_iot is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]pthread_id:3052068864 Enter lib_pt_ubus_call_method!
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]pthread_id:3052068864 lib_pt_ubus_call_method! ubus_ctx=158e1b8. obj_name=sysmgr, method=process_ready
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]lib_pt_ubus_call_method directly send branch 1! pthread_id=3052068864
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]object_id=50f8a659. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]pthread_id:3052068864 Leave lib_pt_ubus_call_method!
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]Enter lib_pt_ubus_run.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]Multiple thread.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]ubus_object:alf_iot_sdk is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]Enter lib_pt_ubus_run.
+[Thu Jan  1 00:00:37 1970][libptubus][DEBUG]Multiple thread.
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]Enter lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]ubus_object:wifi_mgr_ubus_config is added. Leave lib_pt_ubus_add_object.
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]Enter lib_pt_ubus_run.
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]Multiple thread.
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:38 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]pthread_id:3053740032 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]pthread_id:3053740032 lib_pt_ubus_call_method_async! ubus_ctx=ab52f8. obj_name=tr069, method=param_change_noti
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]lib_pt_ubus_call_method_async indirectly send branch 2! pthread_id=3053740032
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]pthread_id:3053740032 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]Enter ptevent_call_method_async
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]object_id=e4807a20. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]going to call ubus_invoke_async in ptevent_call_method_async.
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]going to free hreq in fhevent_call_method_async
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]Leave ptevent_call_method_async
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]pthread_id:3053740032 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]pthread_id:3053740032 lib_pt_ubus_call_method_async! ubus_ctx=ab52f8. obj_name=tr069, method=param_change_noti
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]lib_pt_ubus_call_method_async indirectly send branch 2! pthread_id=3053740032
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]pthread_id:3053740032 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]Enter ptevent_call_method_async
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]object_id=e4807a20. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]going to call ubus_invoke_async in ptevent_call_method_async.
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]going to free hreq in fhevent_call_method_async
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]Leave ptevent_call_method_async
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]pthread_id:3053740032 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]pthread_id:3053740032 lib_pt_ubus_call_method_async! ubus_ctx=ab52f8. obj_name=tr069, method=param_change_noti
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]lib_pt_ubus_call_method_async indirectly send branch 2! pthread_id=3053740032
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]pthread_id:3053740032 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]Enter ptevent_call_method_async
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]object_id=e4807a20. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]going to call ubus_invoke_async in ptevent_call_method_async.
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]going to free hreq in fhevent_call_method_async
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]Leave ptevent_call_method_async
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]pthread_id:3053740032 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]pthread_id:3053740032 lib_pt_ubus_call_method_async! ubus_ctx=ab52f8. obj_name=tr069, method=param_change_noti
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]lib_pt_ubus_call_method_async indirectly send branch 2! pthread_id=3053740032
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]pthread_id:3053740032 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]Enter ptevent_call_method_async
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]object_id=e4807a20. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]going to call ubus_invoke_async in ptevent_call_method_async.
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]going to free hreq in fhevent_call_method_async
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]Leave ptevent_call_method_async
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:39 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:40 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:41 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:41 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:00:41 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:41 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:41 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:41 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:41 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:41 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:00:41 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:41 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:41 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:41 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:42 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:43 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:43 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:00:43 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:43 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:43 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:43 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:43 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:43 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:00:43 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:43 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:43 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:43 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:44 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]pthread_id:3053740032 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]pthread_id:3053740032 lib_pt_ubus_call_method_async! ubus_ctx=ab6380. obj_name=fh_svcmgr, method=fh_svcmgr_cfg
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]lib_pt_ubus_call_method_async indirectly send branch 2! pthread_id=3053740032
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]pthread_id:3053740032 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]pthread_id:3053740032 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]pthread_id:3053740032 lib_pt_ubus_call_method_async! ubus_ctx=ab6380. obj_name=svcmgr_igmp, method=set_mc
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]lib_pt_ubus_call_method_async indirectly send branch 2! pthread_id=3053740032
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]pthread_id:3053740032 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]Enter ptevent_call_method_async
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]object_id=119952cf. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]going to call ubus_invoke_async in ptevent_call_method_async.
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]going to free hreq in fhevent_call_method_async
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]Leave ptevent_call_method_async
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]Enter ptevent_call_method_async
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]object_id=4de59456. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]going to call ubus_invoke_async in ptevent_call_method_async.
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]going to free hreq in fhevent_call_method_async
+[Thu Jan  1 00:00:45 1970][libptubus][DEBUG]Leave ptevent_call_method_async
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]pthread_id:3053740032 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]pthread_id:3053740032 lib_pt_ubus_call_method_async! ubus_ctx=ab52f8. obj_name=tr069, method=param_change_noti
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]lib_pt_ubus_call_method_async indirectly send branch 2! pthread_id=3053740032
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]pthread_id:3053740032 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]Enter ptevent_call_method_async
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]object_id=e4807a20. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]going to call ubus_invoke_async in ptevent_call_method_async.
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]going to free hreq in fhevent_call_method_async
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]Leave ptevent_call_method_async
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]pthread_id:3053740032 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]pthread_id:3053740032 lib_pt_ubus_call_method_async! ubus_ctx=ab52f8. obj_name=tr069, method=param_change_noti
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]lib_pt_ubus_call_method_async indirectly send branch 2! pthread_id=3053740032
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]pthread_id:3053740032 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]Enter ptevent_call_method_async
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]object_id=e4807a20. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]going to call ubus_invoke_async in ptevent_call_method_async.
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]going to free hreq in fhevent_call_method_async
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]Leave ptevent_call_method_async
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:46 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:47 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:47 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:47 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:47 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:47 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:47 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:47 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:47 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:00:47 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:47 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:47 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:47 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:47 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:47 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:00:47 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:47 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:47 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:47 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:48 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:49 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:49 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:00:49 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:49 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:49 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:49 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:49 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:49 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:00:49 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:49 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:49 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:49 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:50 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:51 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:51 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:00:51 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:51 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:51 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:51 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:51 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:51 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:00:51 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:51 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:51 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:51 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3053740032 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3053740032 lib_pt_ubus_call_method_async! ubus_ctx=ab6380. obj_name=svcmgr_igmp, method=set_mc
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]lib_pt_ubus_call_method_async indirectly send branch 2! pthread_id=3053740032
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3053740032 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]Enter ptevent_call_method_async
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]object_id=4de59456. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]going to call ubus_invoke_async in ptevent_call_method_async.
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]going to free hreq in fhevent_call_method_async
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]Leave ptevent_call_method_async
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3053740032 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3053740032 lib_pt_ubus_call_method_async! ubus_ctx=ab6380. obj_name=svcmgr_igmp, method=set_devname
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]lib_pt_ubus_call_method_async indirectly send branch 2! pthread_id=3053740032
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3053740032 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]Enter ptevent_call_method_async
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]object_id=4de59456. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]going to call ubus_invoke_async in ptevent_call_method_async.
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]going to free hreq in fhevent_call_method_async
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]Leave ptevent_call_method_async
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3053740032 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3053740032
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3053740032
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3053740032 Enter lib_pt_ubus_call_method_sync!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3053740032 lib_pt_ubus_call_method_sync! ubus_ctx=ab6380. obj_name=sysmgr, method=process_ready
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync indirectly send branch 2! pthread_id=3053740032
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync indirectly send branch 2! g_loop_run_tid=3045344352
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3053740032 before lib_pt_uloop_ptevent_add!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3053740032 before pthread_cond_wait! hreq->ret:-99
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]Enter ptevent_call_method_sync
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]object_id=50f8a659. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]before pthread_cond_signal! ret=0
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]Leave ptevent_call_method_sync. sig_ret=0
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3053740032 after pthread_cond_wait!hreq->ret:0, sig_ret=0
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3053740032 Going to free hreq!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3053740032 Leave lib_pt_ubus_call_method_sync!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:52 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:53 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:53 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:00:53 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:53 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:53 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:53 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:53 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:53 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:00:53 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:53 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:53 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:53 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:54 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:55 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:55 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:00:55 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:55 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:55 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:55 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:55 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:55 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:00:55 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:55 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:55 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:55 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:56 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:57 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:57 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:00:57 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:57 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:57 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:57 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:57 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:57 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:00:57 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:57 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:57 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:57 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:58 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:59 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:59 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:00:59 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:59 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:59 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:59 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:59 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:00:59 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:00:59 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:00:59 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:00:59 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:00:59 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:00 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:01 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:01 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:01:01 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:01 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:01 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:01 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:01 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:01 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:01:01 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:01 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:01 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:01 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:02 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:03 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:03 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:01:03 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:03 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:03 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:03 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:03 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:03 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:01:03 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:03 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:03 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:03 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:03 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:03 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:03 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:03 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:03 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:03 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:04 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:05 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:06 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:06 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:06 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:06 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:06 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:06 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:07 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_multi_config
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]pthread_id:3052908544 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]pthread_id:3052908544 lib_pt_ubus_call_method_async! ubus_ctx=1ec0020. obj_name=cfgmgr, method=write_single_config
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]lib_pt_ubus_call_method_sync directly send branch 1! pthread_id=3052908544
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]object_id=30be952a. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:01:09 1970][libptubus][DEBUG]pthread_id:3052908544 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:01:10 1970][libptubus][DEBUG]Enter lib_pt_ubus_run.
+[Thu Jan  1 00:01:10 1970][libptubus][DEBUG]Multiple thread.
+[Thu Jan  1 00:01:25 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:01:25 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:01:25 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:01:25 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:01:39 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:01:39 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:01:39 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:01:39 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:01:39 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:01:39 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:01:39 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:01:39 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:01:39 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:01:39 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:01:39 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:01:39 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:01:39 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:01:39 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:01:39 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:01:39 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:01:39 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:01:39 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:01:39 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:01:39 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:02:57 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:02:57 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:02:57 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:02:57 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:02:57 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:04:09 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:04:09 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:04:09 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:04:09 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:04:09 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:05:10 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:05:10 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:05:10 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:05:10 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:05:10 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:06:10 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:06:10 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:06:10 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:06:10 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:06:10 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:08:10 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:08:10 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:08:10 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:08:10 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:08:10 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:08:25 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:08:25 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:08:25 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:08:25 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:08:25 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:08:55 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:08:55 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:08:55 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:08:55 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:08:55 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:09:28 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:09:28 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:09:28 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:09:28 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:09:28 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:09:55 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:09:55 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:09:55 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:09:55 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:09:55 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:09:55 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:09:55 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:09:55 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:09:55 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:09:55 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:10:25 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:10:25 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:10:25 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:10:25 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:10:25 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:10:40 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:10:40 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:10:40 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:10:40 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:10:40 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:11:07 1970][libptubus][DEBUG]Enter lib_pt_ubus_init.
+[Thu Jan  1 00:11:07 1970][libptubus][DEBUG]Leave lib_pt_ubus_init.
+[Thu Jan  1 00:11:07 1970][libptubus][DEBUG]pthread_id:3060899840 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:11:07 1970][libptubus][DEBUG]pthread_id:3060899840 lib_pt_ubus_call_method_async! ubus_ctx=1d8bbc8. obj_name=tr069, method=param_change_noti
+[Thu Jan  1 00:11:07 1970][libptubus][DEBUG]lib_pt_ubus_call_method_async indirectly send branch 2! pthread_id=3060899840
+[Thu Jan  1 00:11:07 1970][libptubus][DEBUG]pthread_id:3060899840 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:11:07 1970][libptubus][DEBUG]Enter ptevent_call_method_async
+[Thu Jan  1 00:11:07 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:11:07 1970][libptubus][DEBUG]object_id=e4807a20. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:11:07 1970][libptubus][DEBUG]going to call ubus_invoke_async in ptevent_call_method_async.
+[Thu Jan  1 00:11:07 1970][libptubus][DEBUG]going to free hreq in fhevent_call_method_async
+[Thu Jan  1 00:11:07 1970][libptubus][DEBUG]Leave ptevent_call_method_async
+[Thu Jan  1 00:11:26 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:11:26 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:11:26 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:11:26 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:11:26 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:12:26 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:12:26 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:12:26 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:12:26 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:12:26 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:12:38 1970][libptubus][DEBUG]pthread_id:3060899840 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:12:38 1970][libptubus][DEBUG]pthread_id:3060899840 lib_pt_ubus_call_method_async! ubus_ctx=1d8bbc8. obj_name=tr069, method=param_change_noti
+[Thu Jan  1 00:12:38 1970][libptubus][DEBUG]lib_pt_ubus_call_method_async indirectly send branch 2! pthread_id=3060899840
+[Thu Jan  1 00:12:38 1970][libptubus][DEBUG]pthread_id:3060899840 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:12:38 1970][libptubus][DEBUG]Enter ptevent_call_method_async
+[Thu Jan  1 00:12:38 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:12:38 1970][libptubus][DEBUG]object_id=e4807a20. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:12:38 1970][libptubus][DEBUG]going to call ubus_invoke_async in ptevent_call_method_async.
+[Thu Jan  1 00:12:38 1970][libptubus][DEBUG]going to free hreq in fhevent_call_method_async
+[Thu Jan  1 00:12:38 1970][libptubus][DEBUG]Leave ptevent_call_method_async
+[Thu Jan  1 00:13:23 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:13:23 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:13:23 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:13:23 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:13:23 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:13:23 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:13:23 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:13:23 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:13:23 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:13:23 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:14:09 1970][libptubus][DEBUG]pthread_id:3060899840 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:14:09 1970][libptubus][DEBUG]pthread_id:3060899840 lib_pt_ubus_call_method_async! ubus_ctx=1d8bbc8. obj_name=tr069, method=param_change_noti
+[Thu Jan  1 00:14:09 1970][libptubus][DEBUG]lib_pt_ubus_call_method_async indirectly send branch 2! pthread_id=3060899840
+[Thu Jan  1 00:14:09 1970][libptubus][DEBUG]pthread_id:3060899840 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:14:09 1970][libptubus][DEBUG]Enter ptevent_call_method_async
+[Thu Jan  1 00:14:09 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:14:09 1970][libptubus][DEBUG]object_id=e4807a20. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:14:09 1970][libptubus][DEBUG]going to call ubus_invoke_async in ptevent_call_method_async.
+[Thu Jan  1 00:14:09 1970][libptubus][DEBUG]going to free hreq in fhevent_call_method_async
+[Thu Jan  1 00:14:09 1970][libptubus][DEBUG]Leave ptevent_call_method_async
+[Thu Jan  1 00:14:26 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:14:26 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:14:26 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:14:26 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:14:26 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:14:26 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:14:26 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:14:26 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:14:26 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:14:26 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:14:41 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:14:41 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:14:41 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:14:41 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:14:41 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:14:41 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:14:41 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:14:41 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:14:41 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:14:41 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:15:40 1970][libptubus][DEBUG]pthread_id:3060899840 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:15:40 1970][libptubus][DEBUG]pthread_id:3060899840 lib_pt_ubus_call_method_async! ubus_ctx=1d8bbc8. obj_name=tr069, method=param_change_noti
+[Thu Jan  1 00:15:40 1970][libptubus][DEBUG]lib_pt_ubus_call_method_async indirectly send branch 2! pthread_id=3060899840
+[Thu Jan  1 00:15:40 1970][libptubus][DEBUG]pthread_id:3060899840 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:15:40 1970][libptubus][DEBUG]Enter ptevent_call_method_async
+[Thu Jan  1 00:15:40 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:15:40 1970][libptubus][DEBUG]object_id=e4807a20. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:15:40 1970][libptubus][DEBUG]going to call ubus_invoke_async in ptevent_call_method_async.
+[Thu Jan  1 00:15:40 1970][libptubus][DEBUG]going to free hreq in fhevent_call_method_async
+[Thu Jan  1 00:15:40 1970][libptubus][DEBUG]Leave ptevent_call_method_async
+[Thu Jan  1 00:16:41 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:16:41 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:16:41 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:16:41 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:16:41 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:17:11 1970][libptubus][DEBUG]pthread_id:3060899840 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:17:11 1970][libptubus][DEBUG]pthread_id:3060899840 lib_pt_ubus_call_method_async! ubus_ctx=1d8bbc8. obj_name=tr069, method=param_change_noti
+[Thu Jan  1 00:17:11 1970][libptubus][DEBUG]lib_pt_ubus_call_method_async indirectly send branch 2! pthread_id=3060899840
+[Thu Jan  1 00:17:11 1970][libptubus][DEBUG]pthread_id:3060899840 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:17:11 1970][libptubus][DEBUG]Enter ptevent_call_method_async
+[Thu Jan  1 00:17:11 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:17:11 1970][libptubus][DEBUG]object_id=e4807a20. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:17:11 1970][libptubus][DEBUG]going to call ubus_invoke_async in ptevent_call_method_async.
+[Thu Jan  1 00:17:11 1970][libptubus][DEBUG]going to free hreq in fhevent_call_method_async
+[Thu Jan  1 00:17:11 1970][libptubus][DEBUG]Leave ptevent_call_method_async
+[Thu Jan  1 00:17:42 1970][libptubus][DEBUG]pthread_id:3055895648 Enter lib_pt_ubus_send_event!
+[Thu Jan  1 00:17:42 1970][libptubus][DEBUG]lib_pt_ubus_send_event directly send branch 2! pthread_id=3055895648
+[Thu Jan  1 00:17:42 1970][libptubus][DEBUG]Leave lib_pt_ubus_send_event! pthread_id=3055895648
+[Thu Jan  1 00:17:42 1970][libptubus][DEBUG]Enter ptevent_event_send
+[Thu Jan  1 00:17:42 1970][libptubus][DEBUG]Leave ptevent_event_send
+[Thu Jan  1 00:18:42 1970][libptubus][DEBUG]pthread_id:3060899840 Enter lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:18:42 1970][libptubus][DEBUG]pthread_id:3060899840 lib_pt_ubus_call_method_async! ubus_ctx=1d8bbc8. obj_name=tr069, method=param_change_noti
+[Thu Jan  1 00:18:42 1970][libptubus][DEBUG]lib_pt_ubus_call_method_async indirectly send branch 2! pthread_id=3060899840
+[Thu Jan  1 00:18:42 1970][libptubus][DEBUG]pthread_id:3060899840 Leave lib_pt_ubus_call_method_async!
+[Thu Jan  1 00:18:42 1970][libptubus][DEBUG]Enter ptevent_call_method_async
+[Thu Jan  1 00:18:42 1970][libptubus][DEBUG]Enter lib_pt_ubus_lookup_object.
+[Thu Jan  1 00:18:42 1970][libptubus][DEBUG]object_id=e4807a20. Leave lib_pt_ubus_lookup_object
+[Thu Jan  1 00:18:42 1970][libptubus][DEBUG]going to call ubus_invoke_async in ptevent_call_method_async.
+[Thu Jan  1 00:18:42 1970][libptubus][DEBUG]going to free hreq in fhevent_call_method_async
+[Thu Jan  1 00:18:42 1970][libptubus][DEBUG]Leave ptevent_call_method_async

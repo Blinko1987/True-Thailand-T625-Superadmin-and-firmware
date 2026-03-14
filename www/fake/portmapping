@@ -1,0 +1,53 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"max_num_each_wan": 8,
+	"portmapping":  [{
+					"wan_index":    1,
+					"wan_session_index":    1,
+					"iporppp":      1,
+					"Name": "1_INTERNET_R_50",
+					"mapping":[
+						{
+							"mapping_index": 1,
+							"PortMappingEnabled": "1",
+							"ExternalPort": "60",
+							"InternalPort": "70",
+							"PortMappingProtocol": "TCP",
+							"InternalClient": "192.168.1.18"
+						},
+						{
+							"mapping_index": 3,
+							"PortMappingEnabled": "0",
+							"ExternalPort": "62",
+							"InternalPort": "72",
+							"PortMappingProtocol": "UDP",
+							"InternalClient": "192.168.1.88"
+						}
+					]
+			},
+			{
+					"wan_index":    2,
+					"wan_session_index":    1,
+					"iporppp":      2,
+					"Name": "2_INTERNET_R_52",
+					"mapping":[
+						{
+							"mapping_index": 1,
+							"PortMappingEnabled": "0",
+							"ExternalPort": "60",
+							"InternalPort": "70",
+							"PortMappingProtocol": "TCP",
+							"InternalClient": "192.168.1.18"
+						},
+						{
+							"mapping_index": 3,
+							"PortMappingEnabled": "1",
+							"ExternalPort": "62",
+							"InternalPort": "72",
+							"PortMappingProtocol": "UDP",
+							"InternalClient": "192.168.1.88"
+						}
+					]
+			}]
+}

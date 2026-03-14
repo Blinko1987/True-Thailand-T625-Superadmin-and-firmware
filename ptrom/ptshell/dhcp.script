@@ -1,0 +1,7 @@
+#!/bin/sh
+# Sample udhcpc dispatch script
+
+UDHCPD_SCRIPTS=/ptrom/ptshell
+
+#/bin/sh /etc/dhcp.$1
+/bin/sh $UDHCPD_SCRIPTS/dhcp.$1

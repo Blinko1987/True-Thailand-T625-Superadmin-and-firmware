@@ -1,0 +1,32 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"voice":	{
+		"DeviceID":	"bfwsolutions",
+		"DeviceIDType":	"1",
+		"PhysicalTermID1":	"aaln/0",
+		"PhysicalTermID2":	"aaln/1",
+		"PhysicalTermIDPrefix":	"aaln/",
+		"StartDigitTimer":	"16",
+		"InterDigitTimerShort":	"5",
+		"InterDigitTimerLong":	"20",
+		"NoAnswerTimer":	"60",
+		"BusyToneTimer":	"40",
+		"HangingReminderToneTimer":	"60",
+		"DailToneTimer":	"60",
+		"WaitToneTimer":	"60",
+		"RingToneTimer":	"60",
+		"HeartbeatMode":	"1",
+		"HeartbeatCycle":	"60",
+		"HeartbeatCount":	"3",
+		"AuditValueEnable":	"1",
+		"auditvalueSilenceInterval":	"600",
+		"RTPPrefix":	"RTP/",
+		"EphemeralTermIDStart":	"0",
+		"XFIBEphemeralTermIDEnd":	"1",
+		"SendDigitImmediately":	"1",
+		"faxControl":	"1",
+		"CodecControl":	"1",
+		"CountryRegion":	"3"
+	}
+}

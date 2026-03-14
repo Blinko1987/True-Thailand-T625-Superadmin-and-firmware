@@ -1,0 +1,10 @@
+[Thu Jan  1 00:00:37 1970][libalfiot][DEBUG][load_multi_config_from_xml_with_devfunc][99]load_multi_config_from_xml ret :0 InternetGatewayDevice.DeviceInfo. 
+[Thu Jan  1 00:00:37 1970][libalfiot][DEBUG][impl_alf_iot_init][69]devInfo.device_type : 12
+[Thu Jan  1 00:00:37 1970][libalfiot][DEBUG][impl_alf_iot_init][70]devInfo.device_id : T3TH177B0402
+[Thu Jan  1 00:00:37 1970][libalfiot][DEBUG][impl_alf_iot_init][71]devInfo.vendor_code : T3 Technology
+[Thu Jan  1 00:00:37 1970][libalfiot][DEBUG][impl_alf_iot_init][72]devInfo.device_mode : T625Pro
+[Thu Jan  1 00:00:37 1970][libalfiot][DEBUG][impl_alf_iot_init][73]devInfo.product_name : T625Pro
+[Thu Jan  1 00:00:37 1970][libalfiot][DEBUG][impl_alf_iot_init][74]devInfo.fw_version : V1.0.07
+[Thu Jan  1 00:00:37 1970][libalfiot][DEBUG][impl_alf_iot_init][75]devInfo.hw_version : V1.0
+[Thu Jan  1 00:00:37 1970][libalfiot][DEBUG][impl_alf_iot_init][76]devInfo.device_mac : 64:20:E1:7B:04:02
+[Thu Jan  1 00:00:37 1970][libalfiot][DEBUG][impl_alf_iot_init][77]devInfo.device_ip : 192.168.1.1

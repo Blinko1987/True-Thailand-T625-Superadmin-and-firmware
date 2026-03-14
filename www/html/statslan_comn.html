@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	<script language="javascript" src="../js/util_comn.js"></script>
+	<script type="text/javascript" src="../js/statslan_comn.js"></script>
+	<script language='javascript'>
+		$(document).ready(function(){
+			//优化滚动条，无需改动
+			customScrollBar("html");
+		});
+	</script>
+</head>
+<body class='main_config_body'>
+	<form>
+	    <!-- <label><b i18n="statslan_hint"></b></label> -->
+		<br><br> 
+		<!-- <label><b i18n="autoipaddrinfo"></b></label> -->
+		<!-- <table width="100%" cellspacing="0" cellpadding="3px" border="1px">
+            <tbody>
+				<tr class="table-header">
+					<th colspan="10" i18n="autoipaddrinfo"></th>
+				</tr>
+				<tr class="another-table-header">
+					<th width="10%" i18n="ipaddr"></th>
+					<th width="10%" i18n="macaddress"></th>
+					<th width="8%" i18n="devicetype"></th>
+					<th width="8%" i18n="hostname"></th>
+					<th width="8%" i18n="devname"></th>
+					<th width="8%" i18n="port"></th>
+					<th width="10%" i18n="leasetime"></th> -->
+					<!--<th width="10%" i18n="brand"></th>
+					<th width="10%" i18n="os"></th>-->
+					<!-- <th width="10%" i18n="receivepacket"></th>
+					<th width="10%" i18n="sendpacket"></th>
+					<th width="8%" i18n="status"></th>
+				</tr>
+	        </tbody>
+	        <tbody id='lan_host'>
+	        </tbody>
+        </table>
+		<br><br> -->
+		<!-- <label><b i18n="ethernetstatusinfo"></b></label> -->
+		<table width="100%" cellspacing="0" cellpadding="3px" border="1px">
+            <tbody>
+				<tr class="table-header">
+					<th colspan="8" i18n="ethernetstatusinfo"></th>
+				</tr>
+            	<tr class="another-table-header">
+					<th rowspan="2" class="another-table-header" width="10%" i18n="port"></th>
+					<th colspan="3" width="30%" i18n="status"></th>
+					<th colspan="2" width="30%" i18n="receive"></th>
+					<th colspan="2" width="30%" i18n="send"></th>
+				</tr>
+				<tr class="another-table-header" align="center">
+					<th width="10%" i18n="mode"></th>
+					<th width="10%" i18n="rate"></th>
+					<th width="10%" i18n="connection"></th>
+					<th width="15%" i18n="bytes"></th>
+					<th width="15%" i18n="frames"></th>
+					<th width="15%" i18n="bytes"></th>	
+					<th width="15%" i18n="frames"></th>
+				</tr>
+	        </tbody>
+	        <tbody id="port_info">
+	        </tbody>
+        </table>
+        <br><br>
+    </form>
+		
+</body>
+</html>

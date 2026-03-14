@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	<script language="javascript" src="../js/util_comn.js"></script>
+	<script type="text/javascript" src="../js/wifi_info_comn.js"></script>
+</head>
+<body class='main_config_body'>
+	<form>
+	    <!-- <label><b i18n="wifiinfo_hint"></b></label> -->
+		<br><br>
+		<!-- <label><b i18n="wifistatus"></b></label>
+		<br> -->
+		
+		<table class="tablemedium" cellspacing="0" cellpadding="3px" border="1px">
+            <tbody>
+				<tr class="table-header">
+					<th colspan="3" i18n="wifistatus"></th>
+				</tr>
+            	<tr class="another-table-header">
+					<th width="30%" i18n="ssidindex"></th>
+					<th width="30%" i18n="wificonnstatus"></th>
+					<th width="40%" i18n="wifichannel"></th>
+				</tr>
+			</tbody>
+			<tbody id="wlaninfo">
+				
+			</tbody>
+        </table>
+		
+		<br><br>
+		<!-- <label><b i18n="wirelesspacketstats"></b></label>
+		<br> -->
+		<table class="tablemedium" cellspacing="0" cellpadding="3px" border="1px">
+            <tbody>
+				<tr class="table-header">
+					<th colspan="6" i18n="wirelesspacketstats"></th>
+				</tr>
+            	<tr class="another-table-header">
+					<th width="10%" rowspan="2" class="another-table-header" i18n="ssidindex"></th>
+					<th width="22%" rowspan="2" class="another-table-header" i18n="ssidname"></th>
+					<th width="34%" colspan="2" i18n="receive"></th>
+					<th width="34%" colspan="2" i18n="send"></th>
+				</tr>
+				<tr class="another-table-header">
+					<th width="17%" i18n="bytes"></th>
+					<th width="17%" i18n="frames"></th>
+					<th width="17%" i18n="bytes"></th>
+					<th width="17%" i18n="frames"></th>
+				</tr>
+			</tbody>
+			<tbody id="packinfo">
+				
+			</tbody>
+        </table>
+		<br><br> 
+		<!-- <label><b i18n="ssidinfo"></b></label>
+		<br> -->
+		<table class="tablemedium" cellspacing="0" cellpadding="3px" border="1px">
+            <tbody>
+				<tr class="table-header">
+					<th colspan="5" i18n="ssidinfo"></th>
+				</tr>
+				<tr class="another-table-header">
+					<th width="10%" i18n="ssidindex"></th>
+					<th width="22%" i18n="ssidname"></th>
+					<th width="17%" i18n="securityconfiguration"></th>
+					<th width="27%" i18n="authenticationmode"></th>
+					<th width="24%" i18n="encryptionmode"></th>
+				</tr>
+			</tbody>
+			<tbody id="ssidinfo">
+			</tbody>
+        </table>
+    </form>
+		
+</body>
+</html>

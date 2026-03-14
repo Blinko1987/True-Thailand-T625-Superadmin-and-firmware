@@ -1,0 +1,67 @@
+#!/bin/sh
+
+#		$1         $2  $3      $4         $5          $6    
+#/etc/ppp/vpn_ip-up interface tty speed local-IP local-IP-mask remote-IP fwmark ppp_unit name_space
+
+# vpn node
+vpn_node=`expr $8 - 100`
+vpn_entry="VPN_Entry$vpn_node"
+route_table_node=`expr $8 - 100 + 300`
+interface=$1
+ip=$4
+mask=$5
+gateway=$6
+fw_mark=$7
+name_space=$9
+
+PROFILE_CFG=/userfs/profile.cfg
+if [ -f $PROFILE_CFG ] ; then
+    . $PROFILE_CFG
+fi
+
+/bin/mkdir -p /var/run/xl2tpd/$vpn_node
+echo $ip > /var/run/xl2tpd/$vpn_node/ip
+echo $mask > /var/run/xl2tpd/$vpn_node/netmask
+echo $gateway > /var/run/xl2tpd/$vpn_node/gateway
+
+if [ -n "$DNS1" ] ; then
+	echo "$DNS1" > /var/run/xl2tpd/$vpn_node/dns
+fi
+if [ -n "$DNS2" ] ; then
+	echo "$DNS2" >> /var/run/xl2tpd/$vpn_node/dns
+fi
+
+echo "up" > /var/run/xl2tpd/$vpn_node/status
+
+if [ -n "$name_space" ] ; then
+	/usr/bin/ip netns exec $name_space iptables -t nat -D POSTROUTING -o $interface -j MASQUERADE
+	/usr/bin/ip netns exec $name_space iptables -t nat -A POSTROUTING -o $interface -j MASQUERADE
+	/usr/bin/ip netns exec $name_space iptables -D FORWARD -o $interface -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
+	/usr/bin/ip netns exec $name_space iptables -A FORWARD -o $interface -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
+	/usr/bin/ip netns exec $name_space ip route add default via $gateway dev $interface
+else
+	/usr/bin/ip rule add from $ip/32 table $route_table_node
+	/usr/bin/ip rule add fwmark 0x$fw_mark/0x7f0000 table $route_table_node
+	/usr/bin/ip route add default via $gateway dev $interface table $route_table_node
+	/usr/bin/ip route add 192.168.1.0/24 via 192.168.1.1 dev br0 table $route_table_node
+	/usr/bin/ip route del $gateway/32 dev $interface table main
+	/usr/bin/iptables -t mangle -D OUTPUT -o $interface -j MARK --set-mark 0x$fw_mark/0x7f0000
+	/usr/bin/iptables -t mangle -A OUTPUT -o $interface -j MARK --set-mark 0x$fw_mark/0x7f0000
+	/sbin/route del -net $ip netmask $mask dev $interface
+	/usr/bin/ip route flush cache 2>/dev/null
+fi
+/userfs/bin/tcapi set $vpn_entry ip "$ip"
+/userfs/bin/tcapi set $vpn_entry netmask $mask
+/userfs/bin/tcapi set $vpn_entry gateway $gateway
+/userfs/bin/tcapi set $vpn_entry status up
+if [ "$TCSUPPORT_CMCCV2" != "" ]; then
+	/userfs/bin/tcapi set $vpn_entry vpnstatus 2
+else
+	/userfs/bin/tcapi set $vpn_entry vpnstatus 0
+	/userfs/bin/tcapi set globalstate dnsmaskRestart 1
+fi
+
+echo $vpn_node 0 > /proc/tc3162/br_vpn_itf
+
+# modify vpn interface mtu
+#	/sbin/ifconfig $interface mtu 1454

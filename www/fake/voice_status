@@ -1,0 +1,16 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"voice_status":{
+		"voice_port_num": 2,
+		"ServerType": "1",
+		"RegStatus1": "Online",
+		"RegStatus2": "ee",
+		"RegStatusReason1": "710",
+		"RegStatusReason2": "711",
+		"DirectoryNumber1": "1111",
+		"DirectoryNumber2": "2222",
+		"AuthUserName1": "3333",
+		"AuthUserName2": "4444"
+	}
+}

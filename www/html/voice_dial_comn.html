@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/voice_dial_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.voice_dial"></p>
+			<p class="main_header_hint" i18n="voicedial_hint"></p>
+		</div>
+		<form id="voice_dial_form">
+			<div class="main_content">
+				<div id="ims_sip_div" style="display:none">
+					<div class="main_item">
+						<div class="main_item_name" i18n="digitmap"></div>
+						<div class="main_item_content">
+							<input type="checkbox" id="DigitMapEnable_checkbox"/>&nbsp;
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="dialplanrules"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="DigitMap_text" name="DigitMap_text"/>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="matchmode"></div>
+						<div class="main_item_content">
+							<select id="DigitMapMode_select" class="main_select">
+								<option value="2" i18n="minimummatch"></option>
+								<option value="0" i18n="maximummatch"></option>
+								<!--<option value="2">e8c短匹配</option>
+								<option value="3">主线短匹配</option>
+								<option value="0">e8c长匹配</option>
+								<option value="1">主线长匹配</option>-->
+							</select>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="twaittime"></div>
+						<div class="main_item_content">
+							<select id="TWaitTime_select" class="main_select">
+								<option value="0" i18n="shorttimer"></option>
+								<option value="1" i18n="longtimer"></option>
+							</select>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="dotwaittime"></div>
+						<div class="main_item_content">
+							<select id="DotWaitTime_select" class="main_select">
+								<option value="0" i18n="nowaiting"></option>
+								<option value="1" i18n="shorttimer"></option>
+								<option value="2" i18n="longtimer"></option>
+							</select>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="immediatedialsendend"></div>
+						<div class="main_item_content">
+							<select id="OutNumberContainImmediateDialKey_select" class="main_select">
+								<option value="0" i18n="No"></option>
+								<option value="1" i18n="Yes"></option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="offhooknondailtime"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="StartDialingTimer_text" name="StartDialingTimer_text"/>(10~20)s
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="longtimer"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="LongTimerValue_text" name="LongTimerValue_text"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="shorttimer"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="ShortTimerValue_text" name="ShortTimerValue_text"/>
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" onclick="saveApply()" i18n="save" i18n-set="value"/>
+			</div>
+		</form>
+	</body>
+</html>

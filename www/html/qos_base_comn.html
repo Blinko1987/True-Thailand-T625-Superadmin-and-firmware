@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<link href='../css/main_style_ct.css' rel='stylesheet' type='text/css'/>
+		<script language="javascript" src="../js/util_comn.js"></script>
+        <script language="javascript" src="../js/qos_base_comn.js"></script>
+		</script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.qos_base"></p>
+			<p class="main_header_hint" i18n="qosbase_hint"></p>
+		</div>
+		<form id="qos_base_form">
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name" i18n="enableqos"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="QoSEnable_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item" id="mode_div" style="display:none">
+					<div class="main_item_name" i18n="qostemplate"></div>
+					<div class="main_item_content">
+						<select id="qoscfg_template">
+							<option value="OTHER">OTHER</option>
+							<option value="TR069,INTERNET">TR069,INTERNET</option>
+							<option value="TR069,VOIP,INTERNET">TR069,VOIP,INTERNET</option>
+							<option value="TR069,IPTV,INTERNET">TR069,IPTV,INTERNET</option>
+							<option value="TR069,VOIP,IPTV,INTERNET">TR069,VOIP,IPTV,INTERNET</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" onclick="saveApply()" i18n="save" i18n-set="value"/>
+			</div>
+		</form>
+	</body>
+</html>

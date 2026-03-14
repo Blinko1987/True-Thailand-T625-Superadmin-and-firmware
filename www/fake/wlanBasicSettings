@@ -1,0 +1,18 @@
+{
+	"session_valid":	1,
+	"success":	"true",
+	"data":	{
+		"SSID":	"test",
+		"BeaconType":	"mixed",
+		"WPAEncryptionModes":	"AESEncryption",
+		"PreSharedKey":	"12345678",
+		"BasicAuthenticationMode":	"SharedKey",
+		"WEPEncryptionLevel":	"40-bit",
+		"WEPKeyIndex":	"1",
+		"WEPKey1":	"12345",
+		"WEPKey2":	"12345",
+		"WEPKey3":	"12345",
+		"WEPKey4":	"12345",
+		"Enable":	"1"
+	}
+}

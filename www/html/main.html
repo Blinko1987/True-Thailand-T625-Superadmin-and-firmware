@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title i18n="main.title"></title>
+		<meta http-equiv="X-UA-Compatible" content="edge"/>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+		<meta HTTP-EQUIV="Expires" CONTENT="0"> 
+		<link rel="icon" href="../image/logo_t3.png">
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script language="javascript" src="../js/main_comn.js"></script>
+	</head>
+		<body style="background-color:#E5E5E5; padding: 0px; margin: 0px;">
+		<div id="panel_container">
+			<div id="top_div">
+				<div id="panel_header">
+					<img src="../image/True_Gigatex_1.png" style="width:100px; height:44px; margin-left:120px; margin-top:13px">
+					<div style="width:160px; height:24px; float:right;margin-top:38px;">
+						<div class="dropdown">
+							<a class="btn-admin dropdown-toggle" href="#" role="button" id="dropdownMenuLink" onclick="dropdownmenudisplayctl()" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Admin
+							</a>
+
+							<div class="dropdown-menu" id="dropdown_menu" aria-labelledby="dropdownMenuLink">
+								<!-- <a class="dropdown-item" href="#">Action</a>
+								<a class="dropdown-item" href="#">Profile</a> -->
+								<a class="dropdown-item" onclick="realLogout()" href="#">Logout</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="panel_mainmenu">
+					<div id="menu">
+						<div id="first_menu_div">
+							<div id="first_menu_primary_div" class="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="home_main_div" class="home_div">
+				<iframe id="home_iframe" name="home_iframe" scrolling="no" class="home_iframe" allowtransparency="true" src="" frameborder="0" align="middle"></iframe>
+			</div>
+			<div id="main_body_div">
+			</div>
+			<div>
+			<!-- <div id="panel_end_left"></div>
+			<div id="panel_end"></div> -->
+			<!-- footer -->
+			<div id="main_footer" style="display:none;" class="footer font-weight-bold">
+				<a href="tel:1242">
+					<div class="mtp-lines-box txt-grey">
+						<span class="txt-size-m">True Call Center</span>
+					</div>
+					<span class="txt-size-xxl txt-red">
+						1242
+						<span class="phone-cir-red-icon sprite-icons">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+								<path d="M0 0h24v24H0z" fill="none" /></svg>
+						</span>
+					</span>
+				</a>
+			</div>
+			<!-- footer -->
+			</div>
+		</div>
+		<!-- <div id="pop_bg_layer"></div> -->
+		<div id='pop_window_div'>
+			<div id="pop_window_content_div">
+				<div id="pop_window_title"></div>
+				<div id="pop_window_body">
+					<div id="pop_window_icon"></div>
+					<div id="pop_window_show_div">
+						<div id="pop_window_message"></div>
+						<div id="pop_window_option">
+							<div id="confirm" class="pop_window_action bg_color_main" i18n="confirm"></div>
+							<div onclick="doCancel()" id="cancel" class="pop_window_action bg_color_red" i18n="cancel"></div>
+						</div>
+					</div>
+					
+				</div>
+
+			</div>
+		</div>
+		<div id='loading_window_div' style='display:none'>
+			<div id="loading_window_content_div">
+				
+			</div>
+		</div>
+		<div id='save_window_div' style='display:none'>
+			<div id="save_window_content_div">
+				<div id="save_window_body">
+					<div id="save_window_show_div">
+						<div id="save_window_message" i18n="changesettingsuccessfully"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,14 @@
+[Thu Jan  1 00:00:29 1970][udhcpd][NOTICE][start_log_and_pid][159]udhcpd (v1.02) started
+[Thu Jan  1 00:00:29 1970][udhcpd][NOTICE][attach_option][214]Attaching option subnet to list
+[Thu Jan  1 00:00:29 1970][udhcpd][NOTICE][attach_option][214]Attaching option router to list
+[Thu Jan  1 00:00:29 1970][udhcpd][NOTICE][attach_option][214]Attaching option lease to list
+[Thu Jan  1 00:00:29 1970][udhcpd][NOTICE][attach_option][214]Attaching option dns to list
+[Thu Jan  1 00:00:29 1970][udhcpd][INFO][read_vendor_config][427]arp_check switch is :1
+[Thu Jan  1 00:00:29 1970][udhcpd][NOTICE][main][102]lease_file:/var/udhcpd.leases
+[Thu Jan  1 00:00:29 1970][udhcpd][NOTICE][read_leases][344]start to Read leases
+[Thu Jan  1 00:00:29 1970][udhcpd][ERR][read_leases][347]/var/udhcpd.leases content is null
+[Thu Jan  1 00:00:29 1970][udhcpd][NOTICE][read_interface][62]br0 (our ip) = 192.168.1.1
+[Thu Jan  1 00:00:29 1970][udhcpd][NOTICE][read_interface][70]adapter index 20
+[Thu Jan  1 00:00:29 1970][udhcpd][NOTICE][read_interface][79]adapter hardware address 64:20:e1:7b:04:02
+[Thu Jan  1 00:00:29 1970][udhcpd][NOTICE][listen_socket][100]Opening listen socket on 0x00000000:67 br0
+[Thu Jan  1 00:00:29 1970][udhcpd][NOTICE][main][131]interface:br0, timeout:7200

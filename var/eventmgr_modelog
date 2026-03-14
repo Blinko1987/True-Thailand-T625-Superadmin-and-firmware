@@ -1,0 +1,77 @@
+[Thu Jan  1 00:00:26 1970][eventmgr][DEBUG]--------- enter eventmgr-----------
+[Thu Jan  1 00:01:39 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:01:39 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:01:39 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:01:39 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:01:39 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:01:39 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:01:39 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:01:39 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:02:57 1970][eventmgr][DEBUG]the event type:109. buf_len:60.
+[Thu Jan  1 00:02:57 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:04:09 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:04:09 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:05:10 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:05:10 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:06:10 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:06:10 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:08:10 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:08:10 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:08:25 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:08:25 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:08:55 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:08:55 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:09:28 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:09:28 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:09:55 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:09:55 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:09:55 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:09:55 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:10:25 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:10:25 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:10:40 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:10:40 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:11:07 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=0.
+[Thu Jan  1 00:11:07 1970][eventmgr][ERR]report_to_itms_interface before 223,1
+[Thu Jan  1 00:11:07 1970][eventmgr][ERR]travel_alarm_list before 223,1,1
+[Thu Jan  1 00:11:07 1970][eventmgr][ERR]travel_alarm_list end 223,1,1
+[Thu Jan  1 00:11:26 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:11:26 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:12:26 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:12:26 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:12:38 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=0.
+[Thu Jan  1 00:12:38 1970][eventmgr][ERR]report_to_itms_interface before 223,1
+[Thu Jan  1 00:12:38 1970][eventmgr][ERR]travel_alarm_list before 223,1,1
+[Thu Jan  1 00:12:38 1970][eventmgr][ERR]travel_alarm_list end 223,1,1
+[Thu Jan  1 00:13:23 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:13:23 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:13:23 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:13:23 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:14:09 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=0.
+[Thu Jan  1 00:14:09 1970][eventmgr][ERR]report_to_itms_interface before 223,1
+[Thu Jan  1 00:14:09 1970][eventmgr][ERR]travel_alarm_list before 223,1,1
+[Thu Jan  1 00:14:09 1970][eventmgr][ERR]travel_alarm_list end 223,1,1
+[Thu Jan  1 00:14:26 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:14:26 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:14:26 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:14:26 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:14:41 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:14:41 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:14:41 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:14:41 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:15:40 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=0.
+[Thu Jan  1 00:15:40 1970][eventmgr][ERR]report_to_itms_interface before 223,1
+[Thu Jan  1 00:15:40 1970][eventmgr][ERR]travel_alarm_list before 223,1,1
+[Thu Jan  1 00:15:40 1970][eventmgr][ERR]travel_alarm_list end 223,1,1
+[Thu Jan  1 00:16:41 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:16:41 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:17:11 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=0.
+[Thu Jan  1 00:17:11 1970][eventmgr][ERR]report_to_itms_interface before 223,1
+[Thu Jan  1 00:17:11 1970][eventmgr][ERR]travel_alarm_list before 223,1,1
+[Thu Jan  1 00:17:11 1970][eventmgr][ERR]travel_alarm_list end 223,1,1
+[Thu Jan  1 00:17:42 1970][eventmgr][DEBUG]the event type:110. buf_len:88.
+[Thu Jan  1 00:17:42 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=1.
+[Thu Jan  1 00:18:42 1970][eventmgr][ERR]alarm_manage_interface enter mode_status=0.
+[Thu Jan  1 00:18:42 1970][eventmgr][ERR]report_to_itms_interface before 223,1
+[Thu Jan  1 00:18:42 1970][eventmgr][ERR]travel_alarm_list before 223,1,1
+[Thu Jan  1 00:18:42 1970][eventmgr][ERR]travel_alarm_list end 223,1,1

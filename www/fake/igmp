@@ -1,0 +1,26 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"igmp":	{
+		"SnoopingEnable":	"1",
+		"ProxyEnable":	"1",
+		"X_FIB_COM_MldSnoopingEnable":	"1",
+		"X_FIB_COM_MldProxyEnable":	"1",
+		"vlan":[
+			{
+				"wan_index":    1,
+				"wan_session_index":    1,
+				"iporppp":      1,
+				"Name": "1_INTERNET_R_50",
+				"MulticastVlan": "20"
+			},
+			{
+				"wan_index":    2,
+				"wan_session_index":    1,
+				"iporppp":      2,
+				"Name": "2_OTHER_B_50",
+				"MulticastVlan": "30"
+			}
+		]
+	}
+}

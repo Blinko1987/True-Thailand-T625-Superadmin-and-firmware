@@ -1,0 +1,17 @@
+[Thu Jan  1 00:01:34 1970][meshinfo][DEBUG]mesh_controller_commit:837 recv comit
+[Thu Jan  1 00:01:39 1970][meshinfo][DEBUG]mesh_controller_commit:839 begin get_topology_info
+[Thu Jan  1 00:01:39 1970][meshinfo][DEBUG][rootap_info_get:342] url=InternetGatewayDevice.LANDevice.1.WLANMeshConfiguration.Controller.
+[Thu Jan  1 00:01:39 1970][meshinfo][DEBUG][rootap_info_get:352] MESH_1905_TYPE_CONTROLLER
+[Thu Jan  1 00:01:39 1970][meshinfo][DEBUG][rootap_info_get:360] curdev->mac1905=66:20:e1:0a:04:0d
+[Thu Jan  1 00:01:40 1970][meshinfo][DEBUG][rootap_info_get:369] curdev->mac1905=66:20:e1:0a:04:0d
+[Thu Jan  1 00:01:40 1970][meshinfo][DEBUG]rootap_ssid_get:287 bssid=66:20:e1:0a:04:0d, ssid=BackHaul_7B040E, channel=0x95, band=0, map_flag=2
+[Thu Jan  1 00:01:40 1970][meshinfo][DEBUG][rootap_ssid_get:310] ssid_2g=
+[Thu Jan  1 00:01:40 1970][meshinfo][DEBUG][rootap_ssid_get:317] ssid_5g=
+[Thu Jan  1 00:01:40 1970][meshinfo][DEBUG][rootap_ssid_get:324] bssid_2g=
+[Thu Jan  1 00:01:40 1970][meshinfo][DEBUG][rootap_ssid_get:331] bssid_5g=
+[Thu Jan  1 00:01:40 1970][meshinfo][ERR]controller_info_update:765 info->devnum=1
+[Thu Jan  1 00:01:40 1970][meshinfo][ERR]controller_info_update:775 devnum[0], mac:66:20:e1:0a:04:0d, type:1
+[Thu Jan  1 00:01:40 1970][meshinfo][DEBUG][repeater_cleanup:261] delete index=1 to InternetGatewayDevice.LANDevice.1.WLANMeshConfiguration.Controller.Repeater.1.
+[Thu Jan  1 00:01:40 1970][meshinfo][DEBUG][repeater_cleanup:261] delete index=2 to InternetGatewayDevice.LANDevice.1.WLANMeshConfiguration.Controller.Repeater.2.
+[Thu Jan  1 00:01:40 1970][meshinfo][DEBUG][repeater_cleanup:261] delete index=3 to InternetGatewayDevice.LANDevice.1.WLANMeshConfiguration.Controller.Repeater.3.
+[Thu Jan  1 00:01:40 1970][meshinfo][DEBUG][repeater_cleanup:261] delete index=4 to InternetGatewayDevice.LANDevice.1.WLANMeshConfiguration.Controller.Repeater.4.

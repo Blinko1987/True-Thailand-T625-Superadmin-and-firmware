@@ -1,0 +1,179 @@
+{
+	"status": {
+		"childMenuPosition": "left",
+		"secondmenus":[
+			{"name": "status_device", "title":"menu.device", "src": "stateOverview_ct.html"},
+			{"name": "status_ipv6", "title":"menu.wan", "src": "ipconInfo_comn.html"},
+			{"name": "status_pon", "title":"menu.pon", "src": "pon_link_info_comn.html"},
+			{"name": "status_lan", "title":"menu.lan", "src": "lanhosts_info.html"},
+			{"name": "status_wlan", "title":"menu.wlan", "src": "wifi_info_comn.html"},
+			{"name": "status_voipinfo", "title":"menu.voipinfo", "src": "voice_info_comn.html"},
+			{"name": "status_remote", "title":"menu.status_remote", 
+				"thirdmenus": [
+					{"name":"status_remote_interaction", "title":"menu.remote_interaction", "src": "connect_status_comn.html"},
+					{"name":"status_remote_status", "title":"menu.remote_status", "src": "acs_config_status_comn.html"}
+				]
+			}
+		]
+	},
+	"lan": {
+		"childMenuPosition": "left",
+		"secondmenus":[
+			{"name": "lan_lan", "title":"menu.laninf_set",
+				"thirdmenus": [
+					{"name":"lan_lan_v4", "title":"menu.lan_ipv4_set", "src": "lan_ipv4_comn.html"},
+					{"name":"lan_lan_dhcpaddrreserve", "title":"menu.dhcpaddrreserve", "src": "dhcpaddrreserve.html"}
+				]
+			},
+			{"name": "lan_vlanmapping", "title":"menu.vlanmapping", "src": "vlanbind_comn.html"}
+		]
+	},
+	"wlan": {
+		"childMenuPosition": "left",
+		"secondmenus":[
+			{"name": "wlan_5g", "title":"menu.wlan5ghz",
+				"thirdmenus": [
+					{"name":"wlan_5g_base", "title":"menu.basicset", "src": "wlanBasicSettings_5G_comn.html"},
+					{"name":"wlan_5g_advance", "title":"menu.advancedset", "src": "wlanAdvancedSettings_5G_comn.html"},
+					{"name":"wlan_5g_security", "title":"menu.security", "src": "wlanSecuritySettings_5G_comn.html"},
+					{"name":"wlan_5g_accessctrl", "title":"menu.accessctrl", "src": "wlan_accessctl_comn.html"},
+					{"name":"wlan_5g_neighbor", "title":"menu.neighborsap", "src": "wlan_neighbor_5G_comn.html"},
+					{"name":"wlan_5g_associated", "title":"menu.associatedclient", "src": "wlan_associated_device_5G.html"}
+				]
+			},
+			{"name": "wlan_2g", "title":"menu.wlan2ghz",
+				"thirdmenus": [
+					{"name":"wlan_2g_base", "title":"menu.basicset", "src": "wlanBasicSettings_comn.html"},
+					{"name":"wlan_2g_advance", "title":"menu.advancedset", "src": "wlanAdvancedSettings_comn.html"},
+					{"name":"wlan_2g_security", "title":"menu.security", "src": "wlanSecuritySettings_comn.html"},
+					{"name":"wlan_2g_accessctrl", "title":"menu.accessctrl", "src": "wlan_accessctl_comn.html"},
+					{"name":"wlan_2g_neighbor", "title":"menu.neighborsap", "src": "wlan_neighbor_comn.html"},
+					{"name":"wlan_2g_associated", "title":"menu.associatedclient", "src": "wlan_associated_device.html"},
+					{"name":"wlan_2g_smartant", "title":"menu.smartant", "src": "smartantenna_comn.html"}
+				]
+			}
+		]
+	},
+	"wan": {
+		"childMenuPosition": "left",
+		"secondmenus":[
+			{"name": "wan_wan", "title":"menu.wan", "src": "broadband_comn.html"}
+		]
+	},
+	"service": {
+		"childMenuPosition": "left",
+		"secondmenus":[
+			{"name": "service_ddns", "title":"menu.dyndns", "src": "ddns_comn.html"},
+			{"name": "service_igmp", "title":"menu.igmpproxy", "src": "igmp_comn.html"},
+			{"name": "service_upnp", "title":"menu.upnp", "src": "upnp_comn.html"},
+			{"name": "service_catv", "title":"menu.catv", "src": "catv_comn.html"}
+		]
+	},
+	"voip": {
+		"childMenuPosition": "left",
+		"secondmenus":[
+			{"name":"voip_base", "title":"menu.voice_base", "src": "voice_base_comn.html"},
+			{"name":"voip_advance", "title":"menu.voice_advance", "src": "voice_advance_comn.html"},
+			{"name":"voip_add", "title":"menu.voice_add", "src": "voice_add_comn.html"},
+			{"name":"voip_dial", "title":"menu.voice_dial", "src": "voice_dial_comn.html"},
+			{"name":"voip_fax", "title":"menu.voice_fax", "src": "voice_fax_comn.html"},
+			{"name":"voip_map", "title":"menu.voice_map", "src": "voice_map_comn.html"}
+		]
+	},
+	"firewall": {
+		"childMenuPosition": "left",
+		"secondmenus":[
+			{"name":"firewall_alg", "title":"menu.alg", "src": "alg_comn.html"},
+			{"name":"firewall_ipportfilter", "title":"menu.ipportfilter", "src": "main_ipfilter_comn.html"},
+			{"name":"firewall_macfilter", "title":"menu.mac_filter", "src": "mac_filter_comn.html"},
+			{"name":"firewall_portforward", "title":"menu.portforward", "src": "portmapping_comn.html"},
+			{"name":"firewall_urlfilter", "title":"menu.url_filter", "src": "url_filter_comn.html"},
+			{"name":"firewall_dmz", "title":"menu.dmz", "src": "dmz_comn.html"},
+			{"name":"firewall_firewall", "title":"menu.firewallenable", "src": "firewall_comn.html"},
+			{"name":"firewall_remotemanage", "title":"menu.remotemanagement", "src": "remotemanage.html"},
+			{"name":"firewall_remoteaccess", "title":"menu.remoteaccess", "src": "remoteaccess.html"}
+		]
+	},
+	"advance": {
+		"childMenuPosition": "left",
+		"secondmenus":[
+			{"name": "advance_adv", "title":"menu.advance",
+				"thirdmenus": [
+					{"name":"advance_adv_route", "title":"menu.routing", "src": "route_comn.html"}
+				]
+			},
+			{"name": "advance_qos", "title":"menu.ipqos",
+				"thirdmenus": [
+					{"name":"advance_qos_base", "title":"menu.qos_base", "src": "qos_base_comn.html"},
+					{"name":"advance_qos_queue", "title":"menu.qos_queue", "src": "qos_queue_comn.html"},
+					{"name":"advance_qos_app", "title":"menu.qos_app", "src": "qos_app_comn.html"},
+					{"name":"advance_qos_class", "title":"menu.qos_class", "src": "qos_class_comn.html"}
+				]
+			},
+			{"name": "advance_ipv6", "title":"menu.ipv6",
+				"thirdmenus": [
+					{"name":"advance_ipv6_v6", "title":"menu.ipv6", "src": "lan_ipv6_comn.html"},
+					{"name":"advance_ipv6_route", "title":"menu.ipv6routing", "src": "route_v6_comn.html"},
+					{"name":"advance_ipv6_ipportfilter", "title":"menu.ipportfilter", "src": "main_ipfilter_v6_comn.html"}
+				]
+			},
+			{"name": "advance_wlan", "title":"menu.wlan",
+				"thirdmenus": [
+					{"name":"advance_wlan_bandsteering", "title":"bandsteering", "src": "wlanBandsteering_comn.html"},
+					{"name":"advance_wlan_hopping", "title":"wifihopping", "src": "wlanHopping_comn.html"},
+					{"name":"advance_wlan_easymesh", "title":"menu.easymesh", "src": "easymesh_comn.html"},
+					{"name":"advance_wlan_meshinfo", "title":"menu.meshinfo", "src": "mesh_info.html"},
+					{"name":"advance_wlan_meshtopo", "title":"menu.topology", "src": "mesh_topo.html"}
+				]
+			}
+		]
+	},
+	"diag": {
+		"childMenuPosition": "left",
+		"secondmenus":[
+			{"name":"diag_ping", "title":"menu.ping", "src": "ping_comn.html"},
+			{"name":"diag_tracert", "title":"menu.traceroute", "src": "traceroute_comn.html"},
+			{"name":"diag_inform", "title":"menu.manualinform", "src": "manual_inform_comn.html"},
+			{"name":"diag_maintain", "title":"menu.maintain",
+				"thirdmenus": [
+					{"name":"diag_maintain_infocollect", "title":"menu.infocollect", "src": "infocollection_comn.html"},
+					{"name":"diag_maintain_rpcap", "title":"menu.rpcap", "src": "rpcapture_comn.html"}
+				]
+			}
+		]
+	},
+	"admin": {
+		"childMenuPosition": "left",
+		"secondmenus":[
+			{"name":"admin_gponset", "title":"menu.gponsetting", "src": "oltauth_comn.html"},
+			{"name":"admin_omci", "title":"menu.omciinfo", "src": "omci_comn.html"},
+			{"name":"admin_reboot", "title":"menu.commitreboot", "src": "reboot_comn.html"},
+			{"name":"admin_schedulereboot", "title":"menu.schedulereboot", "src": "schedulereboot_comn.html"},
+			{"name":"admin_backup", "title":"menu.backuprestore", "src": "backup_comn.html"},
+			{"name":"admin_syslog", "title":"menu.systemlog",
+				"thirdmenus": [
+					{"name":"admin_syslog_view", "title":"menu.log_view", "src": "loglevel.html"},
+					{"name":"admin_syslog_set", "title":"menu.log_set", "src": "logs.html"}
+				]
+			},
+			{"name":"admin_portmirror", "title":"menu.port_mirror", "src": "port_mirror_comn.html"},
+			{"name":"admin_pwd", "title":"menu.pwd", "src": "userManagement_comn.html"},
+			{"name":"admin_upgrade", "title":"menu.firmwareupgrade", "src": "upgrade_comn.html"},
+			{"name":"admin_timezone", "title":"menu.timezone", "src": "ntp_comn.html"},
+			{"name":"admin_tr69", "title":"menu.tr069", "src": "tr69_comn.html"},
+			{"name":"admin_logout", "title":"menu.logout", "src": "logout_comn.html"}
+		]
+	},
+	"statistics": {
+		"childMenuPosition": "left",
+		"secondmenus":[
+			{"name":"statistics_interface", "title":"menu.interface",
+				"thirdmenus": [
+					{"name":"statistics_interface_lan", "title":"menu.lan", "src": "statslan_comn.html"},
+					{"name":"statistics_interface_wlan", "title":"menu.wlan", "src": "wifi_info_comn.html"}
+				]
+			},
+			{"name":"statistics_pon", "title":"menu.ponstatistics", "src": "pon_link_info_comn.html"}
+		]
+	}
+}

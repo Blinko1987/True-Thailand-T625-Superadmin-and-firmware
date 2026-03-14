@@ -1,0 +1,43 @@
+config key 'SECTION_A_VALID'
+        option value 'NULL'
+		option encryflag '0'
+		
+config key 'SECTION_A_COMMIT'
+        option value 'NULL'
+		option encryflag '0'
+
+config key 'SECTION_A_ACTIVE'
+        option value 'NULL'
+		option encryflag '0'
+
+config key 'SECTION_A_VERSION'
+        option value 'NULL'
+		option encryflag '0'
+
+config key 'SECTION_B_VALID'
+        option value 'NULL'
+		option encryflag '0'
+
+config key 'SECTION_B_COMMIT'
+        option value 'NULL'
+		option encryflag '0'
+
+config key 'SECTION_B_ACTIVE'
+        option value 'NULL'
+		option encryflag '0'
+
+config key 'SECTION_B_VERSION'
+        option value 'NULL'
+		option encryflag '0'
+
+config key 'UPDATE_MODE'
+        option value 'NULL'
+		option encryflag '0'
+		
+config key 'PART_VERSION'
+        option value 'NULL'
+		option encryflag '0'
+
+config key 'PART_INFO'
+        option value 'NULL'
+		option encryflag '0'		

@@ -1,0 +1,55 @@
+ponhwadpt_attr_get:842 cmd:13, obj_id:0
+ponhw_get_allportnum:7337 All port num: [GE FE WiFi Usb Voip mode]: [0 5 0 1 2 1]
+ponhwadpt_attr_get:842 cmd:202, obj_id:0
+get_gponsn_and_pwd:7499 X_XX_X_PT_GPONSN: T3TH177B0402
+get_gponsn_and_pwd:7502 GponSN: T3TH177B0402
+get_gponsn_and_pwd:7513 =====17
+get_gponsn_and_pwd:7513 =====7b
+get_gponsn_and_pwd:7513 =====4
+get_gponsn_and_pwd:7513 =====2
+get_gponsn_and_pwd:7528 X_XX_X_PT_ PonPassword: T3TH012345
+get_gponsn_and_pwd:7538 GPONPassWord: T3TH012345
+get_hwversion:7604 Hw version: V1.0
+get_swverion:7649 Sw version: V1.0.07
+get_equitmentid:7690 DeviceType: T625Pro
+get_vendorid:7760 X_XX_X_PT_OMCIVendorId: HWTC
+get_vendorid:7773 tmpvendor: 48
+get_vendorid:7773 tmpvendor: 57
+get_vendorid:7773 tmpvendor: 54
+get_vendorid:7773 tmpvendor: 43
+get_vendorid:7781 VendorId: 48575443
+ponhwadpt_attr_get:842 cmd:801, obj_id:0
+ponhwadpt_attr_get:842 cmd:4, obj_id:0
+ponhw_get_loidinfo:9040 X_XX_UserInfo.UserName: 2001374923
+ponhwadpt_attr_get:842 cmd:24, obj_id:0
+ponhw_get_catv_rx_power:4122 catv rx power=0x0
+ponhwadpt_attr_get:842 cmd:26, obj_id:0
+ponhw_get_optical_vendor:4148 optival vendor=
+ponhwadpt_attr_set:191 cmd: 427, obj_id:0
+ponhw_set_voipcfg_method:9522 set_single_xml_value-InternetGatewayDevice.X_PT_PON_MANAGE.voipcfg.VOIPCfgMethod:1
+ponhwadpt_omcipktrx_reg:132 
+ponhwadpt_attr_set:191 cmd: 7, obj_id:0
+ponhw_set_loslampstate:3212 Set FH_LED_LOS LED_FLASH
+ponhwadpt_attr_set:191 cmd: 8, obj_id:0
+ponhw_set_ponlampstate:3247 Set FH_LED_PON LED_DOWN
+ponhwadpt_attr_get:842 cmd:145, obj_id:0
+ponhw_get_gpon_los_state:3629 ponhw_get_gpon_los_state: rxpower_tmp 1.000000
+ponhw_get_gpon_los_state:3640 ponhw_get_gpon_los_state: new rxpower -40.000000
+ponhwadpt_attr_set:191 cmd: 17, obj_id:0
+ponhw_fiberstatus_conf:10260 ponhw_fiberstatus_conf: 0
+ponhwadpt_attr_set:191 cmd: 1, obj_id:0
+ponhw_data_rxthread_init:253 
+get_gponsn_and_pwd:7499 X_XX_X_PT_GPONSN: T3TH177B0402
+get_gponsn_and_pwd:7502 GponSN: T3TH177B0402
+get_gponsn_and_pwd:7513 =====17
+get_gponsn_and_pwd:7513 =====7b
+get_gponsn_and_pwd:7513 =====4
+get_gponsn_and_pwd:7513 =====2
+get_gponsn_and_pwd:7528 X_XX_X_PT_ PonPassword: T3TH012345
+get_gponsn_and_pwd:7538 GPONPassWord: T3TH012345
+ponhw_chip_init:3115 GPON SN:
+ponhw_pktrecv_thread:210 msg_len: 48
+ponhw_chip_init:3123 54 ponhw_chip_init:3123 33 ponhw_chip_init:3123 54 ponhw_chip_init:3123 48 ponhw_chip_init:3123 17 ponhw_chip_init:3123 7b ponhw_chip_init:3123 4 ponhw_chip_init:3123 2 ponhw_chip_init:3126 GPON PWD:
+ponhw_chip_init:3134 54 ponhw_chip_init:3134 33 ponhw_chip_init:3134 54 ponhw_chip_init:3134 48 ponhw_chip_init:3134 30 ponhw_chip_init:3134 31 ponhw_chip_init:3134 32 ponhw_chip_init:3134 33 ponhw_chip_init:3134 34 ponhw_chip_init:3134 35 ponhw_chip_init:3137 
+ponhwadpt_attr_set:191 cmd: 25, obj_id:0
+ponhw_set_video_port_operate_state:9987 video operational state: 0

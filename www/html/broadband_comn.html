@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script language="javascript" src="../js/broadband_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="ponwan"></p>
+			<p class="main_header_hint" i18n="broadband_hint"></p>
+		</div>
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name" i18n="conn_name"></div>
+					<div class="main_item_content">
+						<select id="WanConnectName_select" class="main_select">
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="iporppp"></div>
+					<div class="main_item_content">
+						<select id="WanAddress_select">
+							<option value='IPoE' i18n="ipoe"></option>
+							<option value='PPPoE' i18n="pppoe"></option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="connmode"></div>
+					<div class="main_item_content">
+						<select id="WanConnectMode_select">
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="servicetype"></div>
+					<div class="main_item_content">
+						<select id="WanServiceList_select">
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="ipmode"></div>
+					<div class="main_item_content">
+						<select id="WanIP_Mode_select">
+						</select>
+					</div>
+				</div>
+				<div id="Address_PPPoE_Setting">
+					<div style="position:absolute; left:0px; top:0px; z-index:-1; width:0px; height:0px; border:0 none; opacity:0;">
+						<input name="WanUserName_text" type="text" style="position:absolute; left:0px; top:0px; padding:0px; z-index:-10; width:0px; height:0px; border:0 none;"/>
+						<input name="WanPassword_text" type="password" style="position:absolute; left:0px; top:0px; padding:0px; z-index:-10; width:0px; height:0px; border:0 none;"/>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="pppusername"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="WanUserName_text" name="WanUserName_text"/>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="ppppassword"></div>
+						<div class="main_item_content">
+							<div class="password_content">
+								<input type="password" autocomplete="off" id="WanPassword_text" name="WanPassword_text"/>
+								<div class="password_switch password_switch_unfocus"></div>
+							</div>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="dialtype"></div>
+						<div class="main_item_content">
+							<select id="dialMode_select">
+							<option value='AlwaysOn' i18n="autodial"></option>
+							<option value='OnDemand' i18n="ondemanddial"></option>
+							<option value='Manual' i18n="manual"></option>
+							</select>
+						</div>
+					</div>
+					<div class="main_item" id="idleDisconnectTime_Setting">
+						<div class="main_item_name" i18n="idletime"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="idleDisconnectTime_text" name="idleDisconnectTime_text"/>
+						</div>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="mtu"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="WanMTU_text" name="WanMTU_text"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="enablevlan"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="WanVlan_Enable"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item" id="VLAN_Setting">
+					<div class="main_item_name" i18n="vlanid"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="WanVlanID_text" name="WanVlanID_text"/>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="8021p"></div>
+					<div class="main_item_content">
+						<select id="Wan_802_1_P_select">
+							<option value='0'>0</option>
+							<option value='1'>1</option>
+							<option value='2'>2</option>
+							<option value='3'>3</option>
+							<option value='4'>4</option>
+							<option value='5'>5</option>
+							<option value='6'>6</option>
+							<option value='7'>7</option>
+						</select>
+					</div>
+				</div>
+				<div id="port_div">
+					<div class="main_item" id="lan_ports">
+						<div class="main_item_name" i18n="lanportbind"></div>
+						<div class="main_item_content">
+							<span id='LAN1enable' class='lanport'><input type='checkbox' name='portbind' value='eth0' id='Wan_Port_checkbox1'>LAN1</span>
+							<span id='LAN2enable' class='lanport'><input type='checkbox' name='portbind' value='eth1' id='Wan_Port_checkbox2'>LAN2</span>
+							<span id='LAN3enable' class='lanport'><input type='checkbox' name='portbind' value='eth2' id='Wan_Port_checkbox3'>LAN3</span>
+							<span id='LAN4enable' class='lanport'><input type='checkbox' name='portbind' value='eth3' id='Wan_Port_checkbox4'>LAN4</span>
+							<span id='LAN5enable' class='lanport'><input type='checkbox' name='portbind' value='eth4' id='Wan_Port_checkbox5'>LAN5</span>
+						</div>
+					</div>
+					<div class="main_item wifi_ports" id="wifi_ports_div1">
+						<div class="main_item_name" i18n="ssidportbind"></div>
+						<div class="main_item_content">
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox1'/>2G-SSID1</span>
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox2'/>2G-SSID2</span>
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox3'/>2G-SSID3</span>
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox4'/>2G-SSID4</span>
+						</div>
+					</div>
+					<div class="main_item wifi_ports" id="wifi_ports_div2">
+						<div class="main_item_name"></div>
+						<div class="main_item_content">
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox9'/>2G-SSID5</span>
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox10'/>2G-SSID6</span>
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox11'/>2G-SSID7</span>
+						<!-- 	<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox8'/>2G-SSID8</span> -->
+						</div>
+					</div>
+					<div class="main_item wifi_ports" id="wifi_ports_div3">
+						<div class="main_item_name"></div>
+						<div class="main_item_content">
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox5'/>5G-SSID1</span>
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox6'/>5G-SSID2</span>
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox7'/>5G-SSID3</span>
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox8'/>5G-SSID4</span>
+						</div>
+					</div>
+					<div class="main_item wifi_ports" id="wifi_ports_div4">
+						<div class="main_item_name"></div>
+						<div class="main_item_content">
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox13'/>5G-SSID5</span>
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox14'/>5G-SSID6</span>
+							<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox15'/>5G-SSID7</span>
+						<!-- 	<span class='wifiport'><input type='checkbox' name='portbind' id='Wan_SSID_checkbox16'/>5G-SSID8</span> -->
+						</div>
+					</div>	
+				</div>
+				<div id="IPv4_Settings">
+					<div class="main_item">
+						<div class="main_item_name"><b i18n="ipv4info"></b></div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="addrgettype"></div>
+						<div class="main_item_content">
+							<select id="WanIPv4Address_select">
+								<!--IPoE: DHCP/Static, PPPoE: PPPoE-->
+							</select>
+						</div>
+					</div>
+					<div id="IPv4_Address_Static_Settings">
+						<div class="main_item">
+							<div class="main_item_name" i18n="ipaddr"></div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="WanIPv4Address_text" name="WanIPv4Address_text"/>
+							</div>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name" i18n="subnetmask"></div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="WanSubmask_text" name="WanSubmask_text"/>
+							</div>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name" i18n="gatewayaddr"></div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="WanGateway_text" name="WanGateway_text"/>
+							</div>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name" i18n="primarydns"></div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="WanPri_DNS_text" name="WanPri_DNS_text"/>
+							</div>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name" i18n="secondarydns"></div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="WanSec_DNS_text" name="WanSec_DNS_text"/>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="IPv6_Settings">
+					<div class="main_item">
+						<div class="main_item_name"><b i18n="ipv6info"></b></div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="getprefix"></div>
+						<div class="main_item_content">
+							<input type="checkbox" id="WanPrefix_checkbox"/>&nbsp;
+						</div>
+					</div>
+					<div class="main_item" id="IPv6_Address_Prefix_Type_Tr">
+						<div class="main_item_name" i18n="prefixdelegation"></div>
+						<div class="main_item_content" id="PrefixMode_div">
+							<input type='radio' name='PrefixMode' id='PrefixModeAuto' value='PrefixDelegation'/>Auto&nbsp;&nbsp;
+							<input type='radio' name='PrefixMode' id='PrefixModeStatic' value='Static'/>Manual
+							<!--<select id='WanPrefix_select'>-->
+								<!--PrefixDelegation/Static(仅IPoE方式下显示)/PPPoE(仅PPPoE方式下显示)/None-->
+							<!--</select>-->
+						</div>
+					</div>
+					<div class="main_item" id="IPv6_Address_Prefix_Tr">
+						<div class="main_item_name" i18n="ipv6addrprefix"></div>
+						<div class="main_item_content">
+							<input type="text" class="input_text" autocomplete="off" id="WanIPv6Address_Pre_text" name="WanIPv6Address_Pre_text"/>
+						</div>
+					</div>
+					<!--DNS获取方式暂缺，隐藏-->
+					<div class="main_item" style="display:none">
+						<div class="main_item_name" i18n="dnsgettype"></div>
+						<div class="main_item_content">
+							<select id='WanIPv6DNS_select'>
+								<option value='WANConnection' i18n="wanconn"></option>
+								<option value='Static' i18n="static"></option>
+								<option value='HGWProxy' i18n="hgwproxy"></option>
+							</select>
+						</div>
+					</div>
+					<div class="main_item">
+						<div class="main_item_name" i18n="addrgettypeipv6"></div>
+						<div class="main_item_content">
+							<select id='WanIPv6Address_select'>
+								<!--AutoConfigured/DHCPv6/Static(PPPoE方式下不显示)/None-->
+							</select>
+						</div>
+					</div>
+					<div id="IPv6_Address_Static_Settings">
+						<div class="main_item">
+							<div class="main_item_name" i18n="ipv6addr"></div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="WanIPv6Address_text" name="WanIPv6Address_text"/>
+							</div>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name" i18n="defaultipv6gateway"></div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="WanIPv6_Gateway_text" name="WanIPv6_Gateway_text"/>
+							</div>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name" i18n="ipv6primarydns"></div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="WanIPv6Pri_DNS_text" name="WanIPv6Pri_DNS_text"/>
+							</div>
+						</div>
+						<div class="main_item">
+							<div class="main_item_name" i18n="ipv6secondarydns"></div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="WanIPv6Sec_DNS_text" name="WanIPv6Sec_DNS_text"/>
+							</div>
+						</div>
+					</div>
+					<div id="IPv6_Dslite_Settingstotal">
+						<div class="main_item">
+							<div class="main_item_name" i18n="enabledslite"></div>
+							<div class="main_item_content">
+								<input type="checkbox" id="WanDslite_checkbox"/>&nbsp;
+							</div>
+						</div>
+						<div class="main_item" id="aftr_check_div">
+							<div class="main_item_name" i18n="aftrmanualconfig"></div>
+							<div class="main_item_content">
+								<input type="checkbox" id="aftr_checkbox"/>&nbsp;
+							</div>
+						</div>
+						<div class="main_item" id="aftr_value_div">
+							<div class="main_item_name" i18n="aftr"></div>
+							<div class="main_item_content">
+								<input type="text" class="input_text" autocomplete="off" id="aftr_text" name="aftr_text"/>(FQDN)
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main_save" id="tr69_wan_hint" style="display:none" i18n="donotmodifytr69wan"></div>
+			<div class="main_save">
+				<input type="button" class="input_button" id="save_button" onclick="saveApply()" i18n="save" i18n-set="value"/>
+				<input type="button" class="input_button" id="delete_button" onclick="deleteWan()" id="delete_button" i18n="delete" i18n-set="value"/>
+			</div>
+	</body>
+</html>

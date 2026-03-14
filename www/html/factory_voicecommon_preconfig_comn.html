@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/factory_voicecommon_preconfig_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<form id="voice_form">
+			<div class="main_content">
+				<div class="main_item"><b>关键配置</b></div>
+				<div class="main_item">
+					<div class="main_item_name">线路1使能</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="Enable1"/>0:不使能;1:使能 (默认0)
+					</div>
+				</div>
+				<div class="main_item line2_item">
+					<div class="main_item_name">线路2使能</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="Enable2"/>0:不使能;1:使能 (默认0)
+					</div>
+				</div>
+				
+				<div class="main_item"><b>线路1编码优先级</b></div>
+				<div class="main_item">
+					<div class="main_item_name">PCMU(G711U)的优先级</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="G711UPriority1"/>1~6(不可与其他编码优先级重复),默认2
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">PCMA(G711A)的优先级</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="G711APriority1"/>1~6(不可与其他编码优先级重复),默认1
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">G729的优先级</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="G729Priority1"/>1~6(不可与其他编码优先级重复),默认3
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">G726的优先级</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="G726Priority1"/>1~6(不可与其他编码优先级重复),默认5
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">G723的优先级</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="G723Priority1"/>1~6(不可与其他编码优先级重复),默认6
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">G722的优先级</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="G722Priority1"/>1~6(不可与其他编码优先级重复),默认4
+					</div>
+				</div>
+				
+				<div class="main_item"><b>线路1媒体参数</b></div>
+				<div class="main_item">
+					<div class="main_item_name">发送增益</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="TransmitGain1"/>-14~14 (默认0)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">接收增益</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="ReceiveGain1"/>-14~14 (默认0)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">舒适噪音</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="CNGEnable1"/>0关闭;1开启 (默认1)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">静音压缩</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="SilenceSuppression1"/>0关闭;1开启 (默认0)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">回声抑制</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="EchoCancellationEnable1"/>0关闭;1开启 (默认1)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">拨号方式</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="L1_dialmode"/>0:DTMF;1:脉冲;2自适应 (默认0)
+					</div>
+				</div>
+				
+				
+				<div class="main_item line2_item"><b>线路2编码优先级</b></div>
+				<div class="main_item line2_item">
+					<div class="main_item_name">PCMU(G711U)的优先级</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="G711UPriority2"/>1~6(不可与其他编码优先级重复),默认2
+					</div>
+				</div>
+				<div class="main_item line2_item">
+					<div class="main_item_name">PCMA(G711A)的优先级</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="G711APriority2"/>1~6(不可与其他编码优先级重复),默认1
+					</div>
+				</div>
+				<div class="main_item line2_item">
+					<div class="main_item_name">G729的优先级</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="G729Priority2"/>1~6(不可与其他编码优先级重复),默认3
+					</div>
+				</div>
+				<div class="main_item line2_item">
+					<div class="main_item_name">G726的优先级</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="G726Priority2"/>1~6(不可与其他编码优先级重复),默认5
+					</div>
+				</div>
+				<div class="main_item line2_item">
+					<div class="main_item_name">G723的优先级</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="G723Priority2"/>1~6(不可与其他编码优先级重复),默认6
+					</div>
+				</div>
+				<div class="main_item line2_item">
+					<div class="main_item_name">G722的优先级</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="G722Priority2"/>1~6(不可与其他编码优先级重复),默认4
+					</div>
+				</div>
+				
+				<div class="main_item line2_item"><b>线路2媒体参数</b></div>
+				<div class="main_item line2_item">
+					<div class="main_item_name">发送增益</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="TransmitGain2"/>-14~14 (默认0)
+					</div>
+				</div>
+				<div class="main_item line2_item">
+					<div class="main_item_name">接收增益</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="ReceiveGain2"/>-14~14 (默认0)
+					</div>
+				</div>
+				<div class="main_item line2_item">
+					<div class="main_item_name">舒适噪音</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="CNGEnable2"/>0关闭;1开启 (默认1)
+					</div>
+				</div>
+				<div class="main_item line2_item">
+					<div class="main_item_name">静音压缩</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="SilenceSuppression2"/>0关闭;1开启 (默认0)
+					</div>
+				</div>
+				<div class="main_item line2_item">
+					<div class="main_item_name">回声抑制</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="EchoCancellationEnable2"/>0关闭;1开启 (默认1)
+					</div>
+				</div>
+				<div class="main_item line2_item">
+					<div class="main_item_name">拨号方式</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="L2_dialmode"/>0:DTMF;1:脉冲;2自适应 (默认0)
+					</div>
+				</div>
+				
+				<div class="main_item"><b>媒体控制</b></div>
+				<div class="main_item">
+					<div class="main_item_name">媒体DSCP</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="SIPDSCPMark"/>0~63 (默认46)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">信令DSCP</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="RTPDSCPMark"/>0~63 (默认46)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">T.38使能</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="FaxT38Enable"/>0:去使能;1:使能 (默认:0)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">透传传真使能</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="FaxPassThroughEnable"/>0:去使能;1:使能 (默认:1)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">透传传真模式</div>
+					<div class="main_item_content" style="max-width:600px;">
+						<input type="text" class="input_text" autocomplete="off" id="G711FAXControlType"/>all:全控(协商);other:自动(自协商)-(默认all)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">DTMF方式</div>
+					<div class="main_item_content" style="max-width:600px;">
+						<input type="text" class="input_text" autocomplete="off" id="DTMFMethod"/>InBand;RFC2833;INFO(仅针对SIP)-(默认InBand)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">电话事件负载类型</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="TelephoneEventPayloadType"/>默认97
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">静态jitterbuffer使能</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="staticJutterBufferEnable"/>0:关闭;1:开启 (默认:0)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">静态jitterbuffer</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="staticJutterBufferTime"/>默认80
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">自适应jitterbuffer使能</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="adaptiveJutterBufferEnable"/>0:关闭;1:开启 (默认:1)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">拍叉簧最小时间</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="FlashMin"/>默认200
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">拍叉簧最大时间</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="FlashMax"/>默认500
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">时间强制同步开关</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="bEnabledate"/>0:不强制;1:强制 (默认0)
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" value="保存" onclick="saveApply()"/>
+			</div>
+		</form>
+	</body>
+</html>

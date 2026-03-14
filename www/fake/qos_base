@@ -1,0 +1,8 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"qos":	{
+		"Enable":	"1",
+		"Mode":	"TR069,VOIP,IPTV,INTERNET"
+	}
+}

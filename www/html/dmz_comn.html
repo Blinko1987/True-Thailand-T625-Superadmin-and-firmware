@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+        <script language="javascript" src="../js/dmz_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="dmzset"></p>
+			<p class="main_header_hint" i18n="dmz_hint"></p>
+		</div>
+		<form id="dmz_form">
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name" i18n="enabledmz"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="DMZEnable_checkbox" onclick="controlenordisable()"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="ipaddr"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" name="DMZ_text" id="DMZ_text"/>
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" onclick="saveApply()" i18n="save" i18n-set="value"/>
+			</div>
+		</form>
+	</body>
+</html>

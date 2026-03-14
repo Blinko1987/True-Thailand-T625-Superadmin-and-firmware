@@ -1,0 +1,5 @@
+
+config key 'boot_key'
+	option encryflag '0'
+	option value '0'
+

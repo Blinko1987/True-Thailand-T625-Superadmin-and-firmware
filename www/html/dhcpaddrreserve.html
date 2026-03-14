@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+        <script language="javascript" src="../js/dhcpaddrreserve.js"></script>
+		</script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="dhcpaddrreserve"></p>
+			<p class="main_header_hint"><span i18n="dhcpaddrreservehint1"></span><span id="maxnum"></span><span i18n="dhcpaddrreservehint2"></span></p>
+		</div>
+		<div id="add_div" style="display:none">
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name" i18n="macaddress"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" id="add_mac_text" name="add_mac_text"/>
+					</div>
+				</div>
+				
+				<div class="main_item">
+					<div class="main_item_name" i18n="ipaddr"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" id="add_ip_text" name="add_ip_text"/>
+					</div>
+				</div>
+			</div>
+		
+			<div class="main_save">
+				<input type="button" class="input_button" i18n="add" i18n-set="value" onclick="doAdd()"/>
+			</div>
+		</div>
+		<br/>
+		<!--<label><b i18n="addrreservelist"></b></label>
+		<br/>-->
+		<table class="tablemedium" style="margin:auto" cellspacing="0" cellpadding="3px" border="1px">
+			<tr class="table-header">
+				<th colspan="4" i18n="dhcpaddrreservelist"></th>
+			</tr>
+			<tr class="another-table-header">
+				<td width="20%" i18n="index"></td>
+				<td width="30%" i18n="macaddress"></td>
+				<td width="30%" i18n="ipaddr"></td>
+				<td width="20%" i18n="operate"></td>
+			</tr>
+			<tbody id="dhcpaddr_list">
+			</tbody>
+		</table>
+	</body>
+</html>

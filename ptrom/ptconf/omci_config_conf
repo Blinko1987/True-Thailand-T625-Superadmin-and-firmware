@@ -1,0 +1,3 @@
+config key 'InitialState'
+	option value 'standby'
+		option encryflag '0'

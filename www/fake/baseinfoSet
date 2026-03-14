@@ -1,0 +1,37 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"factory_data":	{
+		"factory_mode":	1,
+		"wifi_enable":	1,
+		"compiletime":	"Linux OpenWrt 3.14.25 #1 SMP PREEMPT Mon Jun 6 23:28:22 CST 2016 armv7l GNU/Linux"
+,
+		"SoftwareVersion":	"E80D1.00",
+		"HardwareVersion":	"HS.V1.0",
+		"ManufacturerOUI":	"000AC2",
+		"ExternalNumber":	"",
+		"HardwareDiskNumber":	"BCM.V6F0001",
+		"SerialNumber":	"00000013181",
+		"result":	"99",
+		"admin_name":	"telecomadmin",
+		"admin_password":	"nE7jA%5m",
+		"user_name":	"useradmin",
+		"usre_password":	"bfwsolutions",
+		"InternetMac":	"00:00:AF:BE:CD:01",
+		"InternetMacEnable":	"1",
+		"Tr069Mac":	"00:00:AF:BE:CD:02",
+		"Tr069MacEnable":	"1",
+		"VoIPMac":	"00:00:AF:BE:CD:03",
+		"VoIPMacEnable":	"1",
+		"PriProtocolMac":	"00:00:AF:BE:CD:04",
+		"PriProtocolMacEnable":	"1",
+		"APMAC_1":	"00:0A:C2:D6:00:00",
+		"APMAC_2":	"00:0A:C2:D6:00:01",
+		"PONMac":	"00:00:AF:BE:CD:06",
+		"GponSN":	"4648545400244D02",
+		"GPONPassWord":	"48473236303132333435",
+		"pon_flag":	"EPON",
+		"brmac":	"00:01:AF:BE:CD:04",
+		"ImageID":	""
+	}
+}

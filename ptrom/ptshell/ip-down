@@ -1,0 +1,28 @@
+#!/bin/sh
+
+fpath=/var/run
+interface_name="$1"
+tty_device="$2"
+RM="rm -f"
+local_IP_address="0.0.0.0"
+remote_IP_address="$5"
+
+export PATH=/home/bin:/home/scripts:/opt/bin:/bin:/sbin:/usr/bin:/usr/local/jamvm/bin:/opt/scripts:/usr/sbin:/opt/bin:/opt/sbin:/opt/usr/bin:/opt/usr/sbin:/ptrom/bin:/userfs/bin
+export LD_LIBRARY_PATH=/lib:/lib/gpl:/lib64/gpl:/lib64:/ptrom/lib
+
+#dbus-send --session --type=method_call --print-reply --dest=com.fiberhome.servicemgr /fiberhomeBS/pppoeObject pppoe.interface.handle_pppoe_notify string:"$interface_name" string:"$tty_device" string:"0.0.0.0" string:"$remote_IP_address" string:"$DNS1" string:"$DNS2"
+
+iptables -D FORWARD  -i  ${interface_name}  -p tcp --tcp-flags SYN,RST  SYN  -j TCPMSS --clamp-mss-to-pmtu
+iptables -D  FORWARD -o ${interface_name} -p tcp --tcp-flags SYN,RST  SYN  -j TCPMSS --clamp-mss-to-pmtu
+iptables -D  OUTPUT -o ${interface_name} -p tcp --tcp-flags SYN,RST  SYN  -j TCPMSS --clamp-mss-to-pmtu
+
+ubus call pppoe notify "{\"interface\":\"$interface_name\",\"tty_device\":\"$tty_device\",\"ip\":\"$local_IP_address\",\"route\":\"$remote_IP_address\",\"dns1\":\"$DNS1\",\"dns2\":\"$DNS2\"}"
+
+if [ "$LINKNAME" == "all" ];then
+	FILE="${fpath}/tr069_${tty_device}_${interface_name}.info ${fpath}/voip_${tty_device}_${interface_name}.info"
+	${RM} ${FILE}
+else
+	FILE="${fpath}/${LINKNAME}_${tty_device}_${interface_name}.info"
+	${RM} ${FILE}
+fi
+

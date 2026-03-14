@@ -1,0 +1,5 @@
+
+config key 'restoretype'
+	option value '0'
+	option encryflag '0'
+

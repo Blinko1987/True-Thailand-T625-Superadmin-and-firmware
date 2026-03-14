@@ -1,0 +1,9 @@
+{
+	"success":	"true",
+	"wifi_enable":	1,
+	"wifi_5g_enable":	1,
+	"voice_port_num":	1,
+	"lan_port_num":	4,
+	"usb_port_num":	1,
+	"area_code":	"Trunk"
+}

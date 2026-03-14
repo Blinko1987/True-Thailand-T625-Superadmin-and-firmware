@@ -1,0 +1,26 @@
+[Thu Jan  1 00:01:18 1970][wifictl][INFO]mtk_stop_mesh_map
+[Thu Jan  1 00:01:25 1970][wifictl][INFO]mtk_load_thermal_protection_param finish
+[Thu Jan  1 00:01:25 1970][wifictl][INFO]set_thermal_protection_config finish
+[Thu Jan  1 00:01:25 1970][wifictl][INFO]mtk_process_thermal_protection_method end
+[Thu Jan  1 00:01:25 1970][wifictl][INFO]killall -9 wapp 
+[Thu Jan  1 00:01:25 1970][wifictl][INFO]cp -rf /usr/script/core_dump.sh /tmp/wappd_core_dump.sh 
+[Thu Jan  1 00:01:25 1970][wifictl][INFO]/userfs/bin/wapp > /dev/null 2>&1 & 
+[Thu Jan  1 00:01:25 1970][wifictl][INFO]/tmp/wappd_core_dump.sh 
+[Thu Jan  1 00:01:25 1970][wifictl][INFO]mtk_start_wapp
+[Thu Jan  1 00:01:25 1970][wifictl][INFO]start meshcontroller
+[Thu Jan  1 00:01:25 1970][wifictl][INFO]********event->type = 0**********
+[Thu Jan  1 00:01:28 1970][wifictl][INFO]killall -9 p1905_managerd 
+[Thu Jan  1 00:01:28 1970][wifictl][INFO]cp -rf /usr/script/core_dump.sh /tmp/p1905_core_dump.sh 
+[Thu Jan  1 00:01:28 1970][wifictl][INFO]/userfs/bin/p1905_managerd -r0 -f /etc/map_cfg.txt -F /etc/wts_bss_info_config > /dev/null 2>&1 & 
+[Thu Jan  1 00:01:28 1970][wifictl][INFO]/tmp/p1905_core_dump.sh 
+[Thu Jan  1 00:01:28 1970][wifictl][INFO]********event->type = 11**********
+[Thu Jan  1 00:01:29 1970][wifictl][INFO]********event->type = 1**********
+[Thu Jan  1 00:01:29 1970][wifictl][INFO]killall -9 mapd 
+[Thu Jan  1 00:01:29 1970][wifictl][INFO]cp -rf /usr/script/core_dump.sh /tmp/mapd_core_dump.sh 
+[Thu Jan  1 00:01:29 1970][wifictl][INFO]/userfs/bin/mapd -I /etc/mapd_cfg.txt -O /etc/mapd_strng.conf > /dev/null 2>&1 & 
+[Thu Jan  1 00:01:29 1970][wifictl][INFO]/tmp/mapd_core_dump.sh 
+[Thu Jan  1 00:01:29 1970][wifictl][INFO]mtk_init_mapd
+[Thu Jan  1 00:01:32 1970][wifictl][INFO]********event->type = 2**********
+[Thu Jan  1 00:01:32 1970][wifictl][INFO]mtk_disconnect_all_sta
+[Thu Jan  1 00:01:32 1970][wifictl][INFO]********event->type = 9**********
+[Thu Jan  1 00:01:32 1970][wifictl][INFO]mtk_meshfinish ubus send mesh_finished '{"meshfinish":"1"}' 

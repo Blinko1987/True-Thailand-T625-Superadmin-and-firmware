@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+        <script language="javascript" src="../js/portmapping_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="virtualserverset"></p>
+			<p class="main_header_hint" i18n="virtualserver_hint"></p>
+		</div>
+		<form id="portmapping_list_form">
+			<br/>
+			<table width="100%" style="margin:auto" cellspacing="0" cellpadding="3px" border="1px">
+				<tr class="table-header">
+					<th colspan="9" i18n="virtualserverlist"></th>
+				</tr>
+				<tr class="another-table-header">
+					<td width="15%" i18n="networkconn"></td>
+					<td width="10%" i18n="externalportstart"></td>
+					<td width="10%" i18n="externalportend"></td>
+					<td width="10%" i18n="protocol"></td>
+					<td width="10%" i18n="internalip"></td>
+					<td width="10%" i18n="internalportstart"></td>
+					<td width="10%" i18n="internalportend"></td>
+					<td width="8%" i18n="status"></td>
+					<td width="17%" i18n="operate"></td>
+				</tr>
+				<tbody id="portmapping_list">
+				</tbody>
+			</table>
+		</form>
+		<form id="portmapping_form">
+			<div class="div_between_form"></div>
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name" i18n="networkconn"></div>
+					<div class="main_item_content">
+						<select id="WANselect_select">
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="externalportstart"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" name="ExternalPortStart_text" id="ExternalPortStart_text">
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="externalportend"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" name="ExternalPortEnd_text" id="ExternalPortEnd_text">
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="protocol"></div>
+					<div class="main_item_content">
+						<select id='PortMappingProtocol_select'>
+							<option value='TCP'>TCP</option>
+							<option value='UDP'>UDP</option>
+							<option value='BOTH'>TCP/UDP</option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="internalip"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" name="InternalClient_text" id="InternalClient_text">
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="internalportstart"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" name="InternalPortStart_text" id="InternalPortStart_text">
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="internalportend"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" name="InternalPortEnd_text" id="InternalPortEnd_text">
+					</div>
+				</div>
+			</div>
+			<div class="main_save_top_0">
+				<input type="button" class="input_button" onclick="doAdd()" i18n="add" i18n-set="value"/>
+			</div>
+			<br/>
+		</form>
+	</body>
+</html>

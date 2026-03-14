@@ -1,0 +1,66 @@
+[Thu Jan  1 00:00:26 1970][devfunc][DEBUG]#####app_lib_init!!!!
+[Thu Jan  1 00:00:26 1970][devfunc][DEBUG]In deviceInfo_objOp url = InternetGatewayDevice.DeviceInfo., Action = 3
+[Thu Jan  1 00:00:26 1970][devfunc][DEBUG]start wancc_dev: url=InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.,op=3!
+[Thu Jan  1 00:00:26 1970][devfunc][DEBUG]start wancc_dev: url=InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.,op=3!
+[Thu Jan  1 00:00:26 1970][devfunc][DEBUG]In manageser_objOp url = InternetGatewayDevice.ManagementServer., Action = 3
+[Thu Jan  1 00:00:26 1970][devfunc][DEBUG]In manageser_objOp url = InternetGatewayDevice.ManagementServer., Action = 3
+[Thu Jan  1 00:00:26 1970][devfunc][DEBUG]In manageser_objOp url = InternetGatewayDevice.ManagementServer., Action = 3
+[Thu Jan  1 00:00:26 1970][devfunc][DEBUG]In manageser_objOp url = InternetGatewayDevice.ManagementServer., Action = 3
+[Thu Jan  1 00:00:26 1970][devfunc][DEBUG]In manageser_objOp url = InternetGatewayDevice.ManagementServer., Action = 3
+[Thu Jan  1 00:00:26 1970][devfunc][DEBUG]In manageser_objOp url = InternetGatewayDevice.ManagementServer., Action = 3
+[Thu Jan  1 00:00:26 1970][devfunc][DEBUG]In manageser_objOp url = InternetGatewayDevice.ManagementServer., Action = 3
+[Thu Jan  1 00:00:26 1970][devfunc][DEBUG]In manageser_objOp url = InternetGatewayDevice.ManagementServer., Action = 3
+[Thu Jan  1 00:00:26 1970][devfunc][DEBUG]In manageser_objOp url = InternetGatewayDevice.ManagementServer., Action = 3
+[Thu Jan  1 00:00:26 1970][devfunc][DEBUG]In manageser_objOp url = InternetGatewayDevice.ManagementServer., Action = 3
+[Thu Jan  1 00:00:26 1970][devfunc][DEBUG]In manageser_objOp url = InternetGatewayDevice.ManagementServer., Action = 3
+[Thu Jan  1 00:00:26 1970][devfunc][DEBUG]In manageser_objOp url = InternetGatewayDevice.ManagementServer., Action = 3
+[Thu Jan  1 00:00:26 1970][devfunc][DEBUG]In manageser_objOp url = InternetGatewayDevice.ManagementServer., Action = 3
+[Thu Jan  1 00:00:26 1970][devfunc][DEBUG]In userInfo_objOp url = InternetGatewayDevice.X_CT-COM_UserInfo., Action = 3
+[Thu Jan  1 00:00:26 1970][devfunc][DEBUG]In userInfo_objOp url = InternetGatewayDevice.X_CT-COM_UserInfo., Action = 3
+[Thu Jan  1 00:00:26 1970][devfunc][DEBUG]name:loid_reg_ok
+[Thu Jan  1 00:00:26 1970][devfunc][DEBUG]start wancc_dev: url=InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.,op=3!
+[Thu Jan  1 00:00:27 1970][devfunc][DEBUG]start
+[Thu Jan  1 00:00:27 1970][devfunc][DEBUG]true_loid_objop 
+[Thu Jan  1 00:00:27 1970][devfunc][DEBUG]true_loid_objop 
+[Thu Jan  1 00:00:27 1970][devfunc][DEBUG]In deviceInfo_objOp url = InternetGatewayDevice.DeviceInfo., Action = 3
+[Thu Jan  1 00:00:27 1970][devfunc][DEBUG]In deviceInfo_objOp url = InternetGatewayDevice.DeviceInfo., Action = 3
+[Thu Jan  1 00:00:27 1970][devfunc][DEBUG]In userInfo_objOp url = InternetGatewayDevice.X_CT-COM_UserInfo., Action = 3
+[Thu Jan  1 00:00:27 1970][devfunc][DEBUG]name:RXPower
+[Thu Jan  1 00:00:27 1970][devfunc][DEBUG]name:RXPower value:0
+[Thu Jan  1 00:00:27 1970][devfunc][DEBUG]name:OptVendor
+[Thu Jan  1 00:00:27 1970][devfunc][DEBUG]name:VOIPCfgMethod
+[Thu Jan  1 00:00:28 1970][devfunc][DEBUG]#####app_lib_init!!!!
+[Thu Jan  1 00:00:28 1970][devfunc][DEBUG]name:fiber_state
+[Thu Jan  1 00:00:28 1970][devfunc][DEBUG]true_loid_objop 
+[Thu Jan  1 00:00:28 1970][devfunc][DEBUG]true_loid_objop 
+[Thu Jan  1 00:00:37 1970][devfunc][DEBUG]In deviceInfo_objOp url = InternetGatewayDevice.DeviceInfo., Action = 3
+[Thu Jan  1 00:00:38 1970][devfunc][DEBUG]#####app_lib_init!!!!
+[Thu Jan  1 00:00:38 1970][devfunc][DEBUG]#####app_lib_init!!!!
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]#####app_lib_init!!!!
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]In deviceInfo_objOp url = InternetGatewayDevice.DeviceInfo., Action = 3
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]wlan_getobj_TRUE_bandsteering:1522 index=1
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]wlan_getobj_TRUE_bandsteering:1532 index=1, name=Active, active=0
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]wlan_getobj_TRUE_bandsteering:1536 index=1, name=Active, value=0
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]wlan_getobj_TRUE_bandsteering:1522 index=5
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]wlan_getobj_TRUE_bandsteering:1532 index=5, name=Active, active=0
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]wlan_getobj_TRUE_bandsteering:1536 index=5, name=Active, value=0
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]#####wlan_objOp!!!!op_type = 3
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]#####wlan_objOp!!!!url = InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]#####wlan_objOp wlanObjIndex = 1
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]get_wlan_ssidno_by_index ssidno:1 band:1
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]SSID_name: TrueGigatexFiber_2.4G_8AA
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]AutoChannelEnable=1
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]#####wlan_objOp end, ret = 0
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]#####wlan_objOp!!!!op_type = 3
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]#####wlan_objOp!!!!url = InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]#####wlan_objOp wlanObjIndex = 5
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]get_wlan_ssidno_by_index ssidno:1 band:0
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]SSID_name: TrueGigatexFiber_5G_8AA
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]AutoChannelEnable=1
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]Channel=149
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]#####wlan_objOp end, ret = 0
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]#####wlan_objOp!!!!op_type = 3
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]#####wlan_objOp!!!!url = InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]#####wlan_objOp wlanObjIndex = 5
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]get_wlan_ssidno_by_index ssidno:1 band:0
+[Thu Jan  1 00:01:25 1970][devfunc][DEBUG]#####wlan_objOp end, ret = 0

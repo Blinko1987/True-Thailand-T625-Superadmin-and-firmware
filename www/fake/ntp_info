@@ -1,0 +1,15 @@
+{
+	"success":	"true",
+	"session_valid":	1,
+	"ntp":	{
+		"date":	"Tue May 31 14:48:41 UTC 2016",
+		"Enable":	"1",
+		"NTPServerType":	"0",
+		"NTPInterval":	"86400",
+		"NTPServer1":	"time.windows.com",
+		"NTPServer2":	"time.nist.gov",
+		"NTPServer3":	"",
+		"NTPServer4":	"",
+		"NTPServer5":	""
+	}
+}

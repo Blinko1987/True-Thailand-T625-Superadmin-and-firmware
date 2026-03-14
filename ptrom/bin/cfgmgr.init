@@ -1,0 +1,27 @@
+#!/bin/sh /etc/rc.common
+# /init.d/cfgmgr
+START=40
+PT_COMMON_CONF=/ptrom/ptconf/pt_common_conf
+source $PT_COMMON_CONF
+
+start() {
+    ROM_PATH=/ptrom/ptconf/
+    USR_CONFIG_FILE=usrconfig_conf
+    ATTR_CONFIG_FILE=attrconfig_conf
+	
+    #copy config file from /ptrom/ptconf to /ptconf, when restore with factory mode
+    if [ -f $CFGMGR_CONF_PATH_CFGMGR_RESTORE_FLAG ] ; then
+        restore_type=`uci get -c $BASEFILE_PTCONF_PATH cfgmgr_restore_flag_conf.restoretype.value`
+        if [ "$restore_type" == "4"  ]; then
+            cp -rf $ROM_PATH$USR_CONFIG_FILE $BASEFILE_PTCONF_PATH$USR_CONFIG_FILE
+            cp -rf $ROM_PATH$ATTR_CONFIG_FILE $BASEFILE_PTCONF_PATH$ATTR_CONFIG_FILE
+            #rm -rf $CFGMGR_CONF_PATH_USRCONFIG_DL
+        fi
+    fi
+		
+    $CFGMGR_BIN_PATH_CFGMGR -L 4 >/dev/null 2>&1 &
+}
+
+stop() {
+        service_stop $CFGMGR_BIN_PATH_CFGMGR
+}

@@ -1,0 +1,37 @@
+#!/bin/sh
+#
+# init  precfg
+#
+# Clearing the console to fullscreen
+clear
+echo "
+##########            ###############          #                                 #       
+############          ###############          #                                 #          
+##############        ##                       ##                               ##      
+#############         ##                       ###             ##              ###      
+###########           ##############           ####           ##  ##          ####        
+##############        ##############           ######        ##    ##        #####      
+###############       ##                       ######      ##       ##      ######       
+#############         ##                       #######    ##         ###   #######    
+###########           ##                       ########  ##           ##  ########    
+######                ##                       ###########             ###########      
+"
+> /etc/resolv.conf
+> /etc/resolv_tr069.conf
+> /etc/resolv_voip.conf
+
+# /bin/ubusd &
+
+
+#net driver
+#if [ -e "/ptdata/factorymodeflag" ]; then
+#	echo "factory mode do nothing.\n"
+#else
+# insmod /ptrom/lib/ptdrv_user_limit.ko
+# insmod /ptrom/lib/maxnetdpi.ko
+#fi
+
+if [ -e "/etc/init.d/save_pstore_file.sh" ]; then
+. /etc/init.d/save_pstore_file.sh
+fi
+. /usr/etc/init.d/rcS3

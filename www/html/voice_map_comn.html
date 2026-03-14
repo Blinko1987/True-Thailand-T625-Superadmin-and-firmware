@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<link href='../css/main_style_ct.css' rel='stylesheet' type='text/css'/>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/voice_map_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.voice_map"></p>
+			<p class="main_header_hint" i18n="voicemap_hint"></p>
+		</div>
+		<form id="voice_map_form">
+		<div class="main_item sip_item" i18n="specificnumberset"></div>
+			<div class="main_item sip_item">
+				<div class="main_item_name" i18n="enablespecificnumber"></div>
+				<div class="main_item_content">
+					<input type="checkbox" id="SpecialMapEnable_checkbox"/>&nbsp;
+				</div>
+			</div>
+
+			<div class="main_item ims_item">
+				<div class="main_item_name" i18n="specificnumber"></div>
+				<div class="main_item_content">
+					<input type="text" class="input_text" autocomplete="off" id="SpecialMap_textarea" maxLength="150" name="SpecialMap_textarea"/>(Length:150)</input>
+				</div>
+			</div>
+				<div class="main_item sip_item" i18n="pbxset"></div>
+				<div class="main_item sip_item">
+					<div class="main_item_name" i18n="enablepbx"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="PBXMapEnable_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item sip_item">
+					<div class="main_item_name" i18n="externallineprefix"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="PBXoutMap_textarea" maxLength="20" name="PBXoutMap_textarea"/>(Length:20)</input>
+					</div>
+				</div>
+				<div class="main_item sip_item">
+					<div class="main_item_name" i18n="internallineprefix"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="PBXinMap_textarea" maxLength="20" name="PBXinMap_textarea"/>(Length:20)</input>
+					</div>
+				</div>				
+				
+				<div class="main_item sip_item" i18n="normaldigitmapset"></div>
+				<div class="main_item sip_item">
+					<div class="main_item_name" i18n="enablebasicdigitmap"></div>
+					<div class="main_item_content">
+						<input type="checkbox" id="DigitMapEnable_checkbox"/>&nbsp;
+					</div>
+				</div>
+				<div class="main_item h248_item">
+				<div class="main_item_name" i18n="basicdigitmap"></div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="DigitMap_textarea" name="DigitMap_textarea"/>(Length:1024)</input>
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" onclick="saveApply()" i18n="save" i18n-set="value"/>
+			</div>
+		</form>
+	</body>
+</html>

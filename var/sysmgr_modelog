@@ -1,0 +1,48 @@
+[Thu Jan  1 00:00:20 1970][sysmgr][DEBUG]hardware config:0x0.
+[Thu Jan  1 00:00:20 1970][sysmgr][DEBUG]hwcfg_path=/ptrom/ptconf/device_info/hwcfg hwcfg_str=0.
+[Thu Jan  1 00:00:20 1970][sysmgr][DEBUG]cmd=cp -f "/ptrom/ptconf/device_info/WAG-M42_1G" /var/deviceinfo.
+[Thu Jan  1 00:00:20 1970][sysmgr][DEBUG]device carrier :1
+[Thu Jan  1 00:00:20 1970][sysmgr][DEBUG]my_aes_decrypt:2129 nBei:3 
+[Thu Jan  1 00:00:20 1970][sysmgr][DEBUG]pt_sys_mgr_check_license license check ok.
+[Thu Jan  1 00:00:20 1970][sysmgr][DEBUG]process list path:/ptrom/ptconf/process_start_list.
+[Thu Jan  1 00:00:20 1970][sysmgr][DEBUG]creat process_start thread.
+[Thu Jan  1 00:00:20 1970][sysmgr][DEBUG]creat process_monitor thread.
+[Thu Jan  1 00:00:20 1970][sysmgr][ERR]not find process from process_list .
+[Thu Jan  1 00:00:23 1970][sysmgr][DEBUG]start process: ptcfg_load /ptrom/ptconf/param_ct.xml, ready:false
+[Thu Jan  1 00:00:23 1970][sysmgr][DEBUG]start process: cfgmgr &, ready:true
+[Thu Jan  1 00:00:23 1970][sysmgr][DEBUG]fh_sys_mgr_get_wlan_ssid_num call fh_sys_mgr_uci_get_config fail.
+[Thu Jan  1 00:00:23 1970][sysmgr][DEBUG]fh_sys_mgr_get_wlan_ssid_num call fh_sys_mgr_uci_get_config fail.
+[Thu Jan  1 00:00:23 1970][sysmgr][DEBUG]fh_sys_mgr_get_wlan_ssid_num call fh_sys_mgr_uci_get_config fail.
+[Thu Jan  1 00:00:23 1970][sysmgr][DEBUG]fh_sys_mgr_get_wlan_beacontype_num call fh_sys_mgr_uci_get_config fail.
+[Thu Jan  1 00:00:23 1970][sysmgr][DEBUG]fh_sys_mgr_get_wlan_ssid_num call fh_sys_mgr_uci_get_config fail.
+[Thu Jan  1 00:00:23 1970][sysmgr][DEBUG]fh_sys_mgr_get_wlan_ssid_num call fh_sys_mgr_uci_get_config fail.
+[Thu Jan  1 00:00:23 1970][sysmgr][DEBUG]fh_sys_mgr_get_wlan_ssid_num call fh_sys_mgr_uci_get_config fail.
+[Thu Jan  1 00:00:23 1970][sysmgr][DEBUG]fh_sys_mgr_get_wlan_beacontype_num call fh_sys_mgr_uci_get_config fail.
+[Thu Jan  1 00:00:23 1970][sysmgr][DEBUG]fh_sys_mgr_5g_get_wlan_ssid_num call fh_sys_mgr_uci_get_config fail.
+[Thu Jan  1 00:00:23 1970][sysmgr][DEBUG]fh_sys_mgr_5g_get_wlan_presharedkey_num call fh_sys_mgr_uci_get_config fail.
+[Thu Jan  1 00:00:23 1970][sysmgr][DEBUG]fh_sys_mgr_5g_get_wlan_ssid_num call fh_sys_mgr_uci_get_config fail.
+[Thu Jan  1 00:00:23 1970][sysmgr][DEBUG]fh_sys_mgr_5g_get_wlan_ssid_num call fh_sys_mgr_uci_get_config fail.
+[Thu Jan  1 00:00:23 1970][sysmgr][DEBUG]fh_sys_mgr_5g_get_wlan_beacontype_num call fh_sys_mgr_uci_get_config fail.
+[Thu Jan  1 00:00:24 1970][sysmgr][DEBUG]name=cfgmgr method=factory_restore_notify
+[Thu Jan  1 00:00:24 1970][sysmgr][DEBUG]process cfgmgr is ready now
+[Thu Jan  1 00:00:25 1970][sysmgr][DEBUG]start process: logmgr -syslog /ptconf/message_syslog &, ready:true
+[Thu Jan  1 00:00:25 1970][sysmgr][DEBUG]process logmgr is ready now
+[Thu Jan  1 00:00:26 1970][sysmgr][DEBUG]start process: eventmgr &, ready:false
+[Thu Jan  1 00:00:26 1970][sysmgr][DEBUG]start process: button_cmd &, ready:false
+[Thu Jan  1 00:00:26 1970][sysmgr][DEBUG]start process: tr069 -F /ptconf/ -M 1 -L 5 -S 2000 -X 1 &, ready:true
+[Thu Jan  1 00:00:26 1970][sysmgr][DEBUG]name=tr069 method=remote_factory_reset
+[Thu Jan  1 00:00:26 1970][sysmgr][DEBUG]process tr069 is ready now
+[Thu Jan  1 00:00:27 1970][sysmgr][DEBUG]start process: /ptrom/ptshell/start_pon_process.sh &, ready:false
+[Thu Jan  1 00:00:27 1970][sysmgr][DEBUG]start process: lanmgr &, ready:true
+[Thu Jan  1 00:00:27 1970][sysmgr][DEBUG]process lancc is ready now
+[Thu Jan  1 00:00:28 1970][sysmgr][DEBUG]start process: serviceMgr &, ready:true
+[Thu Jan  1 00:00:28 1970][sysmgr][DEBUG]name=fh_svcmgr method=factory_restore_notify
+[Thu Jan  1 00:00:34 1970][sysmgr][DEBUG]fh_sys_mgr_get_smartswitch call fh_sys_mgr_uci_get_config fail.
+[Thu Jan  1 00:00:36 1970][sysmgr][DEBUG]name=telnetd method=remote_factory_reset
+[Thu Jan  1 00:00:37 1970][sysmgr][DEBUG]process serviceMgr is ready now
+[Thu Jan  1 00:00:38 1970][sysmgr][DEBUG]start process: wanmgr &, ready:true
+[Thu Jan  1 00:00:38 1970][sysmgr][DEBUG]start process: wifictl &, ready:false
+[Thu Jan  1 00:00:38 1970][sysmgr][DEBUG]start process: wifimgr &, ready:false
+[Thu Jan  1 00:00:38 1970][sysmgr][DEBUG]start process: /ptrom/ptshell/process_check.sh &, ready:false
+[Thu Jan  1 00:00:38 1970][sysmgr][DEBUG]process start over, proc_num:13.
+[Thu Jan  1 00:00:52 1970][sysmgr][DEBUG]process wancc is ready now

@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/voice_fax_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.voice_fax"></p>
+			<p class="main_header_hint" i18n="voicefax_hint"></p>
+		</div>
+		<form id="voice_fax_form">
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name" i18n="faxmode"></div>
+					<div class="main_item_content">
+						<select id="FaxMode_select" class="main_select">
+							<option value='T38'>T.38</option>
+							<option value='T30'>T.30</option>
+						</select>
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name" i18n="t30faxnegotiationmode"></div>
+					<div class="main_item_content">
+						<select id="T30NegotiateMode_select" class="main_select">
+							<option value='all' i18n="allctl"></option>
+							<option value='other' i18n="autonegotiation"></option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" onclick="saveApply()" i18n="save" i18n-set="value"/>
+			</div>
+		</form>
+	</body>
+</html>

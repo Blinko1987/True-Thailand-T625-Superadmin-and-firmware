@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/factory_sip_preconfig_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<form id="voice_form">
+			<div class="main_content">
+				<div class="main_item"><b>SIP注册</b></div>
+				<div class="main_item">
+					<div class="main_item_name">注册周期</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="RegisterExpires"/>大于30(单位为秒,默认600)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">注册周期间隔</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="RegisterRetryInterval"/>单位为秒,默认60
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">注册周期百分比</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="RegPercent"/>10-100,默认50
+					</div>
+				</div>
+				
+				<div class="main_item"><b>SIP定时器</b></div>
+				<div class="main_item">
+					<div class="main_item_name">摘机不拨号时长</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="OffHookNoDailTimer"/>单位为毫秒,默认20000
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">位间短定时器</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="InterDigitTimerStd"/>单位为毫秒,默认5000
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">位间长定时器</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="InterDigitTimerLong"/>单位为秒,默认20
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">振铃无应答时长</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="RingNoAnswerTimer"/>单位为毫秒,默认60000
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">忙音时长</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="BusyToneTimer"/>单位为毫秒,默认40000
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">催挂音时长</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="HowlerToneTimer"/>单位为毫秒,默认60000
+					</div>
+				</div>
+				
+				<div class="main_item"><b>SIP心跳</b></div>
+				<div class="main_item">
+					<div class="main_item_name">主动心跳开关</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="TestLinkFlag"/>0关闭;1开启 (默认0)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">主动心跳周期</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="TestLinkTime"/>单位为毫秒,默认60000
+					</div>
+				</div>
+				
+				<div class="main_item"><b>SIP订阅(IMS)</b></div>
+				<div class="main_item line1" style="display:none">
+					<div class="main_item_name">线路1会议URL</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="conferenceuri1"/>默认:@
+					</div>
+				</div>
+				<div class="main_item line1" style="display:none">
+					<div class="main_item_name">线路1热线URL</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="hotlineuri1"/>默认:nodial
+					</div>
+				</div>
+				<div class="main_item line2" style="display:none">
+					<div class="main_item_name">线路2会议URL</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="conferenceuri2"/>默认:@
+					</div>
+				</div>
+				<div class="main_item line2" style="display:none">
+					<div class="main_item_name">线路2热线URL</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="hotlineuri2"/>默认:nodial
+					</div>
+				</div>
+				
+				<div class="main_item"><b>SIP数图</b></div>
+				<div class="main_item">
+					<div class="main_item_name">数图匹配方式</div>
+					<div class="main_item_content" style="max-width:600px;">
+						<input type="text" class="input_text" autocomplete="off" id="DigitMapType"/>0:E8C长匹配;1:主线长匹配;2:E8C短匹配;3:主线短匹配
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">使用长定时器开关</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="UseLongInterDigitTimer"/>0使用短定时器;1使用长定时器 (默认0)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">最小拨号长度</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="MinimumNumberOfDigits"/>默认2
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">最大拨号长度</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="MaximumNumberOfDigits"/>默认30
+					</div>
+				</div>
+				
+				<div class="main_item"><b>SIP内部控制</b></div>
+				<div class="main_item">
+					<div class="main_item_name">国家码</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="CountryRegion"/>3:FSK(中国);5:DTMF (默认3)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">反极模式</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="PolarityReversalMode"/>0关闭;1开启;2平台控制 (默认1)
+					</div>
+				</div>
+				
+				<div class="main_item"><b>SIP分省特殊要求</b></div>
+				<div class="main_item">
+					<div class="main_item_name">＃号转义开关</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="transferSharp"/>0不转义;1转义 (默认0)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">IMS三方通话流程开关</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="ThreePartyInIMS"/>0关闭;1开启 (默认0)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">三方后再拍叉支持开关</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="bEnableThreeConfToTwo"/>0不支持;1支持 (默认0)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">呼叫转接业务自开启(IMS)</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="NotPraseExplicitCallTransfer"/>0关闭;1开启 (默认0)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">接入网信息(IMS)</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="PANInfo"/>(默认0.0.0.0)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">URI携带user=phone开关</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="EnableUserPhone"/>0不携带;1携带 (默认1)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">号码末尾#号是否上报</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="LocalRuleType"/>0不上报;1上报 (默认0)
+					</div>
+				</div>
+				<div class="main_item">
+					<div class="main_item_name">号码不依赖鉴权名开关</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="UseURIIndependent"/>0依赖;1独立 (默认0)
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" value="保存" onclick="saveApply()"/>
+			</div>
+		</form>
+	</body>
+</html>

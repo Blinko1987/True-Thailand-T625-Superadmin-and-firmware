@@ -1,0 +1,16 @@
+config key 'acs_oui_flag'
+    option value 'trunk'
+        option encryflag '0'        
+
+config key 'RMS_OB_Flag'
+    option value '1'
+        option encryflag '0'
+
+config key 'private_nodes_not_inform'
+    option value '1'
+        option encryflag '0'
+
+config key 'provision_switch'
+    option value '0'
+        option encryflag '0'
+

@@ -1,0 +1,236 @@
+@import "./header.css";
+@import "./slide-menu.css";
+@import "./input.css";
+@import "./button.css";
+@import "./custom.css";
+@import "./dropdown.css";
+@import "./login.css";
+@import "./radio-switch.css";
+@import "./card.css";
+@import "./process-bar.css";
+
+body {
+    background: #E5E5E5;
+}
+
+.pl60 {
+    padding-left: 60px;
+}
+
+.pr5 {
+    padding-right: 3px;
+}
+
+.pl5 {
+    padding-left: 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.container-dashboard-content {
+    padding: 1.2rem;
+    margin: 0.1rem;
+    /* width: 100%; */
+    min-height: 260px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    box-shadow: 2px 3px #888888;
+}
+
+.container-dashboard-wifi {
+    padding: 1.2rem;
+    margin: 0.1rem;
+    /* width: 100%; */
+    /* min-height: 260px; */
+    background: #FFFFFF;
+    border-radius: 32px;
+    box-shadow: 2px 3px #888888;
+}
+
+.container-dashboard-long {
+    padding: 20px;
+    margin: 5px;
+    width: 274px;
+    height: 100%;
+    background: #FFFFFF;
+    border-radius: 32px;
+    box-shadow: 2px 3px #888888;
+}
+
+.container-dashboard-la {
+    padding: 30px;
+    margin: 5px;
+    margin-top: -285px;
+    width: 558px;
+    height: 100%;
+    background: #FFFFFF;
+    border-radius: 32px;
+    box-shadow: 2px 3px #888888;
+}
+
+.title-dashboard {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    color: #3D6BA6;
+    padding-bottom: 10px;
+}
+
+.sub-title-dashboard-left {
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: 10px;
+    color: #888888;
+}
+
+.sub-title-bottom-dashboard-left {
+    padding-left: 15px;
+    font-size: 8px;
+    color: #C4C4C4;
+}
+
+.sub-title-dashboard-right {
+    padding-top: 5px;
+    font-size: 10px;
+    color: black;
+}
+
+.title-dashboard-wifi {
+    font-size: 12px;
+    color: #80879F;
+    padding-left: 40px;
+}
+
+.sub-title-dashboard-wifi {
+    font-size: 12px;
+    color: #3D6BA6;
+    font-weight: bold;
+    padding-left: 40px;
+    text-decoration: underline;
+}
+
+.container-full {
+    padding: 1rem;
+    margin: 0.3rem;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    overflow: scroll;
+}
+
+.title-content {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 16px;
+    color: #3D6BA6;
+    padding: 1rem 1rem 1rem 1rem;
+    ;
+}
+
+.title-description-content {
+    font-size: 10px;
+    line-height: 16px;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+
+.text-content {
+    font-size: 10px;
+    color: #888888;
+    padding-top: 5px;
+}
+
+.title-text-left {
+    padding-left: 60px;
+    font-size: 10px;
+    color: #888888;
+    padding-top: 5px;
+}
+
+.title-text {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    color: #888888;
+    /* padding-bottom: 10px; */
+    padding-left: 60px;
+}
+
+.title-description-text {
+    font-size: 10px;
+    /* font-weight: bold; */
+    line-height: 16px;
+    color: #888888;
+    padding-bottom: 10px;
+    padding-left: 60px;
+}
+
+.title-text-right {
+    font-size: 10px;
+    color: #888888;
+    padding-top: 5px;
+}
+
+.footer-home {
+    display: block;
+    background-color: #dcdcdc;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1920px;
+    bottom: 0;
+	position: absolute;
+    width: 100%;
+	height:60px;
+	line-height:60px;
+}
+
+
+.mtp-txt-size-box {
+    cursor: default;
+}
+
+.mtp-lines-box {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.txt-size-m {
+    font-size: 25px;
+}
+
+.txt-size-xxl {
+    font-size: 40px;
+}
+
+.txt-red {
+    color: #ee3124;
+}
+
+.txt-grey {
+    color: #666;
+}
+
+.sprite-icons {
+    background-image: url(../image/phone.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.phone-cir-red-icon {
+    width: 28px !important;
+	height: 28px !important;
+	vertical-align: baseline;
+	background-position: 0% 200%;
+	background-size: 90% 90%;
+}

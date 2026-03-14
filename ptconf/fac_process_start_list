@@ -1,0 +1,10 @@
+ptcfg_load,ready:[false],cmd:[ptcfg_load /ptrom/ptconf/param_ct.xml];
+cfgmgr,ready:[true],cmd:[cfgmgr &];
+logmgr,ready:[true],cmd:[logmgr -syslog /ptconf/message_syslog &];
+eventmgr,ready:[false],cmd:[eventmgr &];
+button_cmd,ready:[false],cmd:[button_cmd &];
+start_pon_process,ready:[false],cmd:[/ptrom/ptshell/start_pon_process.sh &];
+lanmgr,ready:[true],cmd:[lanmgr &];
+serviceMgr,ready:[true],cmd:[serviceMgr &];
+wanmgr,ready:[true],cmd:[wanmgr &];
+wifiupfact,ready:[false],cmd:[true_wlanup_fac.sh &];

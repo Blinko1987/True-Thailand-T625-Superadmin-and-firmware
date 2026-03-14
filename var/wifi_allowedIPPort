@@ -1,0 +1,65 @@
+
+config key 'ra0'
+	option encryflag '0'
+	option value 'UCI_NULL'
+
+config key 'ra1'
+	option encryflag '0'
+	option value 'UCI_NULL'
+
+config key 'ra2'
+	option encryflag '0'
+	option value 'UCI_NULL'
+
+config key 'ra3'
+	option encryflag '0'
+	option value 'UCI_NULL'
+
+config key 'rai0'
+	option encryflag '0'
+	option value 'UCI_NULL'
+
+config key 'rai1'
+	option encryflag '0'
+	option value 'UCI_NULL'
+
+config key 'rai2'
+	option encryflag '0'
+	option value 'UCI_NULL'
+
+config key 'rai3'
+	option encryflag '0'
+	option value 'UCI_NULL'
+
+config key 'ra4'
+	option encryflag '0'
+	option value 'UCI_NULL'
+
+config key 'ra5'
+	option encryflag '0'
+	option value 'UCI_NULL'
+
+config key 'ra6'
+	option encryflag '0'
+	option value 'UCI_NULL'
+
+config key 'ra7'
+	option encryflag '0'
+	option value 'UCI_NULL'
+
+config key 'rai4'
+	option encryflag '0'
+	option value 'UCI_NULL'
+
+config key 'rai5'
+	option encryflag '0'
+	option value 'UCI_NULL'
+
+config key 'rai6'
+	option encryflag '0'
+	option value 'UCI_NULL'
+
+config key 'rai7'
+	option encryflag '0'
+	option value 'UCI_NULL'
+

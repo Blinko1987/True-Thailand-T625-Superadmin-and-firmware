@@ -1,0 +1,155 @@
+[Thu Jan  1 00:00:20 1970][net_driver][DEBUG][2621]:shellcmd=mknod /dev/ptbr_ctrl c 244 0
+[Thu Jan  1 00:00:20 1970][net_driver][DEBUG][2629]:shellcmd=ifconfig br0 down;ifconfig br0 192.168.1.1 hw ether 64:20:E1:7B:04:02;ifconfig br0 up;
+[Thu Jan  1 00:00:20 1970][net_driver][DEBUG][2633]:br0 mac:64 20 e1 7b 4 2
+[Thu Jan  1 00:00:20 1970][net_driver][DEBUG][2635]:mtk_mymac:64 20 e1 7b 4 2
+[Thu Jan  1 00:00:20 1970][net_driver][DEBUG][2638]:mymac is the same with br mac!!
+[Thu Jan  1 00:00:29 1970][net_driver][DEBUG][3121]:subnet:0x101a8c0 netmask:0xffffff
+[Thu Jan  1 00:00:34 1970][net_driver][DEBUG][5029]:ready to run /var/qosCommand
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2796]:port1 devname is eth0.1
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2847]:pt_net_set_lan_port_bind,port:1
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2856]:portinfo.name: eth0.1
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][133]:pt_ctrl_add_br_port_info enter
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][140]:pt_ctrl_add_br_port_info before ioctl
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][142]:ret:0
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2796]:port2 devname is eth0.2
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2847]:pt_net_set_lan_port_bind,port:2
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2856]:portinfo.name: eth0.2
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][133]:pt_ctrl_add_br_port_info enter
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][140]:pt_ctrl_add_br_port_info before ioctl
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][142]:ret:0
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2796]:port3 devname is eth0.3
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2847]:pt_net_set_lan_port_bind,port:3
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2856]:portinfo.name: eth0.3
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][133]:pt_ctrl_add_br_port_info enter
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][140]:pt_ctrl_add_br_port_info before ioctl
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][142]:ret:0
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2796]:port4 devname is eth0.4
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2847]:pt_net_set_lan_port_bind,port:4
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2856]:portinfo.name: eth0.4
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][133]:pt_ctrl_add_br_port_info enter
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][140]:pt_ctrl_add_br_port_info before ioctl
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][142]:ret:0
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2796]:port5 devname is eth0.5
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2847]:pt_net_set_lan_port_bind,port:5
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2856]:portinfo.name: eth0.5
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][133]:pt_ctrl_add_br_port_info enter
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][140]:pt_ctrl_add_br_port_info before ioctl
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][142]:ret:0
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2796]:port9 devname is ra0
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2847]:pt_net_set_lan_port_bind,port:9
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2856]:portinfo.name: ra0
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][133]:pt_ctrl_add_br_port_info enter
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][140]:pt_ctrl_add_br_port_info before ioctl
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][142]:ret:0
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2796]:port10 devname is ra1
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2847]:pt_net_set_lan_port_bind,port:10
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2856]:portinfo.name: ra1
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][133]:pt_ctrl_add_br_port_info enter
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][140]:pt_ctrl_add_br_port_info before ioctl
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][142]:ret:0
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2796]:port11 devname is ra2
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2847]:pt_net_set_lan_port_bind,port:11
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2856]:portinfo.name: ra2
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][133]:pt_ctrl_add_br_port_info enter
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][140]:pt_ctrl_add_br_port_info before ioctl
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][142]:ret:0
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2796]:port12 devname is ra3
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2847]:pt_net_set_lan_port_bind,port:12
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2856]:portinfo.name: ra3
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][133]:pt_ctrl_add_br_port_info enter
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][140]:pt_ctrl_add_br_port_info before ioctl
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][142]:ret:0
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2796]:port13 devname is rai0
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2847]:pt_net_set_lan_port_bind,port:13
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2856]:portinfo.name: rai0
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][133]:pt_ctrl_add_br_port_info enter
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][140]:pt_ctrl_add_br_port_info before ioctl
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][142]:ret:0
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2796]:port14 devname is rai1
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2847]:pt_net_set_lan_port_bind,port:14
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2856]:portinfo.name: rai1
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][133]:pt_ctrl_add_br_port_info enter
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][140]:pt_ctrl_add_br_port_info before ioctl
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][142]:ret:0
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2796]:port15 devname is rai2
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2847]:pt_net_set_lan_port_bind,port:15
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2856]:portinfo.name: rai2
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][133]:pt_ctrl_add_br_port_info enter
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][140]:pt_ctrl_add_br_port_info before ioctl
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][142]:ret:0
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2796]:port16 devname is rai3
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2847]:pt_net_set_lan_port_bind,port:16
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2856]:portinfo.name: rai3
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][133]:pt_ctrl_add_br_port_info enter
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][140]:pt_ctrl_add_br_port_info before ioctl
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][142]:ret:0
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2796]:port17 devname is ra4
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2847]:pt_net_set_lan_port_bind,port:17
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2856]:portinfo.name: ra4
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][133]:pt_ctrl_add_br_port_info enter
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][140]:pt_ctrl_add_br_port_info before ioctl
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][142]:ret:0
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2796]:port18 devname is ra5
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2847]:pt_net_set_lan_port_bind,port:18
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2856]:portinfo.name: ra5
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][133]:pt_ctrl_add_br_port_info enter
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][140]:pt_ctrl_add_br_port_info before ioctl
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][142]:ret:0
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2796]:port19 devname is ra6
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2847]:pt_net_set_lan_port_bind,port:19
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2856]:portinfo.name: ra6
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][133]:pt_ctrl_add_br_port_info enter
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][140]:pt_ctrl_add_br_port_info before ioctl
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][142]:ret:0
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2834]:ssid 12 and 16 is backhaul!
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2796]:port21 devname is rai4
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2847]:pt_net_set_lan_port_bind,port:21
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2856]:portinfo.name: rai4
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][133]:pt_ctrl_add_br_port_info enter
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][140]:pt_ctrl_add_br_port_info before ioctl
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][142]:ret:0
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2796]:port22 devname is rai5
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2847]:pt_net_set_lan_port_bind,port:22
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2856]:portinfo.name: rai5
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][133]:pt_ctrl_add_br_port_info enter
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][140]:pt_ctrl_add_br_port_info before ioctl
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][142]:ret:0
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2796]:port23 devname is rai6
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2847]:pt_net_set_lan_port_bind,port:23
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2856]:portinfo.name: rai6
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][133]:pt_ctrl_add_br_port_info enter
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][140]:pt_ctrl_add_br_port_info before ioctl
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][142]:ret:0
+[Thu Jan  1 00:00:38 1970][net_driver][DEBUG][2834]:ssid 12 and 16 is backhaul!
+[Thu Jan  1 00:00:39 1970][net_driver][DEBUG][1038]:vid=100 vlanprio=0  dhcpen=1
+[Thu Jan  1 00:00:39 1970][net_driver][DEBUG][133]:pt_ctrl_add_br_port_info enter
+[Thu Jan  1 00:00:39 1970][net_driver][DEBUG][140]:pt_ctrl_add_br_port_info before ioctl
+[Thu Jan  1 00:00:39 1970][net_driver][DEBUG][142]:ret:0
+[Thu Jan  1 00:00:39 1970][net_driver][DEBUG][94]:shellcmd=/usr/bin/smuxctl add ipoe pon pon.100 3 100 0 0;                         echo 1 > /proc/sys/net/ipv6/conf/pon.100/disable_ipv6;                        ifconfig pon.100 0.0.0.0 up;sleep 1;
+[Thu Jan  1 00:00:45 1970][net_driver][DEBUG][1462]:start!
+[Thu Jan  1 00:00:45 1970][net_driver][DEBUG][1464]:devname:pon.100, ipvx:3, mtu:1492, pppFlag:1,brflag:0,lanports:, servicelist:TR069_INTERNET, usrIndex:3!
+[Thu Jan  1 00:00:45 1970][net_driver][DEBUG][1482]:[wan] /ptrom/ptshell/keep_sending_rs.sh pon.100
+[Thu Jan  1 00:00:45 1970][net_driver][DEBUG][1501]:end!
+[Thu Jan  1 00:00:46 1970][net_driver][DEBUG][133]:pt_ctrl_add_br_port_info enter
+[Thu Jan  1 00:00:46 1970][net_driver][DEBUG][140]:pt_ctrl_add_br_port_info before ioctl
+[Thu Jan  1 00:00:46 1970][net_driver][DEBUG][142]:ret:0
+[Thu Jan  1 00:00:46 1970][net_driver][DEBUG][108]:shellcmd=/usr/bin/smuxctl add bridge pon pon.293 3 293 0 0;ifconfig pon.293 hw ether 64:20:E1:7B:04:02                         echo 1 > /proc/sys/net/ipv6/conf/pon.293/disable_ipv6;                        ifconfig pon.293 0.0.0.0 up;sleep 1;
+[Thu Jan  1 00:00:47 1970][net_driver][DEBUG][113]:shellcmd=/usr/bin/smuxctl ipversion pon.293 1
+[Thu Jan  1 00:00:47 1970][net_driver][DEBUG][119]:shellcmd=brctl addif br0 pon.293
+[Thu Jan  1 00:00:47 1970][net_driver][DEBUG][125]:shellcmd=echo 2 > /sys/devices/virtual/net/pon.293/brport/multicast_router
+[Thu Jan  1 00:00:52 1970][net_driver][DEBUG][1462]:start!
+[Thu Jan  1 00:00:52 1970][net_driver][DEBUG][1464]:devname:pon.293, ipvx:1, mtu:1500, pppFlag:0,brflag:1,lanports:, servicelist:INTERNET, usrIndex:9!
+[Thu Jan  1 00:00:52 1970][net_driver][DEBUG][1491]:[wan] ifconfig pon.293 mtu 1500  
+[Thu Jan  1 00:00:52 1970][net_driver][DEBUG][1501]:end!
+[Thu Jan  1 00:00:52 1970][net_driver][DEBUG][2796]:port15 devname is rai2
+[Thu Jan  1 00:00:52 1970][net_driver][DEBUG][3072]:delete portinfo.name:rai2
+[Thu Jan  1 00:00:52 1970][net_driver][DEBUG][3090]:ptdrv_net_del_lan_port_bind portinfo->dhcp_en =1
+[Thu Jan  1 00:00:52 1970][net_driver][DEBUG][133]:pt_ctrl_add_br_port_info enter
+[Thu Jan  1 00:00:52 1970][net_driver][DEBUG][140]:pt_ctrl_add_br_port_info before ioctl
+[Thu Jan  1 00:00:52 1970][net_driver][DEBUG][142]:ret:0
+[Thu Jan  1 00:00:52 1970][net_driver][DEBUG][2796]:port15 devname is rai2
+[Thu Jan  1 00:00:52 1970][net_driver][DEBUG][2847]:pt_net_set_lan_port_bind,port:15
+[Thu Jan  1 00:00:52 1970][net_driver][DEBUG][2903]:portinfo.name:rai2
+[Thu Jan  1 00:00:52 1970][net_driver][DEBUG][133]:pt_ctrl_add_br_port_info enter
+[Thu Jan  1 00:00:52 1970][net_driver][DEBUG][140]:pt_ctrl_add_br_port_info before ioctl
+[Thu Jan  1 00:00:52 1970][net_driver][DEBUG][142]:ret:0

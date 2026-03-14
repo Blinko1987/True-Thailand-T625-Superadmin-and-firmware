@@ -1,0 +1,1116 @@
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][main][2177],main() step 2
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][main][2181],g_platform=0   g_wannamePrefix=pon
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][main][2183],main() step 3
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][main][2190],g_operator 1
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][main][2202],main() step 4
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_init_lanport_num][2082],wancc_init_lanport_num lan:5 wifi:16!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][843],port=0!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2804],port=0 devname=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2811],cmd=touch /var/portbind_info!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2817],set key=port1_wandevname vlaue=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][859],leave ret=0!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][843],port=1!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2804],port=1 devname=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2817],set key=port2_wandevname vlaue=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][859],leave ret=0!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][843],port=2!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2804],port=2 devname=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2817],set key=port3_wandevname vlaue=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][859],leave ret=0!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][843],port=3!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2804],port=3 devname=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2817],set key=port4_wandevname vlaue=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][859],leave ret=0!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][843],port=4!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2804],port=4 devname=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2817],set key=port5_wandevname vlaue=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][859],leave ret=0!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][843],port=8!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2804],port=8 devname=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2817],set key=port9_wandevname vlaue=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][859],leave ret=0!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][843],port=9!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2804],port=9 devname=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2817],set key=port10_wandevname vlaue=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][859],leave ret=0!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][843],port=10!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2804],port=10 devname=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2817],set key=port11_wandevname vlaue=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][859],leave ret=0!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][843],port=11!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2804],port=11 devname=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2817],set key=port12_wandevname vlaue=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][859],leave ret=0!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][843],port=12!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2804],port=12 devname=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2817],set key=port13_wandevname vlaue=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][859],leave ret=0!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][843],port=13!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2804],port=13 devname=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2817],set key=port14_wandevname vlaue=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][859],leave ret=0!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][843],port=14!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2804],port=14 devname=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2817],set key=port15_wandevname vlaue=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][859],leave ret=0!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][843],port=15!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2804],port=15 devname=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2817],set key=port16_wandevname vlaue=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][859],leave ret=0!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][843],port=16!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2804],port=16 devname=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2817],set key=port17_wandevname vlaue=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][859],leave ret=0!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][843],port=17!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2804],port=17 devname=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2817],set key=port18_wandevname vlaue=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][859],leave ret=0!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][843],port=18!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2804],port=18 devname=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2817],set key=port19_wandevname vlaue=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][859],leave ret=0!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][843],port=19!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2804],port=19 devname=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2817],set key=port20_wandevname vlaue=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][859],leave ret=-1!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][843],port=20!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2804],port=20 devname=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2817],set key=port21_wandevname vlaue=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][859],leave ret=0!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][843],port=21!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2804],port=21 devname=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2817],set key=port22_wandevname vlaue=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][859],leave ret=0!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][843],port=22!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2804],port=22 devname=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2817],set key=port23_wandevname vlaue=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][859],leave ret=0!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][843],port=23!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2804],port=23 devname=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2817],set key=port24_wandevname vlaue=null!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][setLanPortBind][859],leave ret=-1!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][main][2208],main() step 5
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][main][2212],main() step 6
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_thread][1975],wancc_thread creat succ!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][main][2222],main() step 7
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][main][2224],wancc_thread() succ!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][main][2234],main() step 8
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][main][2236],wancc_msg_init() succ!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_ubus_thread][1995],wancc_thread creat succ!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][main][2246],main() step 9
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][main][2247],wancc_ubus_thread() succ!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][main][2257],main() step 10
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][main][2259],wancc_mac_int() succ!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_cfg_adapter_init][1295],operater is 1!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_onu_register_init][2029],pon_reg_state=0
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_static_rt_ipv4_read_config_in_xml_ct][1593],wancc_static_rt_ipv4_read_config_in_xml_ct !
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_static_rt_ipv4_read_config_in_xml_ct][1597],rt_num =0
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_static_rt_ipv4_read_config_in_xml_ct][1602], wancc_static_rt_ipv4_read_config_in_xml_ct num 0 !
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_static_rt_ipv6_read_config_in_xml_ct][1800],wancc_static_rt_ipv6_read_config_in_xml_ct !
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_static_rt_ipv6_read_config_in_xml_ct][1804],rt_num =0
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_static_rt_ipv6_read_config_in_xml_ct][1809], wancc_static_rt_ipv6_read_config_in_xml_ct num 0 !
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_cfg_adapter_init_get][1249],fhapi_init succ!
+[Thu Jan  1 00:00:38 1970][wanmgr][ERR][wancc_pf0_get_ponType][665],pon_flag = 1!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_cfg_adapter_init_get][1259],Get WAN LinkType succ!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_ct_cfg_load_wandeviceinfo][483],TRUE WAN Device Object No param to Read!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][xml_multi_config_process][117],start load_multi_config_from_xml InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0. 
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.Enable value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_TRUE_IPMode value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_TRUE_ServiceList value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.ExternalIPAddress value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.AddressingType value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.ConnectionType value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.DHCPEnable value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_CT-COM_UpstreamWAN value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_CT-COM_IPForwardList value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.NATEnabled value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_CT-COM_Dslite_Enable value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_CT-COM_AftrMode value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_CT-COM_Aftr value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_PT_MSS_Enable value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_PT_MSS_Value value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_CT-COM_IPv6IPAddress value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_CT-COM_DefaultIPv6Gateway value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_CT-COM_IPv6Prefix value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_CT-COM_IPv6IPAddressOrigin value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_CT-COM_IPv6PrefixOrigin value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_CT-COM_IPv6ConnStatus value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_CT-COM_IPv6IPAddressAlias value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_TRUE_IPv6DNSAddressSource value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_CT-COM_IPv6PrefixDelegationEnabled value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_CT-COM_IPv6PrefixAlias value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_CT-COM_IPv6PrefixPltime value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_CT-COM_IPv6PrefixVltime value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_CT-COM_IPv6DomainName value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_PT_MFlag value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_CT-COM_MulticastVlan value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_TRUE_PortBinding value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.ConnectionStatus value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.MaxMTUSize value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.DNSServers value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.SubnetMask value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.DefaultGateway value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_TRUE_VlanID value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANIPConnection.0.X_TRUE_VlanPriority value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][xml_multi_config_process][122],end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][wancc_ct_cfg_get_ipforwardmodeenable][263],InternetGatewayDevice.DeviceInfo.X_CT-COM_IPForwardModeEnabled=0!
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][xml_multi_config_process][117],start load_multi_config_from_xml InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0. 
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.Enable value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_TRUE_IPMode value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_TRUE_ServiceList value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.ExternalIPAddress value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.AddressingType value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.ConnectionType value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.DHCPEnable value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_CT-COM_UpstreamWAN value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_CT-COM_IPForwardList value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.NATEnabled value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_CT-COM_Dslite_Enable value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_CT-COM_AftrMode value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_CT-COM_Aftr value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_PT_MSS_Enable value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_PT_MSS_Value value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_CT-COM_IPv6IPAddress value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_CT-COM_DefaultIPv6Gateway value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_CT-COM_IPv6Prefix value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_CT-COM_IPv6IPAddressOrigin value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_CT-COM_IPv6PrefixOrigin value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_CT-COM_IPv6ConnStatus value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_CT-COM_IPv6IPAddressAlias value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_TRUE_IPv6DNSAddressSource value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_CT-COM_IPv6PrefixDelegationEnabled value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_CT-COM_IPv6PrefixAlias value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_CT-COM_IPv6PrefixPltime value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_CT-COM_IPv6PrefixVltime value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_CT-COM_IPv6DomainName value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_PT_MFlag value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_CT-COM_MulticastVlan value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_TRUE_PortBinding value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.ConnectionStatus value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_CT-COM_ProxyEnable value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.Username value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.Password value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.CurrentMRUSize value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_CT-COM_MAXUser value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.TransportType value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.ConnectionTrigger value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.IdleDisconnectTime value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_TRUE_VlanID value
+[Thu Jan  1 00:00:38 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.0.WANPPPConnection.0.X_TRUE_VlanPriority value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][xml_multi_config_process][122],end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_get_ipforwardmodeenable][263],InternetGatewayDevice.DeviceInfo.X_CT-COM_IPForwardModeEnabled=0!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_init_get][1267],WANConnectionDeviceI_Init succ!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_load_wandeviceinfo][483],TRUE WAN Device Object No param to Read!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_is_wanconn_exist][330],this wan con (InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_getWanConConfig][484],this wan(1) con(1) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_is_wanconn_exist][330],this wan con (InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.2.) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_getWanConConfig][484],this wan(1) con(2) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=1, conindex=1 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][xml_multi_config_process][117],start load_multi_config_from_xml InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1. 
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Enable value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_TRUE_IPMode value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_TRUE_ServiceList value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ExternalIPAddress value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.AddressingType value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ConnectionType value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.DHCPEnable value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_UpstreamWAN value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_IPForwardList value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.NATEnabled value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_Dslite_Enable value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_AftrMode value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_Aftr value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_PT_MSS_Enable value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_PT_MSS_Value value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_IPv6IPAddress value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_DefaultIPv6Gateway value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_IPv6Prefix value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_IPv6IPAddressOrigin value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_IPv6PrefixOrigin value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_IPv6ConnStatus value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_IPv6IPAddressAlias value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_TRUE_IPv6DNSAddressSource value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_IPv6PrefixDelegationEnabled value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_IPv6PrefixAlias value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_IPv6PrefixPltime value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_IPv6PrefixVltime value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_IPv6DomainName value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_PT_MFlag value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_MulticastVlan value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_TRUE_PortBinding value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ConnectionStatus value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_ProxyEnable value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Username value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Password value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.CurrentMRUSize value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_MAXUser value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.TransportType value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ConnectionTrigger value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.IdleDisconnectTime value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_TRUE_VlanID value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_TRUE_VlanPriority value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][xml_multi_config_process][122],end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_get_ipforwardmodeenable][263],InternetGatewayDevice.DeviceInfo.X_CT-COM_IPForwardModeEnabled=0!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_is_wanconn_exist][330],this wan con (InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_getWanConConfig][519],this wan(1) con(2) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_is_wan_exist][288],this wan (InternetGatewayDevice.WANDevice.1.WANConnectionDevice.2.) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_WANConnectionI_Init][588],this wan(2) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_load_wandeviceinfo][483],TRUE WAN Device Object No param to Read!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=3, conindex=1 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][xml_multi_config_process][117],start load_multi_config_from_xml InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1. 
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.Enable value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_TRUE_IPMode value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_TRUE_ServiceList value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.ExternalIPAddress value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.AddressingType value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.ConnectionType value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.DHCPEnable value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_CT-COM_UpstreamWAN value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_CT-COM_IPForwardList value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.NATEnabled value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_CT-COM_Dslite_Enable value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_CT-COM_AftrMode value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_CT-COM_Aftr value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_PT_MSS_Enable value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_PT_MSS_Value value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_CT-COM_IPv6IPAddress value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_CT-COM_DefaultIPv6Gateway value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_CT-COM_IPv6Prefix value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_CT-COM_IPv6IPAddressOrigin value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_CT-COM_IPv6PrefixOrigin value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_CT-COM_IPv6ConnStatus value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_CT-COM_IPv6IPAddressAlias value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_TRUE_IPv6DNSAddressSource value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_CT-COM_IPv6PrefixDelegationEnabled value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_CT-COM_IPv6PrefixAlias value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_CT-COM_IPv6PrefixPltime value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_CT-COM_IPv6PrefixVltime value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_CT-COM_IPv6DomainName value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_PT_MFlag value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_CT-COM_MulticastVlan value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_TRUE_PortBinding value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.ConnectionStatus value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.MaxMTUSize value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.DNSServers value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.SubnetMask value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.DefaultGateway value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_TRUE_VlanID value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.X_TRUE_VlanPriority value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][xml_multi_config_process][122],end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_get_ipforwardmodeenable][263],InternetGatewayDevice.DeviceInfo.X_CT-COM_IPForwardModeEnabled=0!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_is_wanconn_exist][330],this wan con (InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.2.) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_getWanConConfig][484],this wan(3) con(2) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_is_wanconn_exist][330],this wan con (InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANPPPConnection.1.) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_getWanConConfig][519],this wan(3) con(1) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_is_wanconn_exist][330],this wan con (InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANPPPConnection.2.) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_getWanConConfig][519],this wan(3) con(2) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_is_wan_exist][288],this wan (InternetGatewayDevice.WANDevice.1.WANConnectionDevice.4.) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_WANConnectionI_Init][588],this wan(4) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_is_wan_exist][288],this wan (InternetGatewayDevice.WANDevice.1.WANConnectionDevice.5.) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_WANConnectionI_Init][588],this wan(5) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_is_wan_exist][288],this wan (InternetGatewayDevice.WANDevice.1.WANConnectionDevice.6.) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_WANConnectionI_Init][588],this wan(6) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_is_wan_exist][288],this wan (InternetGatewayDevice.WANDevice.1.WANConnectionDevice.7.) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_WANConnectionI_Init][588],this wan(7) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_is_wan_exist][288],this wan (InternetGatewayDevice.WANDevice.1.WANConnectionDevice.8.) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_WANConnectionI_Init][588],this wan(8) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_is_wan_exist][288],this wan (InternetGatewayDevice.WANDevice.1.WANConnectionDevice.9.) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_WANConnectionI_Init][588],this wan(9) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_is_wan_exist][288],this wan (InternetGatewayDevice.WANDevice.1.WANConnectionDevice.10.) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_WANConnectionI_Init][588],this wan(10) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_is_wan_exist][288],this wan (InternetGatewayDevice.WANDevice.1.WANConnectionDevice.11.) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_WANConnectionI_Init][588],this wan(11) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_is_wan_exist][288],this wan (InternetGatewayDevice.WANDevice.1.WANConnectionDevice.12.) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_WANConnectionI_Init][588],this wan(12) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_is_wan_exist][288],this wan (InternetGatewayDevice.WANDevice.1.WANConnectionDevice.13.) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_WANConnectionI_Init][588],this wan(13) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_is_wan_exist][288],this wan (InternetGatewayDevice.WANDevice.1.WANConnectionDevice.14.) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_WANConnectionI_Init][588],this wan(14) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_is_wan_exist][288],this wan (InternetGatewayDevice.WANDevice.1.WANConnectionDevice.15.) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_WANConnectionI_Init][588],this wan(15) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_is_wan_exist][288],this wan (InternetGatewayDevice.WANDevice.1.WANConnectionDevice.16.) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_WANConnectionI_Init][588],this wan(16) not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_init_get][1275],WANConnectionI_Init succ!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_init_get][1278],wancc_cfg_init succ!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=1, conindex=1 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(1),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(1 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=1, conindex=2 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(1),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(1 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=1, conindex=1 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_control_add_wan_pppconn][171], wanIndex=1,connIndex=1!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=1, conindex=1 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_get_vlan_config][665],pbit=0 vlan=100!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_mgr_ConAdd][1567],usrIndex=3 wanConType=2!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_mgr_ConAdd][1593],usrIndex=3 mgrIndex=0!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=1, conindex=2 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(1),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(1 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=2, conindex=1 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(2),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(2 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=2, conindex=2 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(2),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(2 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=2, conindex=1 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(2),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(2 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=2, conindex=2 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(2),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(2 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=3, conindex=1 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_control_add_wan_ipconn][132], wanIndex=3,connIndex=1!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=3, conindex=1 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_get_vlan_config][665],pbit=0 vlan=293!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_mgr_ConAdd][1567],usrIndex=9 wanConType=1!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_mgr_ConAdd][1593],usrIndex=9 mgrIndex=1!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=3, conindex=2 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(3),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(3 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=3, conindex=1 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(3),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(3 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=3, conindex=2 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(3),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(3 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=4, conindex=1 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(4),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(4 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=4, conindex=2 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(4),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(4 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=4, conindex=1 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(4),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(4 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=4, conindex=2 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(4),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(4 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=5, conindex=1 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(5),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(5 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=5, conindex=2 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(5),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(5 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=5, conindex=1 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(5),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(5 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=5, conindex=2 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(5),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(5 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=6, conindex=1 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(6),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(6 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=6, conindex=2 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(6),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(6 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=6, conindex=1 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(6),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(6 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=6, conindex=2 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(6),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(6 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=7, conindex=1 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(7),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(7 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=7, conindex=2 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(7),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(7 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=7, conindex=1 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(7),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(7 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=7, conindex=2 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(7),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(7 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=8, conindex=1 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(8),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(8 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=8, conindex=2 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(8),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(8 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=8, conindex=1 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(8),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(8 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=8, conindex=2 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(8),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(8 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=9, conindex=1 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(9),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(9 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=9, conindex=2 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(9),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(9 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=9, conindex=1 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(9),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(9 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=9, conindex=2 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(9),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(9 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=10, conindex=1 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(10),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(10 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=10, conindex=2 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(10),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(10 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=10, conindex=1 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(10),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(10 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=10, conindex=2 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(10),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(10 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=11, conindex=1 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(11),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(11 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=11, conindex=2 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(11),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(11 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=11, conindex=1 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(11),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(11 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=11, conindex=2 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(11),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(11 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=12, conindex=1 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(12),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(12 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=12, conindex=2 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(12),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(12 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=12, conindex=1 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(12),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(12 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=12, conindex=2 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(12),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(12 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=13, conindex=1 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(13),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(13 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=13, conindex=2 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(13),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(13 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=13, conindex=1 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(13),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(13 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=13, conindex=2 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(13),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(13 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=14, conindex=1 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(14),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(14 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=14, conindex=2 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(14),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(14 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=14, conindex=1 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(14),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(14 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=14, conindex=2 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(14),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(14 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=15, conindex=1 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(15),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(15 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=15, conindex=2 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(15),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(15 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=15, conindex=1 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(15),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(15 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=15, conindex=2 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(15),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(15 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=16, conindex=1 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(16),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(16 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=16, conindex=2 iporppp=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(16),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_ipconn][128],this wan(16 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=16, conindex=1 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(16),connindex(1) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(16 1) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=16, conindex=2 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(16),connindex(2) not found!
+[Thu Jan  1 00:00:39 1970][wanmgr][WARNING][wancc_cfg_control_add_wan_pppconn][167],this wan(16 2) is not exist!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_mgr_PreProc][1662],start!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][stopLanDhcp][4172],cmd=iptables -A INPUT -i br0 -p udp -m udp --dport 67 -j DROP
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_mgr_PreProc][1669],end!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_mgr_Cfg_All_Vaild][1699],start!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][procPPPConConfig][4730],mgrIndex=0 proc!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][procPPPConConfig][4940],pWanConConfig->isolateConfig.LanInterface=NULL
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][procIpConConfig][4472],mgrIndex=1 proc!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][procIpConConfig][4589],ConnectionType=IP_Bridged !
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][procIpConConfig][4594],addrtype='DHCP',1,1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][procIpConConfig][4663],vlan=293,addrtype='DHCP',1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][procIpConConfig][4702],pWanConConfig->isolateConfig.LanInterface=dev.wla.7
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][bind_lan_intf_jh][814],[bind_lan_intf_jh:814]temp=dev.wla.7
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][bind_lan_intf_jh][815],[bind_lan_intf_jh:815]temp num=.
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][bind_lan_intf_jh][829],[bind_lan_intf_jh:829]wlport:6
+[Thu Jan  1 00:00:39 1970][wanmgr][ERR][get_portbind_wancc_info][2370],real_lan_num:5,real_wlan_num:16
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][recordPortBind][2268],port(14) landhcp(0)!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][recordPortBind][2276],port(14) real_bindwan(0)!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][registerCon][5040],wan(0) start register!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][addToServMgr][2844],serviceType=0 servIndex=0
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][addToServMgr][2909],servTypeIndex=1 servWanCfg->brflag:1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][updateFileFromServMgr][2685],servTypeIndex=1 optFlag=0!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][recordWanInfoIndex][518],wanInfoIndex=1 usrIndex=3 devname=pon.100!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_pf0_recordWanIndexToFile][2599],wanInfoIndex=1 usrIndex=3 devname=pon.100!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_pf0_recordWanIndexToFile][2606],cmd=touch /var/wan_info!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_pf0_recordWanIndexToFile][2682],set key=internet_wanindex vlaue=3!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_pf0_recordWanIndexToFile][2685],set key=internet_wanname vlaue=pon.100!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_pf0_recordWanIndexToFile][2688],end
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][recordWanInfoIndex][525],leave ret=0!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][recordWanInfoPortbind][533],wanInfoIndex=1!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_pf0_recordWanPortbindToFile][2698],wanInfoIndex=1 !
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_pf0_recordWanPortbindToFile][2758],set key=internet_portbind vlaue=0!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_pf0_recordWanPortbindToFile][2761],end
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][recordWanInfoPortbind][540],leave ret=0!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][updateFileFromServMgr][2834],leave!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][addToServMgr][2844],serviceType=2 servIndex=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][addToServMgr][2909],servTypeIndex=4 servWanCfg->brflag:1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][updateFileFromServMgr][2685],servTypeIndex=4 optFlag=0!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][recordWanInfoIndex][518],wanInfoIndex=4 usrIndex=3 devname=pon.100!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_pf0_recordWanIndexToFile][2599],wanInfoIndex=4 usrIndex=3 devname=pon.100!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_pf0_recordWanIndexToFile][2682],set key=tr069_wanindex vlaue=3!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_pf0_recordWanIndexToFile][2685],set key=tr069_wanname vlaue=pon.100!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_pf0_recordWanIndexToFile][2688],end
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][recordWanInfoIndex][525],leave ret=0!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][recordWanInfoPortbind][533],wanInfoIndex=4!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_pf0_recordWanPortbindToFile][2698],wanInfoIndex=4 !
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_pf0_recordWanPortbindToFile][2758],set key=tr069_portbind vlaue=0!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_pf0_recordWanPortbindToFile][2761],end
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][recordWanInfoPortbind][540],leave ret=0!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][updateFileFromServMgr][2834],leave!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wanConPreRecord][1785],come here!!!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wanConRecord][597],mgrIndex=0!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_control_record_wan_pppconinfo][612], usrIndex=3,devname=pon.100!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_control_record_wan_pppconinfo][623],wanIndex=1 conIndex=1 devname=pon.100
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=1, conindex=1 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wan_name_get_ct][344],mgrIndex=0
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wan_name_get_ct][429],wan name=1_TR069_INTERNET_R_VID_100
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wan_name_get_ct][433],end!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_record_wan_pppconinfo][1019],wanIndex=1 conIndex=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][xml_multi_config_process][117],start load_multi_config_from_xml InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1. 
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ExternalIPAddress value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.RemoteIPAddress value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.DNSServers value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ConnectionStatus value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.MACAddress value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Name value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][xml_multi_config_process][122],end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_record_wan_pppconinfo][1133],end
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_control_record_wan_pppconinfo][663],end
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wanConRecord][621],leave!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wanConPreRecord6][1834],come here!!!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wanConRecord6][627],mgrIndex=0!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_control_record_wan_pppconinfo6][699], usrIndex=3,devname=pon.100!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_control_record_wan_pppconinfo6][710],wanIndex=1 conIndex=1 devname=pon.100
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=1, conindex=1 iporppp=2
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wan_name_get_ct][344],mgrIndex=0
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wan_name_get_ct][429],wan name=1_TR069_INTERNET_R_VID_100
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wan_name_get_ct][433],end!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_record_wan_pppconInfo6][1171],wanIndex=1 conIndex=1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_record_wan_pppconInfo6][1281],dns1 is ,dns2 is ,tmpdnsserver is ,.
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][xml_multi_config_process][117],start load_multi_config_from_xml InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1. 
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_IPv6IPAddress value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_IPv6Prefix value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_DefaultIPv6Gateway value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_TRUE_IPv6DNSAddressSource value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.X_CT-COM_IPv6ConnStatus value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Name value
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][xml_multi_config_process][122],end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_ct_cfg_record_wan_pppconInfo6][1300],end
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_cfg_control_record_wan_pppconinfo6][750],end
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wanConRecord6][651],leave!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wanConIntfReg][755],enter AddOrDel=0!
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_pf0_reg_wanIntf][1821],AddOrDel(0)
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_pf0_reg_wanIntf][1825],test1
+[Thu Jan  1 00:00:39 1970][wanmgr][DEBUG][wancc_pf0_reg_wanIntf][1907],add begin!
+[Thu Jan  1 00:00:40 1970][wanmgr][DEBUG][wancc_pf0_reg_wanIntf][1909],add end!
+[Thu Jan  1 00:00:40 1970][wanmgr][DEBUG][wancc_pf0_reg_wanIntf][1918],finished!
+[Thu Jan  1 00:00:40 1970][wanmgr][DEBUG][wanConIntfReg][762],leave ret=0!
+[Thu Jan  1 00:00:45 1970][wanmgr][ERR][wanmgr_get_internet_mac_handler][3937],wanmgr_get_internet_mac_handler get(0)!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][CfgConIntfMac][4016],Index(0) inf_mac(64:20:E1:7B:04:03)
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wan_mac_conf][3858],mac=64:20:E1:7B:04:03 intf=pon.100!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wan_mac_conf][3861],cmd=ifconfig pon.100 down!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wan_mac_conf][3865],cmd=ifconfig pon.100 hw ether 64:20:E1:7B:04:03!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wan_mac_conf][3869],cmd=ifconfig pon.100 up!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wan_mac_conf][3872],end!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][BindConGponGemport][4104],start!
+[Thu Jan  1 00:00:45 1970][wanmgr][ERR][wancc_pf0_get_ponType][665],pon_flag = 1!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][get_gpon_cfg][488],vlan=100 pbit=0!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wancc_pf0_get_gpon_cfg][763],vlan=100 pbit=0 gemport=65535 tcont=255
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][get_gpon_cfg][495],leave ret=0!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][BindConGponGemport][4130],gemport=65535 tcont=255
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][BindConGponGemport][4157],end
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][PreCfgWanCon][4035],wan(0) start preCfg!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fillWanPreCfgParam][3796],wan(0) start!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fillWanPreCfgParam][3834],wan(0) end!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][creatAndInitConfFile][2258],start!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wan_calc_portmap][2219],portmap:00000000000000000000, n:20
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][creatAndInitConfFile][2308],file /var/wanconf/pon_100_wan_conf exist!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][PreCfgWanCon][4042],wan(0) end preCfg!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wanStatisticSet][727],enter devname=pon.100 enable=1!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wanStatisticSet][735],leave ret=0!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fillPPPParam][1310],ipv6PdEnabled is 1, mflag is 0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wancc_pf0_start_ppp][1475],wancc_pf0_start_ppp start 
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wancc_cfg_control_get_wanconn_url_by_usrindex][69], usrIndex=3,url=!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wancc_cfg_control_get_wanconn_url_by_usrindex][78],usrIndex(3) connIndex(1 1 2)!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wancc_cfg_control_get_wanconn_url_by_usrindex][87],get succ!usrIndex=3,url=InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][559],___fh_wancc_svcmgr_cfg_msg___ start
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][561],devname=pon.100
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][562],xmlurl=InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][564],start_flag=7
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][565],internetflag=1
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][566],tr069flag=1
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][567],voipflag=0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][569],otherflag=0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][570],special1flag=0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][571],special2flag=0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][572],special3flag=0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][573],special4flag=0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][575],ipvx=3
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][576],nat=1
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 0 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 1 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 2 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 3 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 4 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 5 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 6 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 7 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 8 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 9 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 10 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 11 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 12 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 13 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 14 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 15 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 16 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 17 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 18 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 19 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 20 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 21 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 22 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][580],lanport 23 =0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][584],addrtype=0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][587],ExternalIPAddress=
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][590],dns 0 =
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][590],dns 1 =
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][590],dns 2 =
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][590],dns 3 =
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][590],dns 4 =
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][590],dns 5 =
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][590],dns 6 =
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][590],dns 7 =
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][590],dns 8 =
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][590],dns 9 =
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][593],SubnetMask=
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][594],DefaultGateway=
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][595],broadcast=
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][596],domain=
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][600],addr6type=0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][607],iDsliteEnable=0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][608],iDsliteAftrMode=0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][609],sDsliteAftr=NULL
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][611],MSS_Enable=1
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][612],MSS_Value=1400
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][613],iMFlag=0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][616],ipv6PdEnabled=1
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][617],ipv6PrefixOrg=PrefixDelegation
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][618],ipv6Prefix=
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][619],ipv6Addr=
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][620],DefaultIPv6Gateway=
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][624],IPv6DNS 0 =
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][624],IPv6DNS 1 =
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][627],IPv6DomainName=
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][630],pio_plt=0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][631],pio_vlt=0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][632],ipv6AddrOrg=AutoConfigured
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][634],usrname=6420e17b0402@truehisp
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][635],pwd=password
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][636],ppptype=0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][637],pppfreetime=1800
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][638],MTU=1492
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][640],BRFLAG=0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][fh_wancc_svcmgr_cfg_msg_print][642],___fh_wancc_svcmgr_cfg_msg___ end!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wancc_pf0_set_igmp][1633],wancc_pf0_set_igmp start 
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wancc_pf0_set_igmp][1647],wancc_pf0_set_igmp mvlan=0,vid=100,brflag=0,devname=[pon.100] 
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][registerCon][5040],wan(1) start register!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][addToServMgr][2844],serviceType=0 servIndex=0
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][addToServMgr][2909],servTypeIndex=2 servWanCfg->brflag:2
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][updateFileFromServMgr][2685],servTypeIndex=2 optFlag=3!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][recordWanInfoIntf][503],wanInfoIndex=2 intf=pon.293_B!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wancc_pf0_recordWanIntfToFile][2525],wanInfoIndex=2 intf=pon.293_B!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wancc_pf0_recordWanIntfToFile][2585],set key=internet2_wanintf vlaue=pon.293_B!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][recordWanInfoIntf][510],leave ret=0!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][updateFileFromServMgr][2834],leave!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][updateFileFromServMgr][2685],servTypeIndex=2 optFlag=0!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][recordWanInfoIndex][518],wanInfoIndex=2 usrIndex=9 devname=pon.293!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wancc_pf0_recordWanIndexToFile][2599],wanInfoIndex=2 usrIndex=9 devname=pon.293!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wancc_pf0_recordWanIndexToFile][2682],set key=internet2_wanindex vlaue=9!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wancc_pf0_recordWanIndexToFile][2685],set key=internet2_wanname vlaue=pon.293!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wancc_pf0_recordWanIndexToFile][2688],end
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][recordWanInfoIndex][525],leave ret=0!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][recordWanInfoPortbind][533],wanInfoIndex=2!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wancc_pf0_recordWanPortbindToFile][2698],wanInfoIndex=2 !
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wancc_pf0_recordWanPortbindToFile][2758],set key=internet2_portbind vlaue=16384!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wancc_pf0_recordWanPortbindToFile][2761],end
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][recordWanInfoPortbind][540],leave ret=0!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][updateFileFromServMgr][2834],leave!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wanConPreRecord][1785],come here!!!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wanConRecord][597],mgrIndex=1!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wancc_cfg_control_record_wan_ipconinfo][422], usrIndex=9,devname=pon.293!
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wancc_cfg_control_record_wan_ipconinfo][433],wanIndex=3 conIndex=1,devname=pon.293
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=3, conindex=1 iporppp=1
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wancc_cfg_control_record_wan_ipconinfo][455],isSpecialWan=1
+[Thu Jan  1 00:00:45 1970][wanmgr][DEBUG][wancc_ct_cfg_record_wan_ipconinfo][732],wanIndex=3 conIndex=1, addrtype=1 brflag:2
+[Thu Jan  1 00:00:46 1970][wanmgr][DEBUG][xml_multi_config_process][117],start load_multi_config_from_xml InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1. 
+[Thu Jan  1 00:00:46 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.ExternalIPAddress value
+[Thu Jan  1 00:00:46 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.SubnetMask value
+[Thu Jan  1 00:00:46 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.DefaultGateway value
+[Thu Jan  1 00:00:46 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.DNSServers value
+[Thu Jan  1 00:00:46 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.ConnectionStatus value
+[Thu Jan  1 00:00:46 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.MACAddress value
+[Thu Jan  1 00:00:46 1970][wanmgr][DEBUG][multi_config_process][78],get InternetGatewayDevice.WANDevice.1.WANConnectionDevice.3.WANIPConnection.1.Name value
+[Thu Jan  1 00:00:46 1970][wanmgr][DEBUG][xml_multi_config_process][122],end load_multi_config_from_xml ret :0 
+[Thu Jan  1 00:00:46 1970][wanmgr][DEBUG][wancc_ct_cfg_record_wan_ipconinfo][823],end
+[Thu Jan  1 00:00:46 1970][wanmgr][DEBUG][wancc_cfg_control_record_wan_ipconinfo][483],end
+[Thu Jan  1 00:00:46 1970][wanmgr][DEBUG][wanConRecord][621],leave!
+[Thu Jan  1 00:00:46 1970][wanmgr][DEBUG][wanConPreRecord6][1830],only ipv4 do nothing!
+[Thu Jan  1 00:00:46 1970][wanmgr][DEBUG][wanConIntfReg][755],enter AddOrDel=0!
+[Thu Jan  1 00:00:46 1970][wanmgr][DEBUG][wancc_pf0_reg_wanIntf][1821],AddOrDel(0)
+[Thu Jan  1 00:00:46 1970][wanmgr][DEBUG][wancc_pf0_reg_wanIntf][1825],test1
+[Thu Jan  1 00:00:46 1970][wanmgr][DEBUG][wancc_pf0_reg_wanIntf][1907],add begin!
+[Thu Jan  1 00:00:47 1970][wanmgr][DEBUG][wancc_pf0_reg_wanIntf][1909],add end!
+[Thu Jan  1 00:00:47 1970][wanmgr][DEBUG][wancc_pf0_reg_wanIntf][1918],finished!
+[Thu Jan  1 00:00:47 1970][wanmgr][DEBUG][wanConIntfReg][762],leave ret=0!
+[Thu Jan  1 00:00:52 1970][wanmgr][ERR][CfgConIntfMac][3997],Index(1) is Bridge,no need cfg MAC!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][BindConGponGemport][4104],start!
+[Thu Jan  1 00:00:52 1970][wanmgr][ERR][wancc_pf0_get_ponType][665],pon_flag = 1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][get_gpon_cfg][488],vlan=293 pbit=0!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_get_gpon_cfg][763],vlan=293 pbit=0 gemport=65535 tcont=255
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][get_gpon_cfg][495],leave ret=0!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][BindConGponGemport][4130],gemport=65535 tcont=255
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][BindConGponGemport][4157],end
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][PreCfgWanCon][4035],wan(1) start preCfg!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][fillWanPreCfgParam][3796],wan(1) start!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][fillWanPreCfgParam][3834],wan(1) end!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][PreCfgWanCon][4042],wan(1) end preCfg!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wanStatisticSet][727],enter devname=pon.293 enable=1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wanStatisticSet][735],leave ret=0!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_igmp][1633],wancc_pf0_set_igmp start 
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_igmp][1647],wancc_pf0_set_igmp mvlan=0,vid=293,brflag=1,devname=[pon.293] 
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(2) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(3) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(4) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(5) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(6) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(7) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(8) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(9) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(10) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(11) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(12) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(13) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(14) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(15) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(16) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(17) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(18) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(19) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(20) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(21) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(22) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(23) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(24) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(25) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(26) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(27) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(28) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(29) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(30) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][registerCon][5032],mgrIndex(31) not exist!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2549],begin!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][internetBridgeBindInitProc][2065],start!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][getInternetBridgePortBind][1999],start!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][getInternetBridgePortBind][2014],internet bridge mgrIndex=1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][getLanPortBindBitWord][1894],start!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][getLanPortBindBitWord][1909],lanBindPort=0!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][getInternetBridgePortBind][2024],internet bridge vid=293 lanBindPort=0
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][internetBridgeBindInitProc][2069],ret=0 cfgBindPort=0 cfgBindVid=293!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][deleteOtherPortBind][1938],start!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][deleteOtherPortBind][1951],mgrIndex_ob=32 mgrIndex_or=32!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][deleteOtherPortBind][1973],lanBindPort=15!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][internetBridgeBindInitProc][2084],after delete Other wan PortBind, LanBindPort=15!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][internetBridgeBindInitProc][2097],newBindPort=15 newBindVid=293!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2556],internet bridge innerLanBindPort=15 innerLanBindVid=293!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][internetBridgeBindPreProc][2129],start g_lastInterntBridgeBindPort=0 innerLanBindPort=15 innerLanBindVid=293!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][internetBridgeBindPreProc][2152],leave g_lastInterntBridgeBindPort=0 g_lastInterntBridgeBindVid=0!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=0) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=1) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=2) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=3) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=4) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=5) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=6) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=7) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=8) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=9) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=10) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=11) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=12) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=13) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=14) old_bindwan=-1 new_bindwan=0!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][del_portbind][2413],del_portbind() port=14 WanIndex=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][delLanPortBind][868],port=14!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2804],port=14 devname=null!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2817],set key=port15_wandevname vlaue=null!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][delLanPortBind][876],leave ret=0!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][del_portbind][2419],port(14) NULL!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][set_portbind][2483],--------wp.landhcp(0)!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][setLanPortBind][843],port=14!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2804],port=14 devname=pon.293!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_recordPortBindToFile][2817],set key=port15_wandevname vlaue=pon.293!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][setLanPortBind][859],leave ret=0!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][set_portbind][2486],port(14) vid(293)!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=15) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=16) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=17) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=18) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=19) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=20) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=21) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=22) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=23) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=24) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=25) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=26) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=27) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=28) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=29) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=30) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2566],oldwan:, newwan:
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2567],(port=31) old_bindwan=-1 new_bindwan=-1!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][internetBridgeBindAfterProc][2176],start g_lastInterntBridgeBindPort=0 innerLanBindPort=15 innerLanBindVid=293!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][internetBridgeBindCfg][799],enter vid=293 AddOrDel=0!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_cfg_internetBridgeBind][1955],add begin!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_cfg_internetBridgeBind][1957],add end!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_cfg_internetBridgeBind][1966],finished!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][internetBridgeBindCfg][806],leave ret=0!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][internetBridgeBindAfterProc][2198],leave g_lastInterntBridgeBindPort=15 g_lastInterntBridgeBindVid=293!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][process_portbind][2649],wlan_24_changeFlag=0,wlan_5_changeFlag=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_mgr_Cfg_All_Vaild][1718],end!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_mgr_AfterProc][1676],start!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][checkIgmpProxyWanDevname][4219],start!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][checkIgmpProxyWanDevname][4237],i=0 check!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][checkIgmpProxyWanDevname][4305],i=0,ipvx=3,internet!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][checkIgmpProxyWanDevname][4352],igmpproxy up wan i=0!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][checkIgmpProxyWanDevname][4385],mldproxy up wan i=0!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][checkIgmpProxyWanDevname][4405],igmpDevName=pon.100 mldDevName=pon.100!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][checkIgmpProxyWanDevname][4406],g_igmpProxyDevName=null g_mldProxyDevName=null!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][set_igmpproxy_devname][1704],igmpDevName=pon.100 mldDevName=pon.100!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_igmpproxyDevname][1669],wancc_pf0_set_igmpproxyDevname start 
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_igmpproxyDevname][1682],wancc_pf0_set_igmpproxyDevname [pon.100] [pon.100] 
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][startLanDhcp][4189],cmd=iptables -D INPUT -i br0 -p udp -m udp --dport 67 -j DROP -w
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][startLanDhcp][4189],cmd=iptables -D INPUT -i br0 -p udp -m udp --dport 67 -j DROP -w
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][startLanDhcp][4189],cmd=iptables -D INPUT -i br0 -p udp -m udp --dport 67 -j DROP -w
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_set_udhcpd_wan_list][1226],begin
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_mgr_get_wan_list][1265],enter
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_mgr_get_wan_list][1322],leave!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_udhcpd_wan_list][1703],enter
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_udhcpd_wan_list][1728],other
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_udhcpd_wan_list][1729],cd = 0
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_udhcpd_wan_list][1730],vlan = 0
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_udhcpd_wan_list][1731],brflag = 1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_udhcpd_wan_list][1733],tr069
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_udhcpd_wan_list][1734],cd = 1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_udhcpd_wan_list][1735],vlan = 100
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_udhcpd_wan_list][1736],brflag = 0
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_udhcpd_wan_list][1738],voip
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_udhcpd_wan_list][1739],cd = 0
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_udhcpd_wan_list][1740],vlan = 0
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_udhcpd_wan_list][1741],brflag = 1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_udhcpd_wan_list][1743],internet1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_udhcpd_wan_list][1744],cd = 1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_udhcpd_wan_list][1745],vlan = 100
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_udhcpd_wan_list][1746],brflag = 0
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_udhcpd_wan_list][1749],internet2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_udhcpd_wan_list][1750],cd = 1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_udhcpd_wan_list][1751],vlan = 293
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_udhcpd_wan_list][1752],brflag = 1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_dbus_set_udhcpd_wan_list_service][739],
+*****wancc_dbus_set_udhcpd_wan_list_service start*****
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_dbus_set_udhcpd_wan_list_service][750],
+******lib_fh_blobmsg_add_struct ret =0******
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_dbus_set_udhcpd_wan_list_service][754],
+******lib_fh_ubus_send_event ret =0******
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_set_udhcpd_wan_list][1757],leave
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_set_udhcpd_wan_list][1240],end
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=1, conindex=1 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(1),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=1, conindex=2 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(1),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=1, conindex=1 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][WANIndexGet][567],mgrIndex=0 
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][WANIndexGet][665],wan index=IP_Routed;100;TR069,INTERNET" end!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=1, conindex=2 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(1),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=2, conindex=1 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(2),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=2, conindex=2 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(2),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=2, conindex=1 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(2),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=2, conindex=2 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(2),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=3, conindex=1 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][WANIndexGet][567],mgrIndex=1 
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][WANIndexGet][665],wan index=DHCP_Routed;293;INTERNET" end!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=3, conindex=2 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(3),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=3, conindex=1 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(3),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=3, conindex=2 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(3),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=4, conindex=1 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(4),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=4, conindex=2 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(4),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=4, conindex=1 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(4),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=4, conindex=2 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(4),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=5, conindex=1 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(5),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=5, conindex=2 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(5),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=5, conindex=1 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(5),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=5, conindex=2 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(5),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=6, conindex=1 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(6),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=6, conindex=2 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(6),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=6, conindex=1 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(6),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=6, conindex=2 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(6),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=7, conindex=1 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(7),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=7, conindex=2 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(7),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=7, conindex=1 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(7),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=7, conindex=2 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(7),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=8, conindex=1 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(8),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=8, conindex=2 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(8),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=8, conindex=1 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(8),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=8, conindex=2 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(8),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=9, conindex=1 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(9),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=9, conindex=2 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(9),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=9, conindex=1 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(9),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=9, conindex=2 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(9),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=10, conindex=1 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(10),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=10, conindex=2 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(10),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=10, conindex=1 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(10),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=10, conindex=2 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(10),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=11, conindex=1 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(11),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=11, conindex=2 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(11),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=11, conindex=1 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(11),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=11, conindex=2 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(11),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=12, conindex=1 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(12),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=12, conindex=2 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(12),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=12, conindex=1 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(12),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=12, conindex=2 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(12),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=13, conindex=1 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(13),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=13, conindex=2 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(13),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=13, conindex=1 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(13),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=13, conindex=2 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(13),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=14, conindex=1 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(14),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=14, conindex=2 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(14),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=14, conindex=1 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(14),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=14, conindex=2 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(14),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=15, conindex=1 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(15),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=15, conindex=2 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(15),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=15, conindex=1 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(15),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=15, conindex=2 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(15),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=16, conindex=1 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(16),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=16, conindex=2 iporppp=1
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_ipconninfo][775],wan ipconn wandevindex(16),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=16, conindex=1 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(16),connindex(1) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][transform_wanindex_to_array_index][89],optrator=1, wanindex=16, conindex=2 iporppp=2
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_cfg_adapter_get_wan_pppconninfo][852],wan pppconn wandevindex(16),connindex(2) not found!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][setWANIndexToMem][1310],g_WANIndex= WANIndex="1,1;IP_Routed;100;TR069,INTERNET","3,1;DHCP_Routed;293;INTERNET"!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_mgr_AfterProc][1690],end!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_init_cfg][980],wancc_cfg_init succ!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][main][2277],main() step 11
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][wancc_pf0_init_complete][1009],wancc_cfg_init() succ!
+[Thu Jan  1 00:00:52 1970][wanmgr][DEBUG][main][2299],main() step 12

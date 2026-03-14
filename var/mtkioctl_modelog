@@ -1,0 +1,3 @@
+[Thu Jan  1 00:01:25 1970][mtkioctl][INFO]Before: iface ra0, subcmd 8248, buffer 0xbe3994bc, length 4
+[Thu Jan  1 00:01:25 1970][mtkioctl][INFO]other table ioctl error
+[Thu Jan  1 00:01:25 1970][mtkioctl][INFO]Before: iface rai7, subcmd 8248, buffer 0xbe3994bc, length 4

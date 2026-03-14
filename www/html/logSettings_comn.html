@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/jquery.formFill.js"></script>
+		<script type="text/javascript" src="../js/logSettings_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="syslogset"></p>
+			<p class="main_header_hint" i18n="logset_hint">
+			</p>
+		</div>
+		<form id="log_settings_form" novalidate="novalidate">
+			<div class="main_item">
+				<div class="main_item_name" i18n="logenable"></div>
+				<div class="main_item_content">
+					<input type="checkbox" id="LogEnable_checkbox_value" name="data.enable"/>&nbsp;
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name" i18n="levellog"></div>
+				<div class="main_item_content">
+					<select name="data.loglevel" id="LevelLog_select">
+						<option value="0">Emergency</option>
+						<option value="1">Alert</option>
+						<option value="2">Critical</option>
+						<option value="3">Error</option>
+						<option value="4">Warning</option>
+						<option value="5">Notice</option>
+						<option value="6">Informational</option>
+						<option value="7">Debugging</option>
+					</select>
+				</div>
+			</div>
+			
+			<div class="main_item">
+				<div class="main_item_name" i18n="leveldisplay"></div>
+				<div class="main_item_content">
+					<select name="data.logviewlevel" id="LevelDisplay_select">
+						<option value="0" class="trad">Emergency</option>
+						<option value="1" class="trad">Alert</option>
+						<option value="2" class="trad">Critical</option>
+						<option value="3" class="trad">Error</option>
+						<option value="4" class="trad">Warning</option>
+						<option value="5" class="trad">Notice</option>
+						<option value="6" class="trad">Informational</option>
+						<option value="7" class="trad">Debugging</option>
+					</select>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" onclick="saveApply()" id="apply" class="input_button" i18n="save" i18n-set="value">
+			</div>
+		</form>
+		
+	</body>
+</html>

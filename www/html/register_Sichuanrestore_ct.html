@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>中国电信智能网关</title>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<link href='../css/main_style_ct.css' rel='stylesheet' type='text/css'/>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script language="javascript">
+			function return_tologintd() {
+				window.location.href = ('https:' == document.location.protocol ? 'https://' : 'http://') + document.location.host;
+			}
+		
+			function frmLoad() 
+			{		
+				//XHR.get("reg_restore", null, null);			
+				setTimeout(function() {
+					window.location.href = ('https:' == document.location.protocol ? 'https://' : 'http://') + document.location.host;
+				}, 50000);				
+			}			
+		</script>				
+	</head>
+	<body onLoad='frmLoad();'>
+			<div id="register_div">
+				<TABLE cellSpacing=0 cellPadding=0 width=808 align=center border=0 valign="middle">
+					<TR>
+						<TD><img height="137" src="../image/register_header.gif" width="808"/></TD>
+					</TR>
+					<TR>
+						<TD>
+							<TABLE cellSpacing=0 cellPadding=0 width=808 align=center border=0 valign="middle">
+								<TR>
+									<TD width=77 background="../image/bg.gif" rowSpan=3></TD>
+									<TD align=center width=653 height=323 background="../image/register_new_bg_ct.png">
+										<TABLE cellSpacing=0 cellPadding=0 width=96% height=15% border=0>
+											<TR><TD onclick="return_tologintd()" align=right><FONT size=2 color=#000000>返回登录页面</FONT></TD></TR>
+										</TABLE>
+										<TABLE cellSpacing=0 cellPadding=0 width=450 border=0 height=80%>
+												<TR>
+													<TD colSpan=2 height=13></TD>
+												</TR>
+												<TR>
+													<TD align=center colSpan=2 width=100% >
+														家庭网关恢复出厂配置正在进行中，在此期间请确保家庭网关设备不被断电或重启，两分钟后自动重启
+													</TD>
+												</TR>
+												<TR>
+													<TD align=left colSpan=2 height=50></TD>
+												</TR>
+										</TABLE>
+									</TD>
+									<TD width=78 background="../image/bg.gif" rowSpan=3></TD>
+								</TR>
+							</TABLE>
+						</TD>
+					</TR>
+				</TABLE>
+			</div>
+	</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script language="javascript" src="../js/util_comn.js"></script>
+		<script type="text/javascript" src="../js/jquery.formFill.js"></script>
+		<script type="text/javascript" src="../js/loglevel.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<div class="main_header">
+			<p class="main_header_title" i18n="menu.syslog"></p>
+			<!-- <p class="main_header_hint" i18n="logset_hint"></p> -->
+		</div>
+		<form id="log_settings_form" novalidate="novalidate">
+			<div class="main_item">
+				<div class="main_item_name" style="width:15%" i18n="logenable"></div>
+				<div class="main_item_content">
+					<input type="checkbox" id="LogEnable_checkbox_value" name="data.enable"/>&nbsp;
+				</div>
+			</div>
+			<div class="main_item">
+				<div class="main_item_name" style="width:15%" i18n="levellog"></div>
+				<div class="main_item_content">
+				    <input type="checkbox" id="emergency_checkbox"/>&nbsp;<span i18n="emergency"></span>&nbsp;
+				    <input type="checkbox" id="alert_checkbox"/>&nbsp;<span i18n="alert"></span>&nbsp;
+				    <input type="checkbox" id="error_checkbox"/>&nbsp;<span i18n="error"></span>&nbsp;
+				    <input type="checkbox" id="warning_checkbox"/>&nbsp;<span i18n="warning"></span>&nbsp;
+                    <input type="checkbox" id="notice_checkbox"/>&nbsp;<span i18n="notice"></span>&nbsp;
+				    <input type="checkbox" id="information_checkbox"/>&nbsp;<span i18n="information"></span>&nbsp;
+				    <input type="checkbox" id="debug_checkbox"/>&nbsp;<span i18n="debug"></span>&nbsp;
+				</div>
+			</div>
+			<div class="main_save" style="text-align:center;">
+			    <input type="button" onclick="logsaveApply()" id="apply" i18n="apply" i18n-set="value" class="input_button"><br><br>
+			    <input type="button" style="width:280px" onclick="downloadLog()" id="Download_button" i18n="downloadsystemlogfile" i18n-set="value" class="input_button">
+			    <br><br><br><br>
+			</div>
+	<!-- 		<div class="main_item">
+				<div class="main_item_name" style="width:15%" i18n="enabletftp"></div>
+				<div class="main_item_content">
+					<input type="checkbox" id="TFTPEnable_checkbox_value" name="data.tftpenable"/>&nbsp;
+				</div>
+			</div> -->
+			
+			<div class="main_item">
+				<div class="main_item_name" style="width:15%" i18n="tftpserver"></div>
+				<div class="main_item_content">
+					<input type="text" class="input_text" autocomplete="off" id="tftpserveraddress"/>&nbsp;<input type="button" class="input_button" id="upgrade_button" onclick="tftpupload()" i18n="update" i18n-set="value">
+				</div>
+			</div>
+<!-- 			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name" style="width:15%" i18n="logupload"></div>
+					<div class="main_item_content">
+						<input type="file" id="upgradefile" name="upgradefile"/>&nbsp;<input type="submit" class="input_button" id="upgrade_button" i18n="update" i18n-set="value">
+					</div>
+				</div>
+			</div> -->
+			<br><br>
+			<div class="main_item">
+				<div class="main_item_name" style="width:15%" i18n="enableremotelog"></div>
+				<div class="main_item_content">
+					<input type="checkbox" id="remoteLogEnable_checkbox" name="data.logserver"/>&nbsp;
+				</div>
+			</div>
+		    <div class="main_item">
+				<div class="main_item_name" style="width:15%" i18n="remotelogserver"></div>
+				<div class="main_item_content">
+					<input type="text" class="input_text" autocomplete="off" id="remotelogserveraddress"/>
+				</div>
+			</div>
+			<br>
+			<div class="main_save" style="text-align:center;">
+	<!-- 			<input type="button" class="input_button" onclick="clearlog()" id="Download_button" i18n="clearlog" i18n-set="value"> -->
+				<input type="button" onclick="saveApply()" id="apply" i18n="apply" i18n-set="value" class="input_button">
+				<!-- <input type="button" class="input_button" onclick="showLog()" id="Restart_button" i18n="showlog" i18n-set="value"> -->
+				<input type="button" class="input_button" onclick="refresh()" id="Restart_button" i18n="refresh" i18n-set="value">
+				<!-- <input type="button" class="input_button" style="width:120px;" onclick="alllogs()" id="Download_button" i18n="alllogs" i18n-set="value"> -->
+			</div>
+			
+			<table id="logtable" style="display:none"></table>
+			<br/><br/>
+		</form>
+		
+	</body>
+</html>

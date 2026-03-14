@@ -1,0 +1,4 @@
+::sysinit:/usr/etc/init.d/rcS
+::askfirst:/sbin/getty -L ttyS0 115200 vt100
+#::respawn:-/bin/sh
+

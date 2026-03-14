@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+		<script src="../js/util_comn.js"></script>
+		<script src="../js/shortcut_telnet_comn.js"></script>
+	</head>
+	<body class='main_config_body'>
+		<form>
+			<div class="main_content">
+				<div class="main_item">
+					<div class="main_item_name">请输入您想要执行的命令</div>
+					<div class="main_item_content">
+						<input type="text" class="input_text" autocomplete="off" id="cmd"/>
+					</div>
+				</div>
+			</div>
+			<div class="main_save">
+				<input type="button" class="input_button" value="执行命令" onclick="saveApply()"/>
+			</div>
+			<br /><br />
+			<div id="result" style="display:none"></div>
+		</form>
+	</body>
+</html>

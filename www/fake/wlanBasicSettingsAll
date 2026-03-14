@@ -1,0 +1,20 @@
+{
+	"session_valid":	1,
+	"ssid1":	{
+		"Enable":	"1",
+		"SSID":	"ChinaNet-hisi0",
+		"wlanMode":	"n,g",
+		"channel":	"0",
+		"rate":	"0",
+		"powerLevel":	"1",
+		"wmmEnable":	"1",
+		"wmmAPSD":	"1",
+		"channelWidth":	"20",
+		"rate802":	"77",
+		"sgiEnable":	"1",
+		"ssidHide":	"1",
+		"BSSID":	"00:0a:c2:01:02:03"
+	},
+	"country":	"CN",
+	"success":	"true"
+}

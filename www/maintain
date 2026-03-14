@@ -1,0 +1,58 @@
+#!/bin/sh
+echo Content-type: text/html
+
+echo "
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset=\"utf-8\">
+	<script src=\"./js/jquery.js\"></script>
+	<script src=\"./js/xhr_comn.js\"></script>
+	<script>
+	function formload()
+	{
+		XHR.get(\"get_factory_mode\", null, showFactoryTip);
+	}
+	function showFactoryTip(getdata)
+	{
+		if((getdata.loid_result == '1') && (getdata.area_code == 'Anhui' || getdata.area_code == 'Zhejiang'))
+		{
+		  document.getElementById(\"register\").innerHTML =\"<br>此设备已注册,无需再进行注册\";
+		  document.getElementById(\"register_btn\").disabled = true;
+		}
+	}
+	function onlogin(a) 
+	{
+		if (a ==1)
+		{
+			window.location=\"html/register_comn.html\";
+		}	
+	
+	}
+	function returntologin()
+	{
+		window.location = ('https:' == document.location.protocol ? 'https://' : 'http://') + document.location.host;
+	}
+	</script>
+	</head>
+	<link type="text/css" rel="stylesheet" href="/css/main_style_ct.css">
+	<body onload='formload()'>
+		<div id='first_div'>
+			<div id='main_body_div2'>
+				<img id='login_big_logo' src='/image/login_logo.png'>
+				<div id='login_input_div'>
+					<input type='button' id='register_btn' class='submit_button' value='设备注册' onclick='onlogin(1)'>	
+					<span id='register'><span>
+				</div>
+				<div id='login_input_div2'>	
+					<div align=right onclick='returntologin()'><FONT size=2 color=#000000>返回登录页面</FONT></div>
+				</div>		
+				<!--暂不知中国电信智能网关管理平台的网址，所以用中国电信的网址-->
+				<div id='copyright_div2'>Copyright &copy; 2015 中国电信 All Rights Reserved.&nbsp;&nbsp;
+					<img src='/image/tianyi.png'/>
+					<a>中国电信智能网关管理平台</a>
+				</div>
+			</div>
+		</div>
+	</body>	
+	</html>  "

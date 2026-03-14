@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta HTTP-EQUIV='Pragma' CONTENT='no-cache'>
+	<script language="javascript" src="../js/util_comn.js"></script>
+	<script type="text/javascript" src="../js/wlan_associated_device.js"></script>
+</head>
+<body class='main_config_body'>
+	<form>
+	    <!-- <label i18n="wlanassociated_hint"></label> -->
+		<br><br><br>
+		<table class="tablelarge" cellspacing="0" cellpadding="3px" border="1px">
+            <tbody>
+				<tr class="table-header">
+					<th colspan="10" i18n="menu.wifi_associated"></th>
+				</tr>
+				<tr class="another-table-header">
+					<th width="12%" i18n="hostname"></th>
+					<th width="12%" i18n="ipaddr"></th>
+					<th width="12%" i18n="macaddress"></th>
+					<th width="10%" i18n="mode"></th>
+					<th width="10%" i18n="txrate"></th>
+					<th width="10%" i18n="rxrate"></th>
+					<th width="8%" i18n="rssi"></th>
+					<th width="8%" i18n="snr"></th>
+					<th width="8%" i18n="qualityindex"></th>
+					<th width="10%" i18n="onlinetime"></th>
+				</tr>
+			</tbody>
+			<tbody id="associateddeviceinfo">
+			</tbody>
+        </table>
+		<br/>
+		<div class="main_save">
+			<input type="button" class="input_button" i18n="refresh" i18n-set="value" onclick="refreshApply()">
+		</div>
+    </form>
+		
+</body>
+</html>

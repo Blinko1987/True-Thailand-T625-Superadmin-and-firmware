@@ -20,7 +20,9 @@ Firmware dump + superadmin access details for True Online T625pro GPON ONT.
    cd /ptrom/ptconf
    cat param_ct.xml | grep -i TeleComAccount_Password
    ```
-3. Password hash/value appears in XML → use to regain web access
+3. Password value appears in XML → use to regain web access
+
+
 
 ## Important Notes
 
